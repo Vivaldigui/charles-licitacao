@@ -1,0 +1,6 @@
+.codex/
+.agents/
+
+# Raw incoming documents can be large and are processed into Markdown fichas.
+_entrada/*
+!_entrada/.gitkeep
