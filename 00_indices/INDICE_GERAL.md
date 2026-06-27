@@ -3,17 +3,32 @@ tipo: checklist
 tema: indice geral
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-06-25
+atualizado_em: 2026-06-27
 tags: [indice, geral]
 ---
 
 # INDICE_GERAL
 
+## 01_legislacao
+- [Lei nº 14.133/2021 - Lei de Licitações e Contratos Administrativos](../01_legislacao/lei-14133-2021-licitacoes-contratos-administrativos.md) — tipo: lei; tema: licitacoes e contratos administrativos; fonte: Presidência da República / Secretaria-Geral / Subchefia para Assuntos Jurídicos / Lei nº 14.133/2021; vigência: vigente; atualizado_em: 2026-06-27
+- [Limites vigentes da dispensa por valor (art. 75, I e II)](../01_legislacao/limites-vigentes-dispensa-art-75.md) — tipo: checklist; tema: limites de dispensa por valor; fonte: Lei 14.133/2021, art. 75 + decretos de atualização; vigência: vigente; atualizado_em: 2026-06-27 — ⚠️ manutenção anual
+
 ## 02_normas_internas
 - [Regulamento de Licitações e Contratações da Câmara Municipal de Itanhandu](../02_normas_internas/regulamento-licitacoes-camara-itanhandu.md) — tipo: norma_interna; tema: regulamento de licitacoes e contratacoes; fonte: Câmara Municipal de Itanhandu / Diário Oficial dos Municípios Mineiros / Portarias 03 a 19 de 2024; vigência: vigente; atualizado_em: 2026-06-25
+- [Ato do Diretor Jurídico nº 01/2024 - Hipóteses de dispensa da análise jurídica](../02_normas_internas/ato-diretor-juridico-01-2024-dispensa-analise-juridica.md) — tipo: norma_interna; tema: dispensa da analise juridica; fonte: Câmara Municipal de Itanhandu / Diretor de Assuntos Jurídicos / Ato 01/2024; vigência: vigente; atualizado_em: 2026-06-27
 
 ## 03_jurisprudencia
 - [Consulta TCEMG Processo 1104833 - Dispensa de licitação por valor, mesma natureza e mesmo ramo de atividade](../03_jurisprudencia/tce_mg/consulta-tcemg-1104833-dispensa-valor-ramo-atividade.md) — tipo: jurisprudencia; tema: dispensa de licitacao; fonte: Conselheiro Substituto Hamilton Coelho / Tribunal de Contas do Estado de Minas Gerais - TCEMG / Consulta 1104833; vigência: vigente; atualizado_em: 2026-06-25
+- [Lei n. 14.133/2021 - Pareceres de Consulta nos 4 anos de vigência da Lei (Estudo Temático TCEMG)](../03_jurisprudencia/tce_mg/estudo-tematico-tcemg-lei-14133-pareceres-consulta.md) — tipo: jurisprudencia; tema: dispensa de licitacao; fonte: Tribunal de Contas do Estado de Minas Gerais - TCEMG / Estudo Temático / Agosto de 2025; vigência: vigente; atualizado_em: 2026-06-27
+
+## 06_precedentes_camara
+- [Controle de Contratações (aferição de limite por CNAE)](../06_precedentes_camara/CONTROLE_CONTRATACOES.md) — tipo: precedente; tema: controle de contratacoes e afericao de limite por cnae; fonte: contratações concluídas da Câmara; vigência: vigente; atualizado_em: 2026-06-27 — 🔄 atualizar a cada contratação concluída
+
+## 07_checklists
+- [Roteiro de Julgamento - Dispensa com Aviso de Contratação Direta](../07_checklists/roteiro-julgamento-dispensa-com-aviso.md) — tipo: checklist; tema: julgamento de dispensa com aviso; fonte: Lei 14.133/2021 + Portaria 06/2024; vigência: vigente; atualizado_em: 2026-06-27
+- [Roteiro - Análise do limite de dispensa por valor (ramo de atividade / CNAE)](../07_checklists/roteiro-limite-dispensa-cnae.md) — tipo: checklist; tema: limite de dispensa por valor e ramo de atividade (CNAE); fonte: Lei 14.133/2021 + Portaria 06/2024 + Consulta TCEMG 1104833 + IBGE; vigência: vigente; atualizado_em: 2026-06-27
+- [Roteiro - Executar Pesquisa de Preços](../07_checklists/roteiro-executar-pesquisa-de-precos.md) — tipo: checklist; tema: pesquisa de precos; fonte: Lei 14.133/2021 art. 23 + Portaria 03/2024; vigência: vigente; atualizado_em: 2026-06-27
+- [Regras - Pesquisa de Preços (comparabilidade, tratamento de valores e segurança jurídica)](../07_checklists/regras-pesquisa-de-precos.md) — tipo: checklist; tema: pesquisa de precos; fonte: Lei 14.133/2021 art. 23 + Portaria 03/2024; vigência: vigente; atualizado_em: 2026-06-27
 
 ## 04_doutrina_artigos
 - [A contratação direta nos municípios e a "lenda urbana" da obrigatoriedade da dispensa eletrônica com disputa](../04_doutrina_artigos/artigo-contratacao-direta-municipios-dispensa-eletronica-com-disputa.md) — tipo: doutrina; tema: dispensa de licitacao; fonte: Autor nao identificado no PDF / artigo em PDF; vigência: vigente; atualizado_em: 2026-06-25

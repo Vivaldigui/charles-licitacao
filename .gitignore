@@ -4,3 +4,12 @@
 # Raw incoming documents can be large and are processed into Markdown fichas.
 _entrada/*
 !_entrada/.gitkeep
+
+# Segredos da pesquisa de preços (chaves de API). O modelo .env.example é versionado.
+.env
+# Artefatos do Python e relatórios gerados pelos scripts.
+__pycache__/
+*.pyc
+scripts/relatorio*.md
+scripts/*.json
+!scripts/exemplos/*.json

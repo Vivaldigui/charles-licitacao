@@ -3,7 +3,7 @@ tipo: checklist
 tema: mapa por tema
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-06-25
+atualizado_em: 2026-06-27
 tags: [indice, temas]
 ---
 
@@ -11,6 +11,7 @@ tags: [indice, temas]
 
 ## dispensa de licitacao
 - [Consulta TCEMG Processo 1104833 - Dispensa de licitação por valor, mesma natureza e mesmo ramo de atividade](../03_jurisprudencia/tce_mg/consulta-tcemg-1104833-dispensa-valor-ramo-atividade.md) — tipo: jurisprudencia; fonte: Conselheiro Substituto Hamilton Coelho / Tribunal de Contas do Estado de Minas Gerais - TCEMG / Consulta 1104833
+- [Lei n. 14.133/2021 - Pareceres de Consulta nos 4 anos de vigência da Lei (Estudo Temático TCEMG)](../03_jurisprudencia/tce_mg/estudo-tematico-tcemg-lei-14133-pareceres-consulta.md) — tipo: jurisprudencia; fonte: Tribunal de Contas do Estado de Minas Gerais - TCEMG / Estudo Temático / Agosto de 2025
 - [A contratação direta nos municípios e a "lenda urbana" da obrigatoriedade da dispensa eletrônica com disputa](../04_doutrina_artigos/artigo-contratacao-direta-municipios-dispensa-eletronica-com-disputa.md) — tipo: doutrina; fonte: Autor nao identificado no PDF / artigo em PDF
 - [A dispensa eletrônica com base na Lei nº 14.133, de 2021](../04_doutrina_artigos/artigo-dispensa-eletronica-lei-14133-ronaldo-correa.md) — tipo: doutrina; fonte: Ronaldo Corrêa / artigo em PDF
 - [É possível fazer dispensa de licitação sem disputa?](../04_doutrina_artigos/artigo-dispensa-licitacao-sem-disputa.md) — tipo: doutrina; fonte: Ronaldo Corrêa / Instagram / artigo em PDF
@@ -22,6 +23,18 @@ tags: [indice, temas]
 
 ## dispensa de licitacao por pequeno valor
 - [Dispensa de licitação por pequeno valor na Lei nº 14.133/2021: custos transacionais, fracionamento, critério de cômputo e efeitos do credenciamento e do suprimento de fundos](../04_doutrina_artigos/artigo-fracionamento-par-1-art-75-lei-14133.md) — tipo: doutrina; fonte: Michelle Marry Marques da Silva e Rafael Sérgio Lima de Oliveira / artigo em PDF
+
+## pesquisa de precos
+- [Roteiro - Executar Pesquisa de Preços](../07_checklists/roteiro-executar-pesquisa-de-precos.md) — tipo: checklist; fonte: Lei 14.133/2021 art. 23 + Portaria 03/2024
+- [Regras - Pesquisa de Preços (comparabilidade, tratamento de valores, segurança jurídica)](../07_checklists/regras-pesquisa-de-precos.md) — tipo: checklist; fonte: Lei 14.133/2021 art. 23 + Portaria 03/2024
+- [Minuta-mãe e ficha de uso - Relatório de Pesquisa de Preços](../05_minutas/PESQUISA_DE_PRECOS/PESQUISA_PRECOS_FICHA_DE_USO.md) — tipo: minuta; fonte: Câmara Municipal de Itanhandu / modelo AGU adaptado
+- [A pesquisa de preços concomitante à seleção da proposta na dispensa eletrônica](../04_doutrina_artigos/artigo-pesquisa-precos-concomitante-dispensa-eletronica.md) — tipo: doutrina; fonte: Jamil Manasfi da Cruz, Rafael Henrique Biscaro e Ronny Charles Lopes de Torres / artigo em PDF
+
+## licitacoes e contratos administrativos
+- [Lei nº 14.133/2021 - Lei de Licitações e Contratos Administrativos](../01_legislacao/lei-14133-2021-licitacoes-contratos-administrativos.md) — tipo: lei; fonte: Presidência da República / Secretaria-Geral / Subchefia para Assuntos Jurídicos / Lei nº 14.133/2021
+
+## dispensa da analise juridica
+- [Ato do Diretor Jurídico nº 01/2024 - Hipóteses de dispensa da análise jurídica](../02_normas_internas/ato-diretor-juridico-01-2024-dispensa-analise-juridica.md) — tipo: norma_interna; fonte: Câmara Municipal de Itanhandu / Diretor de Assuntos Jurídicos / Ato 01/2024
 
 ## regulamento de licitacoes e contratacoes
 - [Regulamento de Licitações e Contratações da Câmara Municipal de Itanhandu](../02_normas_internas/regulamento-licitacoes-camara-itanhandu.md) — tipo: norma_interna; fonte: Câmara Municipal de Itanhandu / Diário Oficial dos Municípios Mineiros / Portarias 03 a 19 de 2024
