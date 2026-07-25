@@ -51,6 +51,11 @@ tags: [indice, temas]
 - [Roteiro - Padronização e Formatação Documental](../07_checklists/roteiro-padronizacao-documental.md) — tipo: checklist; fonte: base Charles
 - [Regras - Padronização e Formatação Documental](../07_checklists/regras-padronizacao-documental.md) — tipo: checklist; fonte: base Charles
 
+## aviso de dispensa completo (aviso + anexos)
+- [Roteiro - Gerar o Aviso de Dispensa Completo](../07_checklists/roteiro-gerar-aviso-dispensa-completo.md) — tipo: checklist; fonte: base Charles
+- [Regras - Aviso de Dispensa Completo](../07_checklists/regras-aviso-dispensa-completo.md) — tipo: checklist; fonte: base Charles
+- [Ficha de Uso - Aviso de Dispensa Completo](../05_minutas/AVISO_COMPLETO/AVISO_COMPLETO_FICHA_DE_USO.md) — tipo: minuta; fonte: composicao das minutas-mae da Camara
+
 ## planejamento e pca
 - [DFD para PCA - Ficha de Uso](../05_minutas/DFD/DFD_PARA_PCA_FICHA_DE_USO.md) - tipo: minuta; fonte: Camara Municipal de Itanhandu / modelo enviado pelo usuario
 

@@ -39,6 +39,8 @@ tags: [indice, geral]
 - [Regras - Pesquisa de Contratações Similares (antialucinação, confiabilidade, independência de modalidade)](../07_checklists/regras-pesquisa-contratacoes-similares.md) — tipo: checklist; tema: pesquisa de contratacoes similares; fonte: base Charles / Lei 14.133/2021 / PNCP / portais oficiais; vigência: vigente; atualizado_em: 2026-07-23
 - [Roteiro - Padronização e Formatação Documental](../07_checklists/roteiro-padronizacao-documental.md) — tipo: checklist; tema: padronizacao e formatacao documental; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
 - [Regras - Padronização e Formatação Documental (conteúdo x formatação, timbre, numeração)](../07_checklists/regras-padronizacao-documental.md) — tipo: checklist; tema: padronizacao e formatacao documental; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Roteiro - Gerar o Aviso de Dispensa Completo](../07_checklists/roteiro-gerar-aviso-dispensa-completo.md) — tipo: checklist; tema: roteiro do aviso de dispensa completo; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Regras - Aviso de Dispensa Completo (anexos, numeração, habilitação proporcional)](../07_checklists/regras-aviso-dispensa-completo.md) — tipo: checklist; tema: regras inegociaveis do aviso de dispensa completo; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
 
 ## 09_padronizacao_documental
 - [Padrão Visual dos Documentos](../09_padronizacao_documental/PADRAO_VISUAL_DOCUMENTOS.md) — tipo: norma_interna; tema: padronizacao e formatacao documental; fonte: analise das minutas-mae + referencias visuais; vigência: vigente; atualizado_em: 2026-07-25
