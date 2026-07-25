@@ -1,0 +1,33 @@
+{
+  "_nota": "FIXTURE DE TESTE — dados de exemplo, não corresponde a processo real da Câmara.",
+  "processo": {
+    "numero": "026/2026",
+    "dispensa": "011/2026",
+    "objeto": "Aquisição de 01 (um) forno micro-ondas de bancada para a copa da Câmara",
+    "criterio_julgamento": "MENOR PREÇO POR ITEM",
+    "fundamento_legal": "art. 75, inciso II, da Lei nº 14.133/2021"
+  },
+  "recebimento_propostas": {
+    "data_inicio": "2026-07-27",
+    "hora_inicio": "08:00",
+    "data_fim": "2026-07-29",
+    "hora_fim": "17:00",
+    "email": "compras@itanhandu.cam.mg.gov.br",
+    "aceita_protocolo_fisico": true
+  },
+  "arquivos": {
+    "aviso_minuta": "05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx",
+    "termo_referencia": "99_testes/aviso_completo/fixtures/TR_FINAL.docx",
+    "contrato": null
+  },
+  "instrumento_contratual": {
+    "tipo": "ordem_fornecimento",
+    "incluir_minuta_no_aviso": false,
+    "minuta_selecionada": null
+  },
+  "assinatura": {
+    "nome": "NOME DO PRESIDENTE (EXEMPLO)",
+    "cargo": "Presidente da Câmara Municipal de Itanhandu",
+    "data": "2026-07-24"
+  }
+}
