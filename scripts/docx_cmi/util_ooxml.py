@@ -331,7 +331,14 @@ def remover_paragrafo(paragrafo) -> bool:
 
 
 def paragrafo_vazio(paragrafo) -> bool:
-    """Parágrafo sem texto, sem imagem e sem quebra de página."""
+    """
+    Parágrafo sem texto, sem imagem, sem quebra de página e sem quebra de seção.
+
+    A quebra de seção conta: um `w:sectPr` dentro do `w:pPr` carrega orientação,
+    margens e as referências de cabeçalho e rodapé daquele trecho. O parágrafo
+    que o hospeda costuma ser visualmente vazio — e removê-lo como "linha em
+    branco" apagaria o timbre e a configuração de página junto.
+    """
     if texto_paragrafo(paragrafo).strip():
         return False
     if next(paragrafo._p.iter(qn("w:drawing")), None) is not None:
@@ -339,6 +346,8 @@ def paragrafo_vazio(paragrafo) -> bool:
     if next(paragrafo._p.iter(qn("w:pict")), None) is not None:
         return False
     if quebras_de_pagina(paragrafo):
+        return False
+    if next(paragrafo._p.iter(qn("w:sectPr")), None) is not None:
         return False
     return True
 
