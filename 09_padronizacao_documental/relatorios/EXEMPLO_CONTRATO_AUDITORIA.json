@@ -1,0 +1,207 @@
+{
+  "documento": "05_minutas\\CONTRATO\\CONTRATO_MINUTA_MAE.docx",
+  "minuta_mae": null,
+  "perfil": "contrato",
+  "perfil_nome": "Contrato administrativo",
+  "data": "2026-07-25",
+  "modo": "auditoria",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": 12.0,
+    "fontes": {
+      "Calibri (estilo)": 1328
+    },
+    "tamanhos": {
+      "12.0": 1098,
+      "12.0 (estilo)": 202,
+      "11.5": 28
+    },
+    "cores": {
+      "00000A": 2,
+      "FF0000": 1,
+      "000080": 35
+    },
+    "estilos": {
+      "Normal": 13,
+      "Body Text": 15,
+      "Heading 1": 19,
+      "List Paragraph": 120
+    },
+    "runs_totais": 1328,
+    "runs_com_formatacao_direta": 1126,
+    "proporcao_formatacao_direta": 0.848
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 7,
+    "problemas": [
+      {
+        "tipo": "numero_pulado",
+        "paragrafo": 116,
+        "rotulo": "10",
+        "detalhe": "Salto de numeração: faltam 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+        "corrigivel": true,
+        "sugestao": "1"
+      },
+      {
+        "tipo": "numero_duplicado",
+        "paragrafo": 118,
+        "rotulo": "10",
+        "detalhe": "Rótulo '10' já usado no parágrafo 116.",
+        "corrigivel": true,
+        "sugestao": null
+      },
+      {
+        "tipo": "reinicio_indevido",
+        "paragrafo": 118,
+        "rotulo": "10",
+        "detalhe": "Numeração retrocedeu: esperado 11.",
+        "corrigivel": true,
+        "sugestao": "11"
+      },
+      {
+        "tipo": "numero_pulado",
+        "paragrafo": 172,
+        "rotulo": "18.2",
+        "detalhe": "Salto de numeração: faltam 18.1.",
+        "corrigivel": true,
+        "sugestao": "18.1"
+      },
+      {
+        "tipo": "lista_manual_e_automatica",
+        "paragrafo": -1,
+        "rotulo": "",
+        "detalhe": "O documento mistura numeração digitada manualmente com lista automática do Word.",
+        "corrigivel": false,
+        "sugestao": "Exige decisão humana: unificar em um dos dois modos."
+      }
+    ],
+    "proposta_renumeracao": {
+      "5": {
+        "antes": "1.1",
+        "depois": "1.1"
+      },
+      "116": {
+        "antes": "10",
+        "depois": "1"
+      },
+      "118": {
+        "antes": "10",
+        "depois": "2"
+      },
+      "172": {
+        "antes": "18.2",
+        "depois": "18.1"
+      }
+    },
+    "referencias_internas": 27,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": true,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 0,
+    "problemas": [],
+    "detalhe": []
+  },
+  "paginacao": {
+    "problemas": [
+      "Há sequência de 8 parágrafos vazios usados como espaçamento (limite do padrão: 1).",
+      "29 título(s) sem 'manter com o próximo' — risco de título isolado no fim da página."
+    ]
+  },
+  "estrutura": {
+    "problemas": [
+      "9 título(s) sem estilo nomeado — formatados como texto comum.",
+      "6 combinações diferentes de recuo em parágrafos de corpo — recuos inconsistentes.",
+      "5 valores diferentes de espaçamento entre linhas no corpo.",
+      "2 parágrafo(s) com espaçamento entre linhas EXATO (herdado de conversão de formato) em vez de múltiplo."
+    ]
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_inferior_cm=2.05 (padrão 2.5); margem_esquerda_cm=1.5 (padrão 3.0); margem_direita_cm=1.25 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão.",
+      "Seção 1: margens divergem do padrão — margem_superior_cm=3.92 (padrão 4.23); margem_inferior_cm=2.05 (padrão 2.5); margem_esquerda_cm=1.5 (padrão 3.0); margem_direita_cm=1.25 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão.",
+      "Seção 2: margens divergem do padrão — margem_superior_cm=3.92 (padrão 4.23); margem_inferior_cm=2.05 (padrão 2.5); margem_esquerda_cm=1.5 (padrão 3.0); margem_direita_cm=1.25 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 3,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [
+      "Seção 1: cabeçalho difere da seção 1.",
+      "Seção 1: rodapé difere da seção 1.",
+      "Seção 2: cabeçalho difere da seção 1.",
+      "Seção 2: rodapé difere da seção 1."
+    ],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 0: {{NUMERO_CONTRATO}}",
+      "parágrafo 1: {{CONTRATADO}}",
+      "parágrafo 2: {{NOME_PRESIDENTE}}",
+      "parágrafo 2: {{CONTRATADO}}",
+      "parágrafo 2: {{CNPJ_CONTRATADO}}",
+      "parágrafo 2: {{ENDERECO_CONTRATADO}}",
+      "parágrafo 2: {{REPRESENTANTE_CONTRATADO}}",
+      "parágrafo 2: {{CARGO_REPRESENTANTE}}",
+      "parágrafo 2: {{TIPO_PROCESSO}}",
+      "parágrafo 2: {{NUMERO_PROCESSO}}",
+      "parágrafo 2: {{MODALIDADE_EXTENSO}}",
+      "parágrafo 5: {{OBJETO}}",
+      "parágrafo 13: {{PRAZO_VIGENCIA}}",
+      "parágrafo 16: {{REGIME_EXECUCAO}}",
+      "parágrafo 19: {{CONDICOES_SUBCONTRATACAO}}",
+      "parágrafo 22: {{VALOR_TOTAL}}",
+      "parágrafo 22: {{VALOR_TOTAL_EXTENSO}}",
+      "parágrafo 27: {{VALOR_TOTAL}}",
+      "parágrafo 27: {{VALOR_TOTAL_EXTENSO}}",
+      "parágrafo 27: {{CONDICOES_PAGAMENTO}}",
+      "parágrafo 152: {{DOTACAO_ORCAMENTARIA}}",
+      "parágrafo 175: {{DATA}}",
+      "parágrafo 187: {{NOME_PRESIDENTE}}",
+      "parágrafo 190: {{REPRESENTANTE_CONTRATADO}}",
+      "parágrafo 191: {{CARGO_REPRESENTANTE}}"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [
+      19
+    ],
+    "texto_destacado": [
+      "parágrafo 59: texto em #FF0000 — provável instrução de preenchimento"
+    ],
+    "total": 27
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {
+      "creator": "CMI",
+      "lastModifiedBy": "Guilherme Ribeiro"
+    }
+  },
+  "correcoes_automaticas_possiveis": [
+    "Aplicar estilos nomeados CMI e uniformizar recuos/espaçamentos.",
+    "Aplicar controle de paginação (manter com o próximo, órfãs/viúvas).",
+    "Numeração — numero_pulado: Salto de numeração: faltam 1, 2, 3, 4, 5, 6, 7, 8, 9.",
+    "Numeração — numero_duplicado: Rótulo '10' já usado no parágrafo 116.",
+    "Numeração — reinicio_indevido: Numeração retrocedeu: esperado 11.",
+    "Numeração — numero_pulado: Salto de numeração: faltam 18.1."
+  ],
+  "correcoes_que_exigem_humano": [
+    "Numeração — lista_manual_e_automatica: O documento mistura numeração digitada manualmente com lista automática do Word.",
+    "27 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Metadados pessoais no pacote: creator=CMI, lastModifiedBy=Guilherme Ribeiro (limpeza só com --limpar-metadados).",
+    "Margens divergentes do padrão — exigem decisão humana.",
+    "Cabeçalho/rodapé divergem entre seções: Seção 1: cabeçalho difere da seção 1.; Seção 1: rodapé difere da seção 1.; Seção 2: cabeçalho difere da seção 1.; Seção 2: rodapé difere da seção 1."
+  ],
+  "nota_padronizacao": 39,
+  "status": "EXIGE CONFERÊNCIA HUMANA"
+}
