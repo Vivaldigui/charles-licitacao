@@ -168,6 +168,58 @@ Garantias verificadas a cada execução: conteúdo preservado (hash antes/depois
 visual em PDF depende do LibreOffice e, quando não roda, é **declarada como não executada** —
 nunca simulada. Detalhes em [`09_padronizacao_documental/README.md`](09_padronizacao_documental/README.md).
 
+## Funcionalidade: Aviso de Dispensa Completo
+
+Reúne, valida, numera, formata e monta **em um único documento** o Aviso de Contratação Direta e
+todos os seus anexos aplicáveis — e gera também os anexos separados e o pacote de publicação.
+
+Com minuta de contrato: `I` habilitação · `II` TR · `III` proposta · `IV` contrato · `V` declaração.
+Sem minuta de contrato: `I` habilitação · `II` TR · `III` proposta · `IV` declaração. Sem lacuna na
+numeração, e com rótulos, referências internas e nomes de arquivo acompanhando.
+
+> **O aviso completo não é o processo completo.** É a peça de divulgação, não os autos: não contém
+> DFD, ETP, pesquisa de preços, autorização nem parecer. E **quem decide se haverá contrato é o
+> processo** — na ausência ou divergência de definição, a montagem para e devolve a decisão.
+
+**Como pedir ao Charles:**
+
+> "Charles, gere o Aviso de Dispensa Completo deste processo." · "Charles, junte o aviso,
+> habilitação, TR, proposta e declaração conjunta." · "Charles, inclua também a minuta de contrato
+> no aviso." · "Charles, nesta contratação será usada ordem de fornecimento; não inclua contrato." ·
+> "Charles, audite os anexos antes de montar o aviso." · "Charles, verifique se o modelo de proposta
+> corresponde aos itens do TR."
+
+**Comandos:**
+
+```bash
+python scripts/aviso_completo/validar_aviso_completo.py --processo 08_processos_em_andamento/PA_XXX_2026/ --somente-auditoria
+```
+
+```bash
+python scripts/aviso_completo/montar_aviso_completo.py --processo 08_processos_em_andamento/PA_XXX_2026/
+```
+
+```bash
+python scripts/aviso_completo/montar_aviso_completo.py --manifesto manifesto_aviso_completo.json --tr caminho/TR_FINAL.docx --contrato 05_minutas/CONTRATO_COMPRAS/CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_MINUTA_MAE.docx --incluir-contrato --saida caminho/07_AVISO_COMPLETO/
+```
+
+O Charles segue:
+
+- [`07_checklists/roteiro-gerar-aviso-dispensa-completo.md`](07_checklists/roteiro-gerar-aviso-dispensa-completo.md) — manifesto, fluxo de 21 passos, saída e leitura do relatório.
+- [`07_checklists/regras-aviso-dispensa-completo.md`](07_checklists/regras-aviso-dispensa-completo.md) — regras inegociáveis.
+- [`05_minutas/AVISO_COMPLETO/`](05_minutas/AVISO_COMPLETO/) — composição do aviso a partir das minutas oficiais já cadastradas.
+
+O TR **não é gerado**: é o TR já elaborado do processo, anexado como está. O modelo de proposta é
+montado a partir do quadro de itens do TR e conferido item a item contra ele — mas **preço, marca e
+dados do fornecedor ficam em branco**, porque proposta preenchida pela Administração é vício do
+procedimento. O documento único usa o timbre oficial do aviso do começo ao fim, e o conteúdo dos
+componentes é conferido linha a linha depois da união. O melhor status que a automação concede é
+**APTO PARA CONFERÊNCIA** — publicar depende de conferência humana.
+
+Dependências: `python-docx` e `docxcompose` (ambas em `requirements-docx.txt`). A conversão para PDF
+é opcional (LibreOffice ou Word); sem conversor, o pacote sai em DOCX e o relatório **declara** que
+a conversão não foi executada.
+
 ## Dois modos de operação do Charles
 
 - **Consulta / instrução** — responde dúvidas citando arquivo + dispositivo.
