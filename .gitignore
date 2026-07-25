@@ -13,3 +13,12 @@ __pycache__/
 scripts/relatorio*.md
 scripts/*.json
 !scripts/exemplos/*.json
+
+# Exemplo gerado do Aviso de Dispensa Completo: os DOCX/PDF/ZIP são
+# reprodutíveis com um comando e pesam alguns megabytes. O relatório de
+# validação e o manifesto de arquivos ficam versionados como evidência.
+99_testes/aviso_completo/exemplo/componentes/
+99_testes/aviso_completo/exemplo/saida/*.docx
+99_testes/aviso_completo/exemplo/saida/*.pdf
+99_testes/aviso_completo/exemplo/saida/*.zip
+99_testes/aviso_completo/exemplo/saida/anexos_separados/
