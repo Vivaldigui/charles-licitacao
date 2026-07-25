@@ -3,7 +3,7 @@ tipo: checklist
 tema: controle de minutas
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-06-27
+atualizado_em: 2026-07-01
 tags: [minutas, controle, governanca]
 ---
 
@@ -72,6 +72,7 @@ Em conflito entre fontes, prevalece nesta ordem:
 | # | Documento | Pasta | Status |
 |---|-----------|-------|--------|
 | 1 | DFD — Documento de Formalização de Demanda | `DFD/` | ✅ padronizada (v1.0) |
+| 1b | DFD para PCA - Documento de Formalizacao de Demanda para o Plano de Contratacoes Anual | `DFD/` | cadastrada (v1.0) |
 | 2 | ETP — Estudo Técnico Preliminar | `ETP/` | ✅ padronizada (v1.0) |
 | 3 | TR — Termo de Referência | `TR/` | ✅ padronizada (v1.0) |
 | 4 | Mapa de Riscos | `MAPA_DE_RISCOS/` | — fora do escopo por enquanto (jun/2026) |
@@ -95,6 +96,7 @@ Em conflito entre fontes, prevalece nesta ordem:
 | Documento | Minuta-mãe | Ficha de uso | Versão | Status |
 |---|---|---|---|---|
 | DFD | [DFD_MINUTA_MAE.docx](DFD/DFD_MINUTA_MAE.docx) | [DFD_FICHA_DE_USO.md](DFD/DFD_FICHA_DE_USO.md) | 1.1 | apta para uso |
+| DFD para PCA | [DFD_PARA_PCA_MINUTA_MAE.docx](DFD/DFD_PARA_PCA_MINUTA_MAE.docx) | [DFD_PARA_PCA_FICHA_DE_USO.md](DFD/DFD_PARA_PCA_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | ETP | [ETP_MINUTA_MAE.docx](ETP/ETP_MINUTA_MAE.docx) | [ETP_FICHA_DE_USO.md](ETP/ETP_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | TR | [TR_MINUTA_MAE.docx](TR/TR_MINUTA_MAE.docx) | [TR_FICHA_DE_USO.md](TR/TR_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Pesquisa de Preços | [PESQUISA_PRECOS_MINUTA_MAE.docx](PESQUISA_DE_PRECOS/PESQUISA_PRECOS_MINUTA_MAE.docx) | [PESQUISA_PRECOS_FICHA_DE_USO.md](PESQUISA_DE_PRECOS/PESQUISA_PRECOS_FICHA_DE_USO.md) · [roteiro executar pesquisa](../07_checklists/roteiro-executar-pesquisa-de-precos.md) | 1.0 | apta para uso |
