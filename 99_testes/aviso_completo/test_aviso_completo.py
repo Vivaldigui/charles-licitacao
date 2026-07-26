@@ -710,3 +710,30 @@ def test_quadro_de_itens_cabe_na_largura_util(tmp_path):
     # A descrição é a coluna larga; nenhuma outra chega perto dela.
     assert larguras[1] == max(larguras)
     assert larguras[1] > sum(larguras) * 0.35
+
+
+@pytest.mark.parametrize("minuta", [
+    localizar_componentes.MINUTA_PROPOSTA,
+    localizar_componentes.MINUTA_DECLARACAO,
+])
+def test_minutas_de_terceiros_exibem_o_timbre_oficial(minuta):
+    """
+    Até a v1.1 estas minutas não exibiam timbre: o cabeçalho e o rodapé estavam
+    no pacote, mas o `sectPr` não os referenciava — existiam e nunca apareciam.
+    Passaram a usar o timbre oficial do aviso.
+    """
+    documento = Document(str(minuta))
+    secao = documento.sections[0]
+    assert not secao.header.is_linked_to_previous, "cabeçalho não referenciado"
+    assert not secao.footer.is_linked_to_previous, "rodapé não referenciado"
+
+    intacto, divergencias = unir_docx.timbre_intacto(MINUTA_AVISO, minuta)
+    assert intacto, divergencias
+
+
+def test_montagem_nao_acusa_mais_timbre_divergente(montagem_sem_contrato):
+    """Com as minutas corrigidas, não há mais alerta de timbre na montagem."""
+    dados, _ = montagem_sem_contrato
+    alertas = [o["mensagem"] for o in dados["ocorrencias"]
+               if o["severidade"] == "ALERTA"]
+    assert not any("cabeçalho/rodapé diferente" in m for m in alertas), alertas

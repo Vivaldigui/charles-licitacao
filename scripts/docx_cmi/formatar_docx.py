@@ -435,7 +435,10 @@ def revisar_minuta_mae(minuta: Path, perfil_id: Optional[str] = None,
     3) aplica as correções; 4) incrementa a versão na ficha de uso;
     5) registra no changelog da pasta. Nada é alterado sem rastreabilidade.
     """
-    minuta = Path(minuta)
+    # Resolvido logo na entrada: o changelog registra os caminhos relativos à
+    # raiz do repositório, e um caminho relativo na chamada fazia a revisão
+    # falhar DEPOIS de já ter gravado a minuta — deixando o registro por fazer.
+    minuta = Path(minuta).resolve()
     pasta = minuta.parent
     arquivo_versoes = pasta / "_arquivo"
     arquivo_versoes.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,6 @@
 # Relatório — Aviso de Dispensa Completo
 
-- **Gerado em:** 2026-07-25
+- **Gerado em:** 2026-07-26
 - **Modo:** montagem
 - **Status:** APTO COM RESSALVAS
 
@@ -76,7 +76,6 @@ Não há minuta de contrato neste aviso.
 
 - INFORMAÇÃO — numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA
 - INFORMAÇÃO — numeração dos anexos: Declaração conjunta numerada como ANEXO IV (não há minuta de contrato).
-- ALERTA — montagem do DOCX [04_DECLARACAO_CONJUNTA.docx]: O componente '04_DECLARACAO_CONJUNTA.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
 - INFORMAÇÃO — montagem do DOCX [unido.docx]: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx
 - INFORMAÇÃO — validação cruzada [AVISO_DISPENSA_COMPLETO.docx]: 7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
 
@@ -86,8 +85,7 @@ Não há minuta de contrato neste aviso.
 Nenhuma.
 
 ### Alertas
-- **montagem do DOCX** (03_MODELO_DE_PROPOSTA_COMERCIAL.docx): O componente '03_MODELO_DE_PROPOSTA_COMERCIAL.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
-- **montagem do DOCX** (04_DECLARACAO_CONJUNTA.docx): O componente '04_DECLARACAO_CONJUNTA.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
+Nenhuma.
 
 ### Pendências humanas
 - **numeração dos anexos**: A minuta-mãe do aviso não traz relação de anexos ('ANEXO I — ...', 'ANEXO II — ...'). Os anexos foram numerados e rotulados no documento montado, mas o corpo do aviso não os relaciona. Incluir essa relação exige revisão expressa da minuta-mãe.
@@ -99,18 +97,14 @@ Nenhum campo pendente detectado.
 ## Correções realizadas
 
 - Estilo 'CMI Assinatura': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, keep_together, widow_control
-- Estilo 'CMI Cabecalho de Tabela': criado, fonte, tamanho, negrito, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, keep_with_next, widow_control
 - Estilo 'CMI Campo Pendente': criado, fonte, tamanho, negrito, cor, alinhamento, entrelinhas, space_before, space_after, widow_control
 - Estilo 'CMI Citacao Legal': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, left_indent, widow_control
-- Estilo 'CMI Corpo': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, widow_control
 - Estilo 'CMI Identificacao': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, widow_control
 - Estilo 'CMI Item Numerado 1': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
 - Estilo 'CMI Item Numerado 2': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
 - Estilo 'CMI Marcador': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
-- Estilo 'CMI Tabela': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
 - Estilo 'CMI Titulo 1': criado, fonte, tamanho, negrito, italico, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, keep_together, widow_control
 - Estilo 'CMI Titulo 2': criado, fonte, tamanho, negrito, italico, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, keep_together, widow_control
-- Estilo 'CMI Titulo do Documento': criado, fonte, tamanho, negrito, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, widow_control
 - Parágrafo 0 (titulo_1): estilo Heading 1 -> CMI Titulo 1
 - Parágrafo 0 (titulo_1): space_before 10.65pt -> 12.0pt
 - Parágrafo 0 (titulo_1): keep_with_next
@@ -653,60 +647,17 @@ Nenhum campo pendente detectado.
 - Parágrafo 351 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 351 (corpo): entrelinhas 1.15 -> 1.5
 - Parágrafo 351 (corpo): space_after 0.0pt -> 6.0pt
-- Parágrafo 352 (titulo_1): estilo Heading 1 -> CMI Titulo 1
-- Parágrafo 352 (titulo_1): space_before 18.0pt -> 12.0pt
-- Parágrafo 352 (titulo_1): space_after 12.0pt -> 6.0pt
-- Parágrafo 352 (titulo_1): keep_lines
+- Parágrafo 352 (titulo_documento): space_before 18.0pt -> 0.0pt
+- Parágrafo 352 (titulo_documento): keep_lines
 - Parágrafo 353 (identificacao): estilo Normal -> CMI Identificacao
-- Parágrafo 354 (assinatura): estilo Normal -> CMI Assinatura
-- Parágrafo 354 (assinatura): keep_with_next
-- Parágrafo 354 (assinatura): keep_lines
 - Parágrafo 355 (identificacao): estilo Normal -> CMI Identificacao
-- Parágrafo 356 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 357 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 358 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 359 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 360 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 361 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 361 (corpo): alinhamento -> justificado
-- Parágrafo 362 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 362 (corpo): alinhamento -> justificado
-- Parágrafo 363 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 363 (corpo): alinhamento -> justificado
 - Parágrafo 364 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 365 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 366 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 367 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 368 (titulo_1): estilo Heading 1 -> CMI Titulo 1
-- Parágrafo 368 (titulo_1): space_before 18.0pt -> 12.0pt
-- Parágrafo 368 (titulo_1): space_after 12.0pt -> 6.0pt
-- Parágrafo 368 (titulo_1): keep_lines
+- Parágrafo 368 (titulo_documento): space_before 18.0pt -> 0.0pt
+- Parágrafo 368 (titulo_documento): keep_lines
 - Parágrafo 369 (identificacao): estilo Normal -> CMI Identificacao
-- Parágrafo 370 (assinatura): estilo Normal -> CMI Assinatura
-- Parágrafo 370 (assinatura): keep_with_next
-- Parágrafo 370 (assinatura): keep_lines
-- Parágrafo 371 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 371 (corpo): alinhamento -> justificado
-- Parágrafo 372 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 372 (corpo): alinhamento -> justificado
-- Parágrafo 373 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 373 (corpo): alinhamento -> justificado
-- Parágrafo 374 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 374 (corpo): alinhamento -> justificado
-- Parágrafo 375 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 375 (corpo): alinhamento -> justificado
-- Parágrafo 376 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 376 (corpo): alinhamento -> justificado
-- Parágrafo 377 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 377 (corpo): alinhamento -> justificado
-- Parágrafo 378 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 378 (corpo): alinhamento -> justificado
-- Parágrafo 379 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 380 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 381 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 382 (titulo_1): estilo Normal -> CMI Titulo 1
-- Parágrafo 382 (titulo_1): keep_with_next
-- Parágrafo 382 (titulo_1): keep_lines
 - Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
 - Tabela 0: tamanho 12.0pt -> 11.0pt
 - Tabela 0: entrelinhas 1.15 -> 1.5
@@ -767,62 +718,13 @@ Nenhum campo pendente detectado.
 - Tabela 0: tamanho 12.0pt -> 11.0pt
 - Tabela 0: entrelinhas 1.15 -> 1.5
 - Tabela 0: space_after 0.0pt -> 6.0pt
-- Tabela 1: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 1: keep_with_next
-- Tabela 1: keep_lines
-- Tabela 1: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 1: keep_with_next
-- Tabela 1: keep_lines
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 1: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_lines
-- Tabela 2: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Tabela
-- Tabela 2: estilo Normal -> CMI Tabela
 - Tabela 0: 2 linha(s) marcadas para não dividir entre páginas.
 - Tabela 0: cabeçalho passa a repetir nas páginas.
 - Tabela 0: margens internas uniformizadas em 0.1 cm.
 - Tabela 0: alinhamento vertical 'center' em 1 célula(s).
 - Tabela 0: sombreamento D9D9D9 aplicado ao cabeçalho (6 célula(s)).
 - Tabela 1: largura reescalada de 10220 para 9810 twips (área útil 9810)
-- Tabela 1: 7 linha(s) marcadas para não dividir entre páginas.
-- Tabela 1: cabeçalho passa a repetir nas páginas.
-- Tabela 1: margens internas uniformizadas em 0.1 cm.
-- Tabela 1: alinhamento vertical 'center' em 14 célula(s).
-- Tabela 1: sombreamento D9D9D9 aplicado ao cabeçalho (2 célula(s)).
 - Tabela 2: largura reescalada de 10218 para 9808 twips (área útil 9810)
-- Tabela 2: 2 linha(s) marcadas para não dividir entre páginas.
-- Tabela 2: cabeçalho passa a repetir nas páginas.
-- Tabela 2: margens internas uniformizadas em 0.1 cm.
-- Tabela 2: alinhamento vertical 'center' em 14 célula(s).
-- Tabela 2: sombreamento D9D9D9 aplicado ao cabeçalho (7 célula(s)).
 - 16 parágrafo(s) vazio(s) em excesso removidos (máximo de 1 consecutivos).
 
 ## Validação de conteúdo
@@ -867,7 +769,7 @@ Nenhum campo pendente detectado.
 **APTO COM RESSALVAS**
 
 - Erros bloqueantes: 0
-- Alertas: 2
+- Alertas: 0
 - Pendências humanas: 1
 - Status atribuído: APTO COM RESSALVAS
 
@@ -875,8 +777,6 @@ Nenhum campo pendente detectado.
 
 ## Registro completo de ocorrências
 
-- [ALERTA] montagem do DOCX: O componente '03_MODELO_DE_PROPOSTA_COMERCIAL.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
-- [ALERTA] montagem do DOCX: O componente '04_DECLARACAO_CONJUNTA.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
 - [PENDÊNCIA HUMANA] numeração dos anexos: A minuta-mãe do aviso não traz relação de anexos ('ANEXO I — ...', 'ANEXO II — ...'). Os anexos foram numerados e rotulados no documento montado, mas o corpo do aviso não os relaciona. Incluir essa relação exige revisão expressa da minuta-mãe.
 - [INFORMAÇÃO] extração do Termo de Referência: 1 item(ns) extraído(s) do quadro do TR (1 linha(s) de dados).
 - [INFORMAÇÃO] localização de componentes: Ficha de uso do aviso lida: 05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md.
@@ -889,7 +789,7 @@ Nenhum campo pendente detectado.
 - [INFORMAÇÃO] montagem: Fundamento legal ajustado ao texto da minuta: 'art. 75, inciso II, da Lei nº 14.133/2021' → '75, inciso II, da Lei nº 14.133/2021' (a minuta já traz 'art.' antes do campo).
 - [INFORMAÇÃO] montagem: Aviso: campos preenchidos — CRITERIO_JULGAMENTO, DATA, DATA_FIM_PROPOSTAS, DATA_INICIO_PROPOSTAS, FUNDAMENTO_LEGAL, NOME_PRESIDENTE, NUMERO_AVISO, OBJETO.
 - [INFORMAÇÃO] montagem: Anexo I: campos preenchidos — nenhum.
-- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 726 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
+- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 630 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
 - [INFORMAÇÃO] montagem do DOCX: Anexo I separado do corpo do aviso a partir da própria minuta-mãe (nenhum Anexo I novo foi criado).
 - [INFORMAÇÃO] montagem do DOCX: O Anexo I mantém o título que a minuta-mãe já traz ('DOCUMENTAÇÃO EXIGIDA PARA HABILITAÇÃO', em caixa de texto) e não recebe o rótulo 'ANEXO I — ...' aplicado aos demais anexos: acrescentá-lo duplicaria o título do anexo. Uniformizar isso depende de revisão da minuta-mãe.
 - [INFORMAÇÃO] montagem do DOCX: 2 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.

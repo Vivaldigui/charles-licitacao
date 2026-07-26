@@ -88,8 +88,12 @@ TERMO DE REFERÊNCIA") e a quebra de página que o inicia.
 - O Anexo I conserva o título que a minuta já traz em caixa de texto
   ("DOCUMENTAÇÃO EXIGIDA PARA HABILITAÇÃO") e não recebe o rótulo "ANEXO I — ...", para
   não duplicar título. Uniformizar depende de revisão da minuta-mãe.
-- As minutas de proposta e de declaração têm cabeçalho de geração diferente da do aviso.
-  No documento único prevalece o timbre do aviso, e a divergência é reportada.
+- ~~As minutas de proposta e de declaração têm cabeçalho de geração diferente da do aviso.~~
+  **Resolvido na v1.1 dessas minutas (26/07/2026):** elas não exibiam timbre algum — o
+  cabeçalho e o rodapé estavam no pacote, mas o `sectPr` não os referenciava. As duas
+  passaram a usar o timbre oficial do aviso. Ver os changelogs de
+  [`PROPOSTA_COMERCIAL/`](../PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_CHANGELOG.md) e
+  [`DECLARACAO_UNIFICADA/`](../DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_CHANGELOG.md).
 
 ---
 

@@ -278,14 +278,23 @@ def timbre_intacto(origem: Path, destino: Path) -> tuple[bool, list[str]]:
             elif assinaturas_destino[nome] != assinatura:
                 divergencias.append(f"Cabeçalho/rodapé alterado: {nome}")
 
-        midia_origem = _midia_do_timbre(pacote_origem)
-        midia_destino = _midia_do_timbre(pacote_destino)
-        for nome in sorted(midia_origem):
-            if nome not in midia_destino:
+        # A comparação das imagens é por conteúdo, não por nome de arquivo:
+        # documentos diferentes nomeiam a mídia de forma diferente, e o que
+        # caracteriza o timbre é o brasão em si, não o número que ele recebeu
+        # dentro do pacote.
+        import hashlib
+
+        def conteudos(pacote) -> dict[str, str]:
+            return {
+                hashlib.sha256(pacote.read(nome)).hexdigest(): nome
+                for nome in _midia_do_timbre(pacote)
+            }
+
+        origem = conteudos(pacote_origem)
+        destino_midia = conteudos(pacote_destino)
+        for assinatura, nome in sorted(origem.items(), key=lambda par: par[1]):
+            if assinatura not in destino_midia:
                 divergencias.append(f"Imagem do timbre ausente: {nome}")
-                continue
-            if pacote_origem.read(nome) != pacote_destino.read(nome):
-                divergencias.append(f"Imagem do timbre alterada: {nome}")
     return not divergencias, divergencias
 
 
