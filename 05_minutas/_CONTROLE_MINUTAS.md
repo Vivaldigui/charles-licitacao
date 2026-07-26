@@ -3,7 +3,7 @@ tipo: checklist
 tema: controle de minutas
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-06-27
+atualizado_em: 2026-07-01
 tags: [minutas, controle, governanca]
 ---
 
@@ -72,6 +72,7 @@ Em conflito entre fontes, prevalece nesta ordem:
 | # | Documento | Pasta | Status |
 |---|-----------|-------|--------|
 | 1 | DFD — Documento de Formalização de Demanda | `DFD/` | ✅ padronizada (v1.0) |
+| 1b | DFD para PCA - Documento de Formalizacao de Demanda para o Plano de Contratacoes Anual | `DFD/` | cadastrada (v1.0) |
 | 2 | ETP — Estudo Técnico Preliminar | `ETP/` | ✅ padronizada (v1.0) |
 | 3 | TR — Termo de Referência | `TR/` | ✅ padronizada (v1.0) |
 | 4 | Mapa de Riscos | `MAPA_DE_RISCOS/` | — fora do escopo por enquanto (jun/2026) |
@@ -90,11 +91,31 @@ Em conflito entre fontes, prevalece nesta ordem:
 
 ---
 
+## AVISO DE DISPENSA COMPLETO — composição, não duplicação
+
+A pasta [`AVISO_COMPLETO/`](AVISO_COMPLETO/) **não tem minuta-mãe DOCX própria**, e isso é
+deliberado. O aviso completo é a **montagem** das minutas que já estão nesta biblioteca:
+
+| Anexo | Minuta-mãe usada |
+| --- | --- |
+| — Aviso | `AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx` |
+| I — Habilitação | **já incorporado** à minuta do aviso — recortado dela, nunca recriado |
+| II — Termo de Referência | não é minuta: é o TR já elaborado do processo |
+| III — Modelo de Proposta | `PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_MINUTA_MAE.docx` |
+| IV — Minuta de contrato (quando houver) | `CONTRATO/`, `CONTRATO_COMPRAS/` ou `CONTRATO_SERVICOS_CONTINUOS/` |
+| IV ou V — Declaração conjunta | `DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx` |
+
+Criar cópias dessas minutas em `AVISO_COMPLETO/` violaria a regra de não duplicar conteúdo:
+a revisão de uma cópia não chegaria à outra, e o aviso publicado passaria a divergir da minuta
+oficial. A pasta guarda apenas as **fichas de uso** que documentam a composição.
+
+
 ## Índice de minutas cadastradas
 
 | Documento | Minuta-mãe | Ficha de uso | Versão | Status |
 |---|---|---|---|---|
 | DFD | [DFD_MINUTA_MAE.docx](DFD/DFD_MINUTA_MAE.docx) | [DFD_FICHA_DE_USO.md](DFD/DFD_FICHA_DE_USO.md) | 1.1 | apta para uso |
+| DFD para PCA | [DFD_PARA_PCA_MINUTA_MAE.docx](DFD/DFD_PARA_PCA_MINUTA_MAE.docx) | [DFD_PARA_PCA_FICHA_DE_USO.md](DFD/DFD_PARA_PCA_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | ETP | [ETP_MINUTA_MAE.docx](ETP/ETP_MINUTA_MAE.docx) | [ETP_FICHA_DE_USO.md](ETP/ETP_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | TR | [TR_MINUTA_MAE.docx](TR/TR_MINUTA_MAE.docx) | [TR_FICHA_DE_USO.md](TR/TR_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Pesquisa de Preços | [PESQUISA_PRECOS_MINUTA_MAE.docx](PESQUISA_DE_PRECOS/PESQUISA_PRECOS_MINUTA_MAE.docx) | [PESQUISA_PRECOS_FICHA_DE_USO.md](PESQUISA_DE_PRECOS/PESQUISA_PRECOS_FICHA_DE_USO.md) · [roteiro executar pesquisa](../07_checklists/roteiro-executar-pesquisa-de-precos.md) | 1.0 | apta para uso |
@@ -111,3 +132,4 @@ Em conflito entre fontes, prevalece nesta ordem:
 | Contrato de Compras (entrega imediata / forn. contínuo) | [CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_MINUTA_MAE.docx](CONTRATO_COMPRAS/CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_MINUTA_MAE.docx) | [CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_FICHA_DE_USO.md](CONTRATO_COMPRAS/CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Termo de Ratificação (inex./dispensa sem disputa) | [TERMO_RATIFICACAO_MINUTA_MAE.docx](RATIFICACAO/TERMO_RATIFICACAO_MINUTA_MAE.docx) | [TERMO_RATIFICACAO_FICHA_DE_USO.md](RATIFICACAO/TERMO_RATIFICACAO_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Termo de Recebimento e Atesto | [TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx](RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx) | [TERMO_RECEBIMENTO_ATESTO_FICHA_DE_USO.md](RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_FICHA_DE_USO.md) | 1.0 | apta para uso |
+| Aviso de Dispensa Completo (composição) | *sem minuta própria — compõe as minutas acima* | [AVISO_COMPLETO_FICHA_DE_USO.md](AVISO_COMPLETO/AVISO_COMPLETO_FICHA_DE_USO.md) · [Anexo I](AVISO_COMPLETO/ANEXO_I_HABILITACAO_FICHA_DE_USO.md) · [Proposta](AVISO_COMPLETO/MODELO_PROPOSTA_FICHA_DE_USO.md) · [Declaração](AVISO_COMPLETO/DECLARACAO_CONJUNTA_FICHA_DE_USO.md) | 1.0 | apta para uso |

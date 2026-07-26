@@ -1,0 +1,905 @@
+# Relatório — Aviso de Dispensa Completo
+
+- **Gerado em:** 2026-07-25
+- **Modo:** montagem
+- **Status:** APTO COM RESSALVAS
+
+## Identificação do processo
+
+- **Processo:** 026/2026
+- **Dispensa:** 011/2026
+- **Objeto:** Aquisição de 01 (um) forno micro-ondas de bancada para a copa da Câmara
+- **Critério de julgamento:** MENOR PREÇO POR ITEM
+- **Fundamento legal:** art. 75, inciso II, da Lei nº 14.133/2021
+
+## Componentes localizados
+
+- aviso: 00_AVISO.docx
+- habilitacao: 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx
+- tr: 02_TERMO_DE_REFERENCIA.docx
+- proposta: 03_MODELO_DE_PROPOSTA_COMERCIAL.docx
+- declaracao: 04_DECLARACAO_CONJUNTA.docx
+
+## Minutas oficiais utilizadas
+
+- 05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx
+- 05_minutas/DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx
+- 05_minutas/PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_MINUTA_MAE.docx
+
+## Termo de Referência utilizado
+
+- **Arquivo:** G:\Outros computadores\Meu computador (1)\Charles\99_testes\aviso_completo\fixtures\TR_FINAL.docx
+- **Processo identificado no TR:** 026/2026
+- **Objeto:** Aquisição de 01 (um) forno micro-ondas de bancada, novo e sem uso anterior, com capacidade interna de 20 (vinte) a 25 (vinte e cinco) litros, destinado à copa da Câmara Municipal de Itanhandu, para apoio aos servidores e vereadores no aquecimento de alimentos e uso adequado do espaço de copa no dia a dia de trabalho do órgão.
+- **Itens:** 1
+
+## Instrumento contratual definido
+
+- **Tipo:** ordem_fornecimento
+- **Minuta anexada ao aviso:** não
+- **Fonte da decisão:** campo estruturado do processo (manifesto)
+
+## Ordem dos anexos
+
+| Ordem | Anexo | Componente | Arquivo |
+| --- | --- | --- | --- |
+| 1 | ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO | habilitacao | 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx |
+| 2 | ANEXO II — TERMO DE REFERÊNCIA | tr | 02_TERMO_DE_REFERENCIA.docx |
+| 3 | ANEXO III — MODELO DE PROPOSTA COMERCIAL | proposta | 03_MODELO_DE_PROPOSTA_COMERCIAL.docx |
+| 4 | ANEXO IV — DECLARAÇÃO CONJUNTA | declaracao | 04_DECLARACAO_CONJUNTA.docx |
+
+## Dados extraídos do TR
+
+| Item | Descrição | Und. | Qtd. |
+| --- | --- | --- | --- |
+| 1 | Forno micro-ondas de bancada, novo, sem uso anterior, em embalagem original do fabrican... | Unidade | 1 |
+
+## Validação da habilitação
+
+- INFORMAÇÃO — numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA
+- INFORMAÇÃO — montagem do DOCX [AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx]: O Anexo I mantém o título que a minuta-mãe já traz ('DOCUMENTAÇÃO EXIGIDA PARA HABILITAÇÃO', em caixa de texto) e não recebe o rótulo 'ANEXO I — ...' aplicado aos demais anexos: acrescentá-lo duplicaria o título do anexo. Uniformizar isso depende de revisão da minuta-mãe.
+- INFORMAÇÃO — montagem do DOCX [unido.docx]: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx
+
+## Validação do modelo de proposta
+
+- INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).
+- INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.
+- INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.
+- INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.
+- INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Modelo de proposta conferido contra o TR: 1 item(ns) correspondentes.
+
+## Validação da minuta de contrato
+
+Não há minuta de contrato neste aviso.
+
+## Validação da declaração conjunta
+
+- INFORMAÇÃO — numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA
+- INFORMAÇÃO — numeração dos anexos: Declaração conjunta numerada como ANEXO IV (não há minuta de contrato).
+- ALERTA — montagem do DOCX [04_DECLARACAO_CONJUNTA.docx]: O componente '04_DECLARACAO_CONJUNTA.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
+- INFORMAÇÃO — montagem do DOCX [unido.docx]: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx
+- INFORMAÇÃO — validação cruzada [AVISO_DISPENSA_COMPLETO.docx]: 7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
+
+## Divergências encontradas
+
+### Erros bloqueantes
+Nenhuma.
+
+### Alertas
+- **montagem do DOCX** (03_MODELO_DE_PROPOSTA_COMERCIAL.docx): O componente '03_MODELO_DE_PROPOSTA_COMERCIAL.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
+- **montagem do DOCX** (04_DECLARACAO_CONJUNTA.docx): O componente '04_DECLARACAO_CONJUNTA.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
+
+### Pendências humanas
+- **numeração dos anexos**: A minuta-mãe do aviso não traz relação de anexos ('ANEXO I — ...', 'ANEXO II — ...'). Os anexos foram numerados e rotulados no documento montado, mas o corpo do aviso não os relaciona. Incluir essa relação exige revisão expressa da minuta-mãe.
+
+## Campos pendentes
+
+Nenhum campo pendente detectado.
+
+## Correções realizadas
+
+- Estilo 'CMI Assinatura': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, keep_together, widow_control
+- Estilo 'CMI Cabecalho de Tabela': criado, fonte, tamanho, negrito, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, keep_with_next, widow_control
+- Estilo 'CMI Campo Pendente': criado, fonte, tamanho, negrito, cor, alinhamento, entrelinhas, space_before, space_after, widow_control
+- Estilo 'CMI Citacao Legal': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, left_indent, widow_control
+- Estilo 'CMI Corpo': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, widow_control
+- Estilo 'CMI Identificacao': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, widow_control
+- Estilo 'CMI Item Numerado 1': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
+- Estilo 'CMI Item Numerado 2': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
+- Estilo 'CMI Marcador': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
+- Estilo 'CMI Tabela': criado, fonte, tamanho, cor, alinhamento, entrelinhas, space_before, space_after, first_line_indent, left_indent, widow_control
+- Estilo 'CMI Titulo 1': criado, fonte, tamanho, negrito, italico, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, keep_together, widow_control
+- Estilo 'CMI Titulo 2': criado, fonte, tamanho, negrito, italico, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, keep_together, widow_control
+- Estilo 'CMI Titulo do Documento': criado, fonte, tamanho, negrito, cor, alinhamento, entrelinhas, space_before, space_after, keep_with_next, widow_control
+- Parágrafo 0 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 0 (titulo_1): space_before 10.65pt -> 12.0pt
+- Parágrafo 0 (titulo_1): keep_with_next
+- Parágrafo 0 (titulo_1): keep_lines
+- Parágrafo 1 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 1 (corpo): alinhamento -> justificado
+- Parágrafo 1 (corpo): space_before 10.65pt -> 0.0pt
+- Parágrafo 2 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 2 (corpo): space_before 10.65pt -> 0.0pt
+- Parágrafo 3 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 3 (corpo): space_before 10.65pt -> 0.0pt
+- Parágrafo 4 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 4 (corpo): alinhamento -> justificado
+- Parágrafo 4 (corpo): space_before 10.65pt -> 0.0pt
+- Parágrafo 5 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 5 (corpo): alinhamento -> justificado
+- Parágrafo 5 (corpo): space_before 10.65pt -> 0.0pt
+- Parágrafo 6 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 7 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 7 (titulo_1): space_before 4.65pt -> 12.0pt
+- Parágrafo 7 (titulo_1): keep_with_next
+- Parágrafo 7 (titulo_1): keep_lines
+- Parágrafo 8 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 8 (corpo): space_before 0.25pt -> 0.0pt
+- Parágrafo 9 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 10 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 11 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 12 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 12 (corpo): space_before 0.25pt -> 0.0pt
+- Parágrafo 13 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 13 (titulo_1): space_before 4.6pt -> 12.0pt
+- Parágrafo 13 (titulo_1): keep_with_next
+- Parágrafo 13 (titulo_1): keep_lines
+- Parágrafo 14 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 14 (item_numerado): space_before 4.6pt -> 0.0pt
+- Parágrafo 15 (item_numerado): entrelinhas exatas -> múltiplo
+- Parágrafo 16 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 16 (item_numerado): space_before 2.4pt -> 0.0pt
+- Parágrafo 17 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 17 (item_numerado): space_before 0.15pt -> 0.0pt
+- Parágrafo 18 (item_numerado): entrelinhas exatas -> múltiplo
+- Parágrafo 19 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 19 (corpo): space_before 0.25pt -> 0.0pt
+- Parágrafo 20 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 21 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 21 (item_numerado): space_before 4.15pt -> 0.0pt
+- Parágrafo 22 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 23 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 23 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 24 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 24 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 25 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 26 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 26 (corpo): space_before 0.3pt -> 0.0pt
+- Parágrafo 27 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 27 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 28 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 29 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 29 (item_numerado): space_before 2.55pt -> 0.0pt
+- Parágrafo 30 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 30 (corpo): space_before 0.3pt -> 0.0pt
+- Parágrafo 31 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 31 (titulo_1): space_before 4.65pt -> 12.0pt
+- Parágrafo 31 (titulo_1): keep_with_next
+- Parágrafo 31 (titulo_1): keep_lines
+- Parágrafo 32 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 32 (corpo): space_before 0.05pt -> 0.0pt
+- Parágrafo 33 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 34 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 34 (item_numerado): space_before 0.2pt -> 0.0pt
+- Parágrafo 35 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 35 (item_numerado): space_before 4.1pt -> 0.0pt
+- Parágrafo 36 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 36 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 37 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 38 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 39 (item_numerado): entrelinhas 1.1583333333333334 -> 1.5
+- Parágrafo 40 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 41 (item_numerado): entrelinhas 1.1583333333333334 -> 1.5
+- Parágrafo 42 (item_numerado): entrelinhas exatas -> múltiplo
+- Parágrafo 43 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 43 (corpo): space_before 0.4pt -> 0.0pt
+- Parágrafo 44 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 44 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 45 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 45 (item_numerado): space_before 2.55pt -> 0.0pt
+- Parágrafo 46 (item_numerado): entrelinhas 1.1583333333333334 -> 1.5
+- Parágrafo 47 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 48 (item_numerado): entrelinhas exatas -> múltiplo
+- Parágrafo 49 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 49 (corpo): space_before 0.1pt -> 0.0pt
+- Parágrafo 50 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 50 (titulo_1): space_before 4.65pt -> 12.0pt
+- Parágrafo 50 (titulo_1): keep_with_next
+- Parágrafo 50 (titulo_1): keep_lines
+- Parágrafo 51 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 51 (corpo): space_before 0.05pt -> 0.0pt
+- Parágrafo 52 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 53 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 53 (item_numerado): space_before 0.15pt -> 0.0pt
+- Parágrafo 54 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 54 (item_numerado): space_before 4.05pt -> 0.0pt
+- Parágrafo 55 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 56 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 56 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 57 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 58 (item_numerado): entrelinhas 1.1666666666666667 -> 1.5
+- Parágrafo 59 (item_numerado): entrelinhas exatas -> múltiplo
+- Parágrafo 60 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 60 (corpo): space_before 0.3pt -> 0.0pt
+- Parágrafo 62 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 62 (item_numerado): space_before 2.1pt -> 0.0pt
+- Parágrafo 63 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 63 (item_numerado): space_before 0.15pt -> 0.0pt
+- Parágrafo 64 (item_numerado): entrelinhas 1.1583333333333334 -> 1.5
+- Parágrafo 65 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 66 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 66 (corpo): space_before 0.35pt -> 0.0pt
+- Parágrafo 67 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 67 (item_numerado): space_before 4.6pt -> 0.0pt
+- Parágrafo 68 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 68 (corpo): space_before 0.25pt -> 0.0pt
+- Parágrafo 69 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 70 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 70 (item_numerado): space_before 0.15pt -> 0.0pt
+- Parágrafo 71 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 71 (corpo): space_before 0.25pt -> 0.0pt
+- Parágrafo 72 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 72 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 73 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 73 (item_numerado): space_before 4.05pt -> 0.0pt
+- Parágrafo 74 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 74 (item_numerado): space_before 2.15pt -> 0.0pt
+- Parágrafo 75 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 76 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 77 (item_numerado): entrelinhas 1.1375 -> 1.5
+- Parágrafo 78 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 78 (item_numerado): space_before 0.3pt -> 0.0pt
+- Parágrafo 79 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 79 (corpo): space_before 0.2pt -> 0.0pt
+- Parágrafo 80 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 80 (titulo_1): space_before 4.65pt -> 12.0pt
+- Parágrafo 80 (titulo_1): keep_with_next
+- Parágrafo 80 (titulo_1): keep_lines
+- Parágrafo 81 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 81 (corpo): space_before 0.15pt -> 0.0pt
+- Parágrafo 82 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 83 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 83 (item_numerado): space_before 2.55pt -> 0.0pt
+- Parágrafo 85 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 85 (item_numerado): space_before 1.9pt -> 0.0pt
+- Parágrafo 86 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 87 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 87 (item_numerado): space_before 0.1pt -> 0.0pt
+- Parágrafo 88 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 88 (item_numerado): space_before 0.1pt -> 0.0pt
+- Parágrafo 89 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 90 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 90 (corpo): space_before 0.3pt -> 0.0pt
+- Parágrafo 91 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 91 (titulo_1): space_before 4.6pt -> 12.0pt
+- Parágrafo 91 (titulo_1): keep_with_next
+- Parágrafo 91 (titulo_1): keep_lines
+- Parágrafo 92 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 92 (corpo): space_before 0.15pt -> 0.0pt
+- Parágrafo 93 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 94 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 95 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 96 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 96 (item_numerado): space_before 0.1pt -> 0.0pt
+- Parágrafo 97 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 97 (corpo): space_before 0.2pt -> 0.0pt
+- Parágrafo 98 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 98 (titulo_1): space_before 4.65pt -> 12.0pt
+- Parágrafo 98 (titulo_1): keep_with_next
+- Parágrafo 98 (titulo_1): keep_lines
+- Parágrafo 99 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 99 (corpo): space_before 0.15pt -> 0.0pt
+- Parágrafo 100 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 101 (item_numerado): space_before 2.55pt -> 0.0pt
+- Parágrafo 102 (item_numerado): space_before 2.0pt -> 0.0pt
+- Parágrafo 103 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 103 (item_numerado): space_before 2.1pt -> 0.0pt
+- Parágrafo 104 (item_numerado): entrelinhas 1.1583333333333334 -> 1.5
+- Parágrafo 105 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 106 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 107 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 108 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 109 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 110 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 111 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 111 (item_numerado): space_before 4.05pt -> 0.0pt
+- Parágrafo 112 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 112 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 113 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 113 (item_numerado): space_before 0.05pt -> 0.0pt
+- Parágrafo 114 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 115 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 116 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 116 (corpo): space_before 0.25pt -> 0.0pt
+- Parágrafo 117 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 117 (corpo): space_before 4.6pt -> 0.0pt
+- Parágrafo 118 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 118 (corpo): space_before 4.6pt -> 0.0pt
+- Parágrafo 119 (corpo): estilo Heading 1 -> CMI Corpo
+- Parágrafo 119 (corpo): space_before 4.65pt -> 0.0pt
+- Parágrafo 120 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 120 (titulo_1): space_before 4.65pt -> 12.0pt
+- Parágrafo 120 (titulo_1): keep_with_next
+- Parágrafo 120 (titulo_1): keep_lines
+- Parágrafo 121 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 122 (corpo): estilo Body Text -> CMI Corpo
+- Parágrafo 123 (corpo): estilo Heading 1 -> CMI Corpo
+- Parágrafo 123 (corpo): space_before 4.65pt -> 0.0pt
+- Parágrafo 124 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 124 (titulo_1): keep_with_next
+- Parágrafo 124 (titulo_1): keep_lines
+- Parágrafo 125 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 126 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 126 (item_numerado): space_before 6.0pt -> 0.0pt
+- Parágrafo 127 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 127 (item_numerado): space_before 6.0pt -> 0.0pt
+- Parágrafo 128 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 128 (item_numerado): space_before 6.0pt -> 0.0pt
+- Parágrafo 129 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 129 (item_numerado): space_before 6.0pt -> 0.0pt
+- Parágrafo 130 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 131 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 132 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 132 (titulo_1): space_before 18.0pt -> 12.0pt
+- Parágrafo 132 (titulo_1): space_after 12.0pt -> 6.0pt
+- Parágrafo 132 (titulo_1): keep_lines
+- Parágrafo 133 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 133 (corpo): tamanho 18.0pt -> 12.0pt
+- Parágrafo 133 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 133 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 134 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 134 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 135 (identificacao): estilo Normal -> CMI Identificacao
+- Parágrafo 135 (identificacao): space_after 0.0pt -> 6.0pt
+- Parágrafo 136 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 136 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 137 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 137 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 138 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 138 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 138 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 139 (item_numerado): entrelinhas 1.15 -> 1.5
+- Parágrafo 139 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 140 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 141 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 141 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 142 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 143 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 144 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 145 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 146 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 147 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 148 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 149 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 150 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 151 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 152 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 153 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 154 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 155 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 156 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 157 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 158 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 159 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 160 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 161 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 162 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 163 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 164 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 165 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 166 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 167 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 168 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 169 (corpo): entrelinhas 1.0 -> 1.5
+- Parágrafo 169 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 170 (corpo): alinhamento -> justificado
+- Parágrafo 170 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 171 (corpo): alinhamento -> justificado
+- Parágrafo 171 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 172 (corpo): alinhamento -> justificado
+- Parágrafo 172 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 173 (corpo): alinhamento -> justificado
+- Parágrafo 173 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 174 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 175 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 176 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 177 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 178 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 179 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 180 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 181 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 182 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 183 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 183 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 184 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 184 (titulo_1): tamanho 16.0pt -> 12.0pt
+- Parágrafo 184 (titulo_1): space_before 0.0pt -> 12.0pt
+- Parágrafo 184 (titulo_1): space_after 0.0pt -> 6.0pt
+- Parágrafo 184 (titulo_1): keep_with_next
+- Parágrafo 184 (titulo_1): keep_lines
+- Parágrafo 185 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 186 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 186 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 187 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 187 (titulo_1): tamanho 16.0pt -> 12.0pt
+- Parágrafo 187 (titulo_1): space_before 0.0pt -> 12.0pt
+- Parágrafo 187 (titulo_1): space_after 0.0pt -> 6.0pt
+- Parágrafo 187 (titulo_1): keep_with_next
+- Parágrafo 187 (titulo_1): keep_lines
+- Parágrafo 188 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 188 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 189 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 190 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 191 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 192 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 193 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 194 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 195 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 196 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 197 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 197 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 198 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 198 (titulo_1): tamanho 16.0pt -> 12.0pt
+- Parágrafo 198 (titulo_1): space_before 0.0pt -> 12.0pt
+- Parágrafo 198 (titulo_1): space_after 0.0pt -> 6.0pt
+- Parágrafo 198 (titulo_1): keep_with_next
+- Parágrafo 198 (titulo_1): keep_lines
+- Parágrafo 199 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 199 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 200 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 201 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 201 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 202 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 202 (titulo_1): tamanho 16.0pt -> 12.0pt
+- Parágrafo 202 (titulo_1): space_before 0.0pt -> 12.0pt
+- Parágrafo 202 (titulo_1): space_after 0.0pt -> 6.0pt
+- Parágrafo 202 (titulo_1): keep_with_next
+- Parágrafo 202 (titulo_1): keep_lines
+- Parágrafo 203 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 203 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 204 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 205 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 205 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 206 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 206 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 207 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 207 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 208 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 209 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 210 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 211 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 214 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 215 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 216 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 217 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 217 (titulo_1): tamanho 16.0pt -> 12.0pt
+- Parágrafo 217 (titulo_1): space_before 0.0pt -> 12.0pt
+- Parágrafo 217 (titulo_1): space_after 0.0pt -> 6.0pt
+- Parágrafo 217 (titulo_1): keep_with_next
+- Parágrafo 217 (titulo_1): keep_lines
+- Parágrafo 218 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 218 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 219 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 220 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 221 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 221 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 222 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 222 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 223 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 224 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 225 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 226 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 227 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 228 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 229 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 230 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 231 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 232 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 233 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 234 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 235 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 235 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 236 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 237 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 238 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 239 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 240 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 241 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 242 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 243 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 244 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 245 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 246 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 247 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 248 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 249 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 250 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 251 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 252 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 253 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 254 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 255 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 256 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 257 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 258 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 258 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 259 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 259 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 260 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 261 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 262 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 263 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 264 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 265 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 266 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 267 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 268 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 268 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 269 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 269 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 270 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 271 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 272 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 273 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 274 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 275 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 276 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 277 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 278 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 279 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 280 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 281 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 281 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 282 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 282 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 283 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 284 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 285 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 285 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 286 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 286 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 287 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 288 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 289 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 290 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 291 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 292 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 293 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 294 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 294 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 295 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 296 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 297 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 298 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 299 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 300 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 301 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 301 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 302 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 302 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 303 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 304 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 305 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 305 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 306 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 307 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 308 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 308 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 309 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 309 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 310 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 311 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 312 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 313 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 314 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 314 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 315 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 315 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 316 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 317 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 318 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 319 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 320 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 321 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 322 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 323 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 324 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 324 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 325 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 325 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 326 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 327 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 328 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 329 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 329 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 330 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 330 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 331 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 332 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 332 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 333 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 334 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 334 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 335 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 336 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 337 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 338 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 338 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 339 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 340 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 340 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 341 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 342 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 342 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 343 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 344 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 344 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 345 (item_numerado): space_after 0.0pt -> 6.0pt
+- Parágrafo 346 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 346 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 346 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 347 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 347 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 347 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 348 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 348 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 348 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 349 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 349 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 349 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 350 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 350 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 350 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 351 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 351 (corpo): entrelinhas 1.15 -> 1.5
+- Parágrafo 351 (corpo): space_after 0.0pt -> 6.0pt
+- Parágrafo 352 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 352 (titulo_1): space_before 18.0pt -> 12.0pt
+- Parágrafo 352 (titulo_1): space_after 12.0pt -> 6.0pt
+- Parágrafo 352 (titulo_1): keep_lines
+- Parágrafo 353 (identificacao): estilo Normal -> CMI Identificacao
+- Parágrafo 354 (assinatura): estilo Normal -> CMI Assinatura
+- Parágrafo 354 (assinatura): keep_with_next
+- Parágrafo 354 (assinatura): keep_lines
+- Parágrafo 355 (identificacao): estilo Normal -> CMI Identificacao
+- Parágrafo 356 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 357 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 358 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 359 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 360 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 361 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 361 (corpo): alinhamento -> justificado
+- Parágrafo 362 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 362 (corpo): alinhamento -> justificado
+- Parágrafo 363 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 363 (corpo): alinhamento -> justificado
+- Parágrafo 364 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 365 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 366 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 367 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 368 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 368 (titulo_1): space_before 18.0pt -> 12.0pt
+- Parágrafo 368 (titulo_1): space_after 12.0pt -> 6.0pt
+- Parágrafo 368 (titulo_1): keep_lines
+- Parágrafo 369 (identificacao): estilo Normal -> CMI Identificacao
+- Parágrafo 370 (assinatura): estilo Normal -> CMI Assinatura
+- Parágrafo 370 (assinatura): keep_with_next
+- Parágrafo 370 (assinatura): keep_lines
+- Parágrafo 371 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 371 (corpo): alinhamento -> justificado
+- Parágrafo 372 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 372 (corpo): alinhamento -> justificado
+- Parágrafo 373 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 373 (corpo): alinhamento -> justificado
+- Parágrafo 374 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 374 (corpo): alinhamento -> justificado
+- Parágrafo 375 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 375 (corpo): alinhamento -> justificado
+- Parágrafo 376 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 376 (corpo): alinhamento -> justificado
+- Parágrafo 377 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 377 (corpo): alinhamento -> justificado
+- Parágrafo 378 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 378 (corpo): alinhamento -> justificado
+- Parágrafo 379 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 380 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 381 (corpo): estilo Normal -> CMI Corpo
+- Parágrafo 382 (titulo_1): estilo Normal -> CMI Titulo 1
+- Parágrafo 382 (titulo_1): keep_with_next
+- Parágrafo 382 (titulo_1): keep_lines
+- Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: keep_with_next
+- Tabela 0: keep_lines
+- Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: keep_with_next
+- Tabela 0: keep_lines
+- Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: keep_with_next
+- Tabela 0: keep_lines
+- Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: keep_with_next
+- Tabela 0: keep_lines
+- Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: keep_with_next
+- Tabela 0: keep_lines
+- Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: keep_with_next
+- Tabela 0: keep_lines
+- Tabela 0: estilo Normal -> CMI Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: estilo Normal -> CMI Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: estilo Normal -> CMI Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: estilo Normal -> CMI Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: estilo Normal -> CMI Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 0: estilo Normal -> CMI Tabela
+- Tabela 0: tamanho 12.0pt -> 11.0pt
+- Tabela 0: entrelinhas 1.15 -> 1.5
+- Tabela 0: space_after 0.0pt -> 6.0pt
+- Tabela 1: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 1: keep_with_next
+- Tabela 1: keep_lines
+- Tabela 1: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 1: keep_with_next
+- Tabela 1: keep_lines
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 1: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
+- Tabela 2: keep_lines
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 2: estilo Normal -> CMI Tabela
+- Tabela 0: 2 linha(s) marcadas para não dividir entre páginas.
+- Tabela 0: cabeçalho passa a repetir nas páginas.
+- Tabela 0: margens internas uniformizadas em 0.1 cm.
+- Tabela 0: alinhamento vertical 'center' em 1 célula(s).
+- Tabela 0: sombreamento D9D9D9 aplicado ao cabeçalho (6 célula(s)).
+- Tabela 1: largura reescalada de 10220 para 9810 twips (área útil 9810)
+- Tabela 1: 7 linha(s) marcadas para não dividir entre páginas.
+- Tabela 1: cabeçalho passa a repetir nas páginas.
+- Tabela 1: margens internas uniformizadas em 0.1 cm.
+- Tabela 1: alinhamento vertical 'center' em 14 célula(s).
+- Tabela 1: sombreamento D9D9D9 aplicado ao cabeçalho (2 célula(s)).
+- Tabela 2: largura reescalada de 10218 para 9808 twips (área útil 9810)
+- Tabela 2: 2 linha(s) marcadas para não dividir entre páginas.
+- Tabela 2: cabeçalho passa a repetir nas páginas.
+- Tabela 2: margens internas uniformizadas em 0.1 cm.
+- Tabela 2: alinhamento vertical 'center' em 14 célula(s).
+- Tabela 2: sombreamento D9D9D9 aplicado ao cabeçalho (7 célula(s)).
+- 16 parágrafo(s) vazio(s) em excesso removidos (máximo de 1 consecutivos).
+
+## Validação de conteúdo
+
+- **Linhas conferidas:** 318
+- **Linhas perdidas:** 0
+- **Blocos 'OU' remanescentes:** 0
+- **Lacunas reservadas ao proponente:** 18
+- **Preservação na padronização:** True
+
+## Validação de formatação
+
+- **Perfil aplicado:** aviso
+- **Status da padronização:** EXIGE CONFERÊNCIA HUMANA
+- **Idempotência:** OK — segunda execução não produziu alterações.
+- **Validação visual:** não executada — LibreOffice/soffice não disponível no ambiente; a conferência visual permanece a cargo do usuário.
+- **Timbre preservado:** True
+
+## Arquivos produzidos
+
+- 99_testes\aviso_completo\exemplo\componentes\00_AVISO.docx
+- 99_testes\aviso_completo\exemplo\componentes\01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx
+- 99_testes\aviso_completo\exemplo\componentes\02_TERMO_DE_REFERENCIA.docx
+- 99_testes\aviso_completo\exemplo\componentes\03_MODELO_DE_PROPOSTA_COMERCIAL.docx
+- 99_testes\aviso_completo\exemplo\componentes\04_DECLARACAO_CONJUNTA.docx
+- 99_testes\aviso_completo\exemplo\saida\AVISO_DISPENSA_COMPLETO.docx
+- 99_testes\aviso_completo\exemplo\saida\AVISO_DISPENSA_COMPLETO.pdf
+- 99_testes\aviso_completo\exemplo\saida\PACOTE_PUBLICACAO.zip
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\01_AVISO_DE_CONTRATACAO_DIRETA.docx
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\02_ANEXO_I_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\03_ANEXO_II_TERMO_DE_REFERENCIA.docx
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\04_ANEXO_III_MODELO_DE_PROPOSTA_COMERCIAL.docx
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\05_ANEXO_IV_DECLARACAO_CONJUNTA.docx
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\01_AVISO_DE_CONTRATACAO_DIRETA.pdf
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\02_ANEXO_I_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.pdf
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\03_ANEXO_II_TERMO_DE_REFERENCIA.pdf
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\04_ANEXO_III_MODELO_DE_PROPOSTA_COMERCIAL.pdf
+- 99_testes\aviso_completo\exemplo\saida\anexos_separados\05_ANEXO_IV_DECLARACAO_CONJUNTA.pdf
+
+## Resultado
+
+**APTO COM RESSALVAS**
+
+- Erros bloqueantes: 0
+- Alertas: 2
+- Pendências humanas: 1
+- Status atribuído: APTO COM RESSALVAS
+
+> Conferência humana final obrigatória. A validação automática confere correspondência entre as peças, campos pendentes, numeração e preservação de conteúdo — não confere o mérito administrativo nem substitui a leitura do agente de contratação e, quando exigida, a manifestação da assessoria jurídica.
+
+## Registro completo de ocorrências
+
+- [ALERTA] montagem do DOCX: O componente '03_MODELO_DE_PROPOSTA_COMERCIAL.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
+- [ALERTA] montagem do DOCX: O componente '04_DECLARACAO_CONJUNTA.docx' traz cabeçalho/rodapé diferente do timbre da minuta do aviso. No documento único prevalece o timbre do aviso; confira se o componente veio de modelo da Câmara.
+- [PENDÊNCIA HUMANA] numeração dos anexos: A minuta-mãe do aviso não traz relação de anexos ('ANEXO I — ...', 'ANEXO II — ...'). Os anexos foram numerados e rotulados no documento montado, mas o corpo do aviso não os relaciona. Incluir essa relação exige revisão expressa da minuta-mãe.
+- [INFORMAÇÃO] extração do Termo de Referência: 1 item(ns) extraído(s) do quadro do TR (1 linha(s) de dados).
+- [INFORMAÇÃO] localização de componentes: Ficha de uso do aviso lida: 05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md.
+- [INFORMAÇÃO] localização de componentes: Instrumento definido como 'ordem_fornecimento' (fonte: campo estruturado do processo (manifesto)). Minuta de contrato não será anexada.
+- [INFORMAÇÃO] modelo de proposta: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).
+- [INFORMAÇÃO] modelo de proposta: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.
+- [INFORMAÇÃO] modelo de proposta: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.
+- [INFORMAÇÃO] modelo de proposta: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.
+- [INFORMAÇÃO] modelo de proposta: Modelo de proposta conferido contra o TR: 1 item(ns) correspondentes.
+- [INFORMAÇÃO] montagem: Fundamento legal ajustado ao texto da minuta: 'art. 75, inciso II, da Lei nº 14.133/2021' → '75, inciso II, da Lei nº 14.133/2021' (a minuta já traz 'art.' antes do campo).
+- [INFORMAÇÃO] montagem: Aviso: campos preenchidos — CRITERIO_JULGAMENTO, DATA, DATA_FIM_PROPOSTAS, DATA_INICIO_PROPOSTAS, FUNDAMENTO_LEGAL, NOME_PRESIDENTE, NUMERO_AVISO, OBJETO.
+- [INFORMAÇÃO] montagem: Anexo I: campos preenchidos — nenhum.
+- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 726 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
+- [INFORMAÇÃO] montagem do DOCX: Anexo I separado do corpo do aviso a partir da própria minuta-mãe (nenhum Anexo I novo foi criado).
+- [INFORMAÇÃO] montagem do DOCX: O Anexo I mantém o título que a minuta-mãe já traz ('DOCUMENTAÇÃO EXIGIDA PARA HABILITAÇÃO', em caixa de texto) e não recebe o rótulo 'ANEXO I — ...' aplicado aos demais anexos: acrescentá-lo duplicaria o título do anexo. Uniformizar isso depende de revisão da minuta-mãe.
+- [INFORMAÇÃO] montagem do DOCX: 2 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.
+- [INFORMAÇÃO] montagem do DOCX: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx
+- [INFORMAÇÃO] numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA
+- [INFORMAÇÃO] numeração dos anexos: Declaração conjunta numerada como ANEXO IV (não há minuta de contrato).
+- [INFORMAÇÃO] numeração dos anexos: Referências internas conferidas: ANEXO I (1x), ANEXO II (1x), ANEXO III (1x), ANEXO IV (1x)
+- [INFORMAÇÃO] pacote de publicação: Pacote de publicação gerado: PACOTE_PUBLICACAO.zip.
+- [INFORMAÇÃO] validação cruzada: TR confirmado como do processo 026/2026.
+- [INFORMAÇÃO] validação cruzada: Período de recebimento: 2026-07-27 a 2026-07-29 — 3 dias úteis (feriados municipais não são considerados no cálculo automático; confira o calendário local).
+- [INFORMAÇÃO] validação cruzada: O TR menciona catálogo ou ficha técnica. Confira se o aviso e o Anexo I tratam da exigência de forma coerente.
+- [INFORMAÇÃO] validação cruzada: 7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
+- [INFORMAÇÃO] validação cruzada: Conteúdo preservado: 318 linha(s) dos componentes localizadas no documento único.

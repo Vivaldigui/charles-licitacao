@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "processo_id": "PROCESSO_EXEMPLO",
+  "numero": "PA 999/2026",
+  "objeto": "EXEMPLO FICTICIO - aquisicao de material de expediente",
+  "exercicio": "2026",
+  "setor_requisitante": "Setor de Compras (exemplo)",
+  "responsaveis": [
+    "Agente de contratacao (exemplo)"
+  ],
+  "modalidade": "dispensa por valor (exemplo)",
+  "fundamento_legal": "art. 75, II, da Lei 14.133/2021 (exemplo, a confirmar)",
+  "estado_atual": "em_instrucao",
+  "fase_atual": "fase_preparatoria",
+  "instrumento_contratual": "ordem_fornecimento",
+  "fornecedor": null,
+  "valor_estimado": 4500.0,
+  "valor_contratado": null,
+  "documentos_obrigatorios": [
+    "DFD",
+    "PESQUISA_DE_PRECOS",
+    "TR",
+    "JUSTIFICATIVA_CONTRATACAO_DIRETA",
+    "AUTORIZACAO",
+    "AVISO",
+    "ATA_JULGAMENTO",
+    "HOMOLOGACAO"
+  ],
+  "origem_lista_obrigatorios": "sugestão operacional do Charles — confirmar em 07_checklists/esteira-contratacao-direta.md e no Regulamento da Câmara",
+  "documentos_existentes": [
+    "DFD",
+    "TR"
+  ],
+  "documentos_pendentes": [
+    "PESQUISA_DE_PRECOS",
+    "JUSTIFICATIVA_CONTRATACAO_DIRETA",
+    "AUTORIZACAO",
+    "AVISO",
+    "ATA_JULGAMENTO",
+    "HOMOLOGACAO"
+  ],
+  "datas": {
+    "criacao": "2026-07-25T19:17:06",
+    "autorizacao": null,
+    "publicacao_aviso": null,
+    "julgamento": null,
+    "homologacao": null,
+    "assinatura_contrato": null
+  },
+  "local_armazenamento": "10_gestao_documental/exemplos/PROCESSO_EXEMPLO (exemplo ficticio versionado)",
+  "publicidade": "publico",
+  "atualizado_em": "2026-07-25T19:17:06",
+  "observacao": "EXEMPLO FICTICIO. Nenhum dado real, pessoal ou de fornecedor. Processos reais ficam em CHARLES_PROCESSOS_DIR."
+}

@@ -1,0 +1,700 @@
+{
+  "versao": "1.0",
+  "atualizado_em": "2026-07-25",
+  "origem": "Derivado da analise das minutas-mae de 05_minutas/ (21 DOCX) e das referencias visuais registradas em 09_padronizacao_documental/REFERENCIAS_VISUAIS.md.",
+  "observacao": "Este arquivo e a fonte de verdade tecnica do padrao visual. A fonte de verdade narrativa e PADRAO_VISUAL_DOCUMENTOS.md. Quando a minuta-mae tiver padrao institucional coerente, ela prevalece: campos com valor null significam PRESERVAR O QUE VEIO DA MINUTA.",
+  "padrao_base": {
+    "fonte_principal": "Calibri",
+    "fonte_fallback": "Arial",
+    "tamanhos_pt": {
+      "corpo": 12.0,
+      "titulo_documento": 14.0,
+      "titulo_1": 12.0,
+      "titulo_2": 12.0,
+      "titulo_3": 12.0,
+      "citacao": 11.0,
+      "nota": 10.0,
+      "tabela": 11.0,
+      "cabecalho_tabela": 11.0,
+      "assinatura": 12.0
+    },
+    "cores": {
+      "texto": "000000",
+      "titulo": "000000",
+      "auxiliar": "595959",
+      "sombreado_cabecalho_tabela": "D9D9D9",
+      "campo_pendente": "C00000"
+    },
+    "corpo": {
+      "alinhamento": "JUSTIFY",
+      "entrelinhas": 1.5,
+      "espaco_antes_pt": 0.0,
+      "espaco_depois_pt": 6.0,
+      "recuo_primeira_linha_cm": null,
+      "recuo_esquerdo_cm": null
+    },
+    "titulo_documento": {
+      "alinhamento": "CENTER",
+      "negrito": true,
+      "maiusculas": null,
+      "espaco_antes_pt": 0.0,
+      "espaco_depois_pt": 12.0,
+      "entrelinhas": 1.0,
+      "manter_com_proximo": true
+    },
+    "titulo_1": {
+      "alinhamento": "LEFT",
+      "negrito": true,
+      "italico": false,
+      "espaco_antes_pt": 12.0,
+      "espaco_depois_pt": 6.0,
+      "entrelinhas": 1.0,
+      "manter_com_proximo": true,
+      "manter_junto": true
+    },
+    "titulo_2": {
+      "alinhamento": "LEFT",
+      "negrito": true,
+      "italico": false,
+      "espaco_antes_pt": 10.0,
+      "espaco_depois_pt": 6.0,
+      "entrelinhas": 1.0,
+      "manter_com_proximo": true,
+      "manter_junto": true
+    },
+    "titulo_3": {
+      "alinhamento": "LEFT",
+      "negrito": true,
+      "italico": true,
+      "espaco_antes_pt": 8.0,
+      "espaco_depois_pt": 6.0,
+      "entrelinhas": 1.0,
+      "manter_com_proximo": true,
+      "manter_junto": true
+    },
+    "assinatura": {
+      "alinhamento": "CENTER",
+      "entrelinhas": 1.0,
+      "espaco_antes_pt": 0.0,
+      "espaco_depois_pt": 0.0,
+      "manter_junto": true,
+      "manter_com_proximo": true
+    },
+    "nota": {
+      "alinhamento": "JUSTIFY",
+      "entrelinhas": 1.0,
+      "espaco_antes_pt": 0.0,
+      "espaco_depois_pt": 6.0
+    },
+    "citacao_legal": {
+      "alinhamento": "JUSTIFY",
+      "entrelinhas": 1.0,
+      "recuo_esquerdo_cm": 4.0,
+      "espaco_antes_pt": 6.0,
+      "espaco_depois_pt": 6.0
+    },
+    "pagina": {
+      "ajustar_margens": false,
+      "largura_cm": 21.0,
+      "altura_cm": 29.7,
+      "margem_superior_cm": 4.23,
+      "margem_inferior_cm": 2.5,
+      "margem_esquerda_cm": 3.0,
+      "margem_direita_cm": 2.0,
+      "orientacao": "PORTRAIT",
+      "justificativa_ajustar_margens_false": "As margens superiores das minutas acomodam o brasao do cabecalho (imagem). Alterar margem move a mancha grafica em relacao ao timbre. Divergencia e reportada na auditoria, nunca corrigida em modo automatico."
+    },
+    "tabelas": {
+      "ajustar_largura_area_util": true,
+      "repetir_cabecalho": true,
+      "impedir_quebra_de_linha": true,
+      "margens_internas_cm": 0.1,
+      "alinhamento_vertical": "center",
+      "sombrear_cabecalho": true,
+      "normalizar_fonte_celulas": true,
+      "reduzir_fonte_minima_pt": 9.0,
+      "aplicar_bordas": false
+    },
+    "paginacao": {
+      "controle_viuvas_orfas": true,
+      "titulo_junto_ao_proximo": true,
+      "remover_quebras_duplicadas": true,
+      "remover_paragrafos_vazios_consecutivos": true,
+      "maximo_paragrafos_vazios_consecutivos": 1
+    },
+    "cabecalho_rodape": {
+      "modo": "protegido",
+      "recriar": false,
+      "comparar_com_minuta_mae": true
+    },
+    "campos": {
+      "marcadores": [
+        "{{",
+        "}}",
+        "[PREENCHER",
+        "(definir",
+        "____"
+      ],
+      "detectar_blocos_ou": true,
+      "detectar_texto_vermelho_como_pendencia": true
+    },
+    "equivalentes_de_fonte": {
+      "Calibri": [
+        "Carlito"
+      ],
+      "Arial": [
+        "Liberation Sans"
+      ],
+      "Times New Roman": [
+        "Liberation Serif"
+      ]
+    }
+  },
+  "diferencas_permitidas_padrao": [
+    "paragrafo_vazio_removido",
+    "espaco_duplicado_corrigido",
+    "tabulacao_de_alinhamento_removida",
+    "quebra_de_pagina_duplicada_removida"
+  ],
+  "perfis": {
+    "generico": {
+      "nome": "Documento administrativo generico",
+      "minuta_referencia": null,
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Corpo sem Recuo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Titulo 3",
+        "CMI Marcador",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Nota",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 3,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "numerados",
+      "excecoes": []
+    },
+    "dfd": {
+      "nome": "Documento de Formalizacao da Demanda",
+      "minuta_referencia": "05_minutas/DFD/DFD_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 2,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "quadro_de_itens",
+      "titulos": "numerados",
+      "excecoes": [
+        "A minuta usa quadros (tabelas) como estrutura de secoes; nao converter quadro em texto corrido."
+      ]
+    },
+    "dfd_pca": {
+      "nome": "DFD para o Plano de Contratacoes Anual",
+      "minuta_referencia": "05_minutas/DFD/DFD_PARA_PCA_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 2,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "quadro_de_itens",
+      "titulos": "numerados",
+      "excecoes": [
+        "Esta minuta usa Times New Roman e cabecalho/rodape em TEXTO (nao imagem), ao contrario do restante da biblioteca. O perfil declara fonte_principal propria para nao descaracterizar a minuta; a unificacao com o padrao Calibri depende de revisao expressa da minuta-mae."
+      ],
+      "fonte_principal": "Times New Roman"
+    },
+    "etp": {
+      "nome": "Estudo Tecnico Preliminar",
+      "minuta_referencia": "05_minutas/ETP/ETP_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Titulo 3",
+        "CMI Marcador",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Nota",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 3,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "quadro_de_requisitos",
+      "titulos": "numerados",
+      "excecoes": [
+        "A minuta usa notas de orientacao em vermelho (FF3333). Sao instrucoes de preenchimento: reportar como pendencia, nunca recolorir nem apagar em modo automatico."
+      ]
+    },
+    "tr": {
+      "nome": "Termo de Referencia",
+      "minuta_referencia": "05_minutas/TR/TR_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Titulo 3",
+        "CMI Item Numerado 1",
+        "CMI Item Numerado 2",
+        "CMI Marcador",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Nota",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 3,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "quadro_de_itens",
+      "titulos": "numerados",
+      "excecoes": [
+        "Blocos alternativos 'OU' devem ser resolvidos antes da formatacao final; se restarem, o documento nao pode ser marcado como pronto para assinatura."
+      ]
+    },
+    "pesquisa_precos": {
+      "nome": "Relatorio de Pesquisa de Precos",
+      "minuta_referencia": "05_minutas/PESQUISA_DE_PRECOS/PESQUISA_PRECOS_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Titulo 3",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Nota",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 3,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "cesta_de_precos",
+      "titulos": "numerados",
+      "excecoes": [
+        "A minuta tem estilos proprios 'Nivel 01', 'Nivel 2', 'Nivel 3' e 'Nota explicativa'. Sao mapeados para os estilos CMI equivalentes, sem excluir os originais.",
+        "Tabelas de cesta de precos podem exigir orientacao paisagem apenas na secao da tabela."
+      ]
+    },
+    "justificativa": {
+      "nome": "Justificativa (contratacao direta, preco, escolha do contratado)",
+      "minuta_referencia": "05_minutas/JUSTIFICATIVA_CONTRATACAO_DIRETA/JUSTIFICATIVA_CONTRATACAO_DIRETA_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Nota",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 2,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "numerados",
+      "excecoes": []
+    },
+    "certidao": {
+      "nome": "Certidao (recursos orcamentarios, dispensa de aviso)",
+      "minuta_referencia": "05_minutas/CERTIDAO_ORCAMENTARIA/CERTIDAO_RECURSOS_ORCAMENTARIOS_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Corpo",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "sem_numeracao",
+      "excecoes": [
+        "Documento curto: nao criar secoes nem subtitulos que nao existam na minuta."
+      ]
+    },
+    "autorizacao": {
+      "nome": "Autorizacao de abertura de processo",
+      "minuta_referencia": "05_minutas/AUTORIZACAO/AUTORIZACAO_ABERTURA_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "sem_numeracao",
+      "excecoes": []
+    },
+    "aviso": {
+      "nome": "Aviso de contratacao direta",
+      "minuta_referencia": "05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Item Numerado 1",
+        "CMI Item Numerado 2",
+        "CMI Marcador",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 3,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "numerados",
+      "excecoes": [
+        "A minuta usa numeracao automatica (List Paragraph + numPr). Nao converter lista automatica em texto manual."
+      ]
+    },
+    "ata_julgamento": {
+      "nome": "Ata de julgamento",
+      "minuta_referencia": "05_minutas/ATA_JULGAMENTO/ATA_JULGAMENTO_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 2,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_multiplo",
+      "tabelas": "ordem_de_classificacao",
+      "titulos": "numerados",
+      "excecoes": [
+        "O anexo de ordem de classificacao deve iniciar em nova pagina e manter cabecalho de tabela repetido."
+      ]
+    },
+    "homologacao": {
+      "nome": "Termo de adjudicacao e homologacao",
+      "minuta_referencia": "05_minutas/HOMOLOGACAO/TERMO_ADJUDICACAO_HOMOLOGACAO_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "sem_numeracao",
+      "excecoes": []
+    },
+    "ratificacao": {
+      "nome": "Termo de ratificacao",
+      "minuta_referencia": "05_minutas/RATIFICACAO/TERMO_RATIFICACAO_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "padrao",
+      "titulos": "sem_numeracao",
+      "excecoes": []
+    },
+    "ordem_fornecimento": {
+      "nome": "Ordem de fornecimento / servico",
+      "minuta_referencia": "05_minutas/ORDEM_FORNECIMENTO/ORDEM_FORNECIMENTO_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "quadro_de_itens",
+      "titulos": "sem_numeracao",
+      "excecoes": [
+        "Documento curto e operacional: sem sumario, sem secoes adicionais."
+      ]
+    },
+    "contrato": {
+      "nome": "Contrato administrativo",
+      "minuta_referencia": "05_minutas/CONTRATO/CONTRATO_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Item Numerado 1",
+        "CMI Item Numerado 2",
+        "CMI Item Numerado 3",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 3,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_multiplo",
+      "tabelas": "padrao",
+      "titulos": "clausulas_por_extenso",
+      "renumeracao_automatica": false,
+      "excecoes": [
+        "Clausulas contratuais NUNCA sao renumeradas automaticamente: exigem analise juridica (art. 31 destas regras).",
+        "Titulos de clausula usam numeracao por extenso (CLAUSULA PRIMEIRA, SEGUNDA...): nao converter para arabicos.",
+        "As minutas CONTRATO_COMPRAS e CONTRATO_SERVICOS_CONTINUOS usam texto vermelho para campos a preencher. E marcacao intencional: reportar, nunca recolorir em modo automatico.",
+        "As minutas de contrato de compras e servicos continuos contem comentarios (word/comments.xml). O documento final so pode ser entregue com alerta expresso."
+      ]
+    },
+    "termo_aditivo": {
+      "nome": "Termo aditivo",
+      "minuta_referencia": null,
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Item Numerado 1",
+        "CMI Assinatura",
+        "CMI Campo Pendente",
+        "CMI Citacao Legal"
+      ],
+      "niveis_numeracao": 2,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_multiplo",
+      "tabelas": "padrao",
+      "titulos": "clausulas_por_extenso",
+      "renumeracao_automatica": false,
+      "excecoes": [
+        "Nao existe minuta-mae de termo aditivo em 05_minutas/. O perfil so pode ser usado sobre documento ja existente; a GERACAO permanece bloqueada ate que a minuta seja criada."
+      ]
+    },
+    "recebimento": {
+      "nome": "Termo de recebimento e atesto",
+      "minuta_referencia": "05_minutas/RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_multiplo",
+      "tabelas": "padrao",
+      "titulos": "sem_numeracao",
+      "excecoes": []
+    },
+    "extrato": {
+      "nome": "Extrato para publicacao",
+      "minuta_referencia": "05_minutas/EXTRATO/EXTRATO_CONTRATACAO_DIRETA_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Corpo",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 0,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "linha_simples",
+      "tabelas": "nenhuma",
+      "titulos": "sem_numeracao",
+      "excecoes": [
+        "Documento curto, sem secoes, sem tabelas complexas e sem sumario. Fragmentacao em topicos e ERRO neste perfil."
+      ]
+    },
+    "mapa_riscos": {
+      "nome": "Mapa de riscos / analise de riscos",
+      "minuta_referencia": null,
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Identificacao",
+        "CMI Corpo",
+        "CMI Titulo 1",
+        "CMI Titulo 2",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Nota",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 2,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "bloco_centralizado",
+      "tabelas": "matriz_de_riscos",
+      "titulos": "numerados",
+      "excecoes": [
+        "Nao existe minuta-mae propria de mapa de riscos em 05_minutas/. Ha apenas a JUSTIFICATIVA_DISPENSA_ETP_RISCOS. A GERACAO permanece bloqueada; o perfil serve para formatar documento ja existente.",
+        "A matriz de riscos costuma ser larga: avaliar orientacao paisagem APENAS na secao da tabela."
+      ]
+    },
+    "declaracao": {
+      "nome": "Declaracao unificada / proposta comercial (modelos para terceiros)",
+      "minuta_referencia": "05_minutas/DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx",
+      "estilos_permitidos": [
+        "CMI Titulo do Documento",
+        "CMI Corpo",
+        "CMI Tabela",
+        "CMI Cabecalho de Tabela",
+        "CMI Assinatura",
+        "CMI Campo Pendente"
+      ],
+      "niveis_numeracao": 1,
+      "capa": false,
+      "sumario": false,
+      "orientacao": "PORTRAIT",
+      "paginacao_no_rodape": false,
+      "assinatura": "linha_simples",
+      "tabelas": "padrao",
+      "titulos": "sem_numeracao",
+      "excecoes": [
+        "Modelo destinado ao licitante/fornecedor: margens proprias (3,49/1,52/1,50/1,50 cm). Nao normalizar pagina."
+      ]
+    }
+  },
+  "mapa_minuta_para_perfil": {
+    "DFD_MINUTA_MAE.docx": "dfd",
+    "DFD_PARA_PCA_MINUTA_MAE.docx": "dfd_pca",
+    "ETP_MINUTA_MAE.docx": "etp",
+    "TR_MINUTA_MAE.docx": "tr",
+    "PESQUISA_PRECOS_MINUTA_MAE.docx": "pesquisa_precos",
+    "JUSTIFICATIVA_CONTRATACAO_DIRETA_MINUTA_MAE.docx": "justificativa",
+    "JUSTIFICATIVA_ESCOLHA_CONTRATADO_CURSO_MINUTA_MAE.docx": "justificativa",
+    "JUSTIFICATIVA_DISPENSA_ETP_RISCOS_MINUTA_MAE.docx": "justificativa",
+    "CERTIDAO_RECURSOS_ORCAMENTARIOS_MINUTA_MAE.docx": "certidao",
+    "AUTORIZACAO_ABERTURA_MINUTA_MAE.docx": "autorizacao",
+    "AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx": "aviso",
+    "ATA_JULGAMENTO_MINUTA_MAE.docx": "ata_julgamento",
+    "TERMO_ADJUDICACAO_HOMOLOGACAO_MINUTA_MAE.docx": "homologacao",
+    "TERMO_RATIFICACAO_MINUTA_MAE.docx": "ratificacao",
+    "ORDEM_FORNECIMENTO_MINUTA_MAE.docx": "ordem_fornecimento",
+    "CONTRATO_MINUTA_MAE.docx": "contrato",
+    "CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_MINUTA_MAE.docx": "contrato",
+    "CONTRATO_SERVICOS_CONTINUOS_MINUTA_MAE.docx": "contrato",
+    "TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx": "recebimento",
+    "EXTRATO_CONTRATACAO_DIRETA_MINUTA_MAE.docx": "extrato",
+    "DECLARACAO_UNIFICADA_MINUTA_MAE.docx": "declaracao",
+    "PROPOSTA_COMERCIAL_MINUTA_MAE.docx": "declaracao"
+  }
+}

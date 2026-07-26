@@ -1,0 +1,52 @@
+# Dependências do Módulo de Padronização e Formatação Documental
+#
+# O restante do repositório Charles roda apenas com a biblioteca padrão do
+# Python. Esta é a ÚNICA dependência externa, e é isolada neste arquivo de
+# propósito: quem não usa o módulo de padronização não precisa instalá-la.
+#
+# Por que python-docx:
+#   - manipular DOCX por substituição direta de XML é frágil e quebra
+#     numeração, estilos e relacionamentos de imagem (o brasão do cabeçalho);
+#   - python-docx preserva as partes do pacote que não são tocadas, o que é
+#     exatamente a garantia de que o timbre da Câmara sobrevive à formatação;
+#   - acesso direto ao OOXML continua sendo usado onde a biblioteca não cobre
+#     (cantSplit, tblHeader, keepNext), sempre encapsulado em
+#     scripts/docx_cmi/util_ooxml.py.
+#
+# Versão fixada: 1.2.0 (estável; validada contra as 22 minutas-mãe da Câmara).
+#
+# Instalação:
+#   python -m pip install -r requirements-docx.txt
+#
+# Sem esta dependência, os comandos do módulo param com mensagem explícita
+# (ver util_ooxml.exigir_python_docx) em vez de falhar de forma obscura.
+
+python-docx==1.2.0
+
+# ---------------------------------------------------------------------------
+# docxcompose — união dos DOCX do Aviso de Dispensa Completo
+#
+# Por que uma segunda dependência:
+#   - unir dois DOCX não é concatenar XML: é remapear relacionamentos de
+#     imagem, definições de numeração, ids de estilo e de seção. Emendar
+#     `word/document.xml` "na mão" quebra justamente o que o repositório
+#     protege — brasão do cabeçalho, listas numeradas do aviso e tabelas do TR;
+#   - python-docx não une documentos: ele abre, edita e salva UM pacote. Fazer
+#     a união com ele exigiria reimplementar o remapeamento inteiro;
+#   - docxcompose é a biblioteca madura desse nicho, construída sobre o mesmo
+#     python-docx — não substitui nem duplica a dependência atual.
+#
+# O que ele NÃO resolve, e está tratado em scripts/aviso_completo/unir_docx.py:
+#   - unificar o timbre entre partes de origens diferentes (`unificar_timbre`);
+#   - preservar a configuração de página de cada componente, que ele descarta
+#     ao anexar (`_fechar_secao`) — sem isso, um anexo em paisagem sairia em
+#     retrato, com a tabela cortada.
+#
+# Versão fixada: 2.2.0. Não usar a série 1.x: ela importa `pkg_resources`, que
+# não existe em setuptools >= 81, e quebra na importação.
+#
+# Sem esta dependência, só a montagem do aviso completo para, com mensagem
+# explícita (ver unir_docx.exigir_docxcompose). O módulo de padronização e o
+# restante do repositório continuam funcionando.
+
+docxcompose==2.2.0
