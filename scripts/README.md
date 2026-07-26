@@ -23,8 +23,9 @@ complementar, normalização de valores e montagem do relatório/cesta.
 | `pncp_consulta.py` | Busca contratações similares no PNCP (API pública de busca textual). |
 | `busca_web.py` | Busca complementar (Google CSE / SerpAPI) **ou** gera consultas/links para pesquisa manual. |
 | `normalizar_precos.py` | Converte moeda BR, recalcula unitário, detecta discrepantes (IQR), calcula média/mediana/menor. |
-| `cesta_precos.py` | **Orquestrador**: reúne as fontes, monta a cesta e gera o relatório com os 13 blocos + textos para a minuta-mãe. |
-| `exemplos/` | `entrada-exemplo.json`, `manual-exemplo.json`, `saida-exemplo.md`. |
+| `cesta_precos.py` | **Orquestrador da pesquisa de preços**: reúne as fontes, monta a cesta e gera o relatório com os 13 blocos + textos para a minuta-mãe. |
+| `contratacoes_similares.py` | **Orquestrador da pesquisa de contratações similares** (referência técnica/redacional — **não** é pesquisa de preços). |
+| `exemplos/` | `entrada-exemplo.json`, `manual-exemplo.json`, `saida-exemplo.md`, `demanda-exemplo.json`. |
 
 ## Variáveis de ambiente (todas opcionais)
 
@@ -64,6 +65,40 @@ python cesta_precos.py --processo exemplos/entrada-exemplo.json --manual exemplo
 python cesta_precos.py --processo exemplos/entrada-exemplo.json --pncp --web --manual exemplos/manual-exemplo.json
 ```
 
+### Pesquisa de contratações similares (referência técnica — NÃO é pesquisa de preços)
+
+```bash
+cd scripts
+
+# Consultas de descoberta em portais oficiais (modo similares, sem chave -> links manuais):
+python busca_web.py --objeto "forno de micro-ondas" --modo similares
+
+# Pesquisa completa (PNCP multi palavra-chave + plano de busca web) gravando a estrutura de pastas:
+python contratacoes_similares.py --demanda exemplos/demanda-exemplo.json --pncp --web --saida-dir saida/
+
+# Só o relatório inicial (stdout), sem rede:
+python contratacoes_similares.py --demanda exemplos/demanda-exemplo.json
+
+# Com referências já coletadas pelo humano:
+python contratacoes_similares.py --demanda exemplos/demanda-exemplo.json --manual referencias.json --saida relatorio.md
+```
+
+**Diferença entre as duas pesquisas:**
+
+| | Pesquisa de preços (`cesta_precos.py`) | Contratações similares (`contratacoes_similares.py`) |
+|---|---|---|
+| Objetivo | estimar o **valor** da contratação (cesta) | **referência técnica/redacional** (objeto, requisitos, obrigações) |
+| Modalidade | filtra por comparabilidade de preço | **não filtra** — modalidade é metadado |
+| Valores | conclui média/mediana/menor | apenas **contexto**, não conclui preço |
+| Saída | relatório + minuta-mãe de Pesquisa de Preços | relatório + fila de leitura + estrutura de pastas |
+| Minuta | preenche `05_minutas/PESQUISA_DE_PRECOS/` | alimenta DFD/ETP/TR — geração sempre pelas minutas de `05_minutas/` |
+
+O `contratacoes_similares.py` **reutiliza** `pncp_consulta.consultar_pncp_multi()` e
+`busca_web.buscar_web(..., modo="similares")`, funciona **sem chave de API** e nunca simula
+resultado nem inventa contratação/link/documento/valor. A leitura dos documentos e a confirmação de
+relevância são **humanas** (ver [`../07_checklists/roteiro-pesquisa-contratacoes-similares.md`](../07_checklists/roteiro-pesquisa-contratacoes-similares.md)
+e [`../07_checklists/regras-pesquisa-contratacoes-similares.md`](../07_checklists/regras-pesquisa-contratacoes-similares.md)).
+
 ## Notas
 
 - **Filtro de UF/município:** o PNCP pode ou não honrar o filtro na busca textual; confira sempre a
@@ -75,3 +110,58 @@ python cesta_precos.py --processo exemplos/entrada-exemplo.json --pncp --web --m
 - A saída é um **documento de trabalho** com marcadores `[PREENCHER]` e `[VALIDAÇÃO HUMANA]`. O
   texto final vai para a **minuta-mãe oficial** (`05_minutas/PESQUISA_DE_PRECOS/`), sem alterar
   estrutura/timbre.
+
+---
+
+## Gestão Documental dos Processos — `gestao_documental/`
+
+Camada final comum de **todos** os geradores: nenhum script escolhe onde salvar o documento na
+pasta do processo. A entrega é sempre por
+
+```python
+from registrar_documento import registrar_saida_gerada
+registrar_saida_gerada(processo, tipo_documento, arquivo_temporario,
+                       minuta_origem, motivo, status)
+```
+
+que compara o conteúdo com a versão vigente (**geração idêntica não cria versão**), arquiva a
+anterior em `90_HISTORICO/` com número de versão e carimbo de tempo, move o novo de forma atômica
+para o nome canônico (`TR.docx`, nunca `TR_final_2.docx`) e atualiza manifesto, log e painel.
+Documento **assinado ou publicado é imutável**; falha no meio desfaz tudo e preserva o anterior.
+
+| Script | Para quê |
+|---|---|
+| `iniciar_processo.py` | cria a pasta organizada e os arquivos de controle |
+| `registrar_documento.py` | **interface única** de gravação; primeira geração e substituição |
+| `substituir_documento.py` | troca a versão vigente, com motivo obrigatório |
+| `promover_documento.py` | aprovado / assinado / publicado e a **retificação** |
+| `arquivar_versao.py` | tira da área corrente preservando no histórico |
+| `restaurar_versao.py` | restaura conteúdo antigo como versão **nova** |
+| `importar_documento_externo.py` | quarentena → classificação → `03_DOCUMENTOS_EXTERNOS/` |
+| `classificar_documento.py` | tipo, origem, CNPJ, data e processo, com grau de confiança |
+| `detectar_duplicados.py` | duplicados exatos e prováveis — **não apaga nada** |
+| `migrar_processo.py` | organiza pasta antiga: plano primeiro, execução por cópia depois |
+| `limpar_temporarios.py` | só `99_TEMPORARIOS/` e locks vencidos |
+| `gerar_painel.py` | `PAINEL_PROCESSO.md`, derivado dos JSON |
+| `validar_processo.py` | manifesto × arquivos × histórico; sai com 1 havendo erro |
+| `seguranca_repositorio.py` | repositório público, `.gitignore`, documentos sensíveis |
+| `manifesto.py` `nomes_arquivos.py` `hashes.py` `locks.py` `transacoes.py` | núcleo |
+
+**Sem dependência externa** — só a biblioteca padrão. O texto de um DOCX é lido abrindo o pacote
+OOXML diretamente; `python-docx` fica restrito a `docx_cmi/`.
+
+Integração já ligada nos geradores existentes:
+
+```bash
+# padronização documental entrega o DOCX formatado ao processo
+python scripts/docx_cmi/formatar_docx.py --entrada bruto.docx --saida TR.docx \
+  --perfil tr --registrar-em-processo PA_031_2026 --tipo-documento TR
+
+# aviso completo registra o documento único (componentes NÃO são duplicados)
+python scripts/aviso_completo/montar_aviso_completo.py --processo <pasta> \
+  --registrar-em-processo PA_031_2026
+```
+
+Documentação: [`../10_gestao_documental/README.md`](../10_gestao_documental/README.md),
+[`../07_checklists/roteiro-gestao-documental-processo.md`](../07_checklists/roteiro-gestao-documental-processo.md)
+e [`../07_checklists/regras-gestao-documental-processo.md`](../07_checklists/regras-gestao-documental-processo.md).

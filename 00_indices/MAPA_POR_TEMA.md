@@ -51,6 +51,15 @@ tags: [indice, temas]
 - [Roteiro - Padronização e Formatação Documental](../07_checklists/roteiro-padronizacao-documental.md) — tipo: checklist; fonte: base Charles
 - [Regras - Padronização e Formatação Documental](../07_checklists/regras-padronizacao-documental.md) — tipo: checklist; fonte: base Charles
 
+## gestao documental dos processos em andamento
+- [Módulo de Gestão Documental - README](../10_gestao_documental/README.md) — tipo: norma_interna; fonte: base Charles
+- [Regras da Gestão Documental](../10_gestao_documental/REGRAS_GESTAO_DOCUMENTAL.md) — tipo: norma_interna; fonte: base Charles
+- [Convenção de Nomes](../10_gestao_documental/CONVENCAO_NOMES.md) — tipo: norma_interna; fonte: base Charles
+- [Ciclo de Vida dos Documentos](../10_gestao_documental/CICLO_DE_VIDA_DOCUMENTOS.md) — tipo: norma_interna; fonte: base Charles
+- [Segurança e Privacidade dos Processos](../10_gestao_documental/SEGURANCA_E_PRIVACIDADE.md) — tipo: norma_interna; fonte: base Charles
+- [Roteiro - Gestão Documental do Processo](../07_checklists/roteiro-gestao-documental-processo.md) — tipo: checklist; fonte: base Charles
+- [Regras - Gestão Documental do Processo](../07_checklists/regras-gestao-documental-processo.md) — tipo: checklist; fonte: base Charles
+
 ## aviso de dispensa completo (aviso + anexos)
 - [Roteiro - Gerar o Aviso de Dispensa Completo](../07_checklists/roteiro-gerar-aviso-dispensa-completo.md) — tipo: checklist; fonte: base Charles
 - [Regras - Aviso de Dispensa Completo](../07_checklists/regras-aviso-dispensa-completo.md) — tipo: checklist; fonte: base Charles
