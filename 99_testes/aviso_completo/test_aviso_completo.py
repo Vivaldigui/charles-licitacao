@@ -621,3 +621,92 @@ def test_relatorio_tem_todas_as_secoes_do_escopo(montagem_sem_contrato):
         assert f"## {titulo}" in markdown
     assert "Conferência humana final obrigatória" in markdown
     assert (saida / "relatorios" / "VALIDACAO_AVISO_COMPLETO.json").exists()
+
+
+def test_sem_folha_em_branco_entre_o_aviso_e_o_anexo_i(tmp_path):
+    """
+    O Anexo I vinha precedido de uma quebra de página herdada da minuta. Somada
+    à quebra de seção que fecha o aviso, ela produzia uma folha em branco entre
+    a assinatura do Presidente e o Anexo I.
+    """
+    from util_ooxml import quebras_de_pagina
+
+    aviso = tmp_path / "aviso.docx"
+    habilitacao = tmp_path / "habilitacao.docx"
+    _, gerado = unir_docx.dividir_aviso(
+        localizar_componentes.MINUTA_AVISO, aviso, habilitacao, Registro())
+
+    assert gerado is not None
+    primeiro = Document(str(gerado)).paragraphs[0]
+    assert quebras_de_pagina(primeiro) == 0
+
+
+def test_ultimo_anexo_nao_abre_secao_vazia(tmp_path):
+    """Quebra de seção no último componente deixaria uma folha em branco no fim."""
+    from util_ooxml import qn
+
+    partes = []
+    for indice in range(2):
+        documento = Document()
+        documento.add_paragraph(f"Conteúdo do componente {indice}.")
+        caminho = tmp_path / f"parte{indice}.docx"
+        documento.save(str(caminho))
+        partes.append(caminho)
+
+    destino = tmp_path / "unido.docx"
+    unir_docx.unir(localizar_componentes.MINUTA_AVISO, partes, destino, Registro())
+
+    documento = Document(str(destino))
+    corpo = documento.element.body
+    # Uma seção por componente: o mestre e a primeira parte fecham a sua; a
+    # última é fechada pelo sectPr de corpo. Nenhuma seção a mais.
+    assert len(list(corpo.iter(qn("w:sectPr")))) == len(partes) + 1
+
+
+def test_todas_as_secoes_usam_as_margens_do_aviso(tmp_path):
+    """
+    Componente com margens de documento em branco jogava o texto por cima do
+    rodapé timbrado. O tamanho da página continua sendo o do componente; as
+    margens passam a ser as do aviso, que reservam espaço para o timbre.
+    """
+    from util_ooxml import qn
+
+    simples = Document()
+    simples.add_paragraph("Componente com margens padrão do Word.")
+    caminho = tmp_path / "simples.docx"
+    simples.save(str(caminho))
+
+    destino = tmp_path / "unido.docx"
+    unir_docx.unir(localizar_componentes.MINUTA_AVISO, [caminho], destino,
+                   Registro())
+
+    def margens(elemento):
+        pgMar = elemento.find(qn("w:pgMar"))
+        return None if pgMar is None else {
+            k.split("}")[-1]: v for k, v in pgMar.attrib.items()}
+
+    corpo = Document(str(destino)).element.body
+    encontradas = [margens(s) for s in corpo.iter(qn("w:sectPr"))]
+    assert encontradas and all(m == encontradas[0] for m in encontradas)
+
+
+def test_quadro_de_itens_cabe_na_largura_util(tmp_path):
+    """
+    A especificação do TR vem inteira na célula de descrição. Com as colunas
+    repartidas por igual, um único item ocupava três páginas.
+    """
+    caminho = tr_sintetico(tmp_path / "tr.docx", [
+        ("1", "Especificação longa. " * 60, "Unidade", "1"),
+    ])
+    dados = extrair_dados_tr.extrair(caminho, Registro())
+    destino, _ = gerar_modelo_proposta.gerar(
+        MINUTA_PROPOSTA, tmp_path / "proposta.docx", {}, dados, Registro())
+
+    documento = Document(str(destino))
+    quadro = [t for t in documento.tables
+              if "DESCRIÇÃO" in " ".join(c.text for c in t.rows[0].cells).upper()][0]
+    larguras = [c.width for c in quadro.columns]
+    assert all(l is not None for l in larguras)
+    # A descrição é a coluna larga; nenhuma outra chega perto dela.
+    assert larguras[1] == max(larguras)
+    assert larguras[1] > sum(larguras) * 0.35

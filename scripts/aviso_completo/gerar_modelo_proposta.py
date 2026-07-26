@@ -58,6 +58,12 @@ CAMPOS_DO_ITEM = ("ITEM", "DESCRICAO_ITEM", "UNIDADE", "QUANTIDADE")
 PREENCHER_LITERAL = "[PREENCHER]"
 
 
+def _largura_util_twips(documento) -> int:
+    """Largura entre as margens da primeira seção, em twips."""
+    secao = documento.sections[0]
+    return int((secao.page_width - secao.left_margin - secao.right_margin) / 635)
+
+
 def _quadro_de_itens(documento):
     """A tabela cuja linha-modelo carrega os marcadores de item."""
     for tabela in documento.tables:
@@ -90,6 +96,56 @@ def _replicar_linhas(tabela, modelo, quantidade: int) -> list:
             for tr in list(tabela._tbl)[indice:indice + quantidade]
         ]
     return linhas
+
+
+# Proporção das colunas do quadro de itens. A minuta foi desenhada para uma
+# descrição curta; o TR traz a especificação técnica inteira na mesma célula.
+# Com as colunas repartidas por igual, a descrição vira uma coluna de duas
+# palavras por linha e o item ocupa três páginas. As proporções abaixo são
+# formatação do anexo gerado — a minuta não é alterada.
+PROPORCAO_COLUNAS = {
+    "ITEM": 0.06,
+    "DESCRIÇÃO": 0.44,
+    "UND": 0.10,
+    "QNTD": 0.08,
+    "MARCA": 0.10,
+    "VALOR UNITÁRIO": 0.11,
+    "VALOR TOTAL": 0.11,
+}
+
+
+def _ajustar_larguras(tabela, largura_total_twips: int) -> bool:
+    """Redistribui as colunas do quadro de itens conforme o conteúdo real."""
+    from docx.shared import Twips
+
+    cabecalhos = [c.text.strip().upper() for c in tabela.rows[0].cells]
+    proporcoes = [PROPORCAO_COLUNAS.get(nome) for nome in cabecalhos]
+    if any(p is None for p in proporcoes):
+        return False
+
+    larguras = [int(largura_total_twips * p) for p in proporcoes]
+    tabela.autofit = False
+    for indice, largura in enumerate(larguras):
+        if indice < len(tabela.columns):
+            tabela.columns[indice].width = Twips(largura)
+    for linha in tabela.rows:
+        for indice, celula in enumerate(linha.cells):
+            if indice < len(larguras):
+                celula.width = Twips(larguras[indice])
+    return True
+
+
+def _manter_cabecalho_com_primeira_linha(tabela) -> None:
+    """
+    Impede que a linha de cabeçalho fique sozinha no fim de uma página.
+
+    Sem isso, um item com especificação longa empurra a primeira linha de dados
+    para a página seguinte e deixa o cabeçalho do quadro isolado, numa folha em
+    que não há mais nada.
+    """
+    for celula in tabela.rows[0].cells:
+        for paragrafo in celula.paragraphs:
+            paragrafo.paragraph_format.keep_with_next = True
 
 
 def _preencher_linha(linha, item: ItemTR) -> None:
@@ -210,6 +266,15 @@ def gerar(minuta: Path, destino: Path, dados_administracao: dict[str, str],
         linhas = _replicar_linhas(tabela, modelo, len(itens))
         for linha, item in zip(linhas, itens):
             _preencher_linha(linha, item)
+        if _ajustar_larguras(tabela, _largura_util_twips(documento)):
+            registro.informacao(
+                ETAPA,
+                "Colunas do quadro de itens redistribuídas para acomodar a "
+                "especificação vinda do TR (formatação do anexo gerado; a "
+                "minuta não foi alterada).",
+                origem=minuta.name,
+            )
+        _manter_cabecalho_com_primeira_linha(tabela)
         registro.informacao(
             ETAPA,
             f"Quadro do modelo de proposta gerado com {len(itens)} item(ns) do TR, "

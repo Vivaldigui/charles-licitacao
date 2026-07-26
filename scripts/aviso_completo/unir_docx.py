@@ -27,10 +27,10 @@ if __package__ in (None, ""):
 
 from ocorrencias import Registro
 from util_ooxml import (
-    W_NS,
     assinatura_semantica_cabecalho,
     exigir_python_docx,
     qn,
+    remover_quebras_de_pagina,
     texto_paragrafo,
 )
 
@@ -123,6 +123,13 @@ def dividir_aviso(aviso: Path, destino_aviso: Path, destino_habilitacao: Path,
 
     habilitacao = Document(str(aviso))
     _remover_intervalo(habilitacao, 0, indice)
+    # A quebra de página que separava o Anexo I do corpo do aviso ficou como
+    # primeira coisa do componente. No arquivo separado ela abriria com uma
+    # página em branco; no documento único, somada à quebra de seção que fecha
+    # o aviso, produziria duas quebras seguidas — e uma folha vazia entre a
+    # assinatura do Presidente e o Anexo I.
+    for paragrafo in habilitacao.paragraphs[:1]:
+        remover_quebras_de_pagina(paragrafo)
     destino_habilitacao.parent.mkdir(parents=True, exist_ok=True)
     habilitacao.save(str(destino_habilitacao))
 
@@ -165,6 +172,7 @@ def inserir_titulo_anexo(caminho: Path, destino: Path, rotulo: str,
     exigir_python_docx()
     from docx import Document
     from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.shared import Pt
 
     documento = Document(str(caminho))
     if _ja_titulado(documento, rotulo):
@@ -184,6 +192,10 @@ def inserir_titulo_anexo(caminho: Path, destino: Path, rotulo: str,
     paragrafo.alignment = WD_ALIGN_PARAGRAPH.CENTER
     paragrafo.paragraph_format.page_break_before = True
     paragrafo.paragraph_format.keep_with_next = True
+    # Sem o respiro, o rótulo encosta na linha do timbre: o componente começa
+    # no topo da área útil, que no aviso fica logo abaixo do cabeçalho.
+    paragrafo.paragraph_format.space_before = Pt(18)
+    paragrafo.paragraph_format.space_after = Pt(12)
     for run in paragrafo.runs:
         run.bold = True
 
@@ -342,7 +354,40 @@ def unificar_timbre(documento, registro: Registro) -> int:
 # União
 # --------------------------------------------------------------------------- #
 
-def _fechar_secao(caminho: Path, destino: Path) -> Path:
+def _margens_do_mestre(caminho: Path):
+    """`w:pgMar` da minuta do aviso — quem define onde o timbre começa e acaba."""
+    import copy
+
+    from docx import Document
+
+    sectPr = Document(str(caminho)).element.body.find(qn("w:sectPr"))
+    if sectPr is None:
+        return None
+    pgMar = sectPr.find(qn("w:pgMar"))
+    return copy.deepcopy(pgMar) if pgMar is not None else None
+
+
+def _adotar_margens(sectPr, pgMar) -> None:
+    """
+    Faz a seção usar as margens do aviso, preservando o tamanho da página.
+
+    As margens do aviso reservam espaço para o cabeçalho e o rodapé oficiais.
+    Um componente com margens de documento em branco — caso das minutas mais
+    simples — jogaria o texto por cima do rodapé timbrado. Já o tamanho e a
+    orientação da página continuam sendo os do componente: é o que mantém um
+    anexo em paisagem em paisagem.
+    """
+    import copy
+
+    if pgMar is None:
+        return
+    atual = sectPr.find(qn("w:pgMar"))
+    if atual is not None:
+        sectPr.remove(atual)
+    sectPr.append(copy.deepcopy(pgMar))
+
+
+def _fechar_secao(caminho: Path, destino: Path, pgMar=None) -> Path:
     """
     Copia o componente fixando a própria configuração de página em uma quebra
     de seção de parágrafo.
@@ -374,10 +419,38 @@ def _fechar_secao(caminho: Path, destino: Path) -> Path:
         pPr = paragrafo.makeelement(qn("w:pPr"), {})
         paragrafo.insert(0, pPr)
     if pPr.find(qn("w:sectPr")) is None:
-        pPr.append(copy.deepcopy(sectPr))
+        copia = copy.deepcopy(sectPr)
+        _adotar_margens(copia, pgMar)
+        pPr.append(copia)
 
     documento.save(str(destino))
     return destino
+
+
+def _adotar_pagina_da_ultima_parte(documento, ultima: Path, pgMar=None) -> None:
+    """
+    Faz a seção final do documento montado usar a página do último componente.
+
+    O docxcompose mantém o `sectPr` de corpo do mestre. Como o último anexo não
+    ganha quebra de seção própria (para não sobrar folha em branco), é o
+    `sectPr` de corpo que precisa carregar a configuração dele — caso contrário
+    uma declaração em paisagem, por exemplo, sairia em retrato.
+    """
+    import copy
+
+    from docx import Document
+
+    body = documento.element.body
+    atual = body.find(qn("w:sectPr"))
+    origem = Document(str(ultima)).element.body.find(qn("w:sectPr"))
+    if atual is None or origem is None:
+        return
+    novo = copy.deepcopy(origem)
+    for tag in ("w:headerReference", "w:footerReference"):
+        for referencia in list(novo.findall(qn(tag))):
+            novo.remove(referencia)
+    _adotar_margens(novo, pgMar)
+    body.replace(atual, novo)
 
 
 def unir(mestre: Path, partes: list[Path], destino: Path,
@@ -390,16 +463,26 @@ def unir(mestre: Path, partes: list[Path], destino: Path,
     from docx import Document
 
     mestre = Path(mestre)
+    pgMar = _margens_do_mestre(mestre)
     with tempfile.TemporaryDirectory() as temporario:
         area = Path(temporario)
         preparado = _fechar_secao(mestre, area / f"00_{mestre.name}")
         documento = Document(str(preparado))
         composer = Composer(documento)
+
+        # O último componente não recebe quebra de seção de parágrafo: ele é
+        # fechado pelo `sectPr` de corpo do documento, logo abaixo. Fechá-lo
+        # também aqui abriria uma seção vazia — uma folha em branco no fim do
+        # aviso publicado.
         for indice, parte in enumerate(partes, start=1):
             parte = Path(parte)
-            composer.append(Document(str(
-                _fechar_secao(parte, area / f"{indice:02d}_{parte.name}"))))
+            if indice < len(partes):
+                parte = _fechar_secao(parte, area / f"{indice:02d}_{parte.name}",
+                                      pgMar)
+            composer.append(Document(str(parte)))
 
+        if partes:
+            _adotar_pagina_da_ultima_parte(composer.doc, Path(partes[-1]), pgMar)
         unificar_timbre(composer.doc, registro)
 
         destino.parent.mkdir(parents=True, exist_ok=True)

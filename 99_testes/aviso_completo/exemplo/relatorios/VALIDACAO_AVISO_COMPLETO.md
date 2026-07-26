@@ -62,6 +62,7 @@
 
 ## Validação do modelo de proposta
 
+- INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).
 - INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.
 - INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.
 - INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.
@@ -339,6 +340,8 @@ Nenhum campo pendente detectado.
 - Parágrafo 130 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 131 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 132 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 132 (titulo_1): space_before 18.0pt -> 12.0pt
+- Parágrafo 132 (titulo_1): space_after 12.0pt -> 6.0pt
 - Parágrafo 132 (titulo_1): keep_lines
 - Parágrafo 133 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 133 (corpo): tamanho 18.0pt -> 12.0pt
@@ -651,6 +654,8 @@ Nenhum campo pendente detectado.
 - Parágrafo 351 (corpo): entrelinhas 1.15 -> 1.5
 - Parágrafo 351 (corpo): space_after 0.0pt -> 6.0pt
 - Parágrafo 352 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 352 (titulo_1): space_before 18.0pt -> 12.0pt
+- Parágrafo 352 (titulo_1): space_after 12.0pt -> 6.0pt
 - Parágrafo 352 (titulo_1): keep_lines
 - Parágrafo 353 (identificacao): estilo Normal -> CMI Identificacao
 - Parágrafo 354 (assinatura): estilo Normal -> CMI Assinatura
@@ -673,6 +678,8 @@ Nenhum campo pendente detectado.
 - Parágrafo 366 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 367 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 368 (titulo_1): estilo Heading 1 -> CMI Titulo 1
+- Parágrafo 368 (titulo_1): space_before 18.0pt -> 12.0pt
+- Parágrafo 368 (titulo_1): space_after 12.0pt -> 6.0pt
 - Parágrafo 368 (titulo_1): keep_lines
 - Parágrafo 369 (identificacao): estilo Normal -> CMI Identificacao
 - Parágrafo 370 (assinatura): estilo Normal -> CMI Assinatura
@@ -779,25 +786,18 @@ Nenhum campo pendente detectado.
 - Tabela 1: estilo Normal -> CMI Tabela
 - Tabela 1: estilo Normal -> CMI Tabela
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Cabecalho de Tabela
-- Tabela 2: keep_with_next
 - Tabela 2: keep_lines
 - Tabela 2: estilo Normal -> CMI Tabela
 - Tabela 2: estilo Normal -> CMI Tabela
@@ -817,7 +817,7 @@ Nenhum campo pendente detectado.
 - Tabela 1: margens internas uniformizadas em 0.1 cm.
 - Tabela 1: alinhamento vertical 'center' em 14 célula(s).
 - Tabela 1: sombreamento D9D9D9 aplicado ao cabeçalho (2 célula(s)).
-- Tabela 2: largura reescalada de 10220 para 9807 twips (área útil 9810)
+- Tabela 2: largura reescalada de 10218 para 9808 twips (área útil 9810)
 - Tabela 2: 2 linha(s) marcadas para não dividir entre páginas.
 - Tabela 2: cabeçalho passa a repetir nas páginas.
 - Tabela 2: margens internas uniformizadas em 0.1 cm.
@@ -881,6 +881,7 @@ Nenhum campo pendente detectado.
 - [INFORMAÇÃO] extração do Termo de Referência: 1 item(ns) extraído(s) do quadro do TR (1 linha(s) de dados).
 - [INFORMAÇÃO] localização de componentes: Ficha de uso do aviso lida: 05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md.
 - [INFORMAÇÃO] localização de componentes: Instrumento definido como 'ordem_fornecimento' (fonte: campo estruturado do processo (manifesto)). Minuta de contrato não será anexada.
+- [INFORMAÇÃO] modelo de proposta: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).
 - [INFORMAÇÃO] modelo de proposta: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.
 - [INFORMAÇÃO] modelo de proposta: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.
 - [INFORMAÇÃO] modelo de proposta: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.
@@ -888,10 +889,10 @@ Nenhum campo pendente detectado.
 - [INFORMAÇÃO] montagem: Fundamento legal ajustado ao texto da minuta: 'art. 75, inciso II, da Lei nº 14.133/2021' → '75, inciso II, da Lei nº 14.133/2021' (a minuta já traz 'art.' antes do campo).
 - [INFORMAÇÃO] montagem: Aviso: campos preenchidos — CRITERIO_JULGAMENTO, DATA, DATA_FIM_PROPOSTAS, DATA_INICIO_PROPOSTAS, FUNDAMENTO_LEGAL, NOME_PRESIDENTE, NUMERO_AVISO, OBJETO.
 - [INFORMAÇÃO] montagem: Anexo I: campos preenchidos — nenhum.
-- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 727 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
+- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 726 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
 - [INFORMAÇÃO] montagem do DOCX: Anexo I separado do corpo do aviso a partir da própria minuta-mãe (nenhum Anexo I novo foi criado).
 - [INFORMAÇÃO] montagem do DOCX: O Anexo I mantém o título que a minuta-mãe já traz ('DOCUMENTAÇÃO EXIGIDA PARA HABILITAÇÃO', em caixa de texto) e não recebe o rótulo 'ANEXO I — ...' aplicado aos demais anexos: acrescentá-lo duplicaria o título do anexo. Uniformizar isso depende de revisão da minuta-mãe.
-- [INFORMAÇÃO] montagem do DOCX: 4 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.
+- [INFORMAÇÃO] montagem do DOCX: 2 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.
 - [INFORMAÇÃO] montagem do DOCX: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx
 - [INFORMAÇÃO] numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA
 - [INFORMAÇÃO] numeração dos anexos: Declaração conjunta numerada como ANEXO IV (não há minuta de contrato).

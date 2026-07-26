@@ -82,6 +82,7 @@
     "INFORMAÇÃO — montagem do DOCX [unido.docx]: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx"
   ],
   "proposta": [
+    "INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).",
     "INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.",
     "INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.",
     "INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.",
@@ -339,6 +340,8 @@
     "Parágrafo 130 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 131 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 132 (titulo_1): estilo Heading 1 -> CMI Titulo 1",
+    "Parágrafo 132 (titulo_1): space_before 18.0pt -> 12.0pt",
+    "Parágrafo 132 (titulo_1): space_after 12.0pt -> 6.0pt",
     "Parágrafo 132 (titulo_1): keep_lines",
     "Parágrafo 133 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 133 (corpo): tamanho 18.0pt -> 12.0pt",
@@ -651,6 +654,8 @@
     "Parágrafo 351 (corpo): entrelinhas 1.15 -> 1.5",
     "Parágrafo 351 (corpo): space_after 0.0pt -> 6.0pt",
     "Parágrafo 352 (titulo_1): estilo Heading 1 -> CMI Titulo 1",
+    "Parágrafo 352 (titulo_1): space_before 18.0pt -> 12.0pt",
+    "Parágrafo 352 (titulo_1): space_after 12.0pt -> 6.0pt",
     "Parágrafo 352 (titulo_1): keep_lines",
     "Parágrafo 353 (identificacao): estilo Normal -> CMI Identificacao",
     "Parágrafo 354 (assinatura): estilo Normal -> CMI Assinatura",
@@ -673,6 +678,8 @@
     "Parágrafo 366 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 367 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 368 (titulo_1): estilo Heading 1 -> CMI Titulo 1",
+    "Parágrafo 368 (titulo_1): space_before 18.0pt -> 12.0pt",
+    "Parágrafo 368 (titulo_1): space_after 12.0pt -> 6.0pt",
     "Parágrafo 368 (titulo_1): keep_lines",
     "Parágrafo 369 (identificacao): estilo Normal -> CMI Identificacao",
     "Parágrafo 370 (assinatura): estilo Normal -> CMI Assinatura",
@@ -779,25 +786,18 @@
     "Tabela 1: estilo Normal -> CMI Tabela",
     "Tabela 1: estilo Normal -> CMI Tabela",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Cabecalho de Tabela",
-    "Tabela 2: keep_with_next",
     "Tabela 2: keep_lines",
     "Tabela 2: estilo Normal -> CMI Tabela",
     "Tabela 2: estilo Normal -> CMI Tabela",
@@ -817,7 +817,7 @@
     "Tabela 1: margens internas uniformizadas em 0.1 cm.",
     "Tabela 1: alinhamento vertical 'center' em 14 célula(s).",
     "Tabela 1: sombreamento D9D9D9 aplicado ao cabeçalho (2 célula(s)).",
-    "Tabela 2: largura reescalada de 10220 para 9807 twips (área útil 9810)",
+    "Tabela 2: largura reescalada de 10218 para 9808 twips (área útil 9810)",
     "Tabela 2: 2 linha(s) marcadas para não dividir entre páginas.",
     "Tabela 2: cabeçalho passa a repetir nas páginas.",
     "Tabela 2: margens internas uniformizadas em 0.1 cm.",
@@ -859,6 +859,7 @@
     "99_testes\\aviso_completo\\exemplo\\saida\\anexos_separados\\04_ANEXO_III_MODELO_DE_PROPOSTA_COMERCIAL.pdf",
     "99_testes\\aviso_completo\\exemplo\\saida\\anexos_separados\\05_ANEXO_IV_DECLARACAO_CONJUNTA.pdf"
   ],
+  "documento_final": "99_testes\\aviso_completo\\exemplo\\saida\\AVISO_DISPENSA_COMPLETO.docx",
   "resumo_resultado": [
     "Erros bloqueantes: 0",
     "Alertas: 2",
@@ -905,6 +906,12 @@
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "modelo de proposta",
+      "mensagem": "Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).",
+      "origem": "PROPOSTA_COMERCIAL_MINUTA_MAE.docx"
+    },
+    {
+      "severidade": "INFORMAÇÃO",
+      "etapa": "modelo de proposta",
       "mensagem": "Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.",
       "origem": "PROPOSTA_COMERCIAL_MINUTA_MAE.docx"
     },
@@ -947,7 +954,7 @@
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "montagem",
-      "mensagem": "Padronização aplicada (perfil 'aviso'): 727 correção(ões); status EXIGE CONFERÊNCIA HUMANA.",
+      "mensagem": "Padronização aplicada (perfil 'aviso'): 726 correção(ões); status EXIGE CONFERÊNCIA HUMANA.",
       "origem": null
     },
     {
@@ -965,7 +972,7 @@
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "montagem do DOCX",
-      "mensagem": "4 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.",
+      "mensagem": "2 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.",
       "origem": null
     },
     {
@@ -1033,6 +1040,6 @@
     "ERRO BLOQUEANTE": 0,
     "ALERTA": 2,
     "PENDÊNCIA HUMANA": 1,
-    "INFORMAÇÃO": 24
+    "INFORMAÇÃO": 25
   }
 }
