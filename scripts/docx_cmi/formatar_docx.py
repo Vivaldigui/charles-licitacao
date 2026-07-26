@@ -548,6 +548,14 @@ def construir_parser() -> argparse.ArgumentParser:
     parser.add_argument("--revisar-minuta-mae", action="store_true",
                         help="MODO REVISÃO: altera a minuta-mãe com backup, "
                              "versionamento e changelog.")
+    parser.add_argument("--registrar-em-processo", default=None, metavar="PROCESSO",
+                        help="entrega o documento formatado à Gestão Documental "
+                             "(scripts/gestao_documental) como versão vigente.")
+    parser.add_argument("--tipo-documento", default=None,
+                        help="tipo documental do registro (TR, DFD, CONTRATO...). "
+                             "Exigido por --registrar-em-processo.")
+    parser.add_argument("--motivo-registro", default=None,
+                        help="motivo da nova versão no manifesto do processo.")
     parser.add_argument("--saida-relatorio", default=None,
                         help="Caminho do relatório Markdown (JSON irmão automático).")
     return parser
@@ -616,7 +624,64 @@ def main(argv: Optional[list[str]] = None) -> int:
 
     print(f"\nArquivo final: {diagnostico.get('arquivo_final') or '(não gravado)'}")
     print(f"Status: {diagnostico['status']}")
+
+    if args.registrar_em_processo:
+        codigo = _registrar_no_processo(args, diagnostico)
+        if codigo:
+            return codigo
     return 0 if diagnostico.get("arquivo_final") or args.somente_auditoria else 1
+
+
+def _registrar_no_processo(args, diagnostico: dict) -> int:
+    """
+    Entrega o documento formatado à Gestão Documental (item 26 do escopo).
+
+    A formatação não escolhe onde o documento fica: ela produz o arquivo e o
+    módulo de gestão decide se ele vira a versão vigente, arquiva a anterior e
+    atualiza manifesto, log e painel. Documento não gravado (padronização
+    bloqueada) não é registrado — não se versiona o que não existe.
+    """
+    arquivo_final = diagnostico.get("arquivo_final")
+    if not arquivo_final:
+        print("[AVISO] Nada a registrar: a padronização não gravou arquivo final.",
+              file=sys.stderr)
+        return 1
+    if not args.tipo_documento:
+        print("[ERRO] --registrar-em-processo exige --tipo-documento (ex.: TR).",
+              file=sys.stderr)
+        return 2
+
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "gestao_documental"))
+    from registrar_documento import registrar_saida_gerada  # noqa: E402
+
+    status_padronizacao = str(diagnostico.get("status") or "")
+    try:
+        resultado = registrar_saida_gerada(
+            args.registrar_em_processo,
+            args.tipo_documento,
+            arquivo_final,
+            minuta_origem=args.minuta_mae,
+            motivo=args.motivo_registro or "padronização documental aplicada",
+            validacao={
+                "conteudo": (
+                    "aprovado"
+                    if diagnostico.get("validacao_conteudo", {}).get("conteudo_preservado")
+                    else "nao_executada"
+                ),
+                "formatacao": (
+                    "aprovado" if status_padronizacao.upper().startswith("PADRONIZA")
+                    and "RESSALVA" not in status_padronizacao.upper()
+                    else "aprovado_com_ressalvas"
+                ),
+            },
+        )
+    except Exception as exc:  # noqa: BLE001 - a mensagem é o produto do CLI
+        print(f"[ERRO] Registro no processo recusado: {exc}", file=sys.stderr)
+        return 1
+
+    print()
+    print(resultado.texto())
+    return 0
 
 
 def _modo_lote(args, comuns) -> int:

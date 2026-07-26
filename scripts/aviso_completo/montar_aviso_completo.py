@@ -543,6 +543,10 @@ def _dados_relatorio(registro: Registro, manifesto: dict[str, Any],
             "Timbre preservado": validacao_final.get("timbre", {}).get("intacto"),
         },
         "arquivos": arquivos,
+        # Caminho do DOCX único, para quem precisa registrá-lo no processo
+        # (Gestão Documental, item 26 do escopo daquele módulo).
+        "documento_final": (str(extras["documento_final"])
+                            if extras.get("documento_final") else None),
         "resumo_resultado": _resumo(registro, status),
         "ocorrencias": registro.como_lista(),
         "contagem": registro.contagem(),
@@ -599,6 +603,11 @@ def construir_parser() -> argparse.ArgumentParser:
                         help="não gera anexos separados, PDF nem ZIP")
     parser.add_argument("--sem-pdf", action="store_true",
                         help="gera o pacote sem tentar converter para PDF")
+    parser.add_argument("--registrar-em-processo", default=None, metavar="PROCESSO",
+                        help="registra o AVISO_COMPLETO na Gestão Documental "
+                             "(scripts/gestao_documental) como versão vigente")
+    parser.add_argument("--motivo-registro", default=None,
+                        help="motivo da nova versão no manifesto do processo")
     return parser
 
 
@@ -626,7 +635,72 @@ def main(argv: Optional[list[str]] = None) -> int:
                   f"{ocorrencia['mensagem']}")
     if dados.get("relatorio_markdown"):
         print(f"\nRelatório: {dados['relatorio_markdown']}")
+
+    if args.registrar_em_processo:
+        codigo = _registrar_em_processo(args, dados)
+        if codigo:
+            return codigo
     return 1 if dados["contagem"].get("ERRO BLOQUEANTE") else 0
+
+
+def _situacao_formatacao(status: Any) -> str:
+    """Traduz o status da padronização para o vocabulário do manifesto."""
+    texto = str(status or "").upper()
+    if not texto or "NÃO EXECUTADA" in texto or "NAO EXECUTADA" in texto:
+        return "nao_executada"
+    if "BLOQUE" in texto or "ERRO" in texto:
+        return "reprovado"
+    if "RESSALVA" in texto or "ALERTA" in texto:
+        return "aprovado_com_ressalvas"
+    return "aprovado"
+
+
+def _registrar_em_processo(args, dados: dict[str, Any]) -> int:
+    """
+    Entrega o documento único à Gestão Documental (item 26 daquele módulo).
+
+    Montagem com erro bloqueante não é registrada: um aviso que não passou na
+    validação não pode virar a versão vigente do processo. Os componentes
+    (TR, modelo de proposta, contrato) NÃO são registrados aqui — eles já têm
+    registro próprio, e duplicá-los na raiz do processo é justamente o que a
+    Gestão Documental existe para evitar.
+    """
+    if dados["contagem"].get("ERRO BLOQUEANTE"):
+        print("[AVISO] Montagem com erro bloqueante: nada foi registrado no processo.",
+              file=sys.stderr)
+        return 1
+    documento = dados.get("documento_final")
+    if not documento:
+        print("[AVISO] Não há documento único gravado para registrar.", file=sys.stderr)
+        return 1
+
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "gestao_documental"))
+    from registrar_documento import registrar_saida_gerada  # noqa: E402
+
+    try:
+        resultado = registrar_saida_gerada(
+            args.registrar_em_processo,
+            "AVISO_COMPLETO",
+            documento,
+            minuta_origem="05_minutas/AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx",
+            motivo=args.motivo_registro or "montagem do Aviso de Dispensa Completo",
+            validacao={
+                "conteudo": ("aprovado"
+                             if dados["validacao_conteudo"].get("Preservação na padronização")
+                             else "nao_executada"),
+                "formatacao": _situacao_formatacao(
+                    dados["validacao_formatacao"].get("Status da padronização")),
+                "status_padronizacao": dados["validacao_formatacao"].get(
+                    "Status da padronização"),
+            },
+        )
+    except Exception as exc:  # noqa: BLE001 - a mensagem é o produto do CLI
+        print(f"[ERRO] Registro no processo recusado: {exc}", file=sys.stderr)
+        return 1
+
+    print()
+    print(resultado.texto())
+    return 0
 
 
 if __name__ == "__main__":
