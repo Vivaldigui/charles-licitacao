@@ -669,7 +669,7 @@
       "tabelas": "padrao",
       "titulos": "sem_numeracao",
       "excecoes": [
-        "Modelo destinado ao licitante/fornecedor: margens proprias (3,49/1,52/1,50/1,50 cm). Nao normalizar pagina."
+        "Modelo destinado ao licitante/fornecedor: margens laterais proprias (1,50 cm). A geometria vertical (4,23/2,22 cm, cabecalho 0, rodape 1,71 cm) acompanha o aviso desde a v1.1, para comportar a faixa do timbre. Nao normalizar pagina."
       ]
     }
   },

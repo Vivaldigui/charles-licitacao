@@ -632,3 +632,29 @@ def test_midia_orfa_nao_conta_como_timbre(tmp_path):
     orfa = util_ooxml.midia_orfa(minuta)
     assert referenciada and not (referenciada & orfa)
     assert all(n not in util_ooxml.assinaturas_partes(minuta) for n in orfa)
+
+
+def test_quebra_de_secao_nao_e_tratada_como_linha_em_branco(tmp_path):
+    """
+    Parágrafo que hospeda um `w:sectPr` é visualmente vazio, mas carrega
+    orientação, margens e as referências de cabeçalho e rodapé do trecho.
+    Removê-lo como "linha em branco" apagaria o timbre da seção.
+    """
+    import copy
+
+    documento = Document()
+    documento.add_paragraph("Primeira seção.")
+    portador = documento.add_paragraph()
+    documento.add_paragraph("Segunda seção.")
+
+    sectPr = documento.element.body.find(util_ooxml.qn("w:sectPr"))
+    portador._p.get_or_add_pPr().append(copy.deepcopy(sectPr))
+
+    assert not util_ooxml.paragrafo_vazio(portador)
+
+    entrada = _salvar(documento, tmp_path, "com_secao.docx")
+    saida = tmp_path / "formatado.docx"
+    formatar_docx.formatar(entrada, saida, "generico")
+
+    resultado = Document(str(saida))
+    assert len(resultado.sections) == 2

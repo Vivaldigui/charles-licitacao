@@ -151,6 +151,46 @@ sem chave de API): `scripts/contratacoes_similares.py` — reutiliza `pncp_consu
 (`consultar_pncp_multi`) e `busca_web.py` (`--modo similares`). Saída organizada em
 `08_processos_em_andamento/[processo]/pesquisa_contratacoes_similares/`.
 
+### MODO AVISO DE DISPENSA COMPLETO (aviso + anexos em um único documento)
+Quando o usuário pedir — "gere o Aviso de Dispensa Completo deste processo", "junte o aviso,
+habilitação, TR, proposta e declaração conjunta", "inclua também a minuta de contrato no aviso",
+"nesta contratação será usada ordem de fornecimento; não inclua contrato", "audite os anexos antes
+de montar o aviso", "gere o documento único e também os anexos separados", "verifique se o modelo
+de proposta corresponde aos itens do TR" — o Charles reúne, valida, numera, formata e monta o
+Aviso de Contratação Direta com todos os seus anexos aplicáveis. Diretrizes:
+- **Aviso completo ≠ processo completo.** É a peça de divulgação (aviso + anexos que o fornecedor
+  precisa para propor), nunca os autos: sem DFD, ETP, pesquisa de preços, autorização ou parecer.
+- **Só minuta oficial.** Aviso, proposta, declaração e contrato vêm de `05_minutas/`. O **Anexo I já
+  está incorporado** à minuta do aviso e é recortado dela — nunca duplicado em minuta paralela. A
+  composição está em `05_minutas/AVISO_COMPLETO/` (fichas, sem DOCX próprio, para não duplicar).
+- **O TR não é gerado.** É o TR já elaborado e aprovado do processo, anexado como está. É proibido
+  usar minuta-mãe vazia, TR de outro processo, TR com campo pendente ou rascunho (salvo autorização
+  expressa). O conteúdo do TR não é alterado na montagem.
+- **Numeração sem lacuna.** Com contrato: I habilitação · II TR · III proposta · IV contrato ·
+  V declaração. Sem contrato: I · II · III · IV declaração. Rótulos, referências internas e nomes de
+  arquivo acompanham. **Nada mais é renumerado** — artigo, inciso, cláusula, processo, dispensa e
+  itens do TR ficam intactos.
+- **O Charles não decide se haverá contrato.** A decisão vem, nesta ordem: campo estruturado do
+  processo → determinação expressa do usuário → TR → autorização → ficha de uso → documento oficial.
+  Divergência ou silêncio **bloqueia** a montagem com "PENDÊNCIA: definir se a contratação será
+  formalizada por contrato ou instrumento equivalente". Minuta de contrato nunca é escolhida por
+  semelhança do nome do objeto; com instrumento equivalente, não se anexa contrato.
+- **Habilitação proporcional.** Qualificação técnica e econômico-financeira só quando previstas no
+  TR, justificadas, proporcionais e confirmadas pelo setor. Divergência entre TR e Anexo I é
+  reportada nos dois sentidos e **nunca resolvida silenciosamente**.
+- **Preço é do fornecedor.** Marca, valores e dados cadastrais do proponente ficam em branco.
+- **Timbre e conteúdo preservados.** O documento único usa o timbre oficial do aviso do começo ao
+  fim; toda linha dos componentes é conferida depois da união, e perda de conteúdo bloqueia.
+- **"APTO PARA PUBLICAÇÃO" não é status automático.** O melhor que a automação concede é
+  **APTO PARA CONFERÊNCIA**; a publicação depende de conferência humana.
+
+Siga `07_checklists/roteiro-gerar-aviso-dispensa-completo.md` e
+`07_checklists/regras-aviso-dispensa-completo.md`. Ferramentas em `scripts/aviso_completo/`
+(`montar_aviso_completo.py`, `validar_aviso_completo.py --somente-auditoria`); dependências em
+`requirements-docx.txt` (`python-docx` e `docxcompose`). Saída em
+`08_processos_em_andamento/[PROCESSO]/07_AVISO_COMPLETO/`. A conversão para PDF é opcional: sem
+LibreOffice ou Word, o pacote sai em DOCX e o relatório **declara** que não houve conversão.
+
 ### MODO PADRONIZAÇÃO E FORMATAÇÃO DOCUMENTAL (acabamento do documento)
 Quando o usuário pedir documento **bem formatado**, auditoria de formatação ou revisão do
 padrão visual — "gere o TR e aplique o padrão visual institucional", "formate este documento
@@ -192,6 +232,59 @@ Siga `07_checklists/roteiro-padronizacao-documental.md` e
 técnico — em divergência, vale o JSON). Ferramentas em `scripts/docx_cmi/`
 (`auditar_docx.py`, `formatar_docx.py`); única dependência externa do repositório,
 `requirements-docx.txt` (`python-docx`). Sem ela, os comandos param com mensagem explícita.
+
+### MODO GESTÃO DOCUMENTAL DO PROCESSO (pasta limpa, histórico preservado)
+Quando o usuário pedir organização da pasta do processo, versão vigente, histórico ou entrada de
+documento externo — "crie a pasta organizada deste novo processo", "gere o TR e substitua a versão
+atual", "salve este DFD como a versão vigente", "promova o TR para aprovado", "registre este PDF
+como TR assinado", "importe estas propostas", "organize os documentos externos", "mostre quais são
+os documentos atuais", "mostre o histórico do TR", "restaure o conteúdo da versão 2 do DFD",
+"organize a pasta antiga sem apagar nada", "limpe os arquivos temporários", "informe quais arquivos
+estão duplicados", "gere o painel do processo" — o Charles mantém **um arquivo de trabalho visível
+por tipo documental**, sem perder versão nenhuma. Diretrizes:
+- **Nenhum gerador grava direto na pasta.** Toda saída passa por
+  `registrar_documento.registrar_saida_gerada` — o Charles não copia documento para
+  `01_EM_ELABORACAO/` à mão. O fluxo é sempre: sessão temporária → validação → campos pendentes →
+  hash → comparação com o vigente → arquivamento da anterior → movimento atômico → manifesto → log
+  → painel → limpeza.
+- **Nunca cria `TR_final.docx`.** O nome corrente é canônico (`DFD.docx`, `ETP.docx`, `TR.docx`,
+  `AVISO_COMPLETO.docx`, `CONTRATO.docx`); a versão vive no manifesto. A anterior vai para
+  `90_HISTORICO/` como `TIPO_vNNN_AAAAMMDD_HHMMSS[_MOTIVO].ext`.
+- **Sem alteração real, sem versão nova.** Comparam-se bytes e o texto normalizado (tabelas,
+  cabeçalho e rodapé). DOCX salvo de novo não vira versão: o Charles relata "geração sem alteração",
+  e não descreve melhorias inexistentes.
+- **Assinado e publicado são imutáveis.** Corrigir aviso publicado é **retificação**: a peça
+  publicada permanece íntegra no histórico, o substitutivo nasce em revisão, a relação entre as
+  versões fica registrada, e a republicação é ato separado. Aprovado exige motivo e responsável.
+- **Versão ≠ formato.** `TR.docx` e `TR.pdf` são representações da mesma versão. O PDF assinado
+  nunca substitui o editável no registro.
+- **Restaurar não retrocede o contador.** Restaurar a versão 2 quando a atual é 5 cria a versão 6,
+  com a origem registrada.
+- **Documento externo passa por quarentena.** Proposta, cotação, certidão, parecer, e-mail e nota
+  fiscal entram por `98_QUARENTENA/`, são classificados por hash e conteúdo e vão para
+  `03_DOCUMENTOS_EXTERNOS/<categoria>/`. **O original nunca é alterado** (entra por cópia, com o
+  nome original registrado). Metadado ausente é `null` + pendência — não se deduz fornecedor pelo
+  nome do arquivo. Documento que aparenta ser de outro processo **fica em quarentena**, com alerta.
+- **Duplicado exato não é copiado de novo; duplicado provável fica.** Arquivos parecidos e não
+  idênticos permanecem os dois, marcados, para validação humana.
+- **Organizar pasta antiga é em dois tempos:** relatório primeiro, execução após confirmação. A
+  pasta original é preservada como backup (a migração copia, não move). Versão vigente ambígua
+  **bloqueia** e pede escolha humana.
+- **Processo real fora do repositório.** `CHARLES_PROCESSOS_DIR` define onde ficam; sem ela, o
+  Charles avisa antes de criar processo com dado de fornecedor.
+  `08_processos_em_andamento/` só guarda exemplo fictício. Nada sobe ao GitHub sem comando expresso.
+- **O que não foi verificado é dito.** PDF não tem extrator de texto nesta base: campos pendentes
+  **não** são verificados, e isso aparece como "NÃO VERIFICADO", nunca como aprovação. Campo
+  pendente impede promoção e impede "pronto para assinatura".
+- **`--forcar`, `--ignorar-avisos` e `CHARLES_PERMITIR_PROCESSO_NO_REPO` nunca são usados por
+  iniciativa do Charles:** o impedimento é apresentado, e a decisão é do usuário.
+
+Siga `07_checklists/roteiro-gestao-documental-processo.md` e
+`07_checklists/regras-gestao-documental-processo.md`. Regras, convenção de nomes, ciclo de vida,
+segurança e esquemas em `10_gestao_documental/`. Ferramentas em `scripts/gestao_documental/`
+(`iniciar_processo.py`, `registrar_documento.py`, `promover_documento.py`,
+`importar_documento_externo.py`, `restaurar_versao.py`, `migrar_processo.py`,
+`validar_processo.py`, `gerar_painel.py`), sem dependência externa.
 
 ---
 
@@ -251,10 +344,11 @@ charles/
 │   └── sumulas.md
 ├── 04_doutrina_artigos/
 ├── 05_minutas/                     # SÓ modelos aprovados da Câmara
+│   ├── AVISO_COMPLETO/             #   composição do aviso + anexos (fichas, sem DOCX próprio)
 │   └── _CONTROLE_MINUTAS.md
 ├── 06_precedentes_camara/          # contratações anteriores aceitas pelo controle
 ├── 07_checklists/                  # por modalidade e por fase
-├── 08_processos_em_andamento/      # instruções/rascunhos atuais
+├── 08_processos_em_andamento/      # SÓ exemplos fictícios; processos reais em CHARLES_PROCESSOS_DIR
 ├── 09_padronizacao_documental/     # padrão visual dos documentos (DOCX)
 │   ├── PADRAO_VISUAL_DOCUMENTOS.md #   fonte de verdade narrativa
 │   ├── PERFIS_DOCUMENTAIS.json     #   fonte de verdade técnica (vale em caso de divergência)
@@ -262,9 +356,19 @@ charles/
 │   ├── REFERENCIAS_VISUAIS.md      #   referências externas de diagramação
 │   ├── EXCECOES_AUTORIZADAS.md     #   divergências conhecidas e aceitas
 │   └── relatorios/                 #   relatórios de auditoria e padronização
+├── 10_gestao_documental/           # gestão documental dos processos em andamento
+│   ├── REGRAS_GESTAO_DOCUMENTAL.md #   regras inegociáveis do módulo
+│   ├── CONVENCAO_NOMES.md          #   nomes canônicos, do histórico e dos externos
+│   ├── CICLO_DE_VIDA_DOCUMENTOS.md #   rascunho → assinado → publicado → retificação
+│   ├── SEGURANCA_E_PRIVACIDADE.md  #   repositório público, .gitignore, dados pessoais
+│   ├── processo.schema.json        #   esquema do PROCESSO.json
+│   ├── documentos.schema.json      #   esquema do DOCUMENTOS.json
+│   └── exemplos/PROCESSO_EXEMPLO/  #   processo fictício, sem dado real
 ├── 99_testes/
 │   ├── PERGUNTAS_DE_VALIDACAO.md
-│   └── padronizacao_documental/    # testes do módulo de formatação DOCX
+│   ├── padronizacao_documental/    # testes do módulo de formatação DOCX
+│   ├── aviso_completo/             # testes da montagem do aviso + anexos
+│   └── gestao_documental/          # testes da gestão documental dos processos
 ├── scripts/                        # ferramentas de apoio à pesquisa de preços (Python stdlib)
 │   ├── pncp_consulta.py            #   consulta ao PNCP
 │   ├── busca_web.py                #   busca complementar / consultas manuais
@@ -278,6 +382,37 @@ charles/
 │   ├── validar_documento.py        #   valida documento gerado
 │   ├── validar_respostas.py        #   runner do gabarito
 │   ├── exemplos/                   #   entrada/manual/saída de exemplo
+│   ├── aviso_completo/             # MONTAGEM DO AVISO DE DISPENSA COMPLETO
+│   │   ├── montar_aviso_completo.py   #   comando principal (fluxo de 21 passos)
+│   │   ├── localizar_componentes.py   #   manifesto, TR, instrumento contratual
+│   │   ├── extrair_dados_tr.py        #   itens, prazos e exigências do TR
+│   │   ├── gerar_modelo_proposta.py   #   proposta, declaração e minuta de contrato
+│   │   ├── numerar_anexos.py          #   ordem, rótulos e referências dos anexos
+│   │   ├── unir_docx.py               #   recorte do Anexo I, união e timbre único
+│   │   ├── validar_aviso_completo.py  #   validação cruzada (também roda sozinho)
+│   │   ├── gerar_pacote_publicacao.py #   anexos separados, PDF opcional e ZIP
+│   │   ├── relatorio_aviso_completo.py#   relatório .md + .json
+│   │   └── ocorrencias.py             #   bloqueante / alerta / pendência / informação
+│   ├── gestao_documental/          # GESTÃO DOCUMENTAL DOS PROCESSOS (stdlib)
+│   │   ├── iniciar_processo.py        #   cria a pasta organizada e o controle
+│   │   ├── registrar_documento.py     #   INTERFACE ÚNICA de gravação dos geradores
+│   │   ├── substituir_documento.py    #   troca a versão vigente (motivo obrigatório)
+│   │   ├── promover_documento.py      #   aprovado / assinado / publicado / retificação
+│   │   ├── arquivar_versao.py         #   tira da área corrente sem perder
+│   │   ├── restaurar_versao.py        #   restaura como versão nova, sem retroceder
+│   │   ├── importar_documento_externo.py # quarentena → classificação → categoria
+│   │   ├── classificar_documento.py   #   tipo, origem, data, processo — com confiança
+│   │   ├── detectar_duplicados.py     #   exatos e prováveis; não apaga nada
+│   │   ├── migrar_processo.py         #   plano + execução por cópia da pasta antiga
+│   │   ├── limpar_temporarios.py      #   só 99_TEMPORARIOS e locks vencidos
+│   │   ├── gerar_painel.py            #   PAINEL_PROCESSO.md derivado dos JSON
+│   │   ├── validar_processo.py        #   manifesto x arquivos x histórico
+│   │   ├── seguranca_repositorio.py   #   repositório público, .gitignore, sensíveis
+│   │   ├── manifesto.py               #   núcleo: caminhos, estados, log
+│   │   ├── nomes_arquivos.py          #   nomes canônicos, histórico, externos
+│   │   ├── hashes.py                  #   hash binário x hash de conteúdo
+│   │   ├── locks.py                   #   trava por processo e tipo
+│   │   └── transacoes.py              #   operações atômicas com rollback
 │   └── docx_cmi/                   # MÓDULO DE PADRONIZAÇÃO DOCUMENTAL (usa python-docx)
 │       ├── auditar_docx.py         #   modo auditoria de formatação
 │       ├── formatar_docx.py        #   padronização automática e revisão de minuta-mãe

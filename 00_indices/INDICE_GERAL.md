@@ -4,7 +4,7 @@ hierarquia: operacional
 tema: indice geral
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-07-23
+atualizado_em: 2026-07-25
 tags: [indice, geral]
 ---
 
@@ -39,6 +39,10 @@ tags: [indice, geral]
 - [Regras - Pesquisa de Contratações Similares (antialucinação, confiabilidade, independência de modalidade)](../07_checklists/regras-pesquisa-contratacoes-similares.md) — tipo: checklist; tema: pesquisa de contratacoes similares; fonte: base Charles / Lei 14.133/2021 / PNCP / portais oficiais; vigência: vigente; atualizado_em: 2026-07-23
 - [Roteiro - Padronização e Formatação Documental](../07_checklists/roteiro-padronizacao-documental.md) — tipo: checklist; tema: padronizacao e formatacao documental; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
 - [Regras - Padronização e Formatação Documental (conteúdo x formatação, timbre, numeração)](../07_checklists/regras-padronizacao-documental.md) — tipo: checklist; tema: padronizacao e formatacao documental; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Roteiro - Gestão Documental do Processo](../07_checklists/roteiro-gestao-documental-processo.md) — tipo: checklist; tema: gestao documental dos processos em andamento; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Regras - Gestão Documental do Processo (arquivo único, histórico, documentos externos)](../07_checklists/regras-gestao-documental-processo.md) — tipo: checklist; tema: gestao documental dos processos em andamento; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Roteiro - Gerar o Aviso de Dispensa Completo](../07_checklists/roteiro-gerar-aviso-dispensa-completo.md) — tipo: checklist; tema: roteiro do aviso de dispensa completo; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Regras - Aviso de Dispensa Completo (anexos, numeração, habilitação proporcional)](../07_checklists/regras-aviso-dispensa-completo.md) — tipo: checklist; tema: regras inegociaveis do aviso de dispensa completo; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
 
 ## 09_padronizacao_documental
 - [Padrão Visual dos Documentos](../09_padronizacao_documental/PADRAO_VISUAL_DOCUMENTOS.md) — tipo: norma_interna; tema: padronizacao e formatacao documental; fonte: analise das minutas-mae + referencias visuais; vigência: vigente; atualizado_em: 2026-07-25
@@ -46,6 +50,13 @@ tags: [indice, geral]
 - [Referências Visuais](../09_padronizacao_documental/REFERENCIAS_VISUAIS.md) — tipo: doutrina; tema: referencias visuais de diagramacao; fonte: AGU, Manual de Redação da Presidência da República; vigência: vigente; atualizado_em: 2026-07-25
 - [Exceções Autorizadas ao padrão visual](../09_padronizacao_documental/EXCECOES_AUTORIZADAS.md) — tipo: norma_interna; tema: excecoes ao padrao visual; fonte: analise das minutas-mae; vigência: vigente; atualizado_em: 2026-07-25
 - [Módulo de Padronização Documental - README](../09_padronizacao_documental/README.md) — tipo: norma_interna; tema: modulo de padronizacao e formatacao documental; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+
+## 10_gestao_documental
+- [Módulo de Gestão Documental - README](../10_gestao_documental/README.md) — tipo: norma_interna; tema: gestao documental dos processos em andamento; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Regras da Gestão Documental](../10_gestao_documental/REGRAS_GESTAO_DOCUMENTAL.md) — tipo: norma_interna; tema: regras da gestao documental dos processos; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Convenção de Nomes](../10_gestao_documental/CONVENCAO_NOMES.md) — tipo: norma_interna; tema: convencao de nomes dos arquivos dos processos; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Ciclo de Vida dos Documentos](../10_gestao_documental/CICLO_DE_VIDA_DOCUMENTOS.md) — tipo: norma_interna; tema: ciclo de vida dos documentos do processo; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
+- [Segurança e Privacidade dos Processos](../10_gestao_documental/SEGURANCA_E_PRIVACIDADE.md) — tipo: norma_interna; tema: seguranca e privacidade dos processos; fonte: base Charles; vigência: vigente; atualizado_em: 2026-07-25
 
 ## 04_doutrina_artigos
 - [A contratação direta nos municípios e a "lenda urbana" da obrigatoriedade da dispensa eletrônica com disputa](../04_doutrina_artigos/artigo-contratacao-direta-municipios-dispensa-eletronica-com-disputa.md) — tipo: doutrina; tema: dispensa de licitacao; fonte: Autor nao identificado no PDF / artigo em PDF; vigência: vigente; atualizado_em: 2026-06-25

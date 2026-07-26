@@ -1,0 +1,218 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://camaraitanhandu.mg.gov.br/charles/documentos.schema.json",
+  "title": "DOCUMENTOS.json — manifesto documental do processo",
+  "description": "Registro único de todos os documentos do processo: os gerados pelo Charles (com versão, histórico e representações) e os externos recebidos (item 10 e item 19 do escopo).",
+  "type": "object",
+  "required": ["schema_version", "processo_id", "documentos"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "processo_id": { "type": "string" },
+    "atualizado_em": { "type": "string" },
+    "documentos": {
+      "type": "object",
+      "description": "Chave = tipo documental canônico (DFD, ETP, TR, ...).",
+      "propertyNames": { "pattern": "^[A-Z0-9_]+$" },
+      "additionalProperties": { "$ref": "#/definitions/documento" }
+    },
+    "documentos_externos": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/documento_externo" }
+    }
+  },
+  "definitions": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "rascunho", "em_elaboracao", "em_revisao", "aprovado", "assinado",
+        "publicado", "substituido", "cancelado", "arquivado"
+      ]
+    },
+    "documento": {
+      "type": "object",
+      "required": ["titulo", "versao_atual", "status", "historico", "representacoes"],
+      "additionalProperties": true,
+      "properties": {
+        "titulo": { "type": "string" },
+        "versao_atual": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Só cresce. Restauração de versão antiga cria versão nova (item 22)."
+        },
+        "status": { "$ref": "#/definitions/status" },
+        "arquivo_atual": {
+          "type": ["string", "null"],
+          "description": "Caminho relativo à raiz do processo, com barra normal. null = sem arquivo corrente."
+        },
+        "hash_sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$|^$" },
+        "hash_conteudo": {
+          "type": ["string", "null"],
+          "description": "Assinatura do texto normalizado. É o que decide se houve alteração real (item 15)."
+        },
+        "criado_em": { "type": "string" },
+        "atualizado_em": { "type": "string" },
+        "gerado_por": { "type": "string" },
+        "minuta_origem": {
+          "type": ["string", "null"],
+          "description": "Minuta-mãe de 05_minutas/ que originou o documento."
+        },
+        "processo": { "type": "string" },
+        "fase": { "type": ["string", "null"] },
+        "substitui_versao": { "type": ["integer", "null"] },
+        "retifica_versao": {
+          "type": ["integer", "null"],
+          "description": "Presente quando a versão nasceu de retificação de documento assinado ou publicado."
+        },
+        "motivo_ultima_alteracao": { "type": "string" },
+        "origem_da_versao": {
+          "type": ["object", "null"],
+          "additionalProperties": true,
+          "properties": {
+            "tipo": { "type": "string", "enum": ["geracao", "restauracao", "migracao", "importacao"] },
+            "versao_restaurada": { "type": ["integer", "null"] },
+            "arquivo_de_origem": { "type": ["string", "null"] }
+          }
+        },
+        "validacao": {
+          "type": "object",
+          "additionalProperties": true,
+          "properties": {
+            "conteudo": {
+              "type": "string",
+              "enum": ["aprovado", "aprovado_com_ressalvas", "reprovado", "nao_executada"]
+            },
+            "formatacao": {
+              "type": "string",
+              "enum": ["aprovado", "aprovado_com_ressalvas", "reprovado", "nao_executada"]
+            },
+            "campos_pendentes": { "type": "integer", "minimum": 0 },
+            "campos_pendentes_verificados": {
+              "type": "boolean",
+              "description": "false quando o formato não tem extrator de texto: a verificação NÃO foi feita, e isso não pode virar 'aprovado'."
+            }
+          }
+        },
+        "representacoes": {
+          "type": "object",
+          "description": "Formatos da MESMA versão (item 9). PDF e DOCX não são versões diferentes.",
+          "additionalProperties": { "type": ["string", "null"] },
+          "properties": {
+            "docx": { "type": ["string", "null"] },
+            "pdf": { "type": ["string", "null"] },
+            "assinado": { "type": ["string", "null"] }
+          }
+        },
+        "hash_assinado": { "type": ["string", "null"] },
+        "publicacoes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "arquivo": { "type": "string" },
+              "veiculo": {
+                "type": "string",
+                "enum": ["AVISOS", "EXTRATOS", "PNCP", "DIARIO_OFICIAL", "PACOTES"]
+              },
+              "versao": { "type": ["integer", "null"] },
+              "hash_sha256": { "type": ["string", "null"] },
+              "publicado_em": { "type": "string" },
+              "responsavel": { "type": "string" }
+            }
+          }
+        },
+        "promocoes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+              "de": { "$ref": "#/definitions/status" },
+              "para": { "$ref": "#/definitions/status" },
+              "responsavel": { "type": "string" },
+              "motivo": { "type": "string" },
+              "data": { "type": "string" },
+              "ressalvas": { "type": "array", "items": { "type": "string" } },
+              "nao_verificado": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "historico": {
+          "type": "array",
+          "description": "Versões anteriores, preservadas em 90_HISTORICO/. Nunca é esvaziado.",
+          "items": {
+            "type": "object",
+            "required": ["versao", "arquivo"],
+            "additionalProperties": true,
+            "properties": {
+              "versao": { "type": "integer", "minimum": 1 },
+              "arquivo": { "type": "string" },
+              "hash_sha256": { "type": ["string", "null"] },
+              "status_ao_arquivar": { "type": "string" },
+              "arquivado_em": { "type": "string" },
+              "motivo": { "type": "string" },
+              "responsavel": { "type": "string" },
+              "substituido_por_versao": {
+                "type": ["integer", "null"],
+                "description": "O substituído aponta para quem o substituiu (item 6)."
+              },
+              "retificado": { "type": "boolean" },
+              "nome_original": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "documento_externo": {
+      "type": "object",
+      "required": ["documento_id", "nome_original", "hash_sha256", "categoria", "status_validacao"],
+      "additionalProperties": true,
+      "properties": {
+        "documento_id": { "type": "string" },
+        "nome_original": {
+          "type": "string",
+          "description": "Como o arquivo chegou. O original não é alterado (item 18)."
+        },
+        "nome_padronizado": { "type": ["string", "null"] },
+        "arquivo": { "type": ["string", "null"] },
+        "tipo": { "type": ["string", "null"] },
+        "categoria": {
+          "type": "string",
+          "enum": [
+            "solicitacoes", "cotacoes_e_propostas", "habilitacao",
+            "emails_e_comunicacoes", "referencias_tecnicas", "pareceres",
+            "comprovantes", "outros"
+          ]
+        },
+        "origem": { "type": ["string", "null"] },
+        "cnpj": { "type": ["string", "null"] },
+        "data_documento": { "type": ["string", "null"] },
+        "data_recebimento": { "type": ["string", "null"] },
+        "processo": { "type": "string" },
+        "processos_citados": { "type": "array", "items": { "type": "string" } },
+        "hash_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "fonte": { "type": ["string", "null"] },
+        "email_origem": { "type": ["string", "null"] },
+        "classificacao": {
+          "type": "string",
+          "enum": ["publico", "uso_interno", "restrito"]
+        },
+        "status_validacao": {
+          "type": "string",
+          "enum": ["confirmado", "a_confirmar", "em_quarentena", "rejeitado"]
+        },
+        "confianca_classificacao": { "type": "string", "enum": ["alta", "media", "baixa"] },
+        "fonte_da_analise": { "type": "string" },
+        "texto_legivel": {
+          "type": "boolean",
+          "description": "false = o texto não foi lido (PDF sem OCR, imagem). A classificação é indício."
+        },
+        "pendencias": { "type": "array", "items": { "type": "string" } },
+        "alertas": { "type": "array", "items": { "type": "string" } },
+        "observacoes": { "type": "string" },
+        "registrado_em": { "type": "string" }
+      }
+    }
+  }
+}

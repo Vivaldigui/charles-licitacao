@@ -7,9 +7,47 @@ _entrada/*
 
 # Segredos da pesquisa de preços (chaves de API). O modelo .env.example é versionado.
 .env
+*.env
 # Artefatos do Python e relatórios gerados pelos scripts.
 __pycache__/
+scripts/tests/__pycache__/
 *.pyc
+*.pyo
+*.log
+.pytest_cache/
+*.tmp
+*.temp
+~$*
+*.bak
 scripts/relatorio*.md
 scripts/*.json
 !scripts/exemplos/*.json
+
+# Processos reais ficam fora do versionamento; o modelo permanece.
+# O lugar dos processos reais é CHARLES_PROCESSOS_DIR, fora do repositorio.
+08_processos_em_andamento/**
+!08_processos_em_andamento/.gitkeep
+!08_processos_em_andamento/_MODELO/
+!08_processos_em_andamento/_MODELO/**
+
+# Gestao documental: areas de trabalho que nunca sobem, onde quer que estejam.
+**/99_TEMPORARIOS/
+**/98_QUARENTENA/
+**/.locks/
+*.part-*
+# Documentos externos (proposta, certidao, e-mail) sao dados de terceiros.
+**/03_DOCUMENTOS_EXTERNOS/
+# O exemplo ficticio do modulo e versionado de proposito.
+!10_gestao_documental/exemplos/**
+
+# Painel local gerado, somente leitura.
+painel/
+
+# Exemplo gerado do Aviso de Dispensa Completo: os DOCX/PDF/ZIP são
+# reprodutíveis com um comando e pesam alguns megabytes. O relatório de
+# validação e o manifesto de arquivos ficam versionados como evidência.
+99_testes/aviso_completo/exemplo/componentes/
+99_testes/aviso_completo/exemplo/saida/*.docx
+99_testes/aviso_completo/exemplo/saida/*.pdf
+99_testes/aviso_completo/exemplo/saida/*.zip
+99_testes/aviso_completo/exemplo/saida/anexos_separados/

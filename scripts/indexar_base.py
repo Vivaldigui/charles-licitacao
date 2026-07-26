@@ -26,10 +26,12 @@ PASTAS_INDEXADAS = [
     "06_precedentes_camara",
     "07_checklists",
     "09_padronizacao_documental",
+    "10_gestao_documental",
     "99_testes",
 ]
 # Subpastas de saída gerada — nunca indexadas nem validadas como ficha.
-PASTAS_DE_SAIDA = {"relatorios"}
+# Saída gerada e exemplos de processo: não são fichas da base.
+PASTAS_DE_SAIDA = {"relatorios", "exemplos"}
 SAIDA_PADRAO = RAIZ / "00_indices" / "BASE_INDEXADA.json"
 
 PADROES_DISPOSITIVOS = [
@@ -48,7 +50,9 @@ def arquivos_markdown(raiz: Path = RAIZ) -> list[Path]:
 
     Diretórios de SAÍDA gerada ficam de fora: o que está em
     `09_padronizacao_documental/relatorios/` é relatório produzido pelos
-    scripts, não ficha da base, e não tem (nem deve ter) frontmatter.
+    scripts, não ficha da base, e não tem (nem deve ter) frontmatter. O mesmo
+    vale para `10_gestao_documental/exemplos/`, que é processo fictício de
+    demonstração — painel e manifesto, não ficha.
     """
     caminhos: list[Path] = []
     for pasta in PASTAS_INDEXADAS:

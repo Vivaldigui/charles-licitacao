@@ -91,6 +91,25 @@ Em conflito entre fontes, prevalece nesta ordem:
 
 ---
 
+## AVISO DE DISPENSA COMPLETO — composição, não duplicação
+
+A pasta [`AVISO_COMPLETO/`](AVISO_COMPLETO/) **não tem minuta-mãe DOCX própria**, e isso é
+deliberado. O aviso completo é a **montagem** das minutas que já estão nesta biblioteca:
+
+| Anexo | Minuta-mãe usada |
+| --- | --- |
+| — Aviso | `AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx` |
+| I — Habilitação | **já incorporado** à minuta do aviso — recortado dela, nunca recriado |
+| II — Termo de Referência | não é minuta: é o TR já elaborado do processo |
+| III — Modelo de Proposta | `PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_MINUTA_MAE.docx` |
+| IV — Minuta de contrato (quando houver) | `CONTRATO/`, `CONTRATO_COMPRAS/` ou `CONTRATO_SERVICOS_CONTINUOS/` |
+| IV ou V — Declaração conjunta | `DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx` |
+
+Criar cópias dessas minutas em `AVISO_COMPLETO/` violaria a regra de não duplicar conteúdo:
+a revisão de uma cópia não chegaria à outra, e o aviso publicado passaria a divergir da minuta
+oficial. A pasta guarda apenas as **fichas de uso** que documentam a composição.
+
+
 ## Índice de minutas cadastradas
 
 | Documento | Minuta-mãe | Ficha de uso | Versão | Status |
@@ -113,3 +132,6 @@ Em conflito entre fontes, prevalece nesta ordem:
 | Contrato de Compras (entrega imediata / forn. contínuo) | [CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_MINUTA_MAE.docx](CONTRATO_COMPRAS/CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_MINUTA_MAE.docx) | [CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_FICHA_DE_USO.md](CONTRATO_COMPRAS/CONTRATO_COMPRAS_ENTREGA_FORN_CONTINUO_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Termo de Ratificação (inex./dispensa sem disputa) | [TERMO_RATIFICACAO_MINUTA_MAE.docx](RATIFICACAO/TERMO_RATIFICACAO_MINUTA_MAE.docx) | [TERMO_RATIFICACAO_FICHA_DE_USO.md](RATIFICACAO/TERMO_RATIFICACAO_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Termo de Recebimento e Atesto | [TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx](RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx) | [TERMO_RECEBIMENTO_ATESTO_FICHA_DE_USO.md](RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_FICHA_DE_USO.md) | 1.0 | apta para uso |
+| Aviso de Dispensa Completo (composição) | *sem minuta própria — compõe as minutas acima* | [AVISO_COMPLETO_FICHA_DE_USO.md](AVISO_COMPLETO/AVISO_COMPLETO_FICHA_DE_USO.md) · [Anexo I](AVISO_COMPLETO/ANEXO_I_HABILITACAO_FICHA_DE_USO.md) · [Proposta](AVISO_COMPLETO/MODELO_PROPOSTA_FICHA_DE_USO.md) · [Declaração](AVISO_COMPLETO/DECLARACAO_CONJUNTA_FICHA_DE_USO.md) | 1.0 | apta para uso |
+| Modelo de Proposta Comercial | [PROPOSTA_COMERCIAL_MINUTA_MAE.docx](PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_MINUTA_MAE.docx) | [PROPOSTA_COMERCIAL_FICHA_DE_USO.md](PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_FICHA_DE_USO.md) | 1.2 | apta para uso |
+| Declaração Unificada | [DECLARACAO_UNIFICADA_MINUTA_MAE.docx](DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx) | [DECLARACAO_UNIFICADA_FICHA_DE_USO.md](DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_FICHA_DE_USO.md) | 1.2 | apta para uso |

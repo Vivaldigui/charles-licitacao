@@ -19,6 +19,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 from util_ooxml import (
+    SUBLINHADO_RE,
     controle_viuvas_desligado,
     definir_controle_viuvas,
     definir_manter_com_proximo,
@@ -571,7 +572,15 @@ def aplicar_formatacao_paragrafo(paragrafo, papel: str, padrao: PadraoVisual,
     # ou sem alinhamento. Centralização existente é intencional e é preservada.
     if papel == PAPEL_CORPO:
         texto = texto_paragrafo(paragrafo).strip()
-        if len(texto) >= 80 and pf.alignment in (None, WD_ALIGN_PARAGRAPH.LEFT):
+        # Linha com campo de preenchimento não é prosa: a régua não quebra, e
+        # justificar espalha as palavras que sobram na linha ("Dados     do
+        # responsável     pela..."). Fica alinhada à esquerda — inclusive quando
+        # o parágrafo não declara alinhamento e herda o justificado do estilo.
+        if SUBLINHADO_RE.search(texto):
+            if pf.alignment in (None, WD_ALIGN_PARAGRAPH.JUSTIFY):
+                pf.alignment = WD_ALIGN_PARAGRAPH.LEFT
+                mudancas.append("alinhamento -> esquerda (linha com campo)")
+        elif len(texto) >= 80 and pf.alignment in (None, WD_ALIGN_PARAGRAPH.LEFT):
             pf.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             mudancas.append("alinhamento -> justificado")
     elif papel in (PAPEL_TITULO_1, PAPEL_TITULO_2, PAPEL_TITULO_3):

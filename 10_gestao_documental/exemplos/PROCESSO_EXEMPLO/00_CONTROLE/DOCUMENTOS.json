@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "processo_id": "PROCESSO_EXEMPLO",
+  "atualizado_em": "2026-07-25T19:17:07",
+  "documentos": {
+    "DFD": {
+      "titulo": "Documento de Formalização da Demanda",
+      "versao_atual": 1,
+      "status": "aprovado",
+      "arquivo_atual": "02_DOCUMENTOS_OFICIAIS/FASE_PREPARATORIA/DFD.md",
+      "hash_sha256": "c006fe828dfe6a2957d4dd1073927d01b7d3f776a7325d9a248f69d16a8011a8",
+      "hash_conteudo": "2f417127474cbb0138c65793f946dffd9913a6061756946644724bbc374a1567",
+      "criado_em": "2026-07-25T19:17:06",
+      "atualizado_em": "2026-07-25T19:17:06",
+      "gerado_por": "Charles",
+      "minuta_origem": "05_minutas/DFD/DFD_MINUTA_MAE.docx",
+      "processo": "PA 999/2026",
+      "fase": "FASE_PREPARATORIA",
+      "substitui_versao": null,
+      "motivo_ultima_alteracao": "Primeira geracao",
+      "validacao": {
+        "conteudo": "nao_executada",
+        "formatacao": "nao_executada",
+        "campos_pendentes": 0,
+        "campos_pendentes_verificados": true
+      },
+      "representacoes": {
+        "docx": "02_DOCUMENTOS_OFICIAIS/FASE_PREPARATORIA/DFD.md",
+        "pdf": null,
+        "assinado": null
+      },
+      "historico": [],
+      "promocoes": [
+        {
+          "de": "em_elaboracao",
+          "para": "aprovado",
+          "responsavel": "Agente de contratacao (exemplo)",
+          "motivo": "Conferido pelo requisitante (exemplo)",
+          "data": "2026-07-25T19:17:06",
+          "ressalvas": [],
+          "nao_verificado": [
+            "comentários, controle de alterações e pertencimento ao processo: verificáveis apenas em DOCX"
+          ]
+        }
+      ]
+    },
+    "TR": {
+      "titulo": "Termo de Referência",
+      "versao_atual": 2,
+      "status": "em_revisao",
+      "arquivo_atual": "01_EM_ELABORACAO/TR.md",
+      "hash_sha256": "b934362e7f0e4f74b17a129e455c62919e39e29f508505daab8647c4a9e8f4d1",
+      "hash_conteudo": "26b2cdca37d05e669a27c325093716363ad310783f22a4d4cbba906d64b87a04",
+      "criado_em": "2026-07-25T19:17:06",
+      "atualizado_em": "2026-07-25T19:17:06",
+      "gerado_por": "Charles",
+      "minuta_origem": "05_minutas/TR/TR_MINUTA_MAE.docx",
+      "processo": "PA 999/2026",
+      "fase": "FASE_PREPARATORIA",
+      "substitui_versao": 1,
+      "motivo_ultima_alteracao": "Ajuste do prazo de entrega",
+      "validacao": {
+        "conteudo": "nao_executada",
+        "formatacao": "nao_executada",
+        "campos_pendentes": 0,
+        "campos_pendentes_verificados": true
+      },
+      "representacoes": {
+        "docx": "01_EM_ELABORACAO/TR.md",
+        "pdf": null,
+        "assinado": null
+      },
+      "historico": [
+        {
+          "versao": 1,
+          "arquivo": "90_HISTORICO/TR/TR_v001_20260725_191706_AJUSTE_DO_PRAZO_DE_ENTREGA.md",
+          "hash_sha256": "ff4c329ae8dd567043b57c393b31ff69a175fa8fc0ad0e8fef996a9552339918",
+          "status_ao_arquivar": "em_elaboracao",
+          "arquivado_em": "2026-07-25T19:17:06",
+          "motivo": "Ajuste do prazo de entrega",
+          "responsavel": "Charles",
+          "substituido_por_versao": 2
+        }
+      ],
+      "promocoes": [
+        {
+          "de": "em_elaboracao",
+          "para": "em_revisao",
+          "responsavel": "Charles",
+          "motivo": "Enviado a revisao (exemplo)",
+          "data": "2026-07-25T19:17:06",
+          "ressalvas": [],
+          "nao_verificado": [
+            "comentários, controle de alterações e pertencimento ao processo: verificáveis apenas em DOCX"
+          ]
+        }
+      ]
+    }
+  },
+  "documentos_externos": [
+    {
+      "documento_id": "EXT_acbc36940668",
+      "nome_original": "proposta_empresa_exemplo.md",
+      "nome_padronizado": "2026-07-20_EMPRESA_EXEMPLO_LTDA_PROPOSTA.md",
+      "arquivo": "03_DOCUMENTOS_EXTERNOS/02_COTACOES_E_PROPOSTAS/2026-07-20_EMPRESA_EXEMPLO_LTDA_PROPOSTA.md",
+      "tipo": "proposta",
+      "categoria": "cotacoes_e_propostas",
+      "origem": "EMPRESA EXEMPLO LTDA",
+      "cnpj": "00.000.000/0001-00",
+      "data_documento": "2026-07-20",
+      "data_recebimento": "2026-07-25",
+      "processo": "PA 999/2026",
+      "processos_citados": [
+        "999/2026"
+      ],
+      "hash_sha256": "acbc36940668d9d44490234da12277d71c6f222738fb17dc3e52887cd6279ef5",
+      "fonte": "email",
+      "email_origem": "contato@exemplo.invalido",
+      "classificacao": "uso_interno",
+      "status_validacao": "confirmado",
+      "confianca_classificacao": "alta",
+      "fonte_da_analise": "nome e texto do documento",
+      "texto_legivel": true,
+      "pendencias": [],
+      "alertas": [],
+      "observacoes": "",
+      "registrado_em": "2026-07-25T19:17:07"
+    }
+  ]
+}
