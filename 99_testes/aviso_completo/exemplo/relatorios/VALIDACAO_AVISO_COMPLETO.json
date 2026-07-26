@@ -84,8 +84,8 @@
   "proposta": [
     "INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).",
     "INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.",
-    "INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.",
-    "INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.",
+    "INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: nenhum.",
+    "INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: nenhum.",
     "INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Modelo de proposta conferido contra o TR: 1 item(ns) correspondentes."
   ],
   "contrato": [],
@@ -93,7 +93,7 @@
     "INFORMAÇÃO — numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA",
     "INFORMAÇÃO — numeração dos anexos: Declaração conjunta numerada como ANEXO IV (não há minuta de contrato).",
     "INFORMAÇÃO — montagem do DOCX [unido.docx]: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx",
-    "INFORMAÇÃO — validação cruzada [AVISO_DISPENSA_COMPLETO.docx]: 7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido."
+    "INFORMAÇÃO — validação cruzada [AVISO_DISPENSA_COMPLETO.docx]: 9 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido."
   ],
   "campos_pendentes": [],
   "correcoes": [
@@ -652,12 +652,9 @@
     "Parágrafo 352 (titulo_documento): keep_lines",
     "Parágrafo 353 (identificacao): estilo Normal -> CMI Identificacao",
     "Parágrafo 355 (identificacao): estilo Normal -> CMI Identificacao",
-    "Parágrafo 364 (corpo): estilo Normal -> CMI Corpo",
-    "Parágrafo 366 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 368 (titulo_documento): space_before 18.0pt -> 0.0pt",
     "Parágrafo 368 (titulo_documento): keep_lines",
     "Parágrafo 369 (identificacao): estilo Normal -> CMI Identificacao",
-    "Parágrafo 380 (corpo): estilo Normal -> CMI Corpo",
     "Parágrafo 382 (titulo_1): estilo Normal -> CMI Titulo 1",
     "Tabela 0: estilo Normal -> CMI Cabecalho de Tabela",
     "Tabela 0: tamanho 12.0pt -> 11.0pt",
@@ -809,13 +806,13 @@
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "modelo de proposta",
-      "mensagem": "Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.",
+      "mensagem": "Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: nenhum.",
       "origem": "03_MODELO_DE_PROPOSTA_COMERCIAL.docx"
     },
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "modelo de proposta",
-      "mensagem": "Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.",
+      "mensagem": "Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: nenhum.",
       "origem": "04_DECLARACAO_CONJUNTA.docx"
     },
     {
@@ -845,7 +842,7 @@
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "montagem",
-      "mensagem": "Padronização aplicada (perfil 'aviso'): 630 correção(ões); status EXIGE CONFERÊNCIA HUMANA.",
+      "mensagem": "Padronização aplicada (perfil 'aviso'): 627 correção(ões); status EXIGE CONFERÊNCIA HUMANA.",
       "origem": null
     },
     {
@@ -917,7 +914,7 @@
     {
       "severidade": "INFORMAÇÃO",
       "etapa": "validação cruzada",
-      "mensagem": "7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.",
+      "mensagem": "9 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.",
       "origem": "AVISO_DISPENSA_COMPLETO.docx"
     },
     {

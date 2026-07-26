@@ -35,3 +35,31 @@ O que foi feito, sob autorização expressa do usuário:
 Estado anterior preservado em `_arquivo/`:
 `*_v1.0_sem_timbre.docx` (original) e `*_v1.0.docx` (com timbre, antes da
 padronização visual).
+
+
+## v1.2 — 2026-07-26
+
+Revisão de PADRONIZAÇÃO VISUAL pelo Módulo de Padronização Documental (perfil `declaracao`).
+
+- Backup da versão anterior: `05_minutas\PROPOSTA_COMERCIAL\_arquivo\PROPOSTA_COMERCIAL_MINUTA_MAE_v1.1.docx`
+- Relatório do estado anterior: `05_minutas\PROPOSTA_COMERCIAL\PROPOSTA_COMERCIAL_MINUTA_MAE_ESTADO_ANTERIOR_v1.1.md`
+- Correções aplicadas: 7
+- Conteúdo preservado: sim
+- Timbre (cabeçalho/rodapé/mídia) intacto: sim
+
+### Campos do fornecedor — v1.2 (2026-07-26)
+
+Autorizado expressamente pelo usuário: estas minutas são **formulários preenchidos por
+terceiros**, não documentos que a Câmara redige. Marcador `{{CAMPO}}` e literal
+`[PREENCHER]` são notação interna do repositório — para quem recebe o arquivo, não
+indicam onde escrever.
+
+- Campos do domínio do proponente convertidos em **campo de preenchimento**: régua no
+  texto corrido, célula vazia dentro de tabela.
+- Tabelas **emolduradas** (borda simples, cinza), para que a célula em branco se leia
+  como campo.
+- `[PREENCHER]` eliminado.
+- Preservados como marcador apenas os campos que a **montagem do aviso completo**
+  preenche: processo, aviso, objeto e o quadro de itens.
+- Linhas com campo de preenchimento deixaram de ser justificadas — a régua não quebra, e
+  justificar espalhava as palavras da linha.

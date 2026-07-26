@@ -64,8 +64,8 @@
 
 - INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).
 - INFORMAÇÃO — modelo de proposta [PROPOSTA_COMERCIAL_MINUTA_MAE.docx]: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.
-- INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.
-- INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.
+- INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: nenhum.
+- INFORMAÇÃO — modelo de proposta [04_DECLARACAO_CONJUNTA.docx]: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: nenhum.
 - INFORMAÇÃO — modelo de proposta [03_MODELO_DE_PROPOSTA_COMERCIAL.docx]: Modelo de proposta conferido contra o TR: 1 item(ns) correspondentes.
 
 ## Validação da minuta de contrato
@@ -77,7 +77,7 @@ Não há minuta de contrato neste aviso.
 - INFORMAÇÃO — numeração dos anexos: Ordem definida: ANEXO I — DOCUMENTOS EXIGIDOS PARA HABILITAÇÃO · ANEXO II — TERMO DE REFERÊNCIA · ANEXO III — MODELO DE PROPOSTA COMERCIAL · ANEXO IV — DECLARAÇÃO CONJUNTA
 - INFORMAÇÃO — numeração dos anexos: Declaração conjunta numerada como ANEXO IV (não há minuta de contrato).
 - INFORMAÇÃO — montagem do DOCX [unido.docx]: Documento único montado com 5 componente(s): 00_AVISO.docx, 01_DOCUMENTOS_EXIGIDOS_PARA_HABILITACAO.docx, 02_TERMO_DE_REFERENCIA.docx, 03_MODELO_DE_PROPOSTA_COMERCIAL.docx, 04_DECLARACAO_CONJUNTA.docx
-- INFORMAÇÃO — validação cruzada [AVISO_DISPENSA_COMPLETO.docx]: 7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
+- INFORMAÇÃO — validação cruzada [AVISO_DISPENSA_COMPLETO.docx]: 9 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
 
 ## Divergências encontradas
 
@@ -651,12 +651,9 @@ Nenhum campo pendente detectado.
 - Parágrafo 352 (titulo_documento): keep_lines
 - Parágrafo 353 (identificacao): estilo Normal -> CMI Identificacao
 - Parágrafo 355 (identificacao): estilo Normal -> CMI Identificacao
-- Parágrafo 364 (corpo): estilo Normal -> CMI Corpo
-- Parágrafo 366 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 368 (titulo_documento): space_before 18.0pt -> 0.0pt
 - Parágrafo 368 (titulo_documento): keep_lines
 - Parágrafo 369 (identificacao): estilo Normal -> CMI Identificacao
-- Parágrafo 380 (corpo): estilo Normal -> CMI Corpo
 - Parágrafo 382 (titulo_1): estilo Normal -> CMI Titulo 1
 - Tabela 0: estilo Normal -> CMI Cabecalho de Tabela
 - Tabela 0: tamanho 12.0pt -> 11.0pt
@@ -783,13 +780,13 @@ Nenhum campo pendente detectado.
 - [INFORMAÇÃO] localização de componentes: Instrumento definido como 'ordem_fornecimento' (fonte: campo estruturado do processo (manifesto)). Minuta de contrato não será anexada.
 - [INFORMAÇÃO] modelo de proposta: Colunas do quadro de itens redistribuídas para acomodar a especificação vinda do TR (formatação do anexo gerado; a minuta não foi alterada).
 - [INFORMAÇÃO] modelo de proposta: Quadro do modelo de proposta gerado com 1 item(ns) do TR, com marca e preços reservados ao proponente.
-- [INFORMAÇÃO] modelo de proposta: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: DADOS_RESPONSAVEL, DATA, LOCAL, NOME_REPRESENTANTE, VALOR_TOTAL_EXTENSO, VALOR_TOTAL_PROPOSTA; 7 campo(s) '[PREENCHER]' convertido(s) em espaço do fornecedor.
-- [INFORMAÇÃO] modelo de proposta: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: CNPJ, CPF, DATA, ENDERECO, LOCAL, NOME_REPRESENTANTE, RAZAO_SOCIAL, RG.
+- [INFORMAÇÃO] modelo de proposta: Campos da Administração preenchidos: NUMERO_AVISO, NUMERO_PROCESSO, OBJETO. Campos reservados ao proponente: nenhum.
+- [INFORMAÇÃO] modelo de proposta: Declaração conjunta gerada da minuta oficial DECLARACAO_UNIFICADA_MINUTA_MAE.docx; campos reservados ao declarante: nenhum.
 - [INFORMAÇÃO] modelo de proposta: Modelo de proposta conferido contra o TR: 1 item(ns) correspondentes.
 - [INFORMAÇÃO] montagem: Fundamento legal ajustado ao texto da minuta: 'art. 75, inciso II, da Lei nº 14.133/2021' → '75, inciso II, da Lei nº 14.133/2021' (a minuta já traz 'art.' antes do campo).
 - [INFORMAÇÃO] montagem: Aviso: campos preenchidos — CRITERIO_JULGAMENTO, DATA, DATA_FIM_PROPOSTAS, DATA_INICIO_PROPOSTAS, FUNDAMENTO_LEGAL, NOME_PRESIDENTE, NUMERO_AVISO, OBJETO.
 - [INFORMAÇÃO] montagem: Anexo I: campos preenchidos — nenhum.
-- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 630 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
+- [INFORMAÇÃO] montagem: Padronização aplicada (perfil 'aviso'): 627 correção(ões); status EXIGE CONFERÊNCIA HUMANA.
 - [INFORMAÇÃO] montagem do DOCX: Anexo I separado do corpo do aviso a partir da própria minuta-mãe (nenhum Anexo I novo foi criado).
 - [INFORMAÇÃO] montagem do DOCX: O Anexo I mantém o título que a minuta-mãe já traz ('DOCUMENTAÇÃO EXIGIDA PARA HABILITAÇÃO', em caixa de texto) e não recebe o rótulo 'ANEXO I — ...' aplicado aos demais anexos: acrescentá-lo duplicaria o título do anexo. Uniformizar isso depende de revisão da minuta-mãe.
 - [INFORMAÇÃO] montagem do DOCX: 2 referência(s) de cabeçalho/rodapé de seções anexas removida(s): todas as seções passam a usar o timbre oficial do aviso.
@@ -801,5 +798,5 @@ Nenhum campo pendente detectado.
 - [INFORMAÇÃO] validação cruzada: TR confirmado como do processo 026/2026.
 - [INFORMAÇÃO] validação cruzada: Período de recebimento: 2026-07-27 a 2026-07-29 — 3 dias úteis (feriados municipais não são considerados no cálculo automático; confira o calendário local).
 - [INFORMAÇÃO] validação cruzada: O TR menciona catálogo ou ficha técnica. Confira se o aviso e o Anexo I tratam da exigência de forma coerente.
-- [INFORMAÇÃO] validação cruzada: 7 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
+- [INFORMAÇÃO] validação cruzada: 9 linha(s) com lacuna reservada ao proponente (modelo de proposta, declaração e minuta de contrato) — espaço legítimo de preenchimento, não campo esquecido.
 - [INFORMAÇÃO] validação cruzada: Conteúdo preservado: 318 linha(s) dos componentes localizadas no documento único.

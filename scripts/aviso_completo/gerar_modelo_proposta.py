@@ -210,6 +210,23 @@ def _esvaziar_campos_do_proponente(documento) -> tuple[list[str], list[str]]:
     return sorted(set(esvaziados)), linhas
 
 
+def lacunas_da_minuta(documento) -> list[str]:
+    """
+    Linhas que já vêm da minuta com campo de preenchimento desenhado.
+
+    Desde a v1.2, as minutas de proposta e de declaração trazem os campos do
+    fornecedor como régua, e não como marcador: elas são formulários que o
+    proponente preenche, e `{{RAZAO_SOCIAL}}` não diz a ele onde escrever. Essas
+    réguas são o documento funcionando como pretendido — a validação final
+    precisa reconhecê-las para não acusar campo esquecido.
+    """
+    return [
+        texto_paragrafo(paragrafo).strip()
+        for paragrafo in iter_paragrafos_corpo(documento)
+        if SUBLINHADO_RE.search(texto_paragrafo(paragrafo))
+    ]
+
+
 def _esvaziar_preencher_literal(documento) -> int:
     """
     Troca `[PREENCHER]` por célula vazia nas tabelas de dados do fornecedor.
@@ -295,6 +312,7 @@ def gerar(minuta: Path, destino: Path, dados_administracao: dict[str, str],
 
     esvaziados, lacunas = _esvaziar_campos_do_proponente(documento)
     literais = _esvaziar_preencher_literal(documento)
+    lacunas += lacunas_da_minuta(documento)
 
     destino.parent.mkdir(parents=True, exist_ok=True)
     documento.save(str(destino))
@@ -339,6 +357,7 @@ def gerar_declaracao(minuta: Path, destino: Path,
 
     esvaziados, lacunas = _esvaziar_campos_do_proponente(documento)
     _esvaziar_preencher_literal(documento)
+    lacunas += lacunas_da_minuta(documento)
 
     destino.parent.mkdir(parents=True, exist_ok=True)
     documento.save(str(destino))

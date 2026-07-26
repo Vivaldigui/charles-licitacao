@@ -1,0 +1,128 @@
+{
+  "documento": "G:\\Outros computadores\\Meu computador (1)\\Charles\\05_minutas\\PROPOSTA_COMERCIAL\\PROPOSTA_COMERCIAL_MINUTA_MAE.docx",
+  "minuta_mae": null,
+  "perfil": "declaracao",
+  "perfil_nome": "Declaracao unificada / proposta comercial (modelos para terceiros)",
+  "data": "2026-07-26",
+  "modo": "auditoria",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": null,
+    "fontes": {
+      "Calibri (estilo)": 33
+    },
+    "tamanhos": {
+      "14.0": 1
+    },
+    "cores": {},
+    "estilos": {
+      "Normal": 4,
+      "CMI Titulo do Documento": 1,
+      "CMI Corpo": 10,
+      "CMI Cabecalho de Tabela": 8,
+      "CMI Tabela": 10
+    },
+    "runs_totais": 33,
+    "runs_com_formatacao_direta": 1,
+    "proporcao_formatacao_direta": 0.03
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 0,
+    "problemas": [],
+    "proposta_renumeracao": {},
+    "referencias_internas": 0,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": false,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 2,
+    "problemas": [],
+    "detalhe": [
+      {
+        "indice": 0,
+        "linhas": 7,
+        "colunas": 2,
+        "largura_twips": 10220,
+        "area_util_twips": 10220,
+        "excede_margens": false,
+        "cabecalho_repetido": true,
+        "linhas_divisiveis": 0,
+        "celulas_mescladas": 0
+      },
+      {
+        "indice": 1,
+        "linhas": 2,
+        "colunas": 7,
+        "largura_twips": 10220,
+        "area_util_twips": 10220,
+        "excede_margens": false,
+        "cabecalho_repetido": true,
+        "linhas_divisiveis": 0,
+        "celulas_mescladas": 0
+      }
+    ]
+  },
+  "paginacao": {
+    "problemas": []
+  },
+  "estrutura": {
+    "problemas": []
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_inferior_cm=2.22 (padrão 2.5); margem_esquerda_cm=1.5 (padrão 3.0); margem_direita_cm=1.5 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 1,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 0: {{NUMERO_PROCESSO}}",
+      "parágrafo 0: {{NUMERO_AVISO}}",
+      "parágrafo 2: {{OBJETO}}",
+      "parágrafo 4: ______________________________________________",
+      "parágrafo 5: __________________________",
+      "parágrafo 5: ______________________________________________",
+      "parágrafo 11: __________________________",
+      "parágrafo 11: ____________________",
+      "parágrafo 12: ________________________________________",
+      "parágrafo 13: ________________________________________",
+      "parágrafo 36: {{ITEM}}",
+      "parágrafo 37: {{DESCRICAO_ITEM}}",
+      "parágrafo 38: {{UNIDADE}}",
+      "parágrafo 39: {{QUANTIDADE}}"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [],
+    "texto_destacado": [],
+    "total": 14
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {
+      "creator": "CMI",
+      "lastModifiedBy": "Câmara Municipal de Itanhandu"
+    }
+  },
+  "correcoes_automaticas_possiveis": [],
+  "correcoes_que_exigem_humano": [
+    "14 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Metadados pessoais no pacote: creator=CMI, lastModifiedBy=Câmara Municipal de Itanhandu (limpeza só com --limpar-metadados).",
+    "Margens divergentes do padrão — exigem decisão humana."
+  ],
+  "nota_padronizacao": 86,
+  "status": "EXIGE CONFERÊNCIA HUMANA"
+}

@@ -737,3 +737,36 @@ def test_montagem_nao_acusa_mais_timbre_divergente(montagem_sem_contrato):
     alertas = [o["mensagem"] for o in dados["ocorrencias"]
                if o["severidade"] == "ALERTA"]
     assert not any("cabeçalho/rodapé diferente" in m for m in alertas), alertas
+
+
+@pytest.mark.parametrize("minuta", [
+    localizar_componentes.MINUTA_PROPOSTA,
+    localizar_componentes.MINUTA_DECLARACAO,
+])
+def test_minutas_do_fornecedor_so_guardam_marcadores_da_administracao(minuta):
+    """
+    São formulários preenchidos por terceiros. O que cabe ao fornecedor tem de
+    aparecer como campo — régua ou célula em branco —, nunca como `{{CAMPO}}` ou
+    `[PREENCHER]`, que não dizem a ele onde escrever.
+    """
+    import re
+
+    from util_ooxml import CAMPO_RE
+
+    texto = texto_do(minuta)
+    restantes = set(CAMPO_RE.findall(texto))
+    permitidos = {"NUMERO_PROCESSO", "NUMERO_AVISO", "OBJETO",
+                  "ITEM", "DESCRICAO_ITEM", "UNIDADE", "QUANTIDADE"}
+    assert restantes <= permitidos, restantes - permitidos
+    assert "[PREENCHER" not in texto.upper()
+    assert re.search(r"_{4,}", texto), "nenhum campo de preenchimento desenhado"
+
+
+def test_quadro_de_itens_da_proposta_e_emoldurado():
+    """Célula em branco sem borda não se lê como campo."""
+    from util_ooxml import qn
+
+    documento = Document(str(localizar_componentes.MINUTA_PROPOSTA))
+    assert documento.tables
+    for tabela in documento.tables:
+        assert tabela._tbl.tblPr.find(qn("w:tblBorders")) is not None
