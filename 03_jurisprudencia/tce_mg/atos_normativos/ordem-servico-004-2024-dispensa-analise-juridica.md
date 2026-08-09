@@ -1,0 +1,72 @@
+---
+tipo: jurisprudencia
+tema: atos normativos tce-mg; licitacoes e contratos
+fonte: Ordem de Serviço nº 4/PRES./2024 TCE-MG / TCLEGIS
+vigencia: vigente
+atualizado_em: 2026-08-09
+tags: [tcemg, atos-normativos, ordem-servico]
+---
+
+# Ordem de Serviço nº 4/PRES./2024
+
+**Ementa:** Dispensa a análise jurídica em processo de contratação nas hipóteses em que menciona.
+
+**Dados:** Ordem de Serviço nº 4/PRES./2024 — 2024.
+
+**Observações de organização:**
+Dispensa parecer jurídico em dispensa 75 I e II e inexigibilidade art. 74 até os limites, desde que TR padronizado aprovado pela assessoria jurídica + lista de verificação (checklist) nos autos. Modelo de simplificação.
+
+---
+
+## Texto integral
+
+ORDEM DE SERVIÇO Nº 4/PRES./2024
+
+Dispensa a análise jurídica em processo de
+contratação nas hipóteses em que menciona.
+
+O PRESIDENTE DO TRIBUNAL DE CONTAS DO ESTADO DE MINAS GERAIS, no uso das
+atribuições que lhe são conferidas pelo inciso I do art. 19 da Lei Complementar nº 102, de 17 de
+janeiro de 2008; pelo inciso I do caput do art. 41 e pelo inciso III do § 2º do art. 41 da Resolução
+nº 12, de 17 de dezembro de 2008; e pelo inciso II do art. 3º da Resolução nº 6, de 27 de maio
+de 2009;
+
+CONSIDERANDO que a Lei Complementar nº 167, de 30 de junho de 2022, instituiu a
+Procuradoria Jurídica do Tribunal de Contas do Estado de Minas Gerais, a qual compete, entre
+outras atribuições, exercer as funções de consultoria e assessoria jurídicas da Presidência e,
+nos termos de ato normativo próprio, dos demais órgãos do Tribunal, nos termos do inciso V do
+art. 3º da referida lei;
+
+CONSIDERANDO que cabe à Consultoria-Geral Ajunta prestar assessoramento jurídico à área
+meio do Tribunal, especialmente com a elaboração de estudos e pareceres sobre licitações,
+dispensa e inexigibilidade de licitação, contratos e aditivos, acordos e instrumentos congêneres,
+conforme previsto no inciso I do art. 21 da Resolução nº 4, de 29 de março de 2023;
+
+CONSIDERANDO as disposições do § 5º do art. 53 da Lei Federal nº 14.133, de 1º de abril de
+2021;
+
+RESOLVE:
+
+Art. 1º Fica dispensada a análise jurídica em processo de contratação, salvo quando houver a
+formalização de contrato administrativo, nas hipóteses de:
+
+I – dispensa de licitação prevista nos incisos I e II do art. 75 da Lei Federal nº 14.133, de 1º de
+abril de 2021; e
+
+II – inexigibilidade de licitação de que trata o art. 74 da Lei nº 14.133, de 2021, desde que seu
+valor não ultrapasse os limites previstos nos incisos I e II do art. 75 da Lei Federal nº 14.133, de
+1º de abril de 2021.
+
+§ 1º Para fins do disposto no caput, deverá ser utilizada minuta padronizada de termo de
+referência previamente aprovada pela Consultoria-Geral Adjunta na instrução do procedimento.
+
+§ 2º Nas hipóteses em que dispensada a análise jurídica, deverá ser certificado nos autos do
+processo de contratação o atendimento às exigências legais e internas para o procedimento, por
+meio de lista de verificação, a ser preenchida pela unidade administrativa responsável pela
+instrução do feito.
+
+Art. 2º A análise jurídica será obrigatória quando suscitada, por gestor de unidade administrativa
+do Tribunal, dúvida acerca da legalidade do procedimento de contratação a que referem os
+incisos I e II do art. 2º desta Ordem de Serviço.
+
+Art. 3º Esta Ordem de Serviço entra em vigor na data de sua assinatura.

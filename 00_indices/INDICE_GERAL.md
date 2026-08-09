@@ -3,7 +3,7 @@ tipo: checklist
 tema: indice geral
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-06-27
+atualizado_em: 2026-08-09
 tags: [indice, geral]
 ---
 
@@ -20,6 +20,38 @@ tags: [indice, geral]
 ## 03_jurisprudencia
 - [Consulta TCEMG Processo 1104833 - Dispensa de licitação por valor, mesma natureza e mesmo ramo de atividade](../03_jurisprudencia/tce_mg/consulta-tcemg-1104833-dispensa-valor-ramo-atividade.md) — tipo: jurisprudencia; tema: dispensa de licitacao; fonte: Conselheiro Substituto Hamilton Coelho / Tribunal de Contas do Estado de Minas Gerais - TCEMG / Consulta 1104833; vigência: vigente; atualizado_em: 2026-06-25
 - [Lei n. 14.133/2021 - Pareceres de Consulta nos 4 anos de vigência da Lei (Estudo Temático TCEMG)](../03_jurisprudencia/tce_mg/estudo-tematico-tcemg-lei-14133-pareceres-consulta.md) — tipo: jurisprudencia; tema: dispensa de licitacao; fonte: Tribunal de Contas do Estado de Minas Gerais - TCEMG / Estudo Temático / Agosto de 2025; vigência: vigente; atualizado_em: 2026-06-27
+
+### 03_jurisprudencia/tce_mg/atos_normativos (normas de licitações do TCEMG — baixadas do TCLEGIS)
+- [Portaria 83/PRES./2023 - Regime de transição do art. 191 (histórico)](../03_jurisprudencia/tce_mg/atos_normativos/portaria-083-2023-regime-transicao-art191.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente (superado); atualizado_em: 2026-08-09
+- [Portaria 1/PRES./2024 - Plano de Contratações Anual (PCA), compilada](../03_jurisprudencia/tce_mg/atos_normativos/portaria-001-2024-pca.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Portaria 02/PRES./2024 - Contratação direta por dispensa (art. 75, I e II), compilada](../03_jurisprudencia/tce_mg/atos_normativos/portaria-002-2024-dispensa-art75-I-II.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; dispensa; vigência: vigente; atualizado_em: 2026-08-09
+- [Portaria 8/PRES./2024 - Agente de contratação, comissão, gestor e fiscal de contrato, compilada](../03_jurisprudencia/tce_mg/atos_normativos/portaria-008-2024-agentes-contratacao.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Portaria 9/PRES./2024 - Estudo Técnico Preliminar (ETP), compilada](../03_jurisprudencia/tce_mg/atos_normativos/portaria-009-2024-estudo-tecnico-preliminar.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Portaria 43/PRES./2024 - Sistema de Registro de Preços](../03_jurisprudencia/tce_mg/atos_normativos/portaria-043-2024-registro-precos.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Portaria 141/PRES./2025 - Altera a Portaria 02/PRES./2024](../03_jurisprudencia/tce_mg/atos_normativos/portaria-141-2025-altera-portaria-002-2024.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Ordem de Serviço 4/PRES./2024 - Dispensa da análise jurídica em contratação](../03_jurisprudencia/tce_mg/atos_normativos/ordem-servico-004-2024-dispensa-analise-juridica.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Resolução 06/2024 - Enquadramento de bens de qualidade comum e de luxo](../03_jurisprudencia/tce_mg/atos_normativos/resolucao-006-2024-bens-comuns-luxo.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+- [Resolução 07/2024 - Responsabilização e sanções em licitações e contratos](../03_jurisprudencia/tce_mg/atos_normativos/resolucao-007-2024-responsabilizacao-sancoes.md) — tipo: jurisprudencia; tema: atos normativos tce-mg; vigência: vigente; atualizado_em: 2026-08-09
+
+### 03_jurisprudencia/tce_mg/amostras (contratações diretas do TCEMG no DOC/2026)
+- [Amostras de instrumentação das contratações diretas do TCEMG (inexigibilidade, dispensa, adesão a ata)](../03_jurisprudencia/tce_mg/amostras-instrumentacao-contratacao-direta-tcemg.md) — tipo: jurisprudencia; tema: amostras de instrumentacao de contratacao direta; fonte: Diário Oficial de Contas - DOC; vigência: vigente; atualizado_em: 2026-08-09 — material reunido em `minutas-tce-cmi/referencias/02-contratacoes-diretas-tcemg-doc/`
+
+## 09_relatorios
+- [Relatório 01 - Atos normativos do TCE-MG aplicáveis à Câmara de Itanhandu](../09_relatorios/relatorio-01-atos-normativos-tcemg-aplicaveis-camara-itanhandu.md) — tipo: relatorio; tema: atos normativos tce-mg aplicaveis a camara; atualizado_em: 2026-08-09
+- [Relatório 02 - Atos internos de Itanhandu: melhorias e pontos de atenção](../09_relatorios/relatorio-02-atos-internos-itanhandu-melhorias-pontos-atencao.md) — tipo: relatorio; tema: leitura dos atos internos de itanhandu; atualizado_em: 2026-08-09
+- [Relatório 03 - Comparativo de instrumentação: TCE-MG vs Itanhandu (contratação direta)](../09_relatorios/relatorio-03-comparativo-instrumentacao-tcemg-vs-itanhandu.md) — tipo: relatorio; tema: comparativo de instrumentacao tcemg vs itanhandu; atualizado_em: 2026-08-09
+
+## minutas-tce-cmi (rascunhos em homologação — fora de 05_minutas)
+- [_CONTROLE_MINUTAS_TCE-CMI (índice/governança)](../minutas-tce-cmi/_CONTROLE_MINUTAS_TCE-CMI.md) — tipo: minuta; tema: minutas de instrumentação de contratação direta — padrão TCE-MG adaptado à Câmara; ⚠️ NÃO substitui minutas-mãe de 05_minutas; validar com o jurídico antes do uso
+- [01-aviso-contratacao-direta](../minutas-tce-cmi/01-aviso-contratacao-direta.md)
+- [02-ato-autorizativo-ratificacao](../minutas-tce-cmi/02-ato-autorizativo-ratificacao.md)
+- [03-extrato-contrato](../minutas-tce-cmi/03-extrato-contrato.md)
+- [04-termo-referencia-sintetico](../minutas-tce-cmi/04-termo-referencia-sintetico.md)
+- [05-checklist-verificacao-conformidade](../minutas-tce-cmi/05-checklist-verificacao-conformidade.md)
+- [06-justificativa-nao-publicacao-aviso](../minutas-tce-cmi/06-justificativa-nao-publicacao-aviso.md)
+- [07-aviso-intencao-adesao-arp](../minutas-tce-cmi/07-aviso-intencao-adesao-arp.md)
+- [08-termo-adesao-ata-registro-precos](../minutas-tce-cmi/08-termo-adesao-ata-registro-precos.md)
+- [Referências documentais (atos normativos + contratações do DOC)](../minutas-tce-cmi/referencias/LEIA-ME.md)
 
 ## 06_precedentes_camara
 - [Controle de Contratações (aferição de limite por CNAE)](../06_precedentes_camara/CONTROLE_CONTRATACOES.md) — tipo: precedente; tema: controle de contratacoes e afericao de limite por cnae; fonte: contratações concluídas da Câmara; vigência: vigente; atualizado_em: 2026-06-27 — 🔄 atualizar a cada contratação concluída
