@@ -3,7 +3,7 @@ tipo: checklist
 tema: mapa por tema
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-06-27
+atualizado_em: 2026-08-09
 tags: [indice, temas]
 ---
 
@@ -38,4 +38,25 @@ tags: [indice, temas]
 
 ## regulamento de licitacoes e contratacoes
 - [Regulamento de Licitações e Contratações da Câmara Municipal de Itanhandu](../02_normas_internas/regulamento-licitacoes-camara-itanhandu.md) — tipo: norma_interna; fonte: Câmara Municipal de Itanhandu / Diário Oficial dos Municípios Mineiros / Portarias 03 a 19 de 2024
+
+## atos normativos do tce-mg (normas de licitações do Tribunal de Contas)
+- [Portaria 02/PRES./2024 - Contratação direta por dispensa (art. 75, I e II)](../03_jurisprudencia/tce_mg/atos_normativos/portaria-002-2024-dispensa-art75-I-II.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Portaria 141/PRES./2025 - Altera a Portaria 02/PRES./2024](../03_jurisprudencia/tce_mg/atos_normativos/portaria-141-2025-altera-portaria-002-2024.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Portaria 1/PRES./2024 - Plano de Contratações Anual (PCA)](../03_jurisprudencia/tce_mg/atos_normativos/portaria-001-2024-pca.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Portaria 8/PRES./2024 - Agente de contratação, comissão, gestor e fiscal de contrato](../03_jurisprudencia/tce_mg/atos_normativos/portaria-008-2024-agentes-contratacao.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Portaria 9/PRES./2024 - Estudo Técnico Preliminar (ETP)](../03_jurisprudencia/tce_mg/atos_normativos/portaria-009-2024-estudo-tecnico-preliminar.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Portaria 43/PRES./2024 - Sistema de Registro de Preços](../03_jurisprudencia/tce_mg/atos_normativos/portaria-043-2024-registro-precos.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Ordem de Serviço 4/PRES./2024 - Dispensa da análise jurídica em contratação](../03_jurisprudencia/tce_mg/atos_normativos/ordem-servico-004-2024-dispensa-analise-juridica.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Resolução 06/2024 - Enquadramento de bens de qualidade comum e de luxo](../03_jurisprudencia/tce_mg/atos_normativos/resolucao-006-2024-bens-comuns-luxo.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Resolução 07/2024 - Responsabilização e sanções em licitações e contratos](../03_jurisprudencia/tce_mg/atos_normativos/resolucao-007-2024-responsabilizacao-sancoes.md) — tipo: jurisprudencia; fonte: TCEMG
+- [Portaria 83/PRES./2023 - Regime de transição do art. 191 (histórico)](../03_jurisprudencia/tce_mg/atos_normativos/portaria-083-2023-regime-transicao-art191.md) — tipo: jurisprudencia; fonte: TCEMG
+
+## relatorios de sugestoes (tcemg x itanhandu)
+- [Relatório 01 - Atos normativos do TCE-MG aplicáveis à Câmara de Itanhandu](../09_relatorios/relatorio-01-atos-normativos-tcemg-aplicaveis-camara-itanhandu.md) — tipo: relatorio; fonte: Charles / base documental
+- [Relatório 02 - Atos internos de Itanhandu: melhorias e pontos de atenção](../09_relatorios/relatorio-02-atos-internos-itanhandu-melhorias-pontos-atencao.md) — tipo: relatorio; fonte: Charles / base documental
+- [Relatório 03 - Comparativo de instrumentação: TCE-MG vs Itanhandu](../09_relatorios/relatorio-03-comparativo-instrumentacao-tcemg-vs-itanhandu.md) — tipo: relatorio; fonte: Charles / base documental
+
+## instrumentacao e amostras de contratacao direta
+- [Amostras de instrumentação das contratações diretas do TCEMG (DOC/2026)](../03_jurisprudencia/tce_mg/amostras-instrumentacao-contratacao-direta-tcemg.md) — tipo: jurisprudencia; fonte: Diário Oficial de Contas - DOC; material bruto em `_entrada/tcemg_doc_edicoes/`
+- [Como instruir uma dispensa de licitação em razão do valor em menos de uma hora](../04_doutrina_artigos/como-instruir-dispensa-licitacao-valor.md) — tipo: doutrina; fonte: Jandeson da Costa Barbosa / artigo em PDF
 

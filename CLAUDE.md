@@ -156,6 +156,7 @@ charles/
 ├── 06_precedentes_camara/          # contratações anteriores aceitas pelo controle
 ├── 07_checklists/                  # por modalidade e por fase
 ├── 08_processos_em_andamento/      # instruções/rascunhos atuais
+├── 09_relatorios/                  # relatórios de sugestões/análises (ex.: TCE-MG × Itanhandu)
 ├── 99_testes/
 │   └── PERGUNTAS_DE_VALIDACAO.md
 ├── scripts/                        # ferramentas de apoio à pesquisa de preços (Python stdlib)
