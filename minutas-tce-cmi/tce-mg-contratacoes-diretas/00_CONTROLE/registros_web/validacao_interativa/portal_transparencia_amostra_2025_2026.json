@@ -1,0 +1,74 @@
+{
+  "classificacao": "informacao oficial capturada em interface e normalizada para JSON",
+  "fonte": "Portal da Transparência do TCE-MG",
+  "url": "https://transparencia.tce.mg.gov.br/public/licitacoes",
+  "data_consulta": "2026-08-09",
+  "metodo": "navegador interativo; leitura do DOM visível; nenhuma API privada e nenhum CAPTCHA contornado",
+  "filtros_comuns": {
+    "fonte_pesquisa": "SIAD",
+    "lei": "Lei 14.133/21",
+    "tipo_procedimento": "Dispensa de Licitação",
+    "situacao": "TODAS"
+  },
+  "resultados": [
+    {
+      "ano_selecionado": 2025,
+      "total_itens_exibido": 6,
+      "amostras": [
+        {
+          "numero": "310",
+          "ano": 2025,
+          "objeto": "Contratação do serviço Serpro MultiCloud, na modalidade de assinatura.",
+          "valor_estimado": "R$ 119.999,63",
+          "valor_total": "R$ 119.999,63",
+          "situacao": "Concluído",
+          "fornecedor": "SERVICO FEDERAL DE PROCESSAMENTO DE DADOS (SERPRO)",
+          "contrato_exibido": "9516751",
+          "documentos_fase_interna_externa": "Sem informações na interface para este registro",
+          "anexo": "A interface orienta consultar o processo no Portal de Compras MG com órgão 1020, número e ano"
+        },
+        {
+          "numero": "98",
+          "ano": 2025,
+          "objeto": "Aquisição de 360 kg (trezentos e sessenta quilogramas) de Café torrado e moído",
+          "valor_estimado": "R$ 24.840,00",
+          "valor_total": "R$ 24.840,00",
+          "situacao": "Concluído",
+          "fornecedor": "EMPRESA DE PESQUISA AGROPECUARIA DE MINAS GERAIS - EPAMIG",
+          "contrato_exibido": "9470226"
+        }
+      ]
+    },
+    {
+      "ano_selecionado": 2026,
+      "total_itens_exibido": 7,
+      "amostras": [
+        {
+          "numero": "252",
+          "ano": 2026,
+          "objeto": "Contratação emergencial de seguradora para prestação de serviços de Seguro Coletivo de Acidentes Pessoais.",
+          "valor_estimado": "R$ 3.680,00",
+          "valor_total": "R$ 1.530,00",
+          "situacao": "Concluído",
+          "fornecedor": "MBM SEGURADORA SA",
+          "contrato_exibido": "9519068"
+        },
+        {
+          "numero": "23",
+          "ano": 2026,
+          "objeto": "Aquisição de equipamentos para captação de imagens, com entrega integral, de acordo com o Art. 75, inciso III, da Lei nº 14.133/2021.",
+          "valor_estimado": "R$ 3.223,00",
+          "valor_total": "R$ 2.469,99",
+          "situacao": "Concluído",
+          "fornecedor": "CONEXAO MAXIMA INFORMATICA LTDA",
+          "contrato_exibido": "9498643"
+        }
+      ]
+    }
+  ],
+  "limites": [
+    "A captura não é catálogo completo e não foi promovida para 03_INDICES/processos.*.",
+    "Os anexos dos processos continuam dependentes do Portal de Compras MG, que apresentou hCaptcha.",
+    "A API subjacente retornou HTTP 401 em requisição direta sem a sessão do navegador."
+  ]
+}

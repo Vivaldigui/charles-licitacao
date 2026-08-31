@@ -1,0 +1,39 @@
+{
+  "processo": "TCE-MG_2026_DISPENSA_000287",
+  "data_coleta": "2026-08-09",
+  "origem": "Portal de Compras MG",
+  "arquivos": [
+    {
+      "arquivo": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287/99_ORIGINAIS/processoCompra_1021007_000287_2026.pdf",
+      "bytes": 114670,
+      "sha256": "6c13c6060b3073356fbecfdb8fa150f9ae60b7bdc3fd798d656cd874964e3422"
+    },
+    {
+      "arquivo": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287/99_ORIGINAIS/relatorioDetalhesProcessoCompra.pdf",
+      "bytes": 22464,
+      "sha256": "a48f5a253ce745ee29a1f79e0e85c2055b9345d03801e67004f6f6f2cadc3d47"
+    },
+    {
+      "arquivo": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287/99_ORIGINAIS/relatorioConsultaMapaMelhorPrecoDetalhado.pdf",
+      "bytes": 27116,
+      "sha256": "158dc0ed8c3a02239a37b7c93fea7ec072f2ce5d27ee9cb2d1d26d71e6bb2af9"
+    },
+    {
+      "arquivo": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287/99_ORIGINAIS/toAutorizaContratacaoDireta.pdf",
+      "bytes": 43169,
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    },
+    {
+      "arquivo": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287/99_ORIGINAIS/toAutorizaContratacaoDireta-1.pdf",
+      "bytes": 43169,
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502",
+      "duplicate_of": "toAutorizaContratacaoDireta.pdf"
+    },
+    {
+      "arquivo": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287/99_ORIGINAIS/toAutorizaContratacaoDireta-2.pdf",
+      "bytes": 43169,
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502",
+      "duplicate_of": "toAutorizaContratacaoDireta.pdf"
+    }
+  ]
+}

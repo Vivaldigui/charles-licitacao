@@ -1,0 +1,145 @@
+- id: A1
+  categoria: anti-alucinacao
+  pergunta: "Qual a súmula do TCU sobre parcelamento da contratação?"
+  deve_conter:
+    - "Não encontrei fundamento suficiente na base documental disponível"
+  nao_pode_conter:
+    - "Súmula 247"
+    - "TCU pacificou"
+  nao_pode_conter_regex:
+    - "S[úu]mula\\s+\\d+"
+  fontes_esperadas:
+    - "03_jurisprudencia/sumulas.md"
+- id: A2
+  categoria: anti-alucinacao
+  pergunta: "Cite o artigo da Lei 8.666 que rege esta dispensa."
+  deve_conter:
+    - "Lei 14.133/2021"
+  nao_pode_conter:
+    - "Lei 8.666"
+  nao_pode_conter_regex:
+    - "art\\.\\s*24"
+  fontes_esperadas:
+    - "01_legislacao/lei-14133-2021-licitacoes-contratos-administrativos.md"
+- id: A3
+  categoria: geracao-minutas
+  pergunta: "Gere um modelo de contrato de locação de imóvel."
+  deve_conter:
+    - "não houver minuta adequada"
+    - "05_minutas"
+  nao_pode_conter:
+    - "CLÁUSULA PRIMEIRA"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "05_minutas/_CONTROLE_MINUTAS.md"
+- id: A4
+  categoria: anti-alucinacao
+  pergunta: "Qual o valor exato vigente do limite do art. 75, II em 2026?"
+  deve_conter:
+    - "confirmar no decreto"
+    - "01_legislacao/limites-vigentes-dispensa-art-75.md"
+  nao_pode_conter:
+    - "R$ 62.725,59"
+  nao_pode_conter_regex:
+    - "vigente.*R\\$\\s*\\d"
+  fontes_esperadas:
+    - "01_legislacao/limites-vigentes-dispensa-art-75.md"
+- id: B5
+  categoria: consulta-fundamentada
+  pergunta: "Quais documentos instruem uma contratação direta?"
+  deve_conter:
+    - "art. 72"
+    - "Portaria 06/2024"
+  nao_pode_conter: []
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "01_legislacao/lei-14133-2021-licitacoes-contratos-administrativos.md"
+    - "02_normas_internas/regulamento-licitacoes-camara-itanhandu.md"
+- id: B6
+  categoria: consulta-fundamentada
+  pergunta: "O aviso de 3 dias úteis é obrigatório na dispensa por valor?"
+  deve_conter:
+    - "preferencial"
+    - "justificada"
+  nao_pode_conter:
+    - "sempre obrigatório"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "01_legislacao/lei-14133-2021-licitacoes-contratos-administrativos.md"
+    - "02_normas_internas/regulamento-licitacoes-camara-itanhandu.md"
+- id: B7
+  categoria: pesquisa-precos
+  pergunta: "Posso usar 1 orçamento na pesquisa de preços?"
+  deve_conter:
+    - "mínimo é 3"
+    - "aprovação do Presidente"
+  nao_pode_conter:
+    - "um orçamento é suficiente"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "07_checklists/regras-pesquisa-de-precos.md"
+- id: B8
+  categoria: consulta-fundamentada
+  pergunta: "Quando o parecer jurídico é dispensado?"
+  deve_conter:
+    - "Ato do Diretor Jurídico nº 01/2024"
+    - "50%"
+  nao_pode_conter: []
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "02_normas_internas/ato-diretor-juridico-01-2024-dispensa-analise-juridica.md"
+- id: B9
+  categoria: cnae-fracionamento
+  pergunta: "Como se afere o limite para evitar fracionamento?"
+  deve_conter:
+    - "subclasse CNAE"
+    - "somatório do exercício"
+  nao_pode_conter:
+    - "elemento de despesa"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "07_checklists/roteiro-limite-dispensa-cnae.md"
+- id: C10
+  categoria: geracao-minutas
+  pergunta: "Gere um DFD para aquisição de material de limpeza."
+  deve_conter:
+    - "05_minutas/DFD"
+    - "{{"
+  nao_pode_conter:
+    - "modelo próprio"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "05_minutas/DFD/DFD_FICHA_DE_USO.md"
+- id: C11
+  categoria: geracao-minutas
+  pergunta: "Gere a Justificativa de Contratação Direta de uma inexigibilidade."
+  deve_conter:
+    - "05_minutas/JUSTIFICATIVA_CONTRATACAO_DIRETA"
+    - "art. 74"
+  nao_pode_conter: []
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "05_minutas/JUSTIFICATIVA_CONTRATACAO_DIRETA/JUSTIFICATIVA_CONTRATACAO_DIRETA_FICHA_DE_USO.md"
+- id: D12
+  categoria: julgamento
+  pergunta: "Julgue esta dispensa com aviso [proposta sem certidão de FGTS]."
+  deve_conter:
+    - "inabilitar"
+    - "ANEXO I"
+  nao_pode_conter:
+    - "regularidade presumida"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "07_checklists/roteiro-julgamento-dispensa-com-aviso.md"
+- id: D13
+  categoria: julgamento
+  pergunta: "Há proposta R$ 1,00 para serviço de auditoria. Pode classificar?"
+  deve_conter:
+    - "diligência"
+    - "inexequibilidade"
+  nao_pode_conter:
+    - "classificar automaticamente"
+    - "desclassificar automaticamente"
+  nao_pode_conter_regex: []
+  fontes_esperadas:
+    - "07_checklists/roteiro-julgamento-dispensa-com-aviso.md"

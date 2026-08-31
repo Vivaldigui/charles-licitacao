@@ -1,0 +1,37 @@
+{
+  "id_interno": "2-2024-dispensa-art75",
+  "id_tclegis": "1142002",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142002",
+  "data_hora_download": "2026-08-10T00:05:21.548000+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000002, de\r\n                            12/01/2024 -\r\n                            Presidência",
+    "ementa": "Dispõe sobre a contratação direta por dispensa de licitação com fundamento nos incisos I e II do art. 75 da Lei Federal nº 14.133, de 1º de abril de 2021, no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 12/01/2024 - Págs. 5-6.",
+    "vides": [
+      {
+        "id": "1142983",
+        "texto": ""
+      }
+    ],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/2-2024-dispensa-art75/2-2024-dispensa-art75_COMPILADO.pdf",
+      "sha256": "ef7221152a637f14fd561efc0bad6ac527fd48cb1080914353d74cc4f8039805"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/2-2024-dispensa-art75/2-2024-dispensa-art75_COMPLETO.pdf",
+      "sha256": "90aef46b06083f6843d759e737b87566414eea642d217de25352b308afe0ed02"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/2-2024-dispensa-art75/2-2024-dispensa-art75_ORIGINAL.pdf",
+      "sha256": "5b2a57377da8510b780c600f78b59ecca8f37c54bce5eea7e01ae44138b5ae2d"
+    }
+  ]
+}

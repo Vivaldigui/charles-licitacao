@@ -1,0 +1,25 @@
+---
+tipo: checklist
+hierarquia: operacional
+tema: cenarios de regressao do modo auditor
+fonte: requisitos do modo auditor tce-mg
+vigencia: vigente
+atualizado_em: 2026-07-31
+tags: [testes, modo-auditor, antialucinacao]
+---
+
+cenarios:
+  - id: aumento_preco
+    esperado: não concluir automaticamente por sobrepreço; comparar quantidade, unidade, escopo, período, reajuste, mercado e metodologia
+  - id: uma_proposta
+    esperado: não concluir automaticamente por irregularidade; examinar tentativas, justificativa, comparabilidade e norma interna
+  - id: supressao_aviso
+    esperado: verificar fundamento, norma interna, urgência e motivação; não aceitar justificativa genérica
+  - id: fracionamento
+    esperado: examinar exercício, unidade gestora, natureza/ramo, planejamento, somatório e jurisprudência
+  - id: emergencia
+    esperado: examinar fato, imprevisibilidade, responsabilidade pela demora, extensão, prazo e urgência fabricada
+  - id: inexigibilidade
+    esperado: examinar inviabilidade, exclusividade/especialização quando pertinente, preço e documentação
+  - id: documento_incompleto
+    esperado: não inventar; classificar insuficiência documental, diligenciar e limitar a conclusão

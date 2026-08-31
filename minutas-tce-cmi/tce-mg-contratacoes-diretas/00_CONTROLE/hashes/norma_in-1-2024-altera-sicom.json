@@ -1,0 +1,22 @@
+{
+  "id_interno": "in-1-2024-altera-sicom",
+  "id_tclegis": "1142380",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142380",
+  "data_hora_download": "2026-08-10T00:09:53.461580+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "INSTRUÇÃO NORMATIVA nº 000001, de\r\n                            28/08/2024 -\r\n                            Pleno",
+    "ementa": "Altera o caput, o inciso IV e os §§ 1º e 2º do art. 3º, acrescenta o inciso VII ao art. 3º e altera o § 1º do art. 13 da Instrução Normativa n° 02, de 6 de dezembro de 2023, que dispõe sobre a remessa, estabelece os prazos e institui as condições de envio das informações e documentos relativos a procedimentos licitatórios do exercício financeiro de 2024 e seguintes pelo Módulo Edital e Licitação d",
+    "fonte": "Disponibilização D.O.C. 03/09/2024 - Págs. 5-6.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/in-1-2024-altera-sicom/in-1-2024-altera-sicom_ORIGINAL.pdf",
+      "sha256": "542d065bd2667a4bfdccf85dc292b87f4e2d60f3432b9918e7ea20ca9f0b3cbb"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "id_interno": "TCE-MG_2026_DISPENSA_000287",
+    "numero_processo": "1021007 000287/2026",
+    "ano": 2026,
+    "modalidade": "DISPENSA",
+    "procedimento_original": "Dispensa de Licitação - Por valor - Compra direta - adm direta, fundação ou autarquia - Até R$ 65.492,11",
+    "objeto": "24 (vinte quatro) refis de filtro para purificador de água premium, marca Colormaq.",
+    "valor_estimado": 1431.36,
+    "valor_contratado": 1284.0,
+    "fornecedor": "UNILAR COMERCIAL LTDA",
+    "cnpj": "41.323.953/0001-78",
+    "fundamento_legal": "Artigo 75, inciso II, da Lei Federal nº 14.133/2021",
+    "data": "2026-08-04",
+    "situacao": "Concluído",
+    "quantidade_documentos": 4,
+    "url_tce": "https://transparencia.tce.mg.gov.br/public/licitacoes",
+    "url_compras_mg": "https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?orgaoEntidade=1020&numero=287&ano=2026&metodo=pesquisar&estaPesquisando=true",
+    "pasta_local": "02_PROCESSOS/DISPENSA/2026/TCE-MG_2026_DISPENSA_000287"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "documento": "G:\\Outros computadores\\Meu computador (1)\\Charles\\05_minutas\\DECLARACAO_UNIFICADA\\DECLARACAO_UNIFICADA_MINUTA_MAE.docx",
+  "minuta_mae": null,
+  "perfil": "declaracao",
+  "perfil_nome": "Declaracao unificada / proposta comercial (modelos para terceiros)",
+  "data": "2026-07-26",
+  "modo": "auditoria",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": null,
+    "fontes": {
+      "Calibri (estilo)": 14
+    },
+    "tamanhos": {
+      "12.0": 1
+    },
+    "cores": {},
+    "estilos": {
+      "Normal": 14
+    },
+    "runs_totais": 14,
+    "runs_com_formatacao_direta": 1,
+    "proporcao_formatacao_direta": 0.071
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 0,
+    "problemas": [],
+    "proposta_renumeracao": {},
+    "referencias_internas": 0,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": false,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 0,
+    "problemas": [],
+    "detalhe": []
+  },
+  "paginacao": {
+    "problemas": [
+      "3 título(s) sem 'manter com o próximo' — risco de título isolado no fim da página."
+    ]
+  },
+  "estrutura": {
+    "problemas": [
+      "3 título(s) sem estilo nomeado — formatados como texto comum."
+    ]
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_inferior_cm=2.22 (padrão 2.5); margem_esquerda_cm=1.5 (padrão 3.0); margem_direita_cm=1.5 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 1,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 0: {{NUMERO_PROCESSO}}",
+      "parágrafo 0: {{NUMERO_AVISO}}",
+      "parágrafo 2: {{RAZAO_SOCIAL}}",
+      "parágrafo 2: {{CNPJ}}",
+      "parágrafo 2: {{ENDERECO}}",
+      "parágrafo 2: {{NOME_REPRESENTANTE}}",
+      "parágrafo 2: {{RG}}",
+      "parágrafo 2: {{CPF}}",
+      "parágrafo 2: {{NUMERO_AVISO}}",
+      "parágrafo 11: {{LOCAL}}",
+      "parágrafo 11: {{DATA}}",
+      "parágrafo 12: ________________________________________",
+      "parágrafo 13: {{NOME_REPRESENTANTE}}",
+      "parágrafo 13: {{CPF}}"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [],
+    "texto_destacado": [],
+    "total": 14
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {
+      "creator": "CMI",
+      "lastModifiedBy": "Câmara Municipal de Itanhandu"
+    }
+  },
+  "correcoes_automaticas_possiveis": [
+    "Aplicar estilos nomeados CMI e uniformizar recuos/espaçamentos.",
+    "Aplicar controle de paginação (manter com o próximo, órfãs/viúvas)."
+  ],
+  "correcoes_que_exigem_humano": [
+    "14 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Metadados pessoais no pacote: creator=CMI, lastModifiedBy=Câmara Municipal de Itanhandu (limpeza só com --limpar-metadados).",
+    "Margens divergentes do padrão — exigem decisão humana."
+  ],
+  "nota_padronizacao": 79,
+  "status": "EXIGE CONFERÊNCIA HUMANA"
+}

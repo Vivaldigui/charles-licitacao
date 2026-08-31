@@ -1,0 +1,64 @@
+{
+  "classificacao": "exportação oficial obtida pela interface pública e validada localmente",
+  "fonte": "Portal da Transparência do TCE-MG",
+  "url": "https://transparencia.tce.mg.gov.br/public/licitacoes",
+  "data_consulta": "2026-08-09",
+  "metodo": "navegador interativo; filtros dependentes reaplicados em ordem; exportações CSV e XLSX acionadas pela própria interface",
+  "filtros": {
+    "fonte_pesquisa": "SIAD",
+    "lei": "Lei 14.133/21",
+    "tipo_procedimento": "Compra direta",
+    "ano_licitacao": "todos",
+    "situacao": "TODAS"
+  },
+  "resultado": {
+    "total_itens": 210,
+    "todos_tipo_procedimento_compra_direta": true,
+    "distribuicao_anual": {
+      "2023": 6,
+      "2024": 58,
+      "2025": 67,
+      "2026": 79
+    },
+    "pares_numero_ano_repetidos": {
+      "2026-83": 2,
+      "2026-20": 2,
+      "2026-16": 2,
+      "2026-13": 2,
+      "2026-12": 3,
+      "2026-9": 2,
+      "2025-209": 3,
+      "2024-142": 2,
+      "2024-71": 2,
+      "2024-57": 4,
+      "2023-240": 2
+    }
+  },
+  "arquivos_brutos": [
+    {
+      "arquivo": "portal_transparencia_compra_direta_siad_lei_14133_20260809.xlsx",
+      "formato": "xlsx",
+      "bytes": 28501,
+      "sha256": "d9e3a66d92d6627ef43aabb6065cbfc9fe0ea1eb653a560e24051fd1f3785490",
+      "validacao": "A1:J211; 1 cabeçalho + 210 registros; 10 colunas; acentuação, decimais e quebras de linha preservados"
+    },
+    {
+      "arquivo": "portal_transparencia_compra_direta_siad_lei_14133_20260809_original_defeituoso.csv",
+      "formato": "csv",
+      "bytes": 41803,
+      "sha256": "5e86f275d7e8345723231199ca3bed493ca5db99297a1815cad9cc6fbf933544",
+      "validacao": "preservado como original, mas inadequado para ingestão: campos com vírgulas, quebras de linha e codificação não foram escapados corretamente pelo portal"
+    }
+  ],
+  "artefatos_normalizados": [
+    "03_INDICES/processos_candidatos.csv",
+    "03_INDICES/processos_candidatos.json",
+    "outputs/portal-transparencia-20260809/catalogo_compras_diretas_siad_lei_14133.xlsx"
+  ],
+  "limites": [
+    "A exportação não contém CNPJ, artigo específico da Lei 14.133/21 nem documentos do processo.",
+    "Alguns pares número/ano se repetem; a exportação não informa a unidade de compra necessária para explicar a repetição.",
+    "A consulta individual e os anexos dependem do Portal de Compras MG, que pode exigir hCaptcha.",
+    "Os registros são candidatos da Fase 3 e não equivalem a processos documentais já coletados e analisados."
+  ]
+}

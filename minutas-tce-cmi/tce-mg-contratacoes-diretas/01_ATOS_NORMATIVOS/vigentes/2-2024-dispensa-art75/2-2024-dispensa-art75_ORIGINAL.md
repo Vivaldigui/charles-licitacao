@@ -1,0 +1,85 @@
+PORTARIA Nº 02/PRES./2024 – TEXTO ORIGINAL
+Dispõe sobre a contratação direta por dispensa de 
+licitação com fundamento nos incisos I e II do art. 
+75 da Lei Federal nº 14.133, de 1º de abril de 2021, 
+no âmbito do Tribunal de Contas do Estado de 
+Minas Gerais. 
+O PRESIDENTE DO TRIBUNAL DE CONTAS DO ESTADO DE MINAS GERAIS, no uso das 
+atribuições que lhe são conferidas pelo inciso I do art. 19 da Lei Complementar nº 102, de 17 de 
+janeiro de 2008; pelo inciso I do caput do art. 41 e pelo inciso II do § 2º do art. 41 da Resolução 
+nº 12, de 17 de dezembro de 2008; e pelo inciso II do art. 3º da Resolução nº 6, de 27 de maio 
+de 2009;  
+CONSIDERANDO o disposto na Lei Federal nº 14.133, de 1º de abril de 2021; 
+RESOLVE:  
+Art. 1º Esta Portaria dispõe sobre a contratação direta por dispensa de licitação com fundamento 
+nos incisos I e II do art. 75 da Lei Federal nº 14.133, de 1º de abril de 2021, no âmbito do Tribunal 
+de Contas do Estado de Minas Gerais.  
+Art. 2º A contratação direta de que trata esta Portaria será realizada, preferencialmente, sob a 
+forma eletrônica. 
+Parágrafo único. É admitida a não utilização de ferramenta eletrônica, desde que justificada a 
+inviabilidade técnica ou a desvantagem para o Tribunal.  
+Art. 3º Para fins de aferição dos valores que atendam aos limites referenciados nos incisos I e II 
+do art. 75 da Lei Federal nº 14.133, de 1º de abril de 2021, deverão ser observados o somatório 
+do que for despendido no exercício financeiro e a natureza dos objetos a serem contratados. 
+Art. 4º A contratação direta por dispensa de licitação de que trata esta Portaria, sob a forma 
+eletrônica ou não, deverá ser instruída com os seguintes documentos: 
+I – documento de formalização de demanda; 
+II – autorização para a instauração do procedimento pelo titular da Diretoria de Administração ou 
+seu substituto formalmente designado, depois de verificada a pertinência da demanda com o 
+planejamento das contratações do Tribunal; 
+III – termo de referência e, se for o caso, estudo técnico preliminar, análise de riscos, projeto 
+básico ou projeto executivo; 
+IV – minuta de contrato, se for o caso; 
+V – parecer jurídico e parecer técnico, se for o caso; 
+VI – estimativa de despesa, que deverá ser calculada na forma estabelecida no art. 23 da Lei 
+Federal nº 14.133, de 1º de abril de 2021; 
+VII – demonstração da compatibilidade da previsão de recursos orçamentários com o 
+compromisso a ser assumido; 
+VIII – comprovação de que o contratado preenche os requisitos de habilitação e qualificação 
+mínima necessária; 
+IX – razão da escolha do contratado; 
+X – justificativa de preço; 
+XI – homologação do procedimento pelo titular da Diretoria de Administração ou seu substituto 
+formalmente designado. 
+§ 1 º O termo de referência de que trata o inciso III do caput poderá ser sintético, a depender de 
+sugestão fundamentada da unidade demandante, considerando a baixa complexidade do objeto 
+a ser contratado, e desde que expressamente autorizado pelo titular da Diretoria de 
+Administração ou seu substituto formalmente designado, devendo conter, no mínimo: 
+I – a especificação do objeto a ser contratado, com a indicação de quantitativo dos bens ou 
+serviços; 
+
+II – a justificativa para a contratação; 
+III – os critérios de seleção do fornecedor; 
+IV – os requisitos de habilitação e qualificação técnica; 
+V – a vigência contratual, se for o caso; 
+VI – as condições de execução; 
+VII – as obrigações da contratada e do contratante; 
+VIII – a indicação do gestor e fiscal do contrato, se for o caso; 
+IX – as condições de pagamento; 
+X – as sanções. 
+§ 2º A pesquisa direta com fornecedores, feita mediante solicitação formal para apurar o valor 
+estimado da contratação, deverá conter justificativa da escolha desses fornecedores, observados 
+os demais requisitos previstos no inciso IV do § 1º do art. 23 Lei Federal nº 14.133, de 1º de abril 
+de 2021. 
+§ 3º Para fins de habilitação, na contratação para entrega imediata, considerada aquela com 
+prazo de entrega de até 30 (trinta) dias da ordem de fornecimento, na contratação em valor 
+inferior a 1/4 (um quarto) do limite para dispensa de licitação para compras em geral ou na 
+contratação de produto para pesquisa e desenvolvimento até o valor atualizado referenciado no 
+inciso III do art. 70 da Lei Federal nº 14.133, de 1º de abril de 2021, somente será exigida: 
+I – da pessoa jurídica: a comprovação da regularidade fiscal federal e estadual, social e 
+trabalhista; 
+II – da pessoa física: a comprovação da regularidade fiscal federal e estadual. 
+Art. 5º A contratação direta por dispensa de licitação de que trata esta Portaria será precedida, 
+quando possível, de divulgação de aviso, pelo prazo mínimo de três dias úteis, com a 
+especificação do objeto pretendido e com a manifestação de interesse em obter propostas 
+adicionais de eventuais interessados, devendo ser selecionada a proposta mais vantajosa. 
+Parágrafo único. Na hipótese de inviabilidade da publicação do aviso de que trata o caput, 
+especialmente quando a dispensa de licitação não for processada sob a forma eletrônica, deverá 
+ser envidado esforço para obter propostas adicionais de possíveis interessados.  
+Art. 6º A contratação direta por dispensa de licitação sob a forma eletrônica, realizada por 
+ferramenta disponível no Portal de Compras MG, deverá observar o rito e, no que couber, as 
+disposições da Resolução Seplag nº 34, de 24 de março de 2023, ou outro ato normativo que a 
+substituir. 
+Art. 7º Os casos omissos decorrentes da aplicação desta Portaria serão dirimidos pelo Presidente 
+do Tribunal. 
+Art. 8º Esta Portaria entra em vigor na data de sua publicação. 

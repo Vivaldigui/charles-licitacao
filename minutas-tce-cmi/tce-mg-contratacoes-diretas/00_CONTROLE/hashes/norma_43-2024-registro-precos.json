@@ -1,0 +1,22 @@
+{
+  "id_interno": "43-2024-registro-precos",
+  "id_tclegis": "1142265",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142265",
+  "data_hora_download": "2026-08-10T00:05:45.291163+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000043, de\r\n                            02/07/2024 -\r\n                            Presidência",
+    "ementa": "Regulamenta o sistema de registro de preços previsto na Lei Federal nº 14.133, de 1º de abril de 2021, no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 02/07/2024 - Págs. 19-24.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/43-2024-registro-precos/43-2024-registro-precos_ORIGINAL.pdf",
+      "sha256": "7f90d554dd9e11a49615691e41888a1d72e8cd342b1ce577f8ff634026a8935a"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "fonte": "PNCP",
+    "orgao": "Prefeitura Municipal de Caxambu/MG",
+    "objeto_encontrado": "Cadeira giratória presidente, encosto em tela, braços reguláveis",
+    "modalidade": "Dispensa",
+    "data": "2025-04-18",
+    "quantidade": 20,
+    "unidade": "unidade",
+    "valor_unitario": "789,00",
+    "valor_total": "15.780,00",
+    "link": "https://pncp.gov.br/app/editais/00000000000000/2025/1",
+    "comparabilidade": "alta",
+    "data_acesso": "2026-06-27"
+  },
+  {
+    "fonte": "Painel de Preços",
+    "orgao": "Câmara Municipal de Pouso Alegre/MG",
+    "objeto_encontrado": "Cadeira de escritório giratória mesh com apoio de braço",
+    "modalidade": "Pregão eletrônico",
+    "data": "2025-02-10",
+    "quantidade": 15,
+    "unidade": "unidade",
+    "valor_unitario": "812,50",
+    "valor_total": "",
+    "link": "https://paineldeprecos.planejamento.gov.br/exemplo",
+    "comparabilidade": "alta",
+    "data_acesso": "2026-06-27"
+  },
+  {
+    "fonte": "Pesquisa direta",
+    "orgao": "Fornecedor Moveis Mineiros LTDA (CNPJ 00.000.000/0001-00)",
+    "objeto_encontrado": "Cadeira presidente tela, base 5 rodízios, pistão classe 3",
+    "modalidade": "Cotação formal",
+    "data": "2026-06-20",
+    "quantidade": 30,
+    "unidade": "unidade",
+    "valor_unitario": "865,00",
+    "valor_total": "25.950,00",
+    "link": "proposta-protocolo-2026-0123",
+    "comparabilidade": "alta",
+    "data_acesso": "2026-06-27"
+  },
+  {
+    "fonte": "Site comercial",
+    "orgao": "[VALIDAÇÃO HUMANA]",
+    "objeto_encontrado": "Cadeira gamer (especificação divergente)",
+    "modalidade": "",
+    "data": "2026-06-15",
+    "quantidade": 1,
+    "unidade": "unidade",
+    "valor_unitario": "2.490,00",
+    "valor_total": "",
+    "link": "https://loja-exemplo.com.br/produto",
+    "comparabilidade": "baixa",
+    "data_acesso": "2026-06-27"
+  }
+]

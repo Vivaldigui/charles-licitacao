@@ -1,0 +1,22 @@
+{
+  "id_interno": "141-2025-altera-dispensa",
+  "id_tclegis": "1142983",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142983",
+  "data_hora_download": "2026-08-10T00:07:23.135221+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000141, de\r\n                            30/10/2025 -\r\n                            Presidência",
+    "ementa": "Altera a Portaria nº 02/PRES./2024, que dispõe sobre a contratação direta por dispensa de licitação com fundamento nos incisos I e II do art. 75 da Lei Federal nº 14.133, de 1º de abril de 2021, no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 30/10/2025 - Págs. 11-12.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/141-2025-altera-dispensa/141-2025-altera-dispensa_ORIGINAL.pdf",
+      "sha256": "411df3297b4afc0fbe5d430cb31e4a1518e7be1328a85d3a108e6278ebf99dbd"
+    }
+  ]
+}

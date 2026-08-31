@@ -1,0 +1,26 @@
+{
+  "id_interno": "in-6-2011-ppp",
+  "id_tclegis": "978234",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978234",
+  "ementa": "Dispõe sobre os procedimentos relativos à contratação de empreendimentos de parcerias público-privadas a serem fiscalizados pelo Tribunal de Contas do Estado de Minas Gerais nas Administrações Públicas estadual e municipais.",
+  "situacao": "situacao_nao_confirmada",
+  "classificacao": "relevante",
+  "data_hora_download": "2026-08-10T00:32:35.063717+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/in-6-2011-ppp/in-6-2011-ppp_COMPILADO.pdf",
+      "sha256": "2fc1d435f20ffc35001a314dc989917a2ca85b524b57289d670721ec2a2e8111"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/in-6-2011-ppp/in-6-2011-ppp_COMPLETO.pdf",
+      "sha256": "8e17be339216777a7abec6c18cee8d96c980b90b8d574b7e6b43e17cb56febb3"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/in-6-2011-ppp/in-6-2011-ppp_ORIGINAL.pdf",
+      "sha256": "5eaf7f278b9687bd975b7534668675c13c5917ae7bb722dc9d0954fd4f42695c"
+    }
+  ]
+}

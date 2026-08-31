@@ -1,0 +1,37 @@
+{
+  "id_interno": "in-2-2023-sicom-licitacoes",
+  "id_tclegis": "1141996",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141996",
+  "data_hora_download": "2026-08-10T00:09:28.468594+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "INSTRUÇÃO NORMATIVA nº 000002, de\r\n                            06/12/2023 -\r\n                            Pleno",
+    "ementa": "Dispõe sobre a remessa, estabelece os prazos e institui as condições de envio das informações e documentos relativos a procedimentos licitatórios do exercício financeiro de 2024 e seguintes pelo Módulo Edital e Licitação do Sistema Informatizado de Contas dos Municípios (SICOM).",
+    "fonte": "Disponibilização D.O.C. 14/12/2023 - Págs. 1-2.",
+    "vides": [
+      {
+        "id": "1142380",
+        "texto": ""
+      }
+    ],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/in-2-2023-sicom-licitacoes/in-2-2023-sicom-licitacoes_COMPILADO.pdf",
+      "sha256": "8d9548c548c1e7f0237529677d26f51604da9fe39114c39a576c24d92f53e257"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/in-2-2023-sicom-licitacoes/in-2-2023-sicom-licitacoes_COMPLETO.pdf",
+      "sha256": "7101db59579864416adcec082c4d99f5e9231ed326bf2251473c017410c8b528"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/in-2-2023-sicom-licitacoes/in-2-2023-sicom-licitacoes_ORIGINAL.pdf",
+      "sha256": "d6e4579dd9e4e9133a8713e344c48ce2a856054659666a25597771d4d32c12fc"
+    }
+  ]
+}

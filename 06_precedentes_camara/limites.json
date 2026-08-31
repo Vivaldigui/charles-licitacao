@@ -1,0 +1,18 @@
+{
+  "2026": {
+    "I": "130.984,20",
+    "II": "65.492,11",
+    "decreto": "Decreto nº 12.807, de 29/12/2025 (publicado em 30/12/2025; vigência a partir de 01/01/2026)",
+    "fonte": "01_legislacao/limites-vigentes-dispensa-art-75.md",
+    "confirmacao": "CONFERIDO NO TEXTO OFICIAL em 2026-08-01: Anexo do Decreto 12.807/2025 lido no Planalto (planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/D12807.htm), com os valores por extenso. Art. 5º fixa vigencia em 01/01/2026 e art. 4º revoga o Decreto 12.343/2024.",
+    "art_75_par_7": "10.478,74",
+    "art_75_par_7_nota": "Excecao a regra de fracionamento do art. 75 §1º, APENAS para manutencao de veiculos automotores do proprio orgao, incluido fornecimento de pecas. Nao e franquia geral de valor."
+  },
+  "2025": {
+    "I": "125.451,15",
+    "II": "62.725,59",
+    "decreto": "Decreto nº 12.343/2024",
+    "fonte": "TCU — Licitacoes e Contratos, item 5.10.2.1 (consulta em 2026-07-31)",
+    "confirmacao": "Registrado apenas como referencia historica; nao aplicavel ao exercicio 2026."
+  }
+}

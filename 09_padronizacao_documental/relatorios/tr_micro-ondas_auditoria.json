@@ -1,0 +1,146 @@
+{
+  "documento": "08_processos_em_andamento\\2026-026-micro-ondas-copa\\TR_MICRO-ONDAS_SOLICITACAO_026-2026_REVISADO.docx",
+  "minuta_mae": "05_minutas\\TR\\TR_MINUTA_MAE.docx",
+  "perfil": "tr",
+  "perfil_nome": "Termo de Referencia",
+  "data": "2026-07-26",
+  "modo": "auditoria",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": 12.0,
+    "fontes": {
+      "Calibri (estilo)": 168
+    },
+    "tamanhos": {
+      "18.0": 1,
+      "12.0": 162,
+      "16.0": 5
+    },
+    "cores": {
+      "000000": 8,
+      "FF0000": 17
+    },
+    "estilos": {
+      "Normal": 34,
+      "List Paragraph": 131
+    },
+    "runs_totais": 168,
+    "runs_com_formatacao_direta": 168,
+    "proporcao_formatacao_direta": 1.0
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 0,
+    "problemas": [],
+    "proposta_renumeracao": {},
+    "referencias_internas": 6,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": false,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 1,
+    "problemas": [
+      "Tabela 0: largura 9066 twips excede a área útil (8504 twips) — ultrapassa a margem.",
+      "Tabela 0: linha de cabeçalho não se repete nas páginas seguintes.",
+      "Tabela 0: 2 linha(s) podem se dividir entre páginas."
+    ],
+    "detalhe": [
+      {
+        "indice": 0,
+        "linhas": 2,
+        "colunas": 6,
+        "largura_twips": 9066,
+        "area_util_twips": 8504,
+        "excede_margens": true,
+        "cabecalho_repetido": false,
+        "linhas_divisiveis": 2,
+        "celulas_mescladas": 0
+      }
+    ]
+  },
+  "paginacao": {
+    "problemas": [
+      "Há sequência de 5 parágrafos vazios usados como espaçamento (limite do padrão: 1).",
+      "6 título(s) sem 'manter com o próximo' — risco de título isolado no fim da página."
+    ]
+  },
+  "estrutura": {
+    "problemas": [
+      "6 título(s) sem estilo nomeado — formatados como texto comum."
+    ]
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_direita_cm=3.0 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 1,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 15: [PREENCHER: largura]",
+      "parágrafo 15: [PREENCHER: altura]",
+      "parágrafo 15: [PREENCHER: profundidade]",
+      "parágrafo 174: [PREENCHER: decisão da autoridade competente quanto à eventual dispensa parcial, após confirmação do limite vigente do art. 75, II]",
+      "parágrafo 204: [PREENCHER: confirmar o valor de referência após a complementação da pesquisa com propostas formais de, no mínimo, 3 (três) fornecedores, recomendada no Relatório de Pesquisa de Preços na forma do art. 4º, IV, da Portaria nº 03/2024]",
+      "parágrafo 210: [PREENCHER: dotação orçamentária, elemento de despesa e fonte de recursos]",
+      "parágrafo 214: [PREENCHER: data da assinatura]",
+      "parágrafo 229: [PREENCHER: largura]",
+      "parágrafo 229: [PREENCHER: altura]",
+      "parágrafo 229: [PREENCHER: profundidade]"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [],
+    "texto_destacado": [
+      "parágrafo 37: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 38: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 39: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 51: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 54: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 58: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 59: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 65: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 69: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 84: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 210: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 217: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 218: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 226: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 227: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 228: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 229: texto em #FF0000 — provável instrução de preenchimento"
+    ],
+    "total": 27
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {
+      "creator": "William",
+      "lastModifiedBy": "Guilherme Ribeiro"
+    }
+  },
+  "correcoes_automaticas_possiveis": [
+    "Aplicar estilos nomeados CMI e uniformizar recuos/espaçamentos.",
+    "Ajustar largura, cabeçalho repetido e quebra de linhas das tabelas.",
+    "Aplicar controle de paginação (manter com o próximo, órfãs/viúvas)."
+  ],
+  "correcoes_que_exigem_humano": [
+    "27 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Metadados pessoais no pacote: creator=William, lastModifiedBy=Guilherme Ribeiro (limpeza só com --limpar-metadados).",
+    "Margens divergentes do padrão — exigem decisão humana."
+  ],
+  "nota_padronizacao": 56,
+  "status": "EXIGE CONFERÊNCIA HUMANA"
+}

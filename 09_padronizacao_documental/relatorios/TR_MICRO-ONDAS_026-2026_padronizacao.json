@@ -1,0 +1,158 @@
+{
+  "documento": "08_processos\\em_andamento\\26_MICROONDAS_COPA\\TR_MICRO-ONDAS_SOLICITACAO_026-2026_FINAL_ATUALIZADO.docx",
+  "minuta_mae": null,
+  "perfil": "tr",
+  "perfil_nome": "Termo de Referencia",
+  "data": "2026-08-16",
+  "modo": "padronização automática",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": 12.0,
+    "fontes": {
+      "Calibri (estilo)": 168
+    },
+    "tamanhos": {
+      "14.0": 1,
+      "12.0": 155,
+      "11.0": 12
+    },
+    "cores": {
+      "000000": 8,
+      "FF0000": 17
+    },
+    "estilos": {
+      "CMI Titulo do Documento": 1,
+      "CMI Identificacao": 1,
+      "List Paragraph": 131,
+      "CMI Titulo 1": 5,
+      "CMI Corpo": 15,
+      "CMI Cabecalho de Tabela": 6,
+      "CMI Tabela": 6
+    },
+    "runs_totais": 168,
+    "runs_com_formatacao_direta": 168,
+    "proporcao_formatacao_direta": 1.0
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 0,
+    "problemas": [],
+    "proposta_renumeracao": {},
+    "referencias_internas": 6,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": false,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 1,
+    "problemas": [],
+    "detalhe": [
+      {
+        "indice": 0,
+        "linhas": 2,
+        "colunas": 6,
+        "largura_twips": 8501,
+        "area_util_twips": 8504,
+        "excede_margens": false,
+        "cabecalho_repetido": true,
+        "linhas_divisiveis": 0,
+        "celulas_mescladas": 0
+      }
+    ]
+  },
+  "paginacao": {
+    "problemas": []
+  },
+  "estrutura": {
+    "problemas": []
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_direita_cm=3.0 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 1,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 163: [PREENCHER: decisão da autoridade competente quanto à eventual dispensa parcial, após confirmação do limite vigente do art. 75, II]",
+      "parágrafo 197: [PREENCHER: dotação orçamentária, elemento de despesa e fonte de recursos]",
+      "parágrafo 201: [PREENCHER: data da assinatura]"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [],
+    "texto_destacado": [
+      "parágrafo 34: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 35: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 36: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 47: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 50: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 54: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 55: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 61: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 65: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 78: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 197: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 203: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 204: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 212: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 213: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 214: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 215: texto em #FF0000 — provável instrução de preenchimento"
+    ],
+    "total": 20
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {}
+  },
+  "correcoes_automaticas_possiveis": [],
+  "correcoes_que_exigem_humano": [
+    "20 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Margens divergentes do padrão — exigem decisão humana."
+  ],
+  "nota_padronizacao": 75,
+  "status": "EXIGE CONFERÊNCIA HUMANA",
+  "correcoes_aplicadas": [],
+  "correcoes_nao_aplicadas": [],
+  "validacao_conteudo": {
+    "hash_antes": "5e35b84e988e896d2dd102fe12b3fec539f92da46d9897ad3b2a02485b9bcc06",
+    "hash_depois": "5e35b84e988e896d2dd102fe12b3fec539f92da46d9897ad3b2a02485b9bcc06",
+    "paragrafos_antes": 153,
+    "paragrafos_depois": 153,
+    "celulas_antes": 12,
+    "celulas_depois": 12,
+    "conteudo_preservado": true,
+    "partes_protegidas_intactas": true,
+    "divergencias_partes_protegidas": [],
+    "diferencas": []
+  },
+  "testes": {
+    "idempotencia": "OK — segunda execução não produziu alterações.",
+    "validacao_visual": "executada com libreoffice; páginas 19 -> 19; a conferência visual final permanece a cargo do usuário"
+  },
+  "validacao_visual": {
+    "executada": true,
+    "conversor": "libreoffice",
+    "motivo": null,
+    "paginas_antes": 19,
+    "paginas_depois": 19,
+    "paginas_vazias_novas": [],
+    "observacoes": [],
+    "exige_conferencia": false,
+    "pdf_antes": "tmp\\qa_tr_microondas_pdfs\\antes.pdf",
+    "pdf_depois": "tmp\\qa_tr_microondas_pdfs\\depois.pdf"
+  },
+  "arquivo_final": "08_processos\\em_andamento\\26_MICROONDAS_COPA\\TR_MICRO-ONDAS_SOLICITACAO_026-2026_PADRONIZADO.docx"
+}

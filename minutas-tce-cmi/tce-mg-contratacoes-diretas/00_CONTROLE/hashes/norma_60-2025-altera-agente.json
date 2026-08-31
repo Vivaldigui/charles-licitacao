@@ -1,0 +1,22 @@
+{
+  "id_interno": "60-2025-altera-agente",
+  "id_tclegis": "1142723",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142723",
+  "data_hora_download": "2026-08-10T00:07:48.262549+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000060, de\r\n                            16/05/2025 -\r\n                            Presidência",
+    "ementa": "Altera a Portaria PRES./08/2024, que dispõe sobre as regras e diretrizes para atuação do agente de contratação, da equipe de apoio, da comissão de contratação, do gestor e do fiscal de contrato, no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 16/05/2025 - Págs. 15-16; Republicação D.O.C. 21/05/2025 - Págs. 15-16.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/60-2025-altera-agente/60-2025-altera-agente_ORIGINAL.pdf",
+      "sha256": "d4c13193c56efd78b51ceca82e7c46b1b54ed87058e46acdbb4009a7d5c0dfd9"
+    }
+  ]
+}

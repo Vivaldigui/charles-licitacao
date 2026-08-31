@@ -1,0 +1,2 @@
+# Única dependência externa do pipeline de PDFs. SQLite/FTS5 e demais formatos usam stdlib.
+pypdf>=5.0,<7

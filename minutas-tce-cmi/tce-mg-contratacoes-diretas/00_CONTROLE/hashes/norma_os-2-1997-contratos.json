@@ -1,0 +1,26 @@
+{
+  "id_interno": "os-2-1997-contratos",
+  "id_tclegis": "1136399",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136399",
+  "ementa": "Dispõe sobre a atualização de valores, exame e arquivamento de processos referentes a contratos, convênios, acordos, ajustes e instrumentos congêneres, procedimentos licitatórios e prestações de contas.",
+  "situacao": "situacao_nao_confirmada",
+  "classificacao": "relevante",
+  "data_hora_download": "2026-08-10T00:33:25.961348+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/os-2-1997-contratos/os-2-1997-contratos_COMPILADO.pdf",
+      "sha256": "5e5728861234899be04dae01f01f51ce8c8f2cbc9b58c1392011d664211f05ce"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/os-2-1997-contratos/os-2-1997-contratos_COMPLETO.pdf",
+      "sha256": "0e3225036ff7bf2abe0f876d08ac31618bb557c3ed96ecf7734abc7147721ede"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/os-2-1997-contratos/os-2-1997-contratos_ORIGINAL.pdf",
+      "sha256": "74788651309f3310b2050af64c3923d89eb7170f4450a5cf5fe07d678c1b45e3"
+    }
+  ]
+}

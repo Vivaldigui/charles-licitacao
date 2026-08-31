@@ -1,0 +1,10 @@
+{
+  "processo": "EXEMPLO-AUDITOR-001/2026",
+  "tipo": "dispensa por valor com aviso",
+  "objeto": "manutenção preventiva de equipamentos de áudio do plenário",
+  "valor_estimado": 18900.00,
+  "regime": "Lei 14.133/2021",
+  "cnae": "não informado",
+  "fase": "instrução anterior à autorização",
+  "observacao": "Caso inteiramente fictício criado apenas para teste do modo auditor."
+}

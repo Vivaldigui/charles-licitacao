@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar pytest
+        run: python -m pip install pytest
+      - name: Rodar testes
+        run: python -m pytest scripts/tests -q
+      - name: Validar base
+        run: python scripts/validar_base.py
+

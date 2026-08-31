@@ -1,0 +1,147 @@
+{
+  "documento": "G:\\Outros computadores\\Meu computador (1)\\Charles\\05_minutas\\PROPOSTA_COMERCIAL\\PROPOSTA_COMERCIAL_MINUTA_MAE.docx",
+  "minuta_mae": null,
+  "perfil": "declaracao",
+  "perfil_nome": "Declaracao unificada / proposta comercial (modelos para terceiros)",
+  "data": "2026-07-26",
+  "modo": "auditoria",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": null,
+    "fontes": {
+      "Calibri (estilo)": 43
+    },
+    "tamanhos": {
+      "12.0": 1
+    },
+    "cores": {},
+    "estilos": {
+      "Normal": 43
+    },
+    "runs_totais": 43,
+    "runs_com_formatacao_direta": 1,
+    "proporcao_formatacao_direta": 0.023
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 0,
+    "problemas": [],
+    "proposta_renumeracao": {},
+    "referencias_internas": 0,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": false,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 2,
+    "problemas": [
+      "Tabela 0: linha de cabeçalho não se repete nas páginas seguintes.",
+      "Tabela 0: 7 linha(s) podem se dividir entre páginas.",
+      "Tabela 1: linha de cabeçalho não se repete nas páginas seguintes.",
+      "Tabela 1: 2 linha(s) podem se dividir entre páginas."
+    ],
+    "detalhe": [
+      {
+        "indice": 0,
+        "linhas": 7,
+        "colunas": 2,
+        "largura_twips": 10220,
+        "area_util_twips": 10220,
+        "excede_margens": false,
+        "cabecalho_repetido": false,
+        "linhas_divisiveis": 7,
+        "celulas_mescladas": 0
+      },
+      {
+        "indice": 1,
+        "linhas": 2,
+        "colunas": 7,
+        "largura_twips": 10220,
+        "area_util_twips": 10220,
+        "excede_margens": false,
+        "cabecalho_repetido": false,
+        "linhas_divisiveis": 2,
+        "celulas_mescladas": 0
+      }
+    ]
+  },
+  "paginacao": {
+    "problemas": [
+      "3 título(s) sem 'manter com o próximo' — risco de título isolado no fim da página."
+    ]
+  },
+  "estrutura": {
+    "problemas": [
+      "3 título(s) sem estilo nomeado — formatados como texto comum."
+    ]
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_inferior_cm=2.22 (padrão 2.5); margem_esquerda_cm=1.5 (padrão 3.0); margem_direita_cm=1.5 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 1,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 0: {{NUMERO_PROCESSO}}",
+      "parágrafo 0: {{NUMERO_AVISO}}",
+      "parágrafo 2: {{OBJETO}}",
+      "parágrafo 4: {{DADOS_RESPONSAVEL}}",
+      "parágrafo 5: {{VALOR_TOTAL_PROPOSTA}}",
+      "parágrafo 5: {{VALOR_TOTAL_EXTENSO}}",
+      "parágrafo 11: {{LOCAL}}",
+      "parágrafo 11: {{DATA}}",
+      "parágrafo 12: ________________________________________",
+      "parágrafo 13: {{NOME_REPRESENTANTE}}",
+      "parágrafo 16: [PREENCHER]",
+      "parágrafo 18: [PREENCHER]",
+      "parágrafo 20: [PREENCHER]",
+      "parágrafo 22: [PREENCHER]",
+      "parágrafo 24: [PREENCHER]",
+      "parágrafo 26: [PREENCHER]",
+      "parágrafo 28: [PREENCHER]",
+      "parágrafo 36: {{ITEM}}",
+      "parágrafo 37: {{DESCRICAO_ITEM}}",
+      "parágrafo 38: {{UNIDADE}}",
+      "parágrafo 39: {{QUANTIDADE}}",
+      "parágrafo 40: {{MARCA}}",
+      "parágrafo 41: {{VALOR_UNITARIO}}",
+      "parágrafo 42: {{VALOR_TOTAL_ITEM}}"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [],
+    "texto_destacado": [],
+    "total": 24
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {
+      "creator": "CMI",
+      "lastModifiedBy": "Câmara Municipal de Itanhandu"
+    }
+  },
+  "correcoes_automaticas_possiveis": [
+    "Aplicar estilos nomeados CMI e uniformizar recuos/espaçamentos.",
+    "Ajustar largura, cabeçalho repetido e quebra de linhas das tabelas.",
+    "Aplicar controle de paginação (manter com o próximo, órfãs/viúvas)."
+  ],
+  "correcoes_que_exigem_humano": [
+    "24 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Metadados pessoais no pacote: creator=CMI, lastModifiedBy=Câmara Municipal de Itanhandu (limpeza só com --limpar-metadados).",
+    "Margens divergentes do padrão — exigem decisão humana."
+  ],
+  "nota_padronizacao": 66,
+  "status": "EXIGE CONFERÊNCIA HUMANA"
+}

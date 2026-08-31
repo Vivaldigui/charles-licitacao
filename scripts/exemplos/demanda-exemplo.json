@@ -1,0 +1,28 @@
+{
+  "objeto": "Aquisição de forno de micro-ondas para a copa da Câmara",
+  "necessidade": "A copa da Câmara não dispõe de equipamento para aquecimento de refeições, prejudicando o apoio a servidores e vereadores.",
+  "finalidade": "Prover estrutura mínima de copa para o funcionamento administrativo.",
+  "quantidade": 1,
+  "unidade": "unidade",
+  "prazo": "A preencher pela Câmara Municipal de Itanhandu",
+  "setor_requisitante": "A preencher pela Câmara Municipal de Itanhandu",
+  "continuada": false,
+  "urgencia": false,
+  "palavras_chave": [
+    "forno de micro-ondas",
+    "micro-ondas copa",
+    "eletrodomésticos copa"
+  ],
+  "sinonimos": [
+    "micro-ondas",
+    "forno microondas"
+  ],
+  "filtros": {
+    "uf": "MG",
+    "data_inicial": "2024-01-01",
+    "data_final": "2025-12-31"
+  },
+  "max_por_termo": 10,
+  "max_total": 30,
+  "processo_nome": "micro-ondas-copa"
+}

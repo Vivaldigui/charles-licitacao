@@ -1,0 +1,56 @@
+{
+  "processo": "1021007 000287/2026",
+  "pagina_origem": "https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?orgaoEntidade=1020&numero=287&ano=2026&metodo=pesquisar&estaPesquisando=true",
+  "data_download": "2026-08-09",
+  "metodo": "download acionado na interface pública em sessão visível após resolução humana do hCaptcha",
+  "arquivos": [
+    {
+      "nome_original": "processoCompra_1021007_000287_2026.pdf",
+      "tipo_documento": "Termo de Referência",
+      "url_direta": "Não identificado no documento",
+      "http_status": "Não identificado no documento",
+      "content_type": "application/pdf",
+      "bytes": 114670,
+      "sha256": "6c13c6060b3073356fbecfdb8fa150f9ae60b7bdc3fd798d656cd874964e3422"
+    },
+    {
+      "nome_original": "relatorioDetalhesProcessoCompra.pdf",
+      "tipo_documento": "Relatório de detalhes do processo de compra",
+      "url_direta": "Não identificado no documento",
+      "http_status": "Não identificado no documento",
+      "content_type": "application/pdf",
+      "bytes": 22464,
+      "sha256": "a48f5a253ce745ee29a1f79e0e85c2055b9345d03801e67004f6f6f2cadc3d47"
+    },
+    {
+      "nome_original": "relatorioConsultaMapaMelhorPrecoDetalhado.pdf",
+      "tipo_documento": "Mapa Comparativo de Preços - Detalhado",
+      "url_direta": "Não identificado no documento",
+      "http_status": "Não identificado no documento",
+      "content_type": "application/pdf",
+      "bytes": 27116,
+      "sha256": "158dc0ed8c3a02239a37b7c93fea7ec072f2ce5d27ee9cb2d1d26d71e6bb2af9"
+    },
+    {
+      "nome_original": "toAutorizaContratacaoDireta.pdf",
+      "tipo_documento": "Ato de Autorização de Contratação Direta",
+      "url_direta": "Não identificado no documento",
+      "http_status": "Não identificado no documento",
+      "content_type": "application/pdf",
+      "bytes": 43169,
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    },
+    {
+      "nome_original": "toAutorizaContratacaoDireta-1.pdf",
+      "duplicate_of": "toAutorizaContratacaoDireta.pdf",
+      "bytes": 43169,
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    },
+    {
+      "nome_original": "toAutorizaContratacaoDireta-2.pdf",
+      "duplicate_of": "toAutorizaContratacaoDireta.pdf",
+      "bytes": 43169,
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    }
+  ]
+}

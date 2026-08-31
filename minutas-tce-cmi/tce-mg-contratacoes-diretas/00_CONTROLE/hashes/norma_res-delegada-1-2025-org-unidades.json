@@ -1,0 +1,26 @@
+{
+  "id_interno": "res-delegada-1-2025-org-unidades",
+  "id_tclegis": "1142590",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142590",
+  "ementa": "Altera a estrutura organizacional e as competências das unidades dos Serviços Auxiliares e da Escola de Contas do Tribunal de Contas do Estado de Minas Gerais.",
+  "situacao": "alterada",
+  "classificacao": "contexto",
+  "data_hora_download": "2026-08-10T00:34:43.098908+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/res-delegada-1-2025-org-unidades/res-delegada-1-2025-org-unidades_COMPILADO.pdf",
+      "sha256": "318a843d1416cd7df17c690bb98bca1e66262b4ca8a0396583d40d12d57871a1"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/res-delegada-1-2025-org-unidades/res-delegada-1-2025-org-unidades_COMPLETO.pdf",
+      "sha256": "f9078c3f602b289ac5890f92e99f739a4a2f9a67484a09b1c0c9c63fe237edce"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/res-delegada-1-2025-org-unidades/res-delegada-1-2025-org-unidades_ORIGINAL.pdf",
+      "sha256": "fe8c6c58a92d803c8d0e0358e2f09357f5e0c6406f873bfc2b5a4d62aad19622"
+    }
+  ]
+}

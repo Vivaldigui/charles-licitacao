@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "description": "Aquisição de cadeiras",
+      "orgao_cnpj": "12345678000199",
+      "orgao_nome": "Câmara Teste",
+      "ano": "2026",
+      "numero_sequencial": "15",
+      "modalidade_licitacao_nome": "Dispensa",
+      "data_publicacao_pncp": "2026-06-01",
+      "valor_global": "1000.00"
+    }
+  ],
+  "total": 1
+}

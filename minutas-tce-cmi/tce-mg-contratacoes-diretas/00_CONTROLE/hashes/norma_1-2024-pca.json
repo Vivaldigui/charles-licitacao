@@ -1,0 +1,45 @@
+{
+  "id_interno": "1-2024-pca",
+  "id_tclegis": "1142001",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142001",
+  "data_hora_download": "2026-08-10T00:05:21.337793+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000001, de\r\n                            12/01/2024 -\r\n                            Presidência",
+    "ementa": "Dispõe sobre o Plano de Contratações Anual no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 12/01/2024 - Págs. 2-5; Republicação D.O.C. 26/01/2024 - Págs. 4-6.",
+    "vides": [
+      {
+        "id": "1143165",
+        "texto": ""
+      },
+      {
+        "id": "1142608",
+        "texto": ""
+      },
+      {
+        "id": "1142041",
+        "texto": ""
+      }
+    ],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/1-2024-pca/1-2024-pca_COMPILADO.pdf",
+      "sha256": "d67bfbe8d285f84ca5539cf3dbdad15b33655fed5513b3f10b4c8a8696f0596e"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/1-2024-pca/1-2024-pca_COMPLETO.pdf",
+      "sha256": "ec917a5416d4464553a399b3b1f4b17b661f3997a183951b11583f3ea7292b45"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/1-2024-pca/1-2024-pca_ORIGINAL.pdf",
+      "sha256": "8a81d853b793b07727068c7c4dc68fff88707368a4629269622172523b1dbf27"
+    }
+  ]
+}

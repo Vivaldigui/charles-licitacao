@@ -1,0 +1,92 @@
+[
+  {
+    "document_id": "tcemg-1144807-0e135f643431",
+    "status": "CONFERIDO NO ORIGINAL (p. 1 e 8)",
+    "pages_checked": [1, 8],
+    "fields": {
+      "process_number": true,
+      "rapporteur": true,
+      "judgment_date": true,
+      "judging_body": true,
+      "contract_object": true,
+      "extractable_thesis": true,
+      "judgment_result": true,
+      "legal_regime": true,
+      "cited_pages": true,
+      "recognized_irregularities": false
+    },
+    "notes": "Ementa, cabeçalho e dispositivo conferidos no inteiro teor; objeto contratual específico não aparece na ementa."
+  },
+  {
+    "document_id": "tcemg-1114675-0626911a8c48",
+    "status": "CONFERIDO NO ORIGINAL (p. 1 e 17)",
+    "pages_checked": [1, 17],
+    "fields": {
+      "process_number": true,
+      "rapporteur": true,
+      "judgment_date": true,
+      "judging_body": true,
+      "contract_object": true,
+      "extractable_thesis": true,
+      "judgment_result": true,
+      "legal_regime": true,
+      "cited_pages": true,
+      "recognized_irregularities": false
+    },
+    "notes": "A ementa registra procedência parcial e o final confirma a aprovação do voto do relator."
+  },
+  {
+    "document_id": "tcemg-1084383-dcafb6fd1b09",
+    "status": "CONFERIDO NO ORIGINAL (p. 1 e 23)",
+    "pages_checked": [1, 23],
+    "fields": {
+      "process_number": true,
+      "rapporteur": true,
+      "judgment_date": true,
+      "judging_body": true,
+      "contract_object": true,
+      "extractable_thesis": true,
+      "judgment_result": true,
+      "legal_regime": true,
+      "cited_pages": true,
+      "recognized_irregularities": false
+    },
+    "notes": "Resultado composto (procedência, procedência parcial, improcedência e arquivamento) preservado sem simplificação."
+  },
+  {
+    "document_id": "tcemg-1167243-1cdc67fb43fb",
+    "status": "CONFERIDO NO ORIGINAL (p. 1 e 11)",
+    "pages_checked": [1, 11],
+    "fields": {
+      "process_number": true,
+      "rapporteur": true,
+      "judgment_date": true,
+      "judging_body": true,
+      "contract_object": true,
+      "extractable_thesis": true,
+      "judgment_result": true,
+      "legal_regime": true,
+      "cited_pages": true,
+      "recognized_irregularities": false
+    },
+    "notes": "Recurso parcialmente provido e cancelamento da multa constam da ementa; objeto contratual específico não foi inferido."
+  },
+  {
+    "document_id": "tcemg-1121072-615acc4f1065",
+    "status": "CONFERIDO E CORRIGIDO NO ORIGINAL (p. 1 e 29)",
+    "pages_checked": [1, 29],
+    "fields": {
+      "process_number": true,
+      "rapporteur": true,
+      "judgment_date": true,
+      "judging_body": true,
+      "contract_object": true,
+      "extractable_thesis": true,
+      "judgment_result": true,
+      "legal_regime": true,
+      "cited_pages": true,
+      "recognized_irregularities": false
+    },
+    "notes": "Regime predominante corrigido para Lei 8.666: fatos e contratos de 2011-2019; Lei 14.133 aparece apenas em recomendação prospectiva."
+  }
+]

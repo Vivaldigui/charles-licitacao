@@ -1,0 +1,37 @@
+{
+  "id_interno": "9-2024-etp",
+  "id_tclegis": "1142024",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142024",
+  "data_hora_download": "2026-08-10T00:05:22.071105+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000009, de\r\n                            31/01/2024 -\r\n                            Presidência",
+    "ementa": "Dispõe sobre a elaboração de Estudo Técnico Preliminar no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 31/01/2024 - Págs. 8-10.",
+    "vides": [
+      {
+        "id": "1142586",
+        "texto": ""
+      }
+    ],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/9-2024-etp/9-2024-etp_COMPILADO.pdf",
+      "sha256": "be9231213b0e02ce5b86832048b2c059accb27ee226147b649fa061fb0c5f68f"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/9-2024-etp/9-2024-etp_COMPLETO.pdf",
+      "sha256": "517ced8877d8310853a542ca45b837fe7bca0f2138d3299c43ec59b0d7c7e424"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/9-2024-etp/9-2024-etp_ORIGINAL.pdf",
+      "sha256": "5d375f1e883be31f8629649975c1b65352e7899a4be4a0fa3830156c2850f371"
+    }
+  ]
+}

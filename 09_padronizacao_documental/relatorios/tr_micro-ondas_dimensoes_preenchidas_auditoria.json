@@ -1,0 +1,128 @@
+{
+  "documento": "08_processos_em_andamento\\2026-026-micro-ondas-copa\\TR_MICRO-ONDAS_SOLICITACAO_026-2026_FINAL_DIMENSOES_PREENCHIDAS.docx",
+  "minuta_mae": "05_minutas\\TR\\TR_MINUTA_MAE.docx",
+  "perfil": "tr",
+  "perfil_nome": "Termo de Referencia",
+  "data": "2026-07-26",
+  "modo": "auditoria",
+  "inventario": {
+    "fonte_do_estilo_normal": "Calibri",
+    "tamanho_do_estilo_normal": 12.0,
+    "fontes": {
+      "Calibri (estilo)": 168
+    },
+    "tamanhos": {
+      "14.0": 1,
+      "12.0": 155,
+      "11.0": 12
+    },
+    "cores": {
+      "000000": 8,
+      "FF0000": 17
+    },
+    "estilos": {
+      "CMI Titulo do Documento": 1,
+      "CMI Identificacao": 1,
+      "List Paragraph": 131,
+      "CMI Titulo 1": 5,
+      "CMI Corpo": 15,
+      "CMI Cabecalho de Tabela": 6,
+      "CMI Tabela": 6
+    },
+    "runs_totais": 168,
+    "runs_com_formatacao_direta": 168,
+    "proporcao_formatacao_direta": 1.0
+  },
+  "fontes_fora_do_padrao": [],
+  "numeracao": {
+    "itens": 0,
+    "problemas": [],
+    "proposta_renumeracao": {},
+    "referencias_internas": 6,
+    "referencias_afetadas": [],
+    "mistura_manual_automatica": false,
+    "fragmentacao": null
+  },
+  "tabelas": {
+    "total": 1,
+    "problemas": [],
+    "detalhe": [
+      {
+        "indice": 0,
+        "linhas": 2,
+        "colunas": 6,
+        "largura_twips": 8501,
+        "area_util_twips": 8504,
+        "excede_margens": false,
+        "cabecalho_repetido": true,
+        "linhas_divisiveis": 0,
+        "celulas_mescladas": 0
+      }
+    ]
+  },
+  "paginacao": {
+    "problemas": []
+  },
+  "estrutura": {
+    "problemas": []
+  },
+  "pagina": {
+    "problemas": [
+      "Seção 0: margens divergem do padrão — margem_direita_cm=3.0 (padrão 2.0). Não corrigido automaticamente: a margem superior acomoda o brasão."
+    ]
+  },
+  "cabecalho_rodape": {
+    "secoes": 1,
+    "imagens_cabecalho": 3,
+    "imagens_rodape": 2,
+    "textos_cabecalho": [],
+    "textos_rodape": [],
+    "campo_pagina_no_rodape": false,
+    "divergencia_entre_secoes": [],
+    "divergencia_minuta_mae": [],
+    "partes_protegidas": 13
+  },
+  "pendencias": {
+    "campos_pendentes": [
+      "parágrafo 163: [PREENCHER: decisão da autoridade competente quanto à eventual dispensa parcial, após confirmação do limite vigente do art. 75, II]",
+      "parágrafo 191: [PREENCHER: confirmar o valor de referência após a complementação da pesquisa com propostas formais de, no mínimo, 3 (três) fornecedores, recomendada no Relatório de Pesquisa de Preços na forma do art. 4º, IV, da Portaria nº 03/2024]",
+      "parágrafo 197: [PREENCHER: dotação orçamentária, elemento de despesa e fonte de recursos]",
+      "parágrafo 201: [PREENCHER: data da assinatura]"
+    ],
+    "blocos_ou": [],
+    "opcoes_nao_marcadas": [],
+    "texto_destacado": [
+      "parágrafo 34: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 35: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 36: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 47: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 50: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 54: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 55: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 61: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 65: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 78: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 197: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 203: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 204: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 212: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 213: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 214: texto em #FF0000 — provável instrução de preenchimento",
+      "parágrafo 215: texto em #FF0000 — provável instrução de preenchimento"
+    ],
+    "total": 21
+  },
+  "revisao": {
+    "comentarios": false,
+    "controle_alteracoes": 0,
+    "texto_oculto": 0,
+    "propriedades_pessoais": {}
+  },
+  "correcoes_automaticas_possiveis": [],
+  "correcoes_que_exigem_humano": [
+    "21 pendência(s) de preenchimento a resolver antes da assinatura.",
+    "Margens divergentes do padrão — exigem decisão humana."
+  ],
+  "nota_padronizacao": 75,
+  "status": "EXIGE CONFERÊNCIA HUMANA"
+}

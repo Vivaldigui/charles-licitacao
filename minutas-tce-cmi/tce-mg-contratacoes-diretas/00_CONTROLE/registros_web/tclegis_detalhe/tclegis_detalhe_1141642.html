@@ -1,0 +1,267 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	
+    TCLEGIS - SISTEMA INTEGRADO DE PESQUISA : Detalhe da Norma
+
+</title><meta http-equiv="Content-Security-Policy" content="frame-src &#39;self&#39; https://www.tce.mg.gov.br https://www.google.com/   ; 
+                                                    script-src &#39;self&#39; https://www.tce.mg.gov.br https://www.google.com/ https://www.gstatic.com https://www.googletagmanager.com &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; 
+                                                    style-src &#39;self&#39; https://www.tce.mg.gov.br https://use.fontawesome.com &#39;unsafe-inline&#39;; 
+                                                    img-src &#39;self&#39; https://www.tce.mg.gov.br; " />
+   
+   
+    <link href="/Content/Site.css?1500" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/Paginacao.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/thickbox.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/Tree/dtree.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Scripts/chosen/chosen.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/ui-lightness/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script type="text/javascript" defer="" src="https://www.tce.mg.gov.br/Content/js/cookieconsent.js"></script>
+    <script type="text/javascript" defer="" src="https://www.tce.mg.gov.br/Content/js/cookieconsent-est.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.tce.mg.gov.br/Content/css/cookieconsent.css" />
+    <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-9JQ4W7V60L">
+    </script>
+    <script type="text/plain" data-cookiecategory="analytics">
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-9JQ4W7V60L');
+    </script>
+    
+    <script type="text/javascript" src="/Scripts/app-alert.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/chosen/chosen.jquery_v1.8.js"></script>
+    <script type="text/javascript" src="/Scripts/thickbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui.min.js"></script>
+    
+   
+
+    <script type="text/javascript" src="/Scripts/MicrosoftAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcValidation.js"></script>
+    <script type="text/javascript" src="/Scripts/scrollTo.js"></script>
+    <script type="text/javascript" src="/Scripts/shadowbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.lazyload.mini.js"></script>
+
+    <script src="/Scripts/chosen/chosen.jquery.js?1500" type="text/javascript"></script>
+    <script src="/Scripts/accordion.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Content/Tree/dtree.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer type="text/javascript"></script>
+    <script type="text/javascript" src="/Scripts/TratamentoErroAjax.js"></script>
+    <script type="text/javascript">
+
+    
+
+        function Paginacao(page) {
+            document.getElementById("page").value = page;
+            jQuery.scrollTo(650, 2000);
+            jQuery("#DIVCarregandPaginacao").show();
+            $("#FormPaginacao").submit();
+        };
+
+        
+        
+        jQuery(function () {
+            jQuery(".selectSearchable").chosen({
+                no_results_text: "Nada encontrado!",
+                search_contains: true
+            });
+        });
+       
+
+    </script>
+    <style type="text/css">
+        #back_to_top {
+            left: 950px;
+            position: absolute;
+        }
+
+            #back_to_top img {
+                border: 0 none;
+            }
+
+        .dTreeNode, node {
+            white-space: pre-line !important;
+        }
+
+        .dtree a.node, .dtree a.nodeSel {
+            white-space: pre-line !important;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class="page">
+        
+        <div>       
+        <a href="/Home/Index/TCE">
+            <img src="/Content/images/logos_tclegis.png" alt="TCLegis" title="TCLegis" />
+        </a>     
+        <a style="float:right;font-size:18px;margin-top: 70px;"> Coordenadoria de Biblioteca e Gestão da Informação (CBGI) </a>
+        </div>
+
+        <table border="0" width='100%'>
+            <tr>
+                <td>
+                    <div id="menu">
+                        <ul>
+                            <li><a id="MUN" href="/Home/Index/">Norma Municipal</a></li>
+                            <li><a id="TCE" href="/Home/Index/TCE">Norma do TCEMG</a></li>
+                            
+                            <li><a id="A2" href="/Tesauro/IndexPublic">VOCABULÁRIO CONTROLADO</a></li>
+                            
+                            <li><a href="/Login/LogOn">Login Órgão/Entidade</a></li>
+                            <li><a href="/Login/LogOnAdmin">Login TCEMG</a></li>
+                            
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="main" class="border">
+            
+    <style>
+        #titulo {
+            padding-bottom: 0px;
+        }
+    </style>
+    
+    
+
+    <div id="titulo" style="width: 100%;">
+        <img src="/Content/images/img_pesquisar.png" align="left" style='margin-top: 2px; margin-bottom: 10px; margin-right: 10px;' />
+        Detalhe da Norma
+    </div>
+
+    <div style="float: right; margin-top: 10px;">
+        <select id="downloadDropdown" onchange="redirectToDownload();" style="background-image: url('/Content/images/btn_baixar.png'); background-repeat: no-repeat; padding-right: 65px; padding-top: 12px; cursor: pointer;">
+            <option value="" style="display:none;"></option>
+            
+                <option value="/Home/DownloadPDFCompilado/1141642" style="cursor:pointer;">Compilada</option>
+            
+                <option value="/Home/DownloadPDFCompleto/1141642" style="cursor: pointer;">Completa</option>
+            
+                <option value="/Home/DownloadPDFOriginal/1141642" style="cursor: pointer;">Original</option>
+            
+        </select>
+    </div>
+
+    <script>
+        function redirectToDownload() {
+            var dropdown = document.getElementById("downloadDropdown");
+            var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+            if (selectedValue) {
+                window.open(selectedValue, '_blank');
+                dropdown.selectedIndex = 0;
+            }
+        }
+    </script>
+
+    <table width="100%">
+        
+        <tr>
+            <td style="font-weight: bold;">
+                RESOLUÇÃO nº 000004, de
+                            29/03/2023 -
+                            Pleno
+            </td>
+        </tr>
+    </table>
+    <br />
+    
+    <div class="acDivPrincipal show">
+        EMENTA:
+    </div>
+    <div class="acDivChild">
+        Altera a estrutura organizacional e as competências das unidades dos Serviços Auxiliares e da Escola de Contas do Tribunal de Contas do Estado de Minas Gerais.
+    </div>
+    
+    <div class="acDivPrincipal show">
+        FONTE:
+                   
+    </div>
+    <div class="acDivChild">
+        Disponibilização D.O.C. 10/04/2023 - Págs. 6-53.
+    </div>
+    
+    <div class="acDivPrincipal show">
+        OBSERVAÇÃO:
+    </div>
+    <div class="acDivChild">
+        Processo SGAP nº 1141546.
+    </div>
+    
+    <div class="acDivPrincipal show">
+        SITUAÇÃO:
+    </div>
+    <div class="acDivChild">
+        <span style="color: red;">REVOGADA</span>
+    </div>
+    
+    <div class="acDivPrincipal show" id="divAcEmentaPrincipal">
+        VIDE:
+    </div>
+    <div class="acDivChild" id="divAcEmenta">
+
+        <script>
+            OcultarVide('9');
+        </script>
+
+        <div style='margin-bottom:4px;' > <a href='../Detalhe/1142790' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> PORTARIA nº 000083, de 25/06/2025 - NORMA RELEVANTE</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1142792' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO nº 000004, de 18/06/2025 - REVOGAÇÃO TOTAL</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1142590' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO DELEGADA nº 000001, de 13/02/2025 - REVOGAÇÃO TOTAL</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1142119' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO nº 000001, de 20/03/2024 - ALTERAÇÃO, do item 8.4 e inclusão do item 8.6 na alínea a do inciso VIII do art. 3º; alteração da denominação da subseção IV e acréscimo da subseção VI na seção VII do Capítulo I do Título VIII</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1141951' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO DELEGADA nº 000007, de 24/11/2023 - ALTERAÇÃO, do item 8.4 e inclusão do item 8.6 na alínea a do inciso VIII do art. 3º; alteração da denominação da subseção IV e acréscimo da subseção VI na seção VII do Capítulo I do Título VIII</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1141830' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO nº 000011, de 02/08/2023 - ALTERAÇÃO, acréscimo do inciso XIX ao art. 80</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1141831' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO nº 000012, de 02/08/2023 - ALTERAÇÃO, alteração: itens 7.2,9.1,9.4; Títulos, arts.33,42,45; inclusão: item 7.4; subseções, art.34-A, I-IV,a-e,VI-VIII,parágrafo único; revogação: item 10.6,alínea a,inciso VIII do art.3º, subseções, art.53</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1141735' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO DELEGADA nº 000005, de 10/07/2023 - ALTERAÇÃO, alteração: itens 7.2,9.1,9.4; Títulos, arts.33,42,45; inclusão: item 7.4; subseções, art.34-A, I-IV,a-e,VI-VIII,parágrafo único; revogação: item 10.6,alínea a,inciso VIII do art.3º, subseções, art.53</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1141695' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO DELEGADA nº 000004, de 01/06/2023 - ALTERAÇÃO, acréscimo do inciso XIX ao art. 80</div>
+    </div>
+    
+    <div class="acDivPrincipal show" id="divAcIndexPrincipal">
+        INDEXAÇÃO:
+    </div>
+    <div class="acDivChild" id="divAcIndex">
+        Dispositivos; Alteração; Organização administrativa; TCEMG. Alteração; Denominação; Unidade; TCEMG. Descrição; Competência; Unidade; Secretaria do Pleno; Coordenadoria de Pós-Deliberação; Coordenadoria de Débito e Multa; Secretaria da Primeira Câmara; Secretaria da Segunda Câmara; Secretaria-Geral da Presidência; Coordenadoria de Sistematização de Deliberações e Jurisprudência; Coordenadoria de Protocolo e Triagem; Coordenadoria de Registro e Publicação de Acórdãos e Pareceres; Coordenadoria de Arquivo e Gestão de Documentos; Secretaria da Corregedoria; Secretaria da Ouvidoria; Procuradoria Jurídica; Procuradoria-Geral; Subprocuradoria-Geral; Consultoria-Geral; Consultoria-Geral Adjunta; Controladoria Interna; Diretoria-Geral; Superintendência de Controle Externo; Assessoria Técnica e Jurídica; Assessoria de Métodos e Suporte à Fiscalização; Assessoria de Apoio ao Acompanhamento de Metas e de Projetos de Controle Externo; Coordenadoria para Desenvolvimento do Sistema Informatizado de Contas dos Municípios; Núcleo de Avaliação de Programas e Políticas Públicas; Diretoria de Fiscalização Integrada e Inteligência-SURICATO; Coordenadoria de Fiscalização Integrada do Estado; Coordenadoria de Fiscalização Integrada dos Municípios; Coordenadoria de Fiscalização Integrada de Atos de Pessoal; Coordenadoria de Fiscalização Integrada de Matérias Especiais; Coordenadoria de Operacionalização de Trilhas Eletrônicas de Fiscalização; Laboratório de Análise de Dados; Diretoria de Controle Externo do Estado; Coordenadoria de Fiscalização e Avaliação da Macrogestão Governamental do Estado; Primeira Coordenadoria de Fiscalização do Estado; Segunda Coordenadoria de Fiscalização do Estado; Terceira Coordenadoria de Fiscalização do Estado; Coordenadoria de Auditoria do Estado; Diretoria de Controle Externo dos Municípios; Coordenadoria de Análise de Contas de Governos Municipais; Coordenadoria de Fiscalização e Avaliação da Macrogestão Governamental de Belo Horizonte; Coordenadoria de Acompanhamento da Gestão Fiscal dos Municípios; Primeira Coordenadoria de Fiscalização dos Municípios; Segunda Coordenadoria de Fiscalização dos Municípios; Terceira Coordenadoria de Fiscalização dos Municípios; Coordenadoria de Auditoria dos Municípios; Diretoria de Fiscalização de Atos de Pessoal; Coordenadoria de Fiscalização de Benefícios Previdenciários do Estado; Coordenadoria de Fiscalização de Benefícios Previdenciários dos Municípios; Coordenadoria de Fiscalização de Atos de Admissão; Coordenadoria de Auditoria de Atos de Pessoal; Coordenadoria de Registro de Atos de Admissão e Sistemas de Atos de Pessoal; Diretoria de Fiscalização de Matérias Especiais; Coordenadoria de Fiscalização de Editais de Licitação; Coordenadoria de Fiscalização de Obras e Serviços de Engenharia; Coordenadoria de Auditoria de Obras e Serviços de Engenharia; Coordenadoria de Auditoria Operacional; Coordenadoria de Fiscalização de Concessões e Privatizações; Coordenadoria de Auditoria Financeira e Avaliação Atuarial; Superintendência de Gestão e Finanças; Diretoria de Gestão de Pessoas; Coordenadoria de Serviços Integrados de Saúde; Coordenadoria de Pessoal; Coordenadoria de Pagamento de Pessoal; Coordenadoria de Gestão Estratégica do Desempenho; Diretoria de Finanças; Coordenadoria de Orçamento e Finanças; Coordenadoria de Contabilidade; Coordenadoria de Custos; Diretoria de Administração; Coordenadoria de Aquisição de Bens e Serviços; Coordenadoria de Gestão da Terceirização e Serviços Gerais; Coordenadoria de Manutenção e Obras; Coordenadoria de Licitações e Contratos; Coordenadoria de Almoxarifado e Patrimônio; Coordenadoria de Transportes; Diretoria de Segurança Institucional; Diretoria de Tecnologia da Informação; Supervisão de Suporte e Infraestrutura de Tecnologia da Informação; Supervisão de Segurança Institucional da Informação; Supervisão de Sistemas Informatizados; Escola de Contas e Capacitação Professor Pedro Aleixo; Secretaria Acadêmica; Coordenadoria de Capacitação; Coordenadoria de Pós-Graduação; Coordenadoria de Biblioteca e Gestão de Informação; Diretoria de Planejamento e Gestão Estratégica; Coordenadoria de Gestão por Processos; Coordenadoria de Projetos e Inovação; Diretoria de Comunicação Social; Coordenadoria de Jornalismo e Redação; Coordenadoria de Publicidade e Marketing; Coordenadoria de Relações Públicas e Cerimonial; Núcleo de Proteção de Dados.
+    </div>
+
+    <script>
+        OcultarIndexacao('4397');
+    </script>
+
+    
+    <div class="acDivPrincipal show">
+        TEXTO COMPILADO:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFCompilado/1141642"></iframe>
+    </div>
+    
+    <div class="acDivPrincipal show">
+        TEXTO COMPLETO:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFCompleto/1141642"></iframe>
+    </div>
+    
+    <div class="acDivPrincipal show">
+        TEXTO ORIGINAL:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFOriginal/1141642"></iframe>
+    </div>
+    
+    <br />
+    <br />
+    
+        </div>
+        <div id="footer">
+            <center> 
+                <span style="font-size:15px">Em caso de dúvidas, por favor entre em contato conosco pelo email <a href="mailto:biblioteca@tce.mg.gov.br">biblioteca@tce.mg.gov.br</a></span>
+                    <div style="width: 690px;">
+                        <div style="color: #666; font-size: 16px;">
+                            <iframe src="https://www.tce.mg.gov.br/rodapePadrao/externo/index.html" scrolling="no" frameborder="0" width="100%"></iframe>
+                        </div>
+                    </div>
+                </center>
+        </div>
+    </div>
+</body>
+
+</html>

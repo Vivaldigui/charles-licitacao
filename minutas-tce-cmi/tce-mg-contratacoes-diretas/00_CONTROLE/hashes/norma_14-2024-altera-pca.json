@@ -1,0 +1,22 @@
+{
+  "id_interno": "14-2024-altera-pca",
+  "id_tclegis": "1142041",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142041",
+  "data_hora_download": "2026-08-10T00:08:37.112655+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000014, de\r\n                            21/02/2024 -\r\n                            Presidência",
+    "ementa": "Altera a Portaria nº 1/PRES./2024, que dispõe sobre o Plano de Contratações Anual no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 21/02/2024 - Págs. 8-9.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/14-2024-altera-pca/14-2024-altera-pca_ORIGINAL.pdf",
+      "sha256": "3a0575003a973689052789e14694ec24cd05ac943f24ac8ad1835c6ec957e3e9"
+    }
+  ]
+}

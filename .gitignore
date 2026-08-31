@@ -1,0 +1,121 @@
+.codex/
+.agents/
+.codex_qa/
+.tmp.drive*/
+
+# Configurações locais do Obsidian (pessoais e específicas da máquina).
+.obsidian/
+.trash/
+
+# Temporários comuns do sistema e de editores.
+*.swp
+Thumbs.db
+.DS_Store
+
+# Raw incoming documents can be large and are processed into Markdown fichas.
+_entrada/*
+!_entrada/.gitkeep
+
+# --------------------------------------------------------------------------- #
+# Material bruto da jurisprudência.
+#
+# As FICHAS e CONSOLIDAÇÕES em Markdown continuam versionadas — são elas que o
+# Charles cita. O que fica de fora é o insumo: PDF baixado, texto extraído e
+# banco derivado. Motivo concreto, não precaução genérica: a varredura de
+# 2026-08-01 achou 9 CPF rotulados em 7 arquivos de
+# `tce_mg/contratacao_direta/texto_extraido/` e 26 no `auditor_tcemg.sqlite3`,
+# vindos do inteiro teor dos julgados. As fichas e consolidações estão limpas.
+# --------------------------------------------------------------------------- #
+**/texto_extraido/
+**/inteiro_teor_bruto/
+*.sqlite3
+*.db
+TCE-MG_JULGADOS/
+# Mesma natureza: coleções de PDF bruto baixadas dos tribunais, das quais a base
+# extrai fichas. O insumo não se versiona; a ficha, sim.
+TCE-SP_BOLETINS/
+TCU_INFORMATIVOS_LICITACOES_CONTRATOS/
+
+# Remessas do SICOM ao TCE-MG: dado de contratação em lote, não é fonte da base.
+SICOM/
+
+# Precedentes: os processos reais de exercícios anteriores (habilitação,
+# propostas, e-mails de fornecedor — 976 arquivos, ~800 MB). O que a base usa
+# são os arquivos de análise da raiz de 06_precedentes_camara/, que continuam
+# versionados.
+06_precedentes_camara/processos_2025/
+
+# Segredos da pesquisa de preços (chaves de API). O modelo .env.example é versionado.
+.env
+*.env
+# Artefatos do Python e relatórios gerados pelos scripts.
+__pycache__/
+scripts/tests/__pycache__/
+*.pyc
+*.pyo
+*.log
+.pytest_cache/
+*.tmp
+*.temp
+~$*
+*.bak
+scripts/relatorio*.md
+scripts/*.json
+!scripts/exemplos/*.json
+
+# Relatórios locais da integração Obsidian; revisar antes de compartilhar.
+scripts/relatorios_obsidian/
+
+# Processos reais ficam fora do versionamento; o modelo permanece.
+# O lugar dos processos reais é CHARLES_PROCESSOS_DIR, fora do repositorio.
+08_processos_em_andamento/**
+!08_processos_em_andamento/.gitkeep
+!08_processos_em_andamento/_MODELO/
+!08_processos_em_andamento/_MODELO/**
+# Modelos Markdown do Obsidian são versionáveis; processos reais continuam ignorados.
+!08_processos_em_andamento/_FICHAS_OBSIDIAN/
+!08_processos_em_andamento/_FICHAS_OBSIDIAN/**
+
+# Gestao documental: areas de trabalho que nunca sobem, onde quer que estejam.
+**/99_TEMPORARIOS/
+**/98_QUARENTENA/
+**/.locks/
+*.part-*
+# Documentos externos (proposta, certidao, e-mail) sao dados de terceiros.
+**/03_DOCUMENTOS_EXTERNOS/
+# O exemplo ficticio do modulo e versionado de proposito.
+!10_gestao_documental/exemplos/**
+
+# Painel local gerado, somente leitura.
+painel/
+
+# Saidas locais legadas podem conter documentos reais e dados de fornecedores.
+output/
+
+# Renderizacoes avulsas usadas apenas para controle visual local.
+99_testes/qa_pdf_*/
+
+# Rascunhos de geração (scripts de apoio, extrações, evidências de estilo).
+# Não é área de processo: o que vale fica na pasta do processo.
+tmp/
+
+# Backups da limpeza de manutenção, caso alguém os aponte para dentro do repo.
+Charles_backup_limpeza_*/
+
+# Processos reais fora da convenção de nome de 08_processos_em_andamento/:
+# propostas de fornecedor, contratos assinados, habilitação. Mesma natureza
+# dos dados já excluídos acima — não versionar dado de terceiro/contrato real.
+/08_processos/
+minutas-tce-cmi/Processos/
+
+# Rascunho de sessão na raiz, não é fonte da base.
+/scratchpad_pncp_detalhes.json
+
+# Exemplo gerado do Aviso de Dispensa Completo: os DOCX/PDF/ZIP são
+# reprodutíveis com um comando e pesam alguns megabytes. O relatório de
+# validação e o manifesto de arquivos ficam versionados como evidência.
+99_testes/aviso_completo/exemplo/componentes/
+99_testes/aviso_completo/exemplo/saida/*.docx
+99_testes/aviso_completo/exemplo/saida/*.pdf
+99_testes/aviso_completo/exemplo/saida/*.zip
+99_testes/aviso_completo/exemplo/saida/anexos_separados/

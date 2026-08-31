@@ -1,0 +1,22 @@
+{
+  "id_interno": "res-6-2024-bens-comuns-luxo",
+  "id_tclegis": "1142355",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142355",
+  "data_hora_download": "2026-08-10T00:06:33.252564+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "RESOLUÇÃO nº 000006, de\r\n                            07/08/2024 -\r\n                            Pleno",
+    "ementa": "Dispõe sobre o enquadramento de bens nas categorias de qualidade comum e de luxo no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 14/08/2024 - Págs. 9-10.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/res-6-2024-bens-comuns-luxo/res-6-2024-bens-comuns-luxo_ORIGINAL.pdf",
+      "sha256": "6f7dc8c01d936d02f1f0e2c49333e8c4570324d98c4b3161874de43668a86875"
+    }
+  ]
+}

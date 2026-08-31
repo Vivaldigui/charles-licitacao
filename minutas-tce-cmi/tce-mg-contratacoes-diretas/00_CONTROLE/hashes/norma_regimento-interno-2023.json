@@ -1,0 +1,26 @@
+{
+  "id_interno": "regimento-interno-2023",
+  "id_tclegis": "1142030",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142030",
+  "ementa": "Aprova o Regimento Interno do Tribunal de Contas do Estado de Minas Gerais.",
+  "situacao": "alterada",
+  "classificacao": "contexto",
+  "data_hora_download": "2026-08-10T00:34:36.151874+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/regimento-interno-2023/regimento-interno-2023_COMPILADO.pdf",
+      "sha256": "6640d727f8c15bee37b8aa6c545fa815a3d9c85457420e4746057c86a7bd15eb"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/regimento-interno-2023/regimento-interno-2023_COMPLETO.pdf",
+      "sha256": "f45e77d66b9d55e8b0868a762ee9c8ed080282f4aeab4aad4b46636281e2d39b"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/regimento-interno-2023/regimento-interno-2023_ORIGINAL.pdf",
+      "sha256": "9ae136972324131638a1c16fc8d72865ffbd5793c9ae9d9e0bf85b4f28b5a6f6"
+    }
+  ]
+}

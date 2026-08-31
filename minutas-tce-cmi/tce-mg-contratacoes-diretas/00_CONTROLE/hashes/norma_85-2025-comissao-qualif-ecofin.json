@@ -1,0 +1,22 @@
+{
+  "id_interno": "85-2025-comissao-qualif-ecofin",
+  "id_tclegis": "1142812",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142812",
+  "data_hora_download": "2026-08-10T00:10:18.668178+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000085, de\r\n                            08/07/2025 -\r\n                            Presidência",
+    "ementa": "Institui a Comissão de Análise da Qualificação Econômico-financeira das Licitações do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 08/07/2025 - Págs. 17-18.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/85-2025-comissao-qualif-ecofin/85-2025-comissao-qualif-ecofin_ORIGINAL.pdf",
+      "sha256": "7e0a3b6d44dfaaeea10ccddaf8316b4e333c969ee548860b794815f44cd65b05"
+    }
+  ]
+}

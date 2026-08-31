@@ -1,0 +1,26 @@
+{
+  "id_interno": "59-2023-gt-transicao-14133",
+  "id_tclegis": "1141817",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141817",
+  "ementa": "Institui grupo de trabalho para auxiliar na transição para o regime de licitações e contratos administrativos disciplinado pela Lei nº 14.133, de 1º de abril de 2021.",
+  "situacao": "situacao_nao_confirmada",
+  "classificacao": "contexto",
+  "data_hora_download": "2026-08-10T00:34:29.898189+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/59-2023-gt-transicao-14133/59-2023-gt-transicao-14133_COMPILADO.pdf",
+      "sha256": "93f117c36b4ab11a3d897210facdfa5978ed8a00ddda6ce13ad9ef7eb6dd729c"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/59-2023-gt-transicao-14133/59-2023-gt-transicao-14133_COMPLETO.pdf",
+      "sha256": "22a2aaf1b8063f3076c80aa2d583645e6a2d1bd1d475ea3c93c0c8556e1f8713"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/59-2023-gt-transicao-14133/59-2023-gt-transicao-14133_ORIGINAL.pdf",
+      "sha256": "050b8001afede8661422689b60cb7b0cc60bd9ccfa2ad3504fb83b6634d0a493"
+    }
+  ]
+}

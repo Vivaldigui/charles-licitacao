@@ -1,0 +1,928 @@
+{
+  "gerado_em": "2026-08-10T01:40:27.084786+00:00",
+  "proposito": "evidências brutas capturadas e coletadas",
+  "nota": "chave e campo 'arquivo' são o caminho relativo a registros_web/; proveniência reconstruída é explicitamente marcada",
+  "esquema": "flat-relative-path",
+  "total_entradas": 110,
+  "comprasmg_busca_1020_resultado.html": {
+    "arquivo": "comprasmg_busca_1020_resultado.html",
+    "sha256": "9d85f126632aabe25b345fb5a4db1f915af3ca87899d9e23be3f0a2bf0063c4c",
+    "bytes": 73906,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_comprasmg_resultado.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "comprasmg_consulta_1020_formulario.html": {
+    "arquivo": "comprasmg_consulta_1020_formulario.html",
+    "sha256": "8c2fb2cfcf94427586e9a699baffdd9cecfb0ca0c75ab3a36332dd485ba5c387",
+    "bytes": 70315,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_comprasmg_consulta.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "comprasmg_grid_playwright.html": {
+    "arquivo": "comprasmg_grid_playwright.html",
+    "sha256": "95e7a06577ead3254edd6da1c03b0cdf137ee1301159ecb4052557f97f85b17f",
+    "bytes": 124739,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_cmpmg_pw.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tce_transparencia_licitacoes_pagina.html": {
+    "arquivo": "tce_transparencia_licitacoes_pagina.html",
+    "sha256": "cb6206ba85e41b197259bd042d4032d9cecc0b333eda41121624358ee7b903e3",
+    "bytes": 28855,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tce_licitacoes.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tce_transparencia_licitacoes_playwright.html": {
+    "arquivo": "tce_transparencia_licitacoes_playwright.html",
+    "sha256": "2b429cef77ed1ecd6973bd9aa97a4e45bacf2d2a850b91914f32d99c14c499bb",
+    "bytes": 134008,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tce_pw.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tce_transparencia_main_js_bundle.js": {
+    "arquivo": "tce_transparencia_main_js_bundle.js",
+    "sha256": "b951a73c38f40bb3459a1ff5a4d5cefd8b8b825fa04e656c93b4dc0a4777cdaf",
+    "bytes": 160138,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tce_main.js",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1136069.html": {
+    "arquivo": "tclegis_detalhe_1136069.html",
+    "sha256": "375c178fabe4be1ae29c9dbe44d544cf826e5c805d5570799f561b8ef79e011a",
+    "bytes": 11472,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136069",
+    "tag": "tclegis_detalhe:1136069",
+    "data_hora": "2026-08-10T00:29:26.657453+00:00"
+  },
+  "tclegis_detalhe_1137700.html": {
+    "arquivo": "tclegis_detalhe_1137700.html",
+    "sha256": "270908ae05909a1aa3fa10f137a42b2f52b17c501302b3ffdc467493f2e3efd7",
+    "bytes": 9575,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1137700",
+    "tag": "tclegis_detalhe:1137700",
+    "data_hora": "2026-08-10T00:29:30.921777+00:00"
+  },
+  "tclegis_detalhe_1139593.html": {
+    "arquivo": "tclegis_detalhe_1139593.html",
+    "sha256": "aee97c82a7c99e00c430be1b12ca80803c38073d806f25c305701040fbf47454",
+    "bytes": 9567,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139593",
+    "tag": "tclegis_detalhe:1139593",
+    "data_hora": "2026-08-10T00:29:37.747181+00:00"
+  },
+  "tclegis_detalhe_1141642.html": {
+    "arquivo": "tclegis_detalhe_1141642.html",
+    "sha256": "c3c95332c09d643c72dd599b64aa42d7d4dbb44bb166d69e74451a3fa5a5ce8c",
+    "bytes": 18802,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141642",
+    "tag": "tclegis_detalhe:1141642",
+    "data_hora": "2026-08-10T00:29:46.213507+00:00"
+  },
+  "tclegis_detalhe_1141996.html": {
+    "arquivo": "tclegis_detalhe_1141996.html",
+    "sha256": "963c2e84938c3466f59aeff2f5091f82e0a123cb7f2aa59c918efab5b9e80db8",
+    "bytes": 11709,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1141996.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1142002.html": {
+    "arquivo": "tclegis_detalhe_1142002.html",
+    "sha256": "5e5155fa679d599251a8af2f81a0d47dc5b24efaa8aba7a6edaedb84a9bf1bd3",
+    "bytes": 10588,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tclegis_portaria2.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1142380.html": {
+    "arquivo": "tclegis_detalhe_1142380.html",
+    "sha256": "88997ef6f23eaf196a448670e0a7c92911769b45f9cf9e344facd63c97a40843",
+    "bytes": 10271,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1142380.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1142586.html": {
+    "arquivo": "tclegis_detalhe_1142586.html",
+    "sha256": "1ed528565b2e3f67356cced0ecbce9af0ed9da5cfa87db1fef6f2bf613d15e8b",
+    "bytes": 9535,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1142586.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1142590.html": {
+    "arquivo": "tclegis_detalhe_1142590.html",
+    "sha256": "d8d79f1d0e6a40517cc1b516265f97033547ebf5154d1fa2fadec694d67a413c",
+    "bytes": 21498,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142590",
+    "tag": "tclegis_detalhe:1142590",
+    "data_hora": "2026-08-10T00:29:49.097003+00:00"
+  },
+  "tclegis_detalhe_1142608.html": {
+    "arquivo": "tclegis_detalhe_1142608.html",
+    "sha256": "3e2669610bb3a13c6a82da6499b230e07328e1491bc06178a696d488d674fa4d",
+    "bytes": 9491,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1142608.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1142792.html": {
+    "arquivo": "tclegis_detalhe_1142792.html",
+    "sha256": "351d25b9c888ad3822be54d9c2337ae90ba5ea05a57204b1650e3656bc53c7b5",
+    "bytes": 19798,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142792",
+    "tag": "tclegis_detalhe:1142792",
+    "data_hora": "2026-08-10T00:29:51.480205+00:00"
+  },
+  "tclegis_detalhe_1142812.html": {
+    "arquivo": "tclegis_detalhe_1142812.html",
+    "sha256": "9300e472754a27dffe6588ae17b5e3709eecb32cfa6f6151cd0e8b59ba7772d9",
+    "bytes": 9545,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1142812.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1142935.html": {
+    "arquivo": "tclegis_detalhe_1142935.html",
+    "sha256": "87942a0e910e8010842d261bd9438cef03103e16ff83bdf2a5205de997bfb258",
+    "bytes": 9967,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1142935.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_detalhe_1143164.html": {
+    "arquivo": "tclegis_detalhe_1143164.html",
+    "sha256": "be1d95ed11d1bf91c8623f103cb7778655922ba395c9712410f22181230c8a02",
+    "bytes": 9669,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1143164",
+    "tag": "tclegis_detalhe:1143164",
+    "data_hora": "2026-08-10T00:29:54.092469+00:00"
+  },
+  "tclegis_detalhe_1143267.html": {
+    "arquivo": "tclegis_detalhe_1143267.html",
+    "sha256": "5b42ce67c2db3a1bcda8ac4de5de9e6c82f651ec79e0a8a690e872f4942b8bfa",
+    "bytes": 9648,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_detalhe_1143267.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_index_TCE.html": {
+    "arquivo": "tclegis_index_TCE.html",
+    "sha256": "a1ad857cddcd82fc51e578d92b9c2d41ef27138f0405864d30bf2e8ea06c42fa",
+    "bytes": 40337,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tclegis_busca.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_resultado_busca_teste_assuntos.html": {
+    "arquivo": "tclegis_resultado_busca_teste_assuntos.html",
+    "sha256": "6312cfeb156bf4a214bb5464d0b9c4e0a7d342c205e263a38855b691179bde38",
+    "bytes": 79217,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tclegis_resultado.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_resultado_estudo_tecnico_preliminar.html": {
+    "arquivo": "tclegis_resultado_estudo_tecnico_preliminar.html",
+    "sha256": "7e8f51453975cdd2722f433009c2211c7229cd1eb2b28b9bc5494e1b9d94569f",
+    "bytes": 6573,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tclegis_estudo_técnico_preliminar.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_resultado_inexigibilidade.html": {
+    "arquivo": "tclegis_resultado_inexigibilidade.html",
+    "sha256": "0e603eb40c9625b9513fbf6e527823452eff9dbc6458c467b15e2aa7183e9801",
+    "bytes": 77770,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tclegis_inexigibilidade.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "tclegis_resultado_pesquisa_de_precos.html": {
+    "arquivo": "tclegis_resultado_pesquisa_de_precos.html",
+    "sha256": "f31d71d239ceab28751c02bf7adb23f921b03623b685ff5675a93cb958fac231",
+    "bytes": 4318,
+    "fonte": "TCLEGIS/Transparencia/ComprasMG",
+    "tag": "fase-1",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00",
+    "arquivo_original": "_tmp_tclegis_pesquisa_de_preços.html",
+    "captura": "2026-08-09T~20:49-21:04"
+  },
+  "chunks_js/chunk-25F4PJF5.js": {
+    "arquivo": "chunks_js/chunk-25F4PJF5.js",
+    "sha256": "75b312fd4fe1fbeb6e31bac8fb702eac01824bd1aea289d2890a5d35d2784f8c",
+    "bytes": 48921,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-375VAWMU.js": {
+    "arquivo": "chunks_js/chunk-375VAWMU.js",
+    "sha256": "fa695bc7248eaa627176805f3e45b9762c6da690a42a57c4a270b294943bb214",
+    "bytes": 54017,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-3WPRVK3T.js": {
+    "arquivo": "chunks_js/chunk-3WPRVK3T.js",
+    "sha256": "9c12d9645854718906773c34db275bdb5ccbd282f508397f007108b8559c0b23",
+    "bytes": 171692,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-4I4DAUDV.js": {
+    "arquivo": "chunks_js/chunk-4I4DAUDV.js",
+    "sha256": "5fd71ea389bdb274ed639fe43b94bf6f3412a25182d581ae1dd0fe546bd514a6",
+    "bytes": 1259,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-4O3FVBGX.js": {
+    "arquivo": "chunks_js/chunk-4O3FVBGX.js",
+    "sha256": "3dd27cc431f44751d0f1a55fac7d82ac0fa9bb8351a3af11581088afd5a3db66",
+    "bytes": 4281,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-553R7ZUG.js": {
+    "arquivo": "chunks_js/chunk-553R7ZUG.js",
+    "sha256": "4f78c731fc5a01e37932fefb9b760ae3953050e28490a1c8deb58fb1f97353b0",
+    "bytes": 2631,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-64CYK4I5.js": {
+    "arquivo": "chunks_js/chunk-64CYK4I5.js",
+    "sha256": "d46c63adbb6adf06aae3eb1a4a9b18194c5658da047b3437041aea5deaf40220",
+    "bytes": 10340,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-6KCK7W2H.js": {
+    "arquivo": "chunks_js/chunk-6KCK7W2H.js",
+    "sha256": "347aaa8a6900c29c0ac43be9a0aeea38dbd053e1548ac29875deaed0bdcd0fde",
+    "bytes": 48937,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-7WAF72Z5.js": {
+    "arquivo": "chunks_js/chunk-7WAF72Z5.js",
+    "sha256": "80c848e8d4113a9bbe65ddf6a1a600480f10d843970226cbda7c7ed38b22bdd2",
+    "bytes": 113866,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-BABJK5VM.js": {
+    "arquivo": "chunks_js/chunk-BABJK5VM.js",
+    "sha256": "e2b6b38858e5dc8b7585714d7d8e6d4e9c98a8bd0f384d5a10a36b938fa32e90",
+    "bytes": 3239,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-CLY7FN2H.js": {
+    "arquivo": "chunks_js/chunk-CLY7FN2H.js",
+    "sha256": "dd2688e6c85e7c625779d0fb7fd8cc53f4099d00c78fa7b8e7c8aaf79a29afcb",
+    "bytes": 3611,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-FAINLQO7.js": {
+    "arquivo": "chunks_js/chunk-FAINLQO7.js",
+    "sha256": "093018a6022b29fbacc2842932792f6626f98e2ed2ea6cc53ca78c7a75f37720",
+    "bytes": 452538,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-FCZFUJY2.js": {
+    "arquivo": "chunks_js/chunk-FCZFUJY2.js",
+    "sha256": "c9d9d2505e7dfc441535cdd1f8ebffd46bc6de17a6108167ec46553f826ee0e8",
+    "bytes": 140,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-FD5BMHWN.js": {
+    "arquivo": "chunks_js/chunk-FD5BMHWN.js",
+    "sha256": "473399c9c4db6b83672c5326b506e798ee739add06fcac0b6b3e604c8574ef71",
+    "bytes": 2432,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-G4XSPZUG.js": {
+    "arquivo": "chunks_js/chunk-G4XSPZUG.js",
+    "sha256": "1ab173adf30b9cc7e594d51bec2c71557e061e1310242dc534d4f62c26e9e8a6",
+    "bytes": 24806,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-GAL4ENT6.js": {
+    "arquivo": "chunks_js/chunk-GAL4ENT6.js",
+    "sha256": "24c2db3e5039f39ba96eaa695ae2e4524ad2f74686606508de352af4af6db4ba",
+    "bytes": 1340,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-GCGGAMZJ.js": {
+    "arquivo": "chunks_js/chunk-GCGGAMZJ.js",
+    "sha256": "fc34fe0a7dd8f87647fd8fb8e592d9c738d3ddec157915f455a989706f14c54d",
+    "bytes": 37554,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-GS5KLJ6P.js": {
+    "arquivo": "chunks_js/chunk-GS5KLJ6P.js",
+    "sha256": "3af588469870562a57cee4e00cd20e2b767c5cd3f3a3a15c0c5383390fcb63d7",
+    "bytes": 689,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-JTER2U3C.js": {
+    "arquivo": "chunks_js/chunk-JTER2U3C.js",
+    "sha256": "3854edbe3bb103b651b7d0ec44e7eaa5d491b2fcfecff198391b632b885cc679",
+    "bytes": 139467,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-KOUU5VDP.js": {
+    "arquivo": "chunks_js/chunk-KOUU5VDP.js",
+    "sha256": "7f8dac9991179df0b863c65b6a17bb0b84b54577b9f0347a0767b8d6ea9b35a9",
+    "bytes": 4682,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-OOBTELV5.js": {
+    "arquivo": "chunks_js/chunk-OOBTELV5.js",
+    "sha256": "097ab588566880c77a4cff47112e27e2cfd313bd4fcf9fa78c885af8111c5737",
+    "bytes": 2807,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-SPD2CT3N.js": {
+    "arquivo": "chunks_js/chunk-SPD2CT3N.js",
+    "sha256": "863d6d199d18eb0ffe4710e539459be046cbb6bf7732aeb0778d0b40f0587ef8",
+    "bytes": 10697,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-UB4N6FC5.js": {
+    "arquivo": "chunks_js/chunk-UB4N6FC5.js",
+    "sha256": "5055ba5e64f563a421a09b2136d380b462154c85d64b1006620223a93fac166e",
+    "bytes": 13957,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-UOUSPH3Z.js": {
+    "arquivo": "chunks_js/chunk-UOUSPH3Z.js",
+    "sha256": "2d0ec0b6933d853666f854ac52965cb5f1a75374305f05d446174618098a2a29",
+    "bytes": 712,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "chunks_js/chunk-WWRBTC6Z.js": {
+    "arquivo": "chunks_js/chunk-WWRBTC6Z.js",
+    "sha256": "8de76acc802a93c2500325e8855c8eb88311cba1a865d115b72e2f5d530996a5",
+    "bytes": 35009,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T00:23:45.262477+00:00"
+  },
+  "busca_tclegis/tclegis_resultado_documento_de_formaliza_o_de_demanda.html": {
+    "arquivo": "busca_tclegis/tclegis_resultado_documento_de_formaliza_o_de_demanda.html",
+    "sha256": "393e8c022323adaae1c92487df2a6612bb15a198e6a96008b9a4c91c0e9f2d64",
+    "bytes": 6404,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+    "tag": "busca_tclegis:documento de formalização de demanda",
+    "data_hora": "2026-08-10T00:19:28.964695+00:00"
+  },
+  "busca_tclegis/tclegis_resultado_estudo_t_cnico_preliminar.html": {
+    "arquivo": "busca_tclegis/tclegis_resultado_estudo_t_cnico_preliminar.html",
+    "sha256": "c3c0bd3fc645596ff50a79c0bd5442c2229f88132c55459e3bca904e22bb43cb",
+    "bytes": 5097,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+    "tag": "busca_tclegis:estudo técnico preliminar",
+    "data_hora": "2026-08-10T00:18:59.812550+00:00"
+  },
+  "busca_tclegis/tclegis_resultado_exig_ncia_de_qualifica_o_econ_mico_financeira.html": {
+    "arquivo": "busca_tclegis/tclegis_resultado_exig_ncia_de_qualifica_o_econ_mico_financeira.html",
+    "sha256": "d00be80f9f2e2f47982b905831bda7da7add92920973f1636f8730e3fc05c34f",
+    "bytes": 751,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+    "tag": "busca_tclegis:exigência de qualificação econômico-financeira",
+    "data_hora": "2026-08-10T00:19:35.294822+00:00"
+  },
+  "busca_tclegis/tclegis_resultado_modalidade_de_licita_o.html": {
+    "arquivo": "busca_tclegis/tclegis_resultado_modalidade_de_licita_o.html",
+    "sha256": "c023548a62211b85d85f6989a65ec73401d3b15ca26ee3c236cc4939c9ebe204",
+    "bytes": 12657,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+    "tag": "busca_tclegis:modalidade de licitação",
+    "data_hora": "2026-08-10T00:19:38.795271+00:00"
+  },
+  "busca_tclegis/tclegis_resultado_pesquisa_de_pre_os.html": {
+    "arquivo": "busca_tclegis/tclegis_resultado_pesquisa_de_pre_os.html",
+    "sha256": "b0055a1b85a379dd136b9d884548a85354c9966af408eb1667f8bd478bed4a80",
+    "bytes": 4186,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+    "tag": "busca_tclegis:pesquisa de preços",
+    "data_hora": "2026-08-10T00:19:32.051616+00:00"
+  },
+  "busca_tclegis/tclegis_resultado_termo_de_refer_ncia.html": {
+    "arquivo": "busca_tclegis/tclegis_resultado_termo_de_refer_ncia.html",
+    "sha256": "6c22919480abea24246fc51c9de16284f4e5744122a37f713cc696473ee160d8",
+    "bytes": 32085,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+    "tag": "busca_tclegis:termo de referência",
+    "data_hora": "2026-08-10T00:19:25.633592+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1136069.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1136069.html",
+    "sha256": "afd57c56e267d2a54d840fe6d6a9d323e83414c8b148650249dbb414f5d57f33",
+    "bytes": 11230,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136069",
+    "tag": "tclegis_detalhe:1136069",
+    "data_hora": "2026-08-10T00:29:26.657453+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1136266.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1136266.html",
+    "sha256": "4102f0e222aab54de1cc1cac36f45ca9bd3e183c4bc945c100727b558cd102c7",
+    "bytes": 9646,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136266",
+    "tag": "tclegis_detalhe:1136266",
+    "data_hora": "2026-08-10T00:29:27.330722+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1136272.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1136272.html",
+    "sha256": "354c071c45ab1fb003855dffb4ffec0f1bdcd23c8566a04ea4127e544e152a0e",
+    "bytes": 9490,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136272",
+    "tag": "tclegis_detalhe:1136272",
+    "data_hora": "2026-08-10T00:29:27.947379+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1136399.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1136399.html",
+    "sha256": "c28e6023de3331dad2a6d3cf4189ee8f8660a616984fdbd00510f5557b2bf986",
+    "bytes": 10783,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136399",
+    "tag": "tclegis_detalhe:1136399",
+    "data_hora": "2026-08-10T00:29:28.701660+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1136551.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1136551.html",
+    "sha256": "e25af9a8ed7b45bd406baaf443df37feb3b8b221e31f39d224015652be82ac74",
+    "bytes": 10036,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1136551",
+    "tag": "tclegis_detalhe:1136551",
+    "data_hora": "2026-08-10T00:29:29.409738+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1137069.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1137069.html",
+    "sha256": "df346258207b9d60f9f51d5f9752f88b8bf598bdbc090cb0ba2d37e82774deb6",
+    "bytes": 9619,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1137069",
+    "tag": "tclegis_detalhe:1137069",
+    "data_hora": "2026-08-10T00:29:30.200617+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1137700.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1137700.html",
+    "sha256": "b58572c1195c72f4c887d47cdcf088355a576b3c37c50efd0efa187e334ad468",
+    "bytes": 9352,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1137700",
+    "tag": "tclegis_detalhe:1137700",
+    "data_hora": "2026-08-10T00:29:30.921777+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1138500.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1138500.html",
+    "sha256": "bfd514ac56479454e7179fa8322aeb55ba09007dc4bec01547048995d7dea446",
+    "bytes": 9258,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1138500",
+    "tag": "tclegis_detalhe:1138500",
+    "data_hora": "2026-08-10T00:29:31.530625+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1138945.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1138945.html",
+    "sha256": "4c7a275215b7f8ce7daaf30221cde5d8a00287fde4f8a95d2209ae53552929b5",
+    "bytes": 9548,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1138945",
+    "tag": "tclegis_detalhe:1138945",
+    "data_hora": "2026-08-10T00:29:32.131090+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139342.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139342.html",
+    "sha256": "f2a6ba1024b26a2a9ae091a5b53fca8296c80c409202f3c8f8ce3b0fd5917e12",
+    "bytes": 9338,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139342",
+    "tag": "tclegis_detalhe:1139342",
+    "data_hora": "2026-08-10T00:29:32.798766+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139343.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139343.html",
+    "sha256": "45b1aa2a5825007a2576d1c09da37ab38c4114070f5ab820f63b34a707322d32",
+    "bytes": 10142,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139343",
+    "tag": "tclegis_detalhe:1139343",
+    "data_hora": "2026-08-10T00:29:33.490468+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139518.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139518.html",
+    "sha256": "8d6dfa098b670dd64ea139f3537a79a63847cab9f16add2c395128e5a8e582f6",
+    "bytes": 9415,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139518",
+    "tag": "tclegis_detalhe:1139518",
+    "data_hora": "2026-08-10T00:29:34.154669+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139529.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139529.html",
+    "sha256": "f60ca1e91131bf45d01906a68d6005a60e52d521f0c6094ed11fd7664bf50187",
+    "bytes": 11563,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139529",
+    "tag": "tclegis_detalhe:1139529",
+    "data_hora": "2026-08-10T00:29:36.430502+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139556.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139556.html",
+    "sha256": "20f533137b2d2b64552f04a6e6a537f6a9ec12f2b794b3e9e94d1d952f0ec260",
+    "bytes": 9306,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139556",
+    "tag": "tclegis_detalhe:1139556",
+    "data_hora": "2026-08-10T00:29:37.024191+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139593.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139593.html",
+    "sha256": "72b1646972ca430fc31e9517a10d39114ae6b624bd5a8141f6477841f513d70a",
+    "bytes": 9344,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139593",
+    "tag": "tclegis_detalhe:1139593",
+    "data_hora": "2026-08-10T00:29:37.747181+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139794.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139794.html",
+    "sha256": "abed606465cce5b73d452b7254439db8db0173e124e458811f68afd548321a4d",
+    "bytes": 9533,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139794",
+    "tag": "tclegis_detalhe:1139794",
+    "data_hora": "2026-08-10T00:29:38.401438+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1139902.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1139902.html",
+    "sha256": "127bd537378853244dc4c860759d8551067e4575ad8fa3aa1d170383652bae30",
+    "bytes": 9280,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139902",
+    "tag": "tclegis_detalhe:1139902",
+    "data_hora": "2026-08-10T00:29:39.063806+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1140193.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1140193.html",
+    "sha256": "19bbd396473b5fba1f1c4276ab706c6263bc3335c8b104b57d10fbe6a60859d5",
+    "bytes": 9773,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1140193",
+    "tag": "tclegis_detalhe:1140193",
+    "data_hora": "2026-08-10T00:29:39.746370+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1140336.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1140336.html",
+    "sha256": "b107eda5b8a1c7f1fb23071f6ce399ba828609b26197fee6ddddcc3c90fd4cf1",
+    "bytes": 9638,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1140336",
+    "tag": "tclegis_detalhe:1140336",
+    "data_hora": "2026-08-10T00:29:40.434875+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1140357.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1140357.html",
+    "sha256": "d5079c9b20cc40f89ceb42677a425ebb5aa8ba401942b89695c20d66333b1e3f",
+    "bytes": 9571,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1140357",
+    "tag": "tclegis_detalhe:1140357",
+    "data_hora": "2026-08-10T00:29:41.130412+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1140853.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1140853.html",
+    "sha256": "3dfc0a2d690b130e57b7fdbb809bfe337fe860a93ae7bf9b4b56f7b7fa4bc905",
+    "bytes": 9546,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1140853",
+    "tag": "tclegis_detalhe:1140853",
+    "data_hora": "2026-08-10T00:29:41.736239+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1141305.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1141305.html",
+    "sha256": "3b74ed2f09e4473b0f5468359776a68798b24db2fced38cf046c23b5904dde52",
+    "bytes": 11217,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141305",
+    "tag": "tclegis_detalhe:1141305",
+    "data_hora": "2026-08-10T00:29:42.477492+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1141379.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1141379.html",
+    "sha256": "ac9d61aa910451d8d8f335de7f1022b5012bfb371f6737346bac595a862ae18b",
+    "bytes": 10252,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141379",
+    "tag": "tclegis_detalhe:1141379",
+    "data_hora": "2026-08-10T00:29:43.126910+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1141578.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1141578.html",
+    "sha256": "c45614d7f49a4a04c534763ee3d24f8ab5c3d494cc3097a38155e03e70e484f3",
+    "bytes": 14272,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141578",
+    "tag": "tclegis_detalhe:1141578",
+    "data_hora": "2026-08-10T00:29:43.904293+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1141642.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1141642.html",
+    "sha256": "90b3cdf5abd54cab9ab54d32cb9028472d0ee366fedb7ba545579ee1400c5e35",
+    "bytes": 18535,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141642",
+    "tag": "tclegis_detalhe:1141642",
+    "data_hora": "2026-08-10T00:29:46.213507+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1141817.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1141817.html",
+    "sha256": "2e9f7d1c7f7a7118b71de09ced35d99cd1adcff667d9d6cf5f9d91a4c7d22bb7",
+    "bytes": 11075,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141817",
+    "tag": "tclegis_detalhe:1141817",
+    "data_hora": "2026-08-10T00:29:46.940445+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1142030.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1142030.html",
+    "sha256": "f7fcf2f5873dd497f3f9b23f65eaadb30738e2451ed43dcedfd95ee585830614",
+    "bytes": 16847,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142030",
+    "tag": "tclegis_detalhe:1142030",
+    "data_hora": "2026-08-10T00:29:48.114469+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1142590.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1142590.html",
+    "sha256": "e86ac976019c6fb12ce7f700698235bc1d34813563b0ad210321b2af4bc657ca",
+    "bytes": 21245,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142590",
+    "tag": "tclegis_detalhe:1142590",
+    "data_hora": "2026-08-10T00:29:49.097003+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1142694.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1142694.html",
+    "sha256": "733aa93110c0b79c991a82604d11a2d28770c16c5ee420d018ea26181c9a613a",
+    "bytes": 10845,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142694",
+    "tag": "tclegis_detalhe:1142694",
+    "data_hora": "2026-08-10T00:29:49.713664+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1142792.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1142792.html",
+    "sha256": "5eab5dc10536b060fba071a93a90cb6d460d47b1af0374244c087ff44b899f81",
+    "bytes": 19538,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142792",
+    "tag": "tclegis_detalhe:1142792",
+    "data_hora": "2026-08-10T00:29:51.480205+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1142814.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1142814.html",
+    "sha256": "fd7c6ba92d60941c35e979e72cb40301ccd8e118821fdcbf53469226c5f7f0cd",
+    "bytes": 9361,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142814",
+    "tag": "tclegis_detalhe:1142814",
+    "data_hora": "2026-08-10T00:29:52.146885+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1142857.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1142857.html",
+    "sha256": "6095ad96e334541b13746b1f320ba6ad3deeb71e77530cb6da28f104c5c3b667",
+    "bytes": 9512,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142857",
+    "tag": "tclegis_detalhe:1142857",
+    "data_hora": "2026-08-10T00:29:52.730153+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1143091.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1143091.html",
+    "sha256": "036d530dd704b7d4dfabb63f1af0895e8680e7847392290cbf8b1240d286263f",
+    "bytes": 9509,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1143091",
+    "tag": "tclegis_detalhe:1143091",
+    "data_hora": "2026-08-10T00:29:53.496798+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_1143164.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_1143164.html",
+    "sha256": "4d3f6576792091918cbf738da75f205d59ea8a2d115560722dacbc2edbfba9f1",
+    "bytes": 9446,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1143164",
+    "tag": "tclegis_detalhe:1143164",
+    "data_hora": "2026-08-10T00:29:54.092469+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976274.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976274.html",
+    "sha256": "23c38ef0eb008f1435eb2675207e7c52096a2fef75529bac8ec5424f323503ee",
+    "bytes": 12241,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976274",
+    "tag": "tclegis_detalhe:976274",
+    "data_hora": "2026-08-10T00:29:10.269321+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976397.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976397.html",
+    "sha256": "f9789987ef28cc3be99cd3c634eea89805b27dc740062824b33b7ff459d2a493",
+    "bytes": 9596,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976397",
+    "tag": "tclegis_detalhe:976397",
+    "data_hora": "2026-08-10T00:29:11.031706+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976445.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976445.html",
+    "sha256": "693921a583feb9f73d9053585ab7d440da97c651c0688bb97d935648b727e591",
+    "bytes": 9567,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976445",
+    "tag": "tclegis_detalhe:976445",
+    "data_hora": "2026-08-10T00:29:11.724584+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976447.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976447.html",
+    "sha256": "d13ac68e0d233004a43fa40052b8991e66b4abe54794e9c65beec029a150e2dc",
+    "bytes": 9442,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976447",
+    "tag": "tclegis_detalhe:976447",
+    "data_hora": "2026-08-10T00:29:12.422481+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976899.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976899.html",
+    "sha256": "b399785ab18ee9fedfb3fefd878f6f8a9953126b0e2a7fe522823b4fd97be226",
+    "bytes": 9201,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976899",
+    "tag": "tclegis_detalhe:976899",
+    "data_hora": "2026-08-10T00:29:13.658224+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976945.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976945.html",
+    "sha256": "fea0175ba9a012a5d3a4a5d1475eacc229a6cf2af7f53d99082bcca6a708d067",
+    "bytes": 9299,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976945",
+    "tag": "tclegis_detalhe:976945",
+    "data_hora": "2026-08-10T00:29:14.309289+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_976963.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_976963.html",
+    "sha256": "c241596a89a45aac8e76bc13320cb29c30a1d60d492a14d0515b9ed33eb512f3",
+    "bytes": 12190,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/976963",
+    "tag": "tclegis_detalhe:976963",
+    "data_hora": "2026-08-10T00:29:15.443656+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_977601.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_977601.html",
+    "sha256": "0f9f8879c8cb9df34c963fa8719474aab70a9c0fb7c04526d810a10f615b4d3a",
+    "bytes": 13682,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/977601",
+    "tag": "tclegis_detalhe:977601",
+    "data_hora": "2026-08-10T00:29:17.532464+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_977948.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_977948.html",
+    "sha256": "5bab67ca1a56b1e9f73534eb895d2f68d3db2ec18d6d65ec0ae5d913656af1fc",
+    "bytes": 13675,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/977948",
+    "tag": "tclegis_detalhe:977948",
+    "data_hora": "2026-08-10T00:29:18.490619+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_978126.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_978126.html",
+    "sha256": "7a11cf7af47523bf31e887581b4c9a0e3ccd0320b522c3c5e3e58edb808f59f6",
+    "bytes": 16279,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978126",
+    "tag": "tclegis_detalhe:978126",
+    "data_hora": "2026-08-10T00:29:19.730899+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_978128.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_978128.html",
+    "sha256": "bc0f85f33876118c55d6453a22d47828e5ae2eda08a4e8e986195c658608b0f6",
+    "bytes": 16738,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978128",
+    "tag": "tclegis_detalhe:978128",
+    "data_hora": "2026-08-10T00:29:21.147410+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_978148.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_978148.html",
+    "sha256": "c47cfe66c80d85da1d6f7a6d0c6c3d7757a2bfae2367502827ce8fc77c1a857d",
+    "bytes": 11141,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978148",
+    "tag": "tclegis_detalhe:978148",
+    "data_hora": "2026-08-10T00:29:21.874091+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_978234.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_978234.html",
+    "sha256": "6aa447a3c5ab0ce7a6475f106e0c86a003ee055f08230d303ee266b5f02ec9e0",
+    "bytes": 15718,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978234",
+    "tag": "tclegis_detalhe:978234",
+    "data_hora": "2026-08-10T00:29:22.762076+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_978254.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_978254.html",
+    "sha256": "687e8b2e6f8ab9c57426de59b5a8506e30020fd6a5c41e9c5086475e16f1056a",
+    "bytes": 12142,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978254",
+    "tag": "tclegis_detalhe:978254",
+    "data_hora": "2026-08-10T00:29:23.590993+00:00"
+  },
+  "tclegis_detalhe/tclegis_detalhe_978885.html": {
+    "arquivo": "tclegis_detalhe/tclegis_detalhe_978885.html",
+    "sha256": "49b0d1202c838082e456bad90e944e98526cf68fffcae039f996eff0e25cb2ed",
+    "bytes": 15580,
+    "fonte_url": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978885",
+    "tag": "tclegis_detalhe:978885",
+    "data_hora": "2026-08-10T00:29:25.117845+00:00"
+  },
+  "validacao_interativa/portal_transparencia_amostra_2025_2026.json": {
+    "arquivo": "validacao_interativa/portal_transparencia_amostra_2025_2026.json",
+    "sha256": "1cd8bc289671a189329ae7941e33921446e7b96c9b0114de634844c363c75764",
+    "bytes": 2955,
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T01:03:17.828305+00:00"
+  },
+  "validacao_interativa/portal_transparencia_compra_direta_siad_lei_14133_20260809.json": {
+    "arquivo": "validacao_interativa/portal_transparencia_compra_direta_siad_lei_14133_20260809.json",
+    "sha256": "f55322841f8f925d031d640191ff8db91627493eb39acc1627ef5f9674925f1b",
+    "bytes": 2514,
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T01:40:27.084786+00:00",
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "nota": "fonte e hora reconstruídas na reconciliação; conferir o diagnóstico antes de citar"
+  },
+  "validacao_interativa/portal_transparencia_compra_direta_siad_lei_14133_20260809.xlsx": {
+    "arquivo": "validacao_interativa/portal_transparencia_compra_direta_siad_lei_14133_20260809.xlsx",
+    "sha256": "d9e3a66d92d6627ef43aabb6065cbfc9fe0ea1eb653a560e24051fd1f3785490",
+    "bytes": 28501,
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T01:40:27.084786+00:00",
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "nota": "fonte e hora reconstruídas na reconciliação; conferir o diagnóstico antes de citar"
+  },
+  "validacao_interativa/portal_transparencia_compra_direta_siad_lei_14133_20260809_original_defeituoso.csv": {
+    "arquivo": "validacao_interativa/portal_transparencia_compra_direta_siad_lei_14133_20260809_original_defeituoso.csv",
+    "sha256": "5e86f275d7e8345723231199ca3bed493ca5db99297a1815cad9cc6fbf933544",
+    "bytes": 41803,
+    "tag": "fase-1:reconciliacao",
+    "data_hora": "2026-08-10T01:40:27.084786+00:00",
+    "fonte_url": "https://transparencia.tce.mg.gov.br",
+    "nota": "fonte e hora reconstruídas na reconciliação; conferir o diagnóstico antes de citar"
+  }
+}

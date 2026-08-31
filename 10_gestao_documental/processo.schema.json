@@ -1,0 +1,310 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://camaraitanhandu.mg.gov.br/charles/processo.schema.json",
+  "title": "PROCESSO.json — registro do processo administrativo",
+  "description": "Estado do processo de contratação gerido pelo Charles (item 11 do escopo da Gestão Documental). Campo desconhecido é null com pendência anotada — nunca preenchido por suposição.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "processo_id",
+    "numero",
+    "objeto",
+    "estado_atual",
+    "local_armazenamento",
+    "atualizado_em"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "processo_id": {
+      "type": "string",
+      "description": "Identificador da pasta, sanitizado. Ex.: PA_031_2026.",
+      "pattern": "^[A-Z0-9_]+$"
+    },
+    "numero": {
+      "type": "string",
+      "description": "Número administrativo como a Câmara o usa. Ex.: \"PA 031/2026\"."
+    },
+    "objeto": {
+      "type": "string",
+      "minLength": 3
+    },
+    "exercicio": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "setor_requisitante": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "responsaveis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Nomes ou cargos responsáveis pela instrução."
+    },
+    "modalidade": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Enquadramento declarado pelo operador. O Charles não decide modalidade."
+    },
+    "fundamento_legal": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "estado_atual": {
+      "type": "string",
+      "enum": [
+        "em_instrucao",
+        "em_selecao",
+        "contratado",
+        "em_execucao",
+        "concluido",
+        "cancelado",
+        "suspenso"
+      ]
+    },
+    "fase_atual": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "fase_preparatoria",
+        "selecao_fornecedor",
+        "contratacao",
+        "execucao",
+        null
+      ]
+    },
+    "instrumento_contratual": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "contrato",
+        "ordem_fornecimento",
+        "nota_empenho",
+        "autorizacao_fornecimento",
+        "outro",
+        null
+      ]
+    },
+    "fornecedor": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "razao_social": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cnpj": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "valor_estimado": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "valor_contratado": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "cnae_subclasse": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Subclasse CNAE do objeto (ramo de atividade), no formato oficial do IBGE/CONCLA, ex.: 4751-2/01. Base da afericao do limite por valor (art. 75, par. 1). Nunca deduzida: consultar a ferramenta do IBGE."
+    },
+    "afericao_limite_cnae": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Resultado da afericao do somatorio do exercicio por subclasse, feita na ABERTURA do processo. Null quando o fundamento nao e dispensa por valor (inexigibilidade e as demais dispensas do art. 75 nao entram na conta).",
+      "properties": {
+        "situacao": {
+          "type": "string",
+          "enum": [
+            "aferido",
+            "aferido_com_justificativa",
+            "nao_aferido"
+          ]
+        },
+        "inciso": {
+          "type": "string",
+          "enum": [
+            "I",
+            "II"
+          ]
+        },
+        "cnae_subclasse": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exercicio": {
+          "type": "string"
+        },
+        "faixa": {
+          "type": "string",
+          "enum": [
+            "verde",
+            "amarelo",
+            "vermelho",
+            "estouro",
+            "limite_nao_confirmado",
+            "limite_invalido"
+          ]
+        },
+        "acumulado_anterior": {
+          "type": "string"
+        },
+        "total_simulado": {
+          "type": "string"
+        },
+        "limite": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "percentual_limite": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parecer_mecanico": {
+          "type": "string"
+        },
+        "aferido_em": {
+          "type": "string"
+        },
+        "motivo": {
+          "type": "string",
+          "description": "Por que nao se aferiu. Presente so em nao_aferido."
+        },
+        "justificativa_humana": {
+          "type": "string",
+          "description": "Razao registrada por quem decidiu abrir apesar do impedimento. Presente so em aferido_com_justificativa; vira pendencia de juntada aos autos."
+        }
+      }
+    },
+    "documentos_obrigatorios": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Lista de trabalho. É sugestão operacional, não norma — confirmar na esteira e no Regulamento da Câmara."
+    },
+    "origem_lista_obrigatorios": {
+      "type": "string"
+    },
+    "documentos_existentes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "documentos_pendentes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "datas": {
+      "type": "object",
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "properties": {
+        "criacao": {
+          "type": "string"
+        },
+        "autorizacao": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publicacao_aviso": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "julgamento": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "homologacao": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "assinatura_contrato": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "local_armazenamento": {
+      "type": "string",
+      "description": "Caminho da pasta. Processos reais devem estar sob CHARLES_PROCESSOS_DIR, fora do repositório."
+    },
+    "publicidade": {
+      "type": "string",
+      "enum": [
+        "publico",
+        "restrito",
+        "sigiloso"
+      ],
+      "description": "Grau de publicidade declarado. Não substitui análise da LGPD nem do regime de acesso."
+    },
+    "atualizado_em": {
+      "type": "string"
+    },
+    "observacao": {
+      "type": "string"
+    }
+  }
+}

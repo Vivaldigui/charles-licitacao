@@ -1,0 +1,26 @@
+{
+  "id_interno": "72-2018-siad-mg",
+  "id_tclegis": "1139529",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1139529",
+  "ementa": "Dispõe sobre a implantação e o uso do SIAD-MG - Sistema Integrado de Administração de Materiais e Serviços do Estado de Minas Gerais - no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+  "situacao": "situacao_nao_confirmada",
+  "classificacao": "contexto",
+  "data_hora_download": "2026-08-10T00:34:24.157081+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/72-2018-siad-mg/72-2018-siad-mg_COMPILADO.pdf",
+      "sha256": "e76fde32f411100067d1b80946a601c2b295dae214fc24bfb0725645fa470ed1"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/72-2018-siad-mg/72-2018-siad-mg_COMPLETO.pdf",
+      "sha256": "41b00b2ab80eb2527c55d36a96cf56426c6289c8864bd7215efed6a1abe140d9"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/72-2018-siad-mg/72-2018-siad-mg_ORIGINAL.pdf",
+      "sha256": "ef6107c2531d5819107b96aa9630a2861c791dd629ad06e9952ebcc175d19ccf"
+    }
+  ]
+}

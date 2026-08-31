@@ -1,0 +1,423 @@
+{
+  "gerado_em": "2026-08-10T00:19:39.209961+00:00",
+  "fonte": "https://tclegis.tce.mg.gov.br/Home/RetornoBusca",
+  "config_usada": "busca_tclegis_agenda em scripts/config.yaml",
+  "termos": [
+    {
+      "termo": "estudo técnico preliminar",
+      "qtd": 6,
+      "sha256_html": "c3c0bd3fc645596ff50a79c0bd5442c2229f88132c55459e3bca904e22bb43cb",
+      "resultados": [
+        {
+          "id": "1142608",
+          "titulo": "PORTARIA nº 000026, de 06/03/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142586",
+          "titulo": "PORTARIA nº 000020, de 14/02/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142024",
+          "titulo": "PORTARIA nº 000009, de 31/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142025",
+          "titulo": "PORTARIA nº 000008, de 31/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142002",
+          "titulo": "PORTARIA nº 000002, de 12/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142001",
+          "titulo": "PORTARIA nº 000001, de 12/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        }
+      ]
+    },
+    {
+      "termo": "termo de referência",
+      "qtd": 42,
+      "sha256_html": "6c22919480abea24246fc51c9de16284f4e5744122a37f713cc696473ee160d8",
+      "resultados": [
+        {
+          "id": "1142983",
+          "titulo": "PORTARIA nº 000141, de 30/10/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142857",
+          "titulo": "PORTARIA nº 000098, de 11/08/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142814",
+          "titulo": "PORTARIA nº 000087, de 08/07/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142792",
+          "titulo": "RESOLUÇÃO nº 000004, de 18/06/2025 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1142694",
+          "titulo": "RESOLUÇÃO DELEGADA nº 000002, de 23/04/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142608",
+          "titulo": "PORTARIA nº 000026, de 06/03/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142586",
+          "titulo": "PORTARIA nº 000020, de 14/02/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142590",
+          "titulo": "RESOLUÇÃO DELEGADA nº 000001, de 13/02/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142355",
+          "titulo": "RESOLUÇÃO nº 000006, de 07/08/2024 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1142265",
+          "titulo": "PORTARIA nº 000043, de 02/07/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142053",
+          "titulo": "ORDEM DE SERVIÇO nº 000004, de 05/03/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142024",
+          "titulo": "PORTARIA nº 000009, de 31/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142025",
+          "titulo": "PORTARIA nº 000008, de 31/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142002",
+          "titulo": "PORTARIA nº 000002, de 12/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142001",
+          "titulo": "PORTARIA nº 000001, de 12/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142030",
+          "titulo": "REGIMENTO INTERNO nº S/N, de 13/12/2023 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1141817",
+          "titulo": "PORTARIA nº 000059, de 04/08/2023 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1141642",
+          "titulo": "RESOLUÇÃO nº 000004, de 29/03/2023 - PLENO REVOGADA",
+          "ementa": ""
+        },
+        {
+          "id": "1141578",
+          "titulo": "RESOLUÇÃO DELEGADA nº 000002, de 08/03/2023 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1141379",
+          "titulo": "PORTARIA nº 000010, de 26/09/2022 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1141305",
+          "titulo": "PORTARIA nº 000075, de 19/08/2022 - PRESIDÊNCIA REVOGADA",
+          "ementa": ""
+        },
+        {
+          "id": "1140853",
+          "titulo": "ORDEM DE SERVIÇO nº 000008, de 21/09/2021 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1140357",
+          "titulo": "PORTARIA nº 000033, de 19/11/2020 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1140193",
+          "titulo": "PORTARIA nº 000020, de 31/07/2020 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1139902",
+          "titulo": "PORTARIA nº 000020, de 04/11/2019 - GABINETE DO PROCURADOR MARCÍLIO BARENCO CORRÊA DE MELLO",
+          "ementa": ""
+        },
+        {
+          "id": "1139593",
+          "titulo": "PORTARIA nº 000004, de 26/02/2019 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1139529",
+          "titulo": "PORTARIA nº 000072, de 18/12/2018 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1139518",
+          "titulo": "PORTARIA nº 000069, de 07/12/2018 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1138945",
+          "titulo": "PORTARIA nº 000002, de 25/08/2017 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1137700",
+          "titulo": "PORTARIA nº S/N, de 28/06/2016 - GABINETE DA PROCURADORA MARIA CECÍLIA MENDES BORGES",
+          "ementa": ""
+        },
+        {
+          "id": "1137069",
+          "titulo": "PORTARIA nº 000003, de 01/02/2016 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1136551",
+          "titulo": "RESOLUÇÃO nº 000023, de 03/12/2014 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1136069",
+          "titulo": "RESOLUÇÃO nº 000003, de 19/03/2014 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1136266",
+          "titulo": "PORTARIA nº 000015, de 01/01/2014 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1136272",
+          "titulo": "ORIENTAÇÃO nº 000003, de 01/01/2013 - CORREGEDORIA",
+          "ementa": ""
+        },
+        {
+          "id": "978234",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000006, de 29/06/2011 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "978128",
+          "titulo": "RESOLUÇÃO nº 000006, de 27/04/2011 - PLENO REVOGADA",
+          "ementa": ""
+        },
+        {
+          "id": "978885",
+          "titulo": "RESOLUÇÃO DELEGADA nº 000001, de 16/02/2011 - PRESIDÊNCIA REVOGADA",
+          "ementa": ""
+        },
+        {
+          "id": "978126",
+          "titulo": "PORTARIA nº 000009, de 09/02/2011 - PRESIDÊNCIA REVOGADA",
+          "ementa": ""
+        },
+        {
+          "id": "978254",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000002, de 12/05/2010 - PLENO REVOGADA",
+          "ementa": ""
+        },
+        {
+          "id": "978148",
+          "titulo": "PORTARIA nº 000114, de 01/01/2010 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "976963",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000007, de 15/12/2003 - PLENO REVOGADA",
+          "ementa": ""
+        }
+      ]
+    },
+    {
+      "termo": "documento de formalização de demanda",
+      "qtd": 6,
+      "sha256_html": "393e8c022323adaae1c92487df2a6612bb15a198e6a96008b9a4c91c0e9f2d64",
+      "resultados": [
+        {
+          "id": "1143164",
+          "titulo": "PORTARIA nº 000021, de 05/03/2026 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142608",
+          "titulo": "PORTARIA nº 000026, de 06/03/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142355",
+          "titulo": "RESOLUÇÃO nº 000006, de 07/08/2024 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1142024",
+          "titulo": "PORTARIA nº 000009, de 31/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142002",
+          "titulo": "PORTARIA nº 000002, de 12/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1142001",
+          "titulo": "PORTARIA nº 000001, de 12/01/2024 - PRESIDÊNCIA",
+          "ementa": ""
+        }
+      ]
+    },
+    {
+      "termo": "pesquisa de preços",
+      "qtd": 5,
+      "sha256_html": "b0055a1b85a379dd136b9d884548a85354c9966af408eb1667f8bd478bed4a80",
+      "resultados": [
+        {
+          "id": "1139593",
+          "titulo": "PORTARIA nº 000004, de 26/02/2019 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1137700",
+          "titulo": "PORTARIA nº S/N, de 28/06/2016 - GABINETE DA PROCURADORA MARIA CECÍLIA MENDES BORGES",
+          "ementa": ""
+        },
+        {
+          "id": "1136069",
+          "titulo": "RESOLUÇÃO nº 000003, de 19/03/2014 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "976899",
+          "titulo": "PORTARIA nº 000005, de 04/02/2004 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "977601",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000009, de 17/12/2003 - PLENO",
+          "ementa": ""
+        }
+      ]
+    },
+    {
+      "termo": "exigência de qualificação econômico-financeira",
+      "qtd": 0,
+      "sha256_html": "d00be80f9f2e2f47982b905831bda7da7add92920973f1636f8730e3fc05c34f",
+      "resultados": []
+    },
+    {
+      "termo": "modalidade de licitação",
+      "qtd": 16,
+      "sha256_html": "c023548a62211b85d85f6989a65ec73401d3b15ca26ee3c236cc4939c9ebe204",
+      "resultados": [
+        {
+          "id": "1143091",
+          "titulo": "PORTARIA nº 000168, de 19/12/2025 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "1140336",
+          "titulo": "PORTARIA nº 000026, de 09/11/2020 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1139794",
+          "titulo": "PORTARIA nº 000024, de 02/09/2019 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1139593",
+          "titulo": "PORTARIA nº 000004, de 26/02/2019 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1139556",
+          "titulo": "PORTARIA nº 000005, de 06/02/2019 - GABINETE DO PROCURADOR MARCÍLIO BARENCO CORRÊA DE MELLO",
+          "ementa": ""
+        },
+        {
+          "id": "1139343",
+          "titulo": "PORTARIA nº 000013, de 09/08/2018 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1139342",
+          "titulo": "PORTARIA nº 000012, de 09/08/2018 - GABINETE DO PROCURADOR DANIEL DE CARVALHO GUIMARÃES",
+          "ementa": ""
+        },
+        {
+          "id": "1138500",
+          "titulo": "PORTARIA nº S/N, de 30/09/2016 - GABINETE DA PROCURADORA MARIA CECÍLIA MENDES BORGES",
+          "ementa": ""
+        },
+        {
+          "id": "977948",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000002, de 30/03/2011 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "977601",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000009, de 17/12/2003 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "976945",
+          "titulo": "RESOLUÇÃO nº 000008, de 05/11/2003 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "1136399",
+          "titulo": "ORDEM DE SERVIÇO nº 000002, de 14/08/1997 - PRESIDÊNCIA",
+          "ementa": ""
+        },
+        {
+          "id": "976274",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000001, de 11/05/1994 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "976447",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000002, de 17/11/1993 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "976445",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000003, de 23/12/1992 - PLENO",
+          "ementa": ""
+        },
+        {
+          "id": "976397",
+          "titulo": "INSTRUÇÃO NORMATIVA nº 000004, de 14/09/1989 - PLENO",
+          "ementa": ""
+        }
+      ]
+    }
+  ]
+}

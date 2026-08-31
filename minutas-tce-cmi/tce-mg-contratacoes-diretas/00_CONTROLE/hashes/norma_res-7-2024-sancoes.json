@@ -1,0 +1,22 @@
+{
+  "id_interno": "res-7-2024-sancoes",
+  "id_tclegis": "1142356",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142356",
+  "data_hora_download": "2026-08-10T00:06:58.746128+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "RESOLUÇÃO nº 000007, de\r\n                            07/08/2024 -\r\n                            Pleno",
+    "ementa": "Dispõe sobre o processo de responsabilização e a aplicação de sanções em licitações e contratos administrativos no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 14/08/2024 - Págs. 10-18; Retificação D.O.C. 04/09/2024 - Pág. 2.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/res-7-2024-sancoes/res-7-2024-sancoes_ORIGINAL.pdf",
+      "sha256": "777bc93d10a0905486fa628d047b493ed90a706db09f7e7f1e8a476bfa280c06"
+    }
+  ]
+}

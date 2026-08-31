@@ -1,0 +1,22 @@
+{
+  "id_interno": "26-2025-altera-pca",
+  "id_tclegis": "1142608",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142608",
+  "data_hora_download": "2026-08-10T00:09:01.046551+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "PORTARIA nº 000026, de\r\n                            06/03/2025 -\r\n                            Presidência",
+    "ementa": "Altera a Portaria nº 1/PRES./2024, que dispõe sobre o Plano de Contratações Anual no âmbito do Tribunal de Contas do Estado de Minas Gerais.",
+    "fonte": "Disponibilização D.O.C. 06/03/2025 - Págs. 6-8.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/26-2025-altera-pca/26-2025-altera-pca_ORIGINAL.pdf",
+      "sha256": "c29b796ca029dfb0931be30ecfbbfbd23f2ab90474006a3216dd21a25bd8532c"
+    }
+  ]
+}

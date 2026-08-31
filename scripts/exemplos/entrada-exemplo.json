@@ -1,0 +1,18 @@
+{
+  "objeto": "Aquisição de cadeiras de escritório giratórias com apoio de braços",
+  "descricao_detalhada": "Cadeira giratória tipo presidente, com encosto em tela (mesh), apoio de braços reguláveis, base de 5 rodízios, pistão a gás classe 3, suporte mínimo de 120 kg, cor preta.",
+  "unidade": "unidade",
+  "quantidade": 30,
+  "categoria": "Mobiliário de escritório",
+  "periodo_busca": "2024-01-01 a 2025-12-31",
+  "filtros": {
+    "uf": "MG",
+    "municipio": "Itanhandu",
+    "esfera": "municipal",
+    "modalidade": "dispensa"
+  },
+  "valor_estimado_inicial": "850,00",
+  "observacoes": "Contratação por dispensa de licitação por valor (art. 75, II). Verificar limite por subclasse CNAE antes de concluir.",
+  "minuta": "05_minutas/PESQUISA_DE_PRECOS/PESQUISA_PRECOS_MINUTA_MAE.docx",
+  "max_pncp": 10
+}

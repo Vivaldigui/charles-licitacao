@@ -1,0 +1,13 @@
+{
+  "sessao": "2026-08-09_exemplo",
+  "portal": "nome_do_portal",
+  "capturado_por": "NO ME DA PESSOA",
+  "data_hora": "AAAA-MM-DD HH:MM",
+  "caminho_percorrido": [
+    "1. Abrir URL X no navegador",
+    "2. Resolver CAPTCHA (ação humana permitida)",
+    "3. Filtrar por <o que foi filtrado>",
+    "4. Abrir processo <N/NNNN> e salvar a tela"
+  ],
+  "observacoes": ""
+}

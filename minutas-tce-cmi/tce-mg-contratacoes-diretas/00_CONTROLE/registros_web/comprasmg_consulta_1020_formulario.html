@@ -1,0 +1,3591 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR">
+  <head>
+
+    
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="/css/reuse.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/geral.css" type="text/css"/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <!-- Headers para desabilitar o cache do browser. -->
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta property="og:title" content="Portal de Compras de Minas Gerais"/>
+
+    <meta name="description" content="Portal de compras de Minas Gerais"/>
+    <meta property="og:description" content="Portal de compras de Minas Gerais"/>
+
+    <meta property="image" content="/imagens/favicon.ico"/>
+    <meta property="og:image" content="/imagens/favicon.ico"/>
+
+    <meta name="theme-color" content="#f44336">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    
+    
+    
+    
+    <title>
+        
+      
+      
+        Consulta e cadastro de processos
+      
+    </title>
+
+    <script type='text/javascript' src='/framework/bowser.min.js'></script><script type='text/javascript' src='/framework/funcoesComponentes.js'></script><script type='text/javascript' src='/framework/funcoesGerais.js'></script><script type='text/javascript' src='/framework/jquery-3.1.1.min.js'></script><script type='text/javascript' src='/framework/jquery.bt.min.js'></script><script type='text/javascript' src='/framework/janelaModal.js'></script><script type='text/javascript' src='/framework/janelaModalAssociacao.js'></script>
+    
+    <script type="text/javascript" src="/js/excanvas.js"></script>
+
+    
+    <link rel="stylesheet" type="text/css" href="/css/chosen.css">
+
+    
+    <script type="text/javascript" src="/js/chosen.jquery.js"></script>
+
+    
+    <script type="text/javascript" src="/js/dojo.js"></script>
+
+    
+    <script type="text/javascript" src="/js/reuse_portal.js"></script>
+      
+
+  </head>
+  <body>
+
+    
+
+  <script type="text/javascript">
+var hrefDoUltimoLinkClicado;
+function antesOnclickDoLink(link){
+hrefDoUltimoLinkClicado = link.href;
+}
+function executarOnBeforeUnload(){
+result = confirmacaoSaidaFormulario('As alterações feitas nesta tela ainda não foram salvas.');
+if (!result){
+tratarRespostaDemorada();
+}
+return result;
+}
+function executarTratamentoDeRespostaDemorada(){
+desabilitarPagina();
+setTimeout('exibirCarregando()',
+1250);}
+function exibirCarregando(){
+body = document.body;
+width = 208;
+height = 13;
+padding = 15;
+borda = 1;
+espacoEntroAnimacaoETexto = 10;
+alturaTexto = 15;
+alturaTotal = (height+espacoEntroAnimacaoETexto+alturaTexto+(2*(padding+borda)));
+larguraTotal = (width+(2*(padding+borda)));
+htmlTextoProcessando = '<div class="textoProcessando" style="margin: ' + espacoEntroAnimacaoETexto + 'px 0 0 0; width: ' + width + 'px; height: ' + alturaTexto + 'px;">Processando...</div>';
+var x,y;
+// all except Explorer
+if (self.innerHeight)
+{
+x = ((self.innerHeight / 2) + document.body.scrollTop) - (alturaTotal / 2);
+y = ((self.innerWidth / 2) + document.body.scrollLeft) - (larguraTotal / 2);
+}
+// Explorer 6 Strict Mode
+else if (document.documentElement && document.documentElement.clientHeight)
+{
+x = ((document.documentElement.clientHeight / 2) + document.body.scrollTop) - (alturaTotal / 2);
+y = ((document.documentElement.clientWidth / 2) + document.body.scrollLeft) - (larguraTotal / 2);
+}
+// other Explorers
+else if (document.body)
+{
+x = ((document.body.clientHeight / 2) + document.body.scrollTop) - (alturaTotal / 2);
+y = ((document.body.clientWidth / 2) + document.body.scrollLeft) - (larguraTotal / 2);
+}
+htmlObjetoCarregando = '<img src="/imagens/processando_seplag_portal.gif" alt="Processando..." width="208" height="13"/>';
+htmlSpanCarregando = '<span id="carregando" class="caixaDaAnimacao" style="position: absolute; top: ' + x + 'px; left: ' + y + 'px; padding: ' + padding + 'px; border: ' + borda + 'px; border-style:none;">' + htmlObjetoCarregando + htmlTextoProcessando + '</span>'
+htmlIframeCarregando = '<iframe src="/framework/nada.js" style="position: absolute; top: ' + x + 'px; left: ' + y + 'px; width: ' + larguraTotal + 'px; height: ' + alturaTotal + 'px; background: white;"></iframe>';
+document.body.insertAdjacentHTML('beforeEnd', htmlIframeCarregando);
+document.body.insertAdjacentHTML('beforeEnd', htmlSpanCarregando);
+}
+window.onbeforeunload=executarOnBeforeUnload;
+</script>
+
+  <div id="parent">
+    <div>
+      
+
+
+
+
+<link rel="stylesheet" href="/css/reuse.css" type="text/css"/>
+<link rel="stylesheet" href="/css/geral.css" type="text/css"/>
+
+<script>
+  $(function () {
+    if (!bowser.android && !bowser.ios && !bowser.check({
+        chrome: "56",
+        firefox: "54"
+      }, true, window.navigator.userAgent)) {
+      $(".navegadorIncompativel").show();
+      var msg =
+        '<h2 style="font-size:12px;">Apesar da compatibilidade com o EDGE, utilize preferencialmente o Chrome ou o Firefox pois trazem melhor suporte aos recursos utilizados pelo sistema.<BR>Requisito mínimo: Chrome 60 ou superior, Firefox 54 ou superior</h2>';
+
+
+      $(".navegadorIncompativel img").bt(msg, {
+        fill: '#fff',
+        strokeWidth: 3,
+        strokeStyle: '#ddd',
+        shadow: 'true'
+      });
+    }
+  });
+</script>
+
+<div class="navegadorIncompativel" align="center" style="display:none" id="navegadorIncompativel">
+  <b>Atenção!</b> O Portal de Compras não é compatível com a versão deste navegador. Portanto,
+  diferentes erros poderão ocorrer durante as operações.
+  <br>Por favor, utilize as versões mais atuais do Chrome ou do Firefox para que o sistema funcione
+  corretamente.
+  <!-- Retirada exibição da informação adicional a pedido da SEPLAG.
+		   <img src='/imagens/infor.gif' class="info">
+        -->
+</div>
+
+    </div>
+
+    <div id="tilesCabecalho">
+      <div>
+        
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/cabecalho.css" type="text/css"/>
+<link rel="stylesheet" href="/css/login.css" type="text/css"/>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<div>
+  <div class="userID">
+
+    <div class="menuPortal">
+      
+        <span
+          id="react-root-menu"
+          style="position: absolute; top: 0px; left: 10px;"
+        >
+          <div class="circular-loader" style="position: absolute; top: 22px; left: 16px;">
+            <svg class="circular" viewBox="10 10 20 20">
+              <circle class="path" cx="20" cy="20" r="7" fill="none" stroke-width="3"
+                      stroke-miterlimit="1"/>
+            </svg>
+          </div>
+        </span>
+      
+    </div>
+
+    <div class="titlePortal">
+      <h2 class="TitleHeader">Portal de Compras</h2>
+    </div>
+
+    <div class="userInfoOld">
+      
+
+      
+
+      
+
+      <div class="infoUnidade">
+        
+      </div>
+
+      <div class="botoes">
+        
+      </div>
+    </div>
+
+    <div class="userInfoOld loginBtn-positon">
+      
+        <a href="/n/login" id="idLogar"><div id="idLogin" class="divBotao">
+            <div class="divInterna">
+              <span class="spanBotao">LOGIN</span>
+            </div>
+            </button>
+          </div></a>
+      
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+    <div id="tilesMenu">
+      <div>
+        
+        
+      </div>
+    </div>
+
+    <div id="tilesMensagens">
+      <div>
+        
+
+
+
+
+
+	
+
+
+
+
+
+<div class="breadcrumbPortalStruts">
+  
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="path">
+          
+            
+              Processos de compra <span>></span>
+            
+            
+          
+            
+              Compras <span>></span>
+            
+            
+          
+            
+            
+              <span>Consulta a processos de compra</span>
+            
+          </td>
+      </tr>
+    </table>
+  
+</div>
+
+
+      </div>
+    </div>
+
+    <div class="tilesCorpo" id="tilesCorpo">
+      <div>
+        <div>
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+<table align="center" width="100%" id="erros">
+  <br>
+  <tr>
+    <td>
+      <table align="center" width="100%">
+        <tr>
+          <td class="erro">
+            
+              
+              
+                <p>
+                  <img src="/imagens/erro.gif" width="80" height="18"/>
+                </p>
+                
+		
+      
+        <script type="text/javascript">
+          function validarComCaptchaSeNecessario_(retries) {
+            if (window.validarComCaptchaSeNecessario) {
+              validarComCaptchaSeNecessario(function () {
+                location.reload();
+              });
+            }
+            else if (retries > 0) {
+              // Ã‰ necessÃ¡rio esperar atÃ© os componentes React terminarem de carregar.
+              setTimeout(function () {
+                validarComCaptchaSeNecessario_(retries - 1);
+              }, 100);
+            }
+            else {
+              console.error('FunÃ§Ã£o validarComCaptchaSeNecessario nÃ£o encontrada.');
+            }
+          }
+          validarComCaptchaSeNecessario_(100);
+        </script>
+      
+			<p><span id="erroCaptchaNecessario">Resolva o captcha para continuar.</span></p>
+		
+	
+              
+            
+          </td>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+</div>
+      </div>
+
+      <div>
+        <div>
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/reuse.css" type="text/css" />
+<link rel="stylesheet" href="/css/geral.css" type="text/css" />
+
+
+<script type="text/javascript" language="JavaScript">
+
+
+var exibeHelp = false;
+
+
+function exibirCampo(nomeCampo, disp) {
+  document.getElementById(nomeCampo).style.display = disp;
+}
+
+
+function cookieSet() {
+  if(window.navigator.cookieEnabled)
+    exibirCampo("cookieTeste", "none");
+  else {
+    exibirCampo("cookieTeste", "");
+    exibeHelp = true;
+  }
+}
+
+
+function popupsSet() {
+  var href = document.location.href; 
+
+    
+  if (href.match("login") || href.match("principal"))
+  {
+    var popUp = window.open('','','width=1,height=1,left=3000,top=3000,scrollbars=no');  
+    if(popUp)
+    {
+      exibirCampo("popupTeste", "none");
+      popUp.close();
+    }
+    else
+    {
+      exibirCampo("popupTeste", "");
+      exibeHelp = true;
+    }
+  }
+}
+
+
+function gzipSet() {
+  if (true){
+    exibirCampo("gzipTeste", "");
+    exibeHelp = true;
+  } else
+    exibirCampo("gzipTeste", "none");  
+}
+
+
+function helpSet() {
+  if (exibeHelp)
+    exibirCampo("help", "");
+  else
+    exibirCampo("help", "none");
+}
+</script>
+
+<span id="help" style="display:none">		
+  
+
+
+
+
+
+
+
+
+
+
+<table align="center" width="100%" id="avisosCookiePopupGzip">
+  <br>
+  <tr>
+    <td>
+      <table align="center" width="100%">
+        <tr>
+          <td class="atencao">
+            
+              
+                <span>ATEN&Ccedil;&Atilde;O!</span>
+                
+    
+    <span id="cookieTeste" style="font-weight:normal;text-transform:none;display:none">
+      <p> Seu navegador não está configurado para aceitar &nbsp;"cookies". </p>
+    </span>
+    
+    <span id="popupTeste" style="font-weight:normal;text-transform:none;display:none">
+      <p> Seu navegador não está configurado para aceitar "popups". </p>      
+    </span>
+    
+    <span id="gzipTeste" style="font-weight:normal;text-transform:none;display:none">
+      <p> Seu navegador não está configurado para suportar compactação, com isso o sistema poderá apresentar lentidão. </p>
+    </span>
+    
+    
+    <p> É importante realizar a(s) configuração(ões) citada(s). Para maiores detalhes, favor consultar a <a href="/recomendacoes.html">tela de recomendações</a>. </p>
+            
+  
+              
+              
+            
+          </td>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+		    	
+</span>
+
+
+<script type="text/javascript" language="JavaScript">
+if (!document.location.href.match("recomendacoes"))
+{
+  cookieSet();
+  popupsSet();
+  gzipSet();
+  helpSet();
+}
+</script>
+
+
+<noscript>
+  
+
+
+
+
+
+
+
+
+
+
+<table align="center" width="100%" id="avisosJavascript">
+  <br>
+  <tr>
+    <td>
+      <table align="center" width="100%">
+        <tr>
+          <td class="atencao">
+            
+              
+                <span>ATEN&Ccedil;&Atilde;O!</span>
+                
+  
+    <p> Seu navegador não está configurado para o uso de "javascript". </p>
+    
+    
+    <p> É importante realizar a(s) configuração(ões) citada(s). Para maiores detalhes, favor consultar a <a href="/recomendacoes.html">tela de recomendações</a>. </p>
+    
+  
+              
+              
+            
+          </td>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+    
+</noscript>
+</div>
+      </div>
+
+      
+        
+        
+          <div class="tilesConteudo">
+            
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+	var padraoIdProcesso = /IDDOPROCESSO/;
+
+//Altera o processo de compra selecionado
+function alteraProcessoCompra(idProcessoCompra, procedimento, possuiPregao, possuiEdital)
+{
+  var form = document.forms[0];
+  form.idProcessoCompraSelecionado.value = idProcessoCompra;
+  form.procedimentoProcessoSelecionado.value = procedimento;
+  form.possuiPregao.value = possuiPregao;
+  form.possuiEdital.value = possuiEdital;
+}
+
+//Visualiza os dados de um pregão cujo processo tenha sido selecionado.
+function visualizarDadosPregao()
+{
+  var form = document.forms[0];
+  if (form.idProcessoCompraSelecionado == null || form.idProcessoCompraSelecionado.value == "")
+  {
+    exibirMensagemSelecao();
+  }else if (form.procedimentoProcessoSelecionado.value != "Pregão eletrônico"
+		  	&& form.procedimentoProcessoSelecionado.value != "Pregão presencial")
+  {
+    alert("Não é possível visualizar os dados do pregão, pois o procedimento de contratação " +
+      "do processo de compra selecionado não é Pregão presencial ou Pregão eletrônico.");
+  }else if (form.possuiPregao.value != "true")
+  {
+  	alert("Não é possível visualizar os dados do pregão, pois o processo " +
+  		"de compra selecionado não possui pregão.");
+  } else  
+  {
+  	var path = "/processocompra/pregao/consulta/dados/abaDadosPregao.html?idProcesso=IDDOPROCESSO".replace(padraoIdProcesso,form.idProcessoCompraSelecionado.value);
+	abreJanelaModal(path, 760, 525);
+  }
+}
+
+//Visualiza o relatório de detalhes caso algum processo tenha sido selecionado.
+// É obtido o tipo de usuário, via AJAX, de forma a evitar problemas relativos
+// à seção do usuário expirada (ver BUG 5191).
+function visualizarRelatorioDetalhes()
+{
+  url = "/processocompra/processo/relatoriodetalhes/relatorioDetalhesProcessoCompra.html?metodo=obtemTipoUsuarioContexto";
+
+  var parametros = {
+    url: url,
+    error: function(type, data, evt) {
+      alert("Não foi possível recuperar o tipo de usuário logado.");
+    },
+    load: function(type, data, evt) {
+      exibirRelatorioDetalhes(data);
+    },
+    mimetype: "text/json",
+    content: {}
+  };
+  dojo.io.bind(parametros);    
+}
+
+function exibirRelatorioDetalhes(data)
+{
+  var form = document.forms[0];
+  if (form.idProcessoCompraSelecionado == null || form.idProcessoCompraSelecionado.value == "")
+  {
+    exibirMensagemSelecao();
+  } else
+  {
+  	if (data.ehServidor)
+  	{
+			
+	  	var path = '/processocompra/processo/relatoriodetalhes/selecaoServidorOrdenador.html' + '?id=' + form.idProcessoCompraSelecionado.value;
+			abreJanelaModal(path, 460, 170);
+		} else
+		{
+  	 	naoTratarRespostaDemorada();
+			
+	  	var path = '/processocompra/processo/relatoriodetalhes/relatorioDetalhesProcessoCompra.html' + '?id=' + form.idProcessoCompraSelecionado.value;
+			window.location = path;
+		}
+  }
+}
+
+//Visualiza o relatório caso algum processo tenha sido selecionado.
+function visualizarEditalOuRetificacao()
+{
+  var form = document.forms[0];
+  if (form.idProcessoCompraSelecionado == null || form.idProcessoCompraSelecionado.value == "")
+  {
+    exibirMensagemSelecao();
+  }else if (form.possuiEdital.value == "true")
+  {
+	naoTratarRespostaDemorada();
+	
+  	var path = '/processocompra/processo/consultaEditalRetificaoProcesso.html' + '?metodo=visualizarEditalRetificao&id=' + form.idProcessoCompraSelecionado.value;
+	abreJanelaModal(path, 760, 525);
+  } else
+  {
+  	alert('Não é possível visualizar o edital ou as retificações, pois o processo de compra não possui edital.');
+  }
+}
+
+function visualizarArquivosProcesso(ordenados)
+{
+  if (document.getElementById("idProcessoCompraSelecionado") == null || document.getElementById("idProcessoCompraSelecionado").value == '')
+  {
+    exibirMensagemSelecao();
+  }else
+  {
+	
+	
+  	var path;
+	if(ordenados)
+	{
+		path = '/processocompra/processo/visualizacaoArquivosProcessoOrdenados.html' + '?id=' + document.getElementById("idProcessoCompraSelecionado").value;
+	} else
+	{
+		path = '/processocompra/processo/visualizacaoArquivosProcesso.html' + '?id=' + document.getElementById("idProcessoCompraSelecionado").value;
+	}
+  	window.open(path,'_blank')
+  }
+}
+
+//Valida se pelo menos um campo de pesquisa foi preenchido.
+function validarPesquisa()
+{
+	var form = document.forms[0];
+	
+	var orgaoEntidade = removerEspacos(form.orgaoEntidade.value);
+
+	var codigoUnidade = removerEspacos(form.codigoUnidadeCompra.value);
+	var outroOrgao = form.caixaSelecaoUtilizacaoOutroOrgao ? removerEspacos(form.caixaSelecaoUtilizacaoOutroOrgao.value):'';
+	
+	var numeroProcesso = removerEspacos(form.numero.value);
+	var ano = removerEspacos(form.ano.value);	
+    var situacao = removerEspacos(form.situacao.value);
+           
+	var procedimento = removerEspacos(form.procedimento1.value);
+
+    var dataInicial = removerEspacos(form.dataCriacaoDe.value);
+    var dataFinal = removerEspacos(form.dataCriacaoAte.value);
+    var dataLicitacaoInicial = removerEspacos(form.dataLicitacaoDe.value);
+    var dataLicitacaoFinal = removerEspacos(form.dataLicitacaoAte.value);   
+
+    
+
+	var linhaFornecimento = removerEspacos(form.linhaFornecimento.value);
+	var linhaFornecimentoSem = removerEspacos(form.linhaFornecimentoOpcaoSem.value);   
+
+    var materialServico = removerEspacos(form.descricaoMaterialOuServico.value);
+    var materialServicoSem = removerEspacos(form.descricaoMaterialOuServicoOpcaoSem.value);
+
+    var itemMaterialOuServico = removerEspacos(form.especificacaoItemMaterialOuServico.value);
+    var itemMaterialOuServicoSem = removerEspacos(form.especificacaoItemMaterialOuServicoOpcaoSem.value);
+	
+    
+    
+    if (orgaoEntidade.length == 0 && codigoUnidade.length == 0 && outroOrgao.length == 0 &&
+    	numeroProcesso.length == 0 && ano.length == 0 &&  situacao.length == 0 && 
+    	dataInicial.length == 0 && dataFinal.length == 0 &&	dataLicitacaoInicial.length == 0 && dataLicitacaoFinal.length == 0 &&    	    	
+    	linhaFornecimento.length == 0 && linhaFornecimentoSem.length == 0 &&
+    	materialServico.length == 0 && materialServicoSem.length == 0 &&
+    	itemMaterialOuServico.length == 0 && itemMaterialOuServicoSem.length == 0 && procedimento.length==0    	
+    	
+    	)
+    {    	
+      exibirMensagemPesquisaVazia();
+      return false;
+    }
+    
+    
+	return (validarTamanhoDatasIntervalo('dataCriacaoDe', 'dataCriacaoAte') 
+	  && validarTamanhoDatasIntervalo('dataLicitacaoDe', 'dataLicitacaoAte'));
+}
+
+function removerEspacos(string)
+{
+	var tstring = "";
+	string = '' + string;
+	splitstring = string.split(" ");
+	for(i = 0; i < splitstring.length; i++)
+	tstring += splitstring[i];
+	return tstring;
+}
+
+function antesDePesquisar()
+{
+	var form = document.forms[0];
+	form.estaPesquisando.value = 'true';
+	return true;
+}
+
+/**
+ * Exibe ou oculta um objeto do documento dependendo do valor do parâmetro opção.
+ * @param idObjeto id do objeto
+ * @param opcao 'ocultar' ou 'exibir'
+ */
+function exibirOcultarElemento(idObjeto, opcao)
+{
+	var objeto = document.getElementById(idObjeto);
+	if(opcao == 'ocultar')
+	{
+		objeto.style.display = 'none';
+	}
+	else if(opcao == 'exibir')
+	{
+		objeto.style.display = '';
+	}
+}
+
+function limpaTela()
+{
+	var  form = document.forms[0];
+	
+	form.orgaoEntidade.value = form.orgaoEntidade.options[0].value;
+    form.codigoUnidadeCompra.value = '';
+    if(form.caixaSelecaoUtilizacaoOutroOrgao)
+    {
+    	form.caixaSelecaoUtilizacaoOutroOrgao.value = form.caixaSelecaoUtilizacaoOutroOrgao.options[0].value;
+	}
+    form.numero.value = '';
+    form.ano.value = '';
+	
+	form.situacao.value = form.situacao.options[0].value;
+    form.procedimento1.value = form.procedimento1.options[0].value;
+    form.procedimento2.value = form.procedimento2.options[0].value;
+    form.especializacao.value = form.especializacao.options[0].value;   
+    
+    form.dataCriacaoDe.value = '';
+    form.dataCriacaoAte.value = '';
+
+	form.dataLicitacaoDe.value = '';
+	form.dataLicitacaoAte.value = '';
+	
+	form.linhaFornecimento.value = '';
+	form.linhaFornecimentoOpcaoEOu.value = form.linhaFornecimentoOpcaoEOu.options[0].value;
+	form.linhaFornecimentoOpcaoSem.value = '';
+	
+	form.descricaoMaterialOuServico.value = '';
+	form.descricaoMaterialOuServicoOpcaoEOu.value = form.descricaoMaterialOuServicoOpcaoEOu.options[0].value;
+	form.descricaoMaterialOuServicoOpcaoSem.value = '';
+	
+	form.descricaoMaterialOuServicoOpcaoSinonimo.checked=false;
+	
+	form.especificacaoItemMaterialOuServico.value = '';
+	form.especificacaoItemMaterialOuServicoOpcaoEOu.value = form.especificacaoItemMaterialOuServicoOpcaoEOu.options[0].value;
+	form.especificacaoItemMaterialOuServicoOpcaoSem.value = '';
+    
+    form.especificacaoItemMaterialOuServicoOpcaoSinonimo.checked=false;
+    form.especificacaoItemMaterialOuServicoOpcaoSimilar.checked=false;
+    
+    campoAlterado();
+    preencherProcedimentosFilhos('procedimento2', 'procedimento1');
+    preencherProcedimentosFilhos('procedimento3', 'procedimento2');
+}
+
+function alterarVisibilidadeCamposForn()
+{
+	var comboSituacao = document.getElementById('situacao');
+	var comboTipoForn = document.getElementById('campoPesquisaTipoFornecedor');
+	if(comboTipoForn != null)
+	{
+		var opcaoEscolhida = comboSituacao.options[comboSituacao.selectedIndex].text;
+		var linhaCpf = document.getElementById('linha_cpf_forn');
+		var linhaCnpj = document.getElementById('linha_cnpj_forn');
+		var linhaForn = document.getElementById('linhaForn');
+		var linhaNomeForn = document.getElementById('linhaNomeForn');
+		
+		if(opcaoEscolhida == 'Concluído' || opcaoEscolhida == 'Em andamento' || opcaoEscolhida == '')
+		{
+			linhaForn.style.display = '';
+			linhaCnpj.style.display = '';
+			linhaCpf.style.display = '';
+			linhaNomeForn.style.display = '';
+			exibirOcultarCpfCnpj();
+		}else
+		{
+			linhaForn.style.display = 'none';
+			linhaCpf.style.display = 'none';
+			linhaCnpj.style.display = 'none';
+			linhaNomeForn.style.display = 'none';
+			limparCampo('cnpj_forn');
+			limparCampo('cpf_forn');
+			limparCampo('nomeFornecedor');
+		}
+	}
+}
+
+function validacaoPesquisa()
+{
+	return validarPesquisa() && validarIntervalo('dataCriacaoDe', 'dataCriacaoAte') && validarIntervalo('dataLicitacaoDe', 'dataLicitacaoAte') && antesDePesquisar();
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+<!-- Inicialmente verifica-se o estado inicial do componente,
+	1 - O estado default é invisível.
+	2 - caso seja informado algum estado, deve-se verificar qual é o desejado.
+-->
+
+
+	
+	
+		
+			
+			
+				
+				
+			
+		
+	
+
+
+<!--
+1 - Caso haja link para alguma página de inserção, o link é adicionado.
+2 - Escreve-se o formulário de pesquisa do usuário.
+ -->
+
+<div class="formPainelPesquisa">
+
+	<table summary="tabelaToolbarPainelPesquisa" class="toolbar"
+		width="100%">
+		<tr class="toolbar">
+		  
+			<td align="left">
+					
+						 <a href="#" class="button"
+						id="linkPesquisa" onclick="alterarExibicaoPainelPesquisa();">
+						Ocultar pesquisa </a>
+					
+					 
+			</td>
+		  
+		  
+		</tr>
+	</table>
+
+
+ 
+<table class="form" width="100%" cellspacing="1" cellpadding="0"
+	id="painelPesquisa" style="display:"
+	summary="tabelaPainelPesquisa">
+
+	
+	
+		<tr>
+			<th id="trCabecalho">Pesquisar por:<br>
+			</th>
+		</tr>
+	
+
+	
+	<tr id="trPainelPesquisa">
+		<td>
+		<div id="corpoPainelPesquisa">
+	<form name="formConsultaProcessoCompra" id="formConsultaProcessoCompra" method="get" action="/processocompra/processo/consultaProcessoCompra.html">
+		<input type="hidden" name="idProcessoCompraSelecionado" value="" id="idProcessoCompraSelecionado">
+		<input type="hidden" name="procedimentoProcessoSelecionado" value="" id="procedimentoProcessoSelecionado">
+		<input type="hidden" name="unidadeCompra" value="" id="unidadeCompra">
+		<input type="hidden" name="possuiPregao" value="" id="possuiPregao">
+		<input type="hidden" name="possuiEdital" value="" id="possuiEdital">
+		<input type="hidden" name="estaPesquisando" value="true" id="estaPesquisando">
+		<input type="hidden" name="metodo" value="pesquisar" id="metodo">
+		
+		  
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+	<input type="hidden" name="textoConfirmacao" value="" id="textoConfirmacao">
+	<script>
+		$(function()
+		{
+			var prepararLinksTabela=function(seletor)
+			{
+				$(seletor).each(function(){ inserirValidacaoCaptchaEmLinkPorHREF(this,'textoConfirmacao')});
+			}
+	
+			inserirValidacaoCaptchaEmLinkPorOnClick(dojo.byId('textoAcaoPesquisa'),validacaoPesquisa);
+			prepararLinksTabela('.paginacaoContainer a');
+			prepararLinksTabela('.tableHeader a');
+		});
+	</script>
+
+
+
+		
+		<table id="tabelaInternaPainelPesquisa" width="100%" align="left" border="0">
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
+ 
+ 
+
+ 
+ 
+	
+	
+
+
+ 	
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+	
+	
+	  <tr id="linha_orgaoEntidade">
+	
+		<td class="rotulo" colspan="1" >
+			
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Órgão ou entidade:" > 
+	
+	Órgão ou entidade:
+	
+</span>
+
+
+
+
+
+			
+			
+			
+		</td>
+		<td colspan="1">
+			
+				<select name="orgaoEntidade" onchange="campoAlterado();" id="orgaoEntidade" style="min-width:30px;"><option value=""></option>
+					
+					<option value="2230">2230 - ADEMG - INATIVO</option>
+<option value="1080">1080 - ADVOCACIA-GERAL DO ESTADO DE MINAS GERAIS</option>
+<option value="2440">2440 - AG. REG. DE SANEAMENTO E ENERGIA DO ESTADO DE MG.</option>
+<option value="2430">2430 - AGENCIA DE DESENVOLVIMENTO DA RMBH</option>
+<option value="2460">2460 - AGENCIA DE DESENVOLVIMENTO DA RMVA</option>
+<option value="2470">2470 - AGENCIA REGULADORA DE TRANSPORTES</option>
+<option value="1010">1010 - ASSEMBLEIA LEGISLATIVA DO ESTADO DE MINAS GERAIS</option>
+<option value="5200">5200 - BANCO DE DESENVOLVIMENTO DE MINAS GERAIS S.A.</option>
+<option value="5070">5070 - CIA DE HABITACAO DO ESTADO DE MG LTDA - COHAB</option>
+<option value="5140">5140 - CIA DE TECNOLOGIA DA INFORMACAO DO ESTADO DE MG</option>
+<option value="5030">5030 - COMPANHIA DE DESENVOLVIMENTO DE MINAS GERAIS</option>
+<option value="5010">5010 - COMPANHIA DE DESENVOLVIMENTO ECONOMICO DE MG</option>
+<option value="5240">5240 - COMPANHIA MINEIRA DE PROMOCOES - PROMINAS</option>
+<option value="1520">1520 - CONTROLADORIA GERAL DO ESTADO DE MINAS GERAIS</option>
+<option value="1340">1340 - COORDENADORIA DE APOIO E ASSIST. PESSOA DEFICIENTE</option>
+<option value="1400">1400 - CORPO DE BOMBEIROS MILITAR DE MINAS GERAIS</option>
+<option value="1440">1440 - DEFENSORIA PUBLICA DO ESTADO DE MINAS GERAIS</option>
+<option value="2140">2140 - DEOP/MG - INATIVO.</option>
+<option value="2300">2300 - DEPARTAMENTO DE ESTRADAS DE RODAGEM</option>
+<option value="2380">2380 - DETEL - INATIVO.</option>
+<option value="2480">2480 - DETRAN / MG</option>
+<option value="1940">1940 - EGE-SECRETARIA DE ESTADO DE PLANEJAMENTO E GESTAO</option>
+<option value="3040">3040 - EMPRESA DE ASSIST. TECNICA E EXTENSAO RURAL DE MG</option>
+<option value="3050">3050 - EMPRESA DE PESQUISA AGROPECUARIA DE MINAS GERAIS</option>
+<option value="3150">3150 - EMPRESA MINEIRA DE COMUNICACAO</option>
+<option value="1910">1910 - ENCARGOS GERAIS DA SECRETARIA DE ESTADO DE FAZENDA</option>
+<option value="1540">1540 - ESCOLA DE SAUDE PUBLICA DE MINAS GERAIS</option>
+<option value="1600">1600 - ESCRITORIO DE PRIORIDADES ESTRATEGICAS_- INATIVO</option>
+<option value="1110">1110 - ESCRIT.REPRES. GOV. M.G EM BRASILIA - INATIVO.</option>
+<option value="1140">1140 - ESCRIT.REPRES.GOV DE M.G NO RIO_- INATIVO</option>
+<option value="1160">1160 - ESCRIT.REPRS.GOV. MG/SP - INATIVO</option>
+<option value="2070">2070 - FUND. DE AMPARO A PESQ. DO ESTADO DE MINAS GERAIS</option>
+<option value="2320">2320 - FUNDACAO CENTRO DE HEMATOLOGIA E HEMOTERAPIA DE MG</option>
+<option value="2080">2080 - FUNDACAO CENTRO TECNOLOGICO DE MINAS GERAIS-INATIV</option>
+<option value="2180">2180 - FUNDACAO CLOVIS SALGADO</option>
+<option value="2170">2170 - FUNDACAO DE ARTE DE OURO PRETO-FAOP</option>
+<option value="2280">2280 - FUNDACAO DE EDUCACAO PARA TRABALHO DE MINAS GERAIS</option>
+<option value="2160">2160 - FUNDACAO EDUCACIONAL CAIO MARTINS</option>
+<option value="2190">2190 - FUNDACAO ESCOLA GUIGNARD / INATIVO</option>
+<option value="2090">2090 - FUNDACAO ESTADUAL DO MEIO AMBIENTE</option>
+<option value="2260">2260 - FUNDACAO EZEQUIEL DIAS</option>
+<option value="2150">2150 - FUNDACAO HELENA ANTIPOFF</option>
+<option value="2450">2450 - FUNDACAO HIDROEX_- INATIVO</option>
+<option value="2270">2270 - FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS</option>
+<option value="2060">2060 - FUNDACAO JOAO PINHEIRO</option>
+<option value="2110">2110 - FUNDACAO RURAL MINEIRA - RURALMINAS - INATIVO</option>
+<option value="2210">2210 - FUNDACAO TV MINAS CULTURAL E EDUCATIVA</option>
+<option value="1070">1070 - GABINETE MILITAR DO GOVERNADOR DO ESTADO DE MG</option>
+<option value="8030">8030 - H. RISOLETA NEVES</option>
+<option value="8040">8040 - HM CELIO DE CASTRO</option>
+<option value="2400">2400 - IGTEC - INATIVO.</option>
+<option value="2390">2390 - IMPRENSA - INATIVO.</option>
+<option value="2200">2200 - INST. EST. DO PATRIMONIO HIST. E ARTISTICO DE MG</option>
+<option value="2010">2010 - INST.DE PREVIDENCIA DOS SERVIDORES DO EST.M.GERAIS</option>
+<option value="5130">5130 - INSTITUTO DE DESENVOLVIMENTO INTEGRADO DE MG</option>
+<option value="2420">2420 - INSTITUTO DE DESENVOLVIMENTO NORTE E NORDESTE MG</option>
+<option value="2330">2330 - INSTITUTO DE METROLOGIA E QUALIDADE DE MG</option>
+<option value="2100">2100 - INSTITUTO ESTADUAL DE FLORESTAS-IEF</option>
+<option value="2370">2370 - INSTITUTO MINEIRO DE AGROPECUARIA</option>
+<option value="2240">2240 - INSTITUTO MINEIRO DE GESTAO DAS AGUAS</option>
+<option value="2120">2120 - INST.PREV.DOS SERV.MILITARES DO ESTADO M.GERAIS</option>
+<option value="1560">1560 - INTENDENCIA DA CIDADE ADMINISTRATIVA</option>
+<option value="2410">2410 - ITER - INATIVO.</option>
+<option value="2250">2250 - JUNTA COMERCIAL DO ESTADO DE MINAS GERAIS</option>
+<option value="2040">2040 - LOTERIA DO ESTADO DE MINAS GERAIS</option>
+<option value="5260">5260 - METRO/RMBH</option>
+<option value="5190">5190 - MGI - MINAS GERAIS PARICIPACOES</option>
+<option value="5380">5380 - MINAS GERAIS ADMINISTRACAO E SERVICOS SA</option>
+<option value="5330">5330 - MINAS GERAIS ADMINISTRACAO E SERVICOS S.A. - MGS</option>
+<option value="1100">1100 - OUVIDORIA GERAL DO ESTADO</option>
+<option value="1510">1510 - POLICIA CIVIL DO ESTADO DE MINAS GERAIS</option>
+<option value="1250">1250 - POLICIA MILITAR DE MINAS GERAIS</option>
+<option value="8100">8100 - PREFEITURA DE BELO HORIZONTE</option>
+<option value="1090">1090 - PROCURADORIA GERAL DE JUSTICA</option>
+<option value="8020">8020 - SANTA CASA DE MISERICORDIA DE BELO HORIZONTE</option>
+<option value="1570">1570 - SECCRI - INATIVO.</option>
+<option value="1470">1470 - SECIR - INATIVO.</option>
+<option value="1420">1420 - SECOM. INATIVO</option>
+<option value="1230">1230 - SECRET. DE ESTADO DE AGRICULTURA, PECUARIA E ABAST</option>
+<option value="1300">1300 - SECRET. DE ESTADO DE INFRAESTRUTURA E MOBILIDADE</option>
+<option value="1220">1220 - SECRETARIA DE DESENVOLVIMENTO ECONOMICO</option>
+<option value="1320">1320 - SECRETARIA DE ESTADO DA SAUDE</option>
+<option value="1720">1720 - SECRETARIA DE ESTADO DE CASA CIVIL</option>
+<option value="1710">1710 - SECRETARIA DE ESTADO DE COMUNICACAO SOCIAL</option>
+<option value="1270">1270 - SECRETARIA DE ESTADO DE CULTURA E TURISMO</option>
+<option value="1460">1460 - SECRETARIA DE ESTADO DE DESENVOLVIMENTO ECONOMICO</option>
+<option value="1480">1480 - SECRETARIA DE ESTADO DE DESENVOLVIMENTO SOCIAL</option>
+<option value="1260">1260 - SECRETARIA DE ESTADO DE EDUCACAO</option>
+<option value="1530">1530 - SECRETARIA DE ESTADO DE ESPORTES E JUVENTUDE</option>
+<option value="1190">1190 - SECRETARIA DE ESTADO DE FAZENDA DE MINAS GERAIS</option>
+<option value="1490">1490 - SECRETARIA DE ESTADO DE GOVERNO</option>
+<option value="1450">1450 - SECRETARIA DE ESTADO DE JUSTICA E SEGURANCA PUBLIC</option>
+<option value="1500">1500 - SECRETARIA DE ESTADO DE PLANEJAMENTO E GESTAO</option>
+<option value="1370">1370 - SECRETARIA ESTADO DE MEIO AMB.DESENV SUSTENTAVEL</option>
+<option value="1630">1630 - SECRETARIA GERAL</option>
+<option value="1640">1640 - SEDA - INATIVO.</option>
+<option value="1590">1590 - SEDINOR - INATIVO.</option>
+<option value="1650">1650 - SEDPAC - INATIVO.</option>
+<option value="1700">1700 - SEEDIF - INATIVO.</option>
+<option value="1670">1670 - SEESP - INATIVO.</option>
+<option value="1280">1280 - SEESP / INATIVO</option>
+<option value="1350">1350 - SEHADU / INATIVO</option>
+<option value="1170">1170 - SERHA / INATIVO</option>
+<option value="8010">8010 - SERVICO VOLUNTARIO DE ASSISTENCIA SOCIAL</option>
+<option value="1690">1690 - SESP - INATIVO.</option>
+<option value="1580">1580 - SETE / INATIVO</option>
+<option value="1410">1410 - SETUR - INATIVO.</option>
+<option value="1020" selected="selected">1020 - TRIBUNAL DE CONTAS DO ESTADO DE MINAS GERAIS</option>
+<option value="1030">1030 - TRIBUNAL DE JUSTICA DO ESTADO DE MINAS GERAIS</option>
+<option value="1050">1050 - TRIBUNAL DE JUSTICA MILITAR DO ESTADO DE M.G.</option>
+<option value="2350">2350 - UNIVERSIDADE DO ESTADO DE MINAS GERAIS</option>
+<option value="2310">2310 - UNIVERSIDADE ESTADUAL DE MONTES CLAROS</option></select>
+			
+			
+			
+			
+		</td>
+    
+	  </tr>
+	
+
+
+<script>
+	var combo = document.getElementById('orgaoEntidade');
+	combo.onkeypress = combo.onchange;
+	
+	
+</script>
+		
+
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+<script>
+
+function preencherCodigoUnidadeCompra()
+{
+	if(window.valorRetornoJanelaModal !== undefined)
+	{
+		dojo.byId('codigoUnidadeCompra').value = valorRetornoJanelaModal ;
+		window.valorRetornoJanelaModal = undefined;
+	}
+	
+}
+
+function abrirJanelaSelecaoUnidadeCompra()
+{
+	abrirJanelaModalChamandoMetodoAoFechar('/processocompra/unidade/selecaoUnidade.html',900,600,preencherCodigoUnidadeCompra);
+}
+
+</script>
+
+
+
+
+<tr id="linha_unidadeCompra">
+
+	<td class="rotulo" >
+		
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<span class="campo" style="" id="Unidade de compra:" > 
+	
+	Unidade de compra:
+	
+</span>
+
+
+
+
+
+				
+	</td>
+	<td style="padding:0; border:0; margin:0;" colspan="1">
+	<table style="padding:0; border:0; margin:0;width:100%">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+ 		
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+  
+    <tr id="linha_codigoUnidadeCompra">
+  
+		<td class="rotulo" height="100%" style="" colspan="1" >
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Código:" > 
+	
+	Código:
+	
+</span>
+
+
+
+
+
+			 
+			</td>
+		<td style="" colspan="1">
+		
+		
+			
+			
+				<input type="text" name="codigoUnidadeCompra" maxlength="7" size="" value="" onkeydown=" return IsNumericKey(event, false);" onkeyup="return numericMask(this,0,7,false, event, false );testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" onblur="numericValidate(this,0,7,false,false);" id="codigoUnidadeCompra" class=""> 
+			
+		
+		
+			
+				
+
+<span class="fieldaid">1 a 9999999</span>
+
+		     			
+		     
+		    
+		<a href="#" id="telaSelecaoUnidade" onclick="bloqueiaTemporariamente(this);if (window.antesOnclickDoLink) window.antesOnclickDoLink(this);abrirJanelaSelecaoUnidadeCompra()">Selecionar unidade</a>
+	
+		</td>
+  		
+	</tr>
+  
+
+	
+	</table>
+	</td>
+</tr>
+
+
+	
+	
+		
+	
+
+
+		
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+  
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+ 		
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+  
+    <tr id="linha_numero">
+  
+		<td class="rotulo" height="100%" style="" colspan="1" >
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Número do processo:" > 
+	
+	Número do processo:
+	
+</span>
+
+
+
+
+
+			 
+			</td>
+		<td style="" colspan="1">
+		
+		
+			
+			
+				<input type="text" name="numero" maxlength="6" size="" value="" onkeydown=" return IsNumericKey(event, false);" onkeyup="return numericMask(this,0,6,false, event, false );testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" onblur="numericValidate(this,0,6,false,false);" id="numero" class=""> 
+			
+		
+		
+			
+				
+
+<span class="fieldaid">1 a 999999</span>
+
+		     			
+		     
+		    
+		</td>
+  		
+	</tr>
+  
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+	
+	
+	
+
+
+	
+	
+	
+
+
+  
+  
+  
+
+
+
+  
+    <tr id="linha_ano">
+  
+      <td class="rotulo" colspan="1">
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Ano:" > 
+	
+	Ano:
+	
+</span>
+
+
+
+
+
+         
+         </td>
+         		
+      <td colspan="1"><input type="text" name="ano" maxlength="4" size="6" value="" onkeydown="return IsNumericKey(event);" onkeyup="return numericMask(this,0,4,false, event, false );testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();false" onblur="numericValidate(this,0,4,false,false);validarAnoDoCampo(this, 'O campo &#0034;Ano&#0034; deve estar no formato aaaa.', 'O campo &#0034;Ano&#0034; deve ser maior que 0000.');" id="ano">
+        
+          
+
+<span class="fieldaid">aaaa</span>
+
+        
+        
+      </td>
+  		
+	</tr>
+  
+
+
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+ 
+ 
+ 
+
+ 
+ 
+	
+	
+
+
+ 	
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+	
+	
+	  <tr id="linha_situacao">
+	
+		<td class="rotulo" colspan="1" >
+			
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Situação:" > 
+	
+	Situação:
+	
+</span>
+
+
+
+
+
+			
+			
+			
+		</td>
+		<td colspan="1">
+			
+				<select name="situacao" onchange="campoAlterado();alterarVisibilidadeCamposForn();" id="situacao" style="min-width:30px;"><option value=""></option>
+					
+					<option value="PUBLICADO">Publicado</option>
+<option value="DISPONIBILIZADO">Disponibilizado</option>
+<option value="SUSPENSO">Suspenso</option>
+<option value="EM_ANDAMENTO">Em andamento</option>
+<option value="CONCLUIDO">Concluído</option></select>
+			
+			
+			
+			
+		</td>
+    
+	  </tr>
+	
+
+
+<script>
+	var combo = document.getElementById('situacao');
+	combo.onkeypress = combo.onchange;
+	
+	
+</script>
+		
+
+
+				
+			
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+  
+
+
+<script>
+dojo.require("dojo.event.*");
+dojo.require("dojo.io.*");
+
+
+	dojo.event.connect("around", this, "validarIntervalo", this, "validarPesquisaProcedimento");
+
+
+// testa se uma lista contém um dado valor, usado na verificação de procedimentos
+// de contratacao
+function contains(valor, lista)
+{
+  var x;
+  var encontrou = 0;
+  for (x = 0; x < lista.length; x++)
+  {
+    var item = lista[x];
+    if (item == valor)
+    {
+      encontrou = 1;
+      break;
+    }
+  }
+  return encontrou;
+}
+
+// É interessante que este componente tenha uma validação na pesquisa. Usa-se o dojo para pegar o
+// evento e incluir a validação do componente antes da execução da função de validação do JSP
+// onde este componente é utilizado. ATENÇÃO: Não mudar o nome dessa função.
+function validarPesquisaProcedimento(invocation)
+{
+	if (document.getElementById('procedimento1').value != "" && document.getElementById('especializacao').value == "")
+	{
+		alert('É necessário escolher uma especialização de procedimento de contratação caso um grupo tenha sido escolhido.');
+		return false;
+	}
+	if (invocation != null) {
+		return invocation.proceed();
+	} else return true;
+}
+
+// Esta função faz a busca pelos grupos e especializações de
+// procedimento que são filhos do grupo escolhido pelo usuário.
+//
+// O parametro funcaoASerExecutada é necessário no carregamento da tela após
+// uma pesquisa ser executada. Para deixar a tela com os campos selecionados
+// da forma como o usuário escolheu, o sistema executa a função para montar
+// o primeiro SELECT, em seguida ele executa a mesma função para montar o
+// segundo SELECT, e assim por diante.
+// Como as funções devem ser executadas uma após a outra, e a busca via AJAX
+// é assíncrona, é preciso passar a função seguinte como parâmetro para que
+// o sistema possa buscar a seleção seguinte somente após terminar o trabalho
+// na seleção atual.
+//
+// O parametro funcaoParaEscolherEspecializacao também só é necessário quando
+// precisa-se manter pré-selecionado, logo após a pesquisa, o valor escolhido
+// pelo usuário para o campo especializacao. Também é uma função passada como
+// parâmetro para garantir a execução após o preenchimento do combo via AJAX.
+//
+function preencherProcedimentosFilhos(param, caller, funcaoASerExecutada, funcaoParaEscolherEspecializacao)
+{
+	document.getElementById('procedimentoModificado').value = document.getElementById(caller).value;
+	setTimeout('preencherProcedimentos("'+param+'", "'+caller+'", "'+funcaoASerExecutada+'", "'+funcaoParaEscolherEspecializacao+'")',100);
+}
+
+function obterEspecializacaoProcedimento(param, especializacao)
+{
+	document.getElementById('procedimentoModificado').value = document.getElementById(especializacao).value;
+
+	
+
+	idFormulario = "formConsultaProcessoCompra";
+	setProcedimentoContratacao('procedimento', "/processocompra/procedimento/procedimentoContratacao.html?metodo=getProcedimento", idFormulario,
+	'verificarVisibilidadeCamposRelativosProcedimentoSemRequisicao()');
+}
+
+function setProcedimentoContratacao(idCombo, url, idFormulario, funcao)
+{
+    var parametros={
+    url: url,
+    load: function(type, data, evt) {
+      combo = document.getElementById(idCombo);
+	  combo.value = data[0][0];
+   	  eval(funcao);
+    },
+    mimetype: 'text/json',
+    formNode: document.getElementById(idFormulario)
+  };
+  dojo.io.bind(parametros);
+}
+
+function preencherProcedimentos(param, caller, funcaoASerExecutada, funcaoParaEscolherEspecializacao)
+{
+	
+
+	
+
+	// Como são vários SELECTs de Grupos, em diferentes níveis, este campo guarda qual foi o
+	// último SELECT alterado pelo usuário. Os filhos deste serão buscados na Ação.
+	funcao = "definirExibicaoDeCampos('"+caller+"')";
+	idFormulario = "formConsultaProcessoCompra";
+	if (param != '')
+	{
+		idCombo = param;
+		preencherCombo(idCombo, '/processocompra/procedimento/procedimentoContratacao.html?metodo=getProcedimentosPaiConsultaProcesso', idFormulario, funcao+';'+funcaoASerExecutada);
+   	}
+	idCombo = 'especializacao';
+	funcaoRemoveVazio = "";
+	if (caller == "procedimento2") {
+		funcaoRemoveVazio = "selecionarEspecializacao()";
+	}
+	preencherCombo(idCombo, '/processocompra/procedimento/procedimentoContratacao.html?metodo=getEspecializacoesConsultaProcesso', idFormulario, funcao+";"+funcaoParaEscolherEspecializacao+";"+funcaoRemoveVazio);
+}
+
+function selecionarEspecializacao()
+{
+  var colecao = document.getElementById("especializacao");
+	if (colecao.options.length == 2) {
+		colecao.selectedIndex = colecao.options[1].index;
+		if (false)
+		{
+			obterEspecializacaoProcedimento('', 'especializacao');
+		}
+	}
+}
+
+// Esta função faz a busca dos valores iniciais para a tela,
+// que são os procedimentos raiz.
+function preencherProcedimentosRaiz()
+{
+	
+
+	// Para entender essa linha, verificar documentação da função montaPreSelecaoP1()
+	var funcao = "montaPreSelecaoP1()";
+	idCombo = 'procedimento1';
+	idFormulario = "formConsultaProcessoCompra";
+	preencherCombo(idCombo, '/processocompra/procedimento/procedimentoContratacao.html?metodo=getProcedimentosRaiz', idFormulario, funcao);
+}
+
+//Verifica se a especializacao do procedimento deve ser exibida em caso específico da lei 14133
+//em que um grupo de procedimento possui apenas uma especialização válida.
+function isDeveExibirComboEspecializacao()
+{
+  const procRaizValidos = new Array();
+  procRaizValidos[0]= "Bens e serviços - Lei nº 14.133/21";
+  procRaizValidos[1]= "Obras e serviços de engenharia - Lei nº 14.133/21";
+
+  const proc1Validos= new Array();
+  proc1Validos[0]= "Concurso";
+  proc1Validos[1]= "Diálogo competitivo";
+  proc1Validos[2]= "Pregão";
+  proc1Validos[3]= "Concorrência";
+  proc1Validos[4]= "Leilão";
+
+  const comboRaiz = document.getElementById("procedimento1");
+  const comboProc1 = document.getElementById("procedimento2");
+  const valorRaiz = comboRaiz.options[comboRaiz.selectedIndex].text;
+  const valorProc1 = comboProc1.options[comboProc1.selectedIndex].text;
+
+  return contains(valorRaiz, procRaizValidos) == 1 && contains(valorProc1, proc1Validos) == 1;
+
+}
+
+// Este método define a exibição dos SELECTs de diferentes níveis de
+// procedimento na tela. Para o select de especialização ser mostrado,
+// ele precisa apenas ter dados. Para um dos selects de grupo ser
+// mostrado, é necessário que tenha dados e que o nível imediatamente
+// anterior tenha sido modificado.
+function definirExibicaoDeCampos(caller)
+{
+  if (document.getElementById('especializacao').length > 2 || isDeveExibirComboEspecializacao())
+	{
+		document.getElementById('especializacao_td').style.display = "";
+	} else
+	{
+		document.getElementById('especializacao_td').style.display = "none";
+	}
+	if (caller == "procedimento1")
+	{
+		if (document.getElementById('procedimento1').value != "" && document.getElementById('procedimento2').length > 1)
+		{
+			document.getElementById('grupo_nivel2').style.display = "";
+		} else
+		{
+			document.getElementById('grupo_nivel2').style.display = "none";
+
+			//Para ocultar os campos:
+			//- deve estar na aba de dados do processo
+			//- não deve existir uma tabela com nome 'erros', contendo alguma msg de erro.
+			// Se algum erro ocorrer, os campos abaixo nao podem ser ocultados
+			// pois o combo 'procedimento de contratacao' ainda nao foi completamente
+			// carregado (atraves de um metodo AJAX)
+			if (document.getElementById('abaCadastroProcessoCompra') != null
+				&& document.getElementById('metodo').value == "inserir"
+				&& document.getElementById('erros') == null)
+			{
+				//esconde campos ate que a aba fique no mesmo estado inicial
+				// inclui os campos abertos ao escolher o 'procedimento2'
+				document.getElementById('linha_anoProcessoOriginal').style.display = "none";
+				document.getElementById('linha_justificativaRecadastramento').style.display = "none";
+				document.getElementById('linha_observacoesVinculo').style.display = "none";
+				document.getElementById('linha_procedimentoOriginal').style.display = "none";
+				//campos abertos ao escolher algum dos valores do 'procedimento2'
+				document.getElementById('linha_dataLicitacao').style.display = "none";
+				document.getElementById('linha_horaEntregaProposta').style.display = "none";
+				document.getElementById('linha_origemRegistro').style.display = "none";
+				//campos abertos ao escolher algum dos valores do 'procedimento3'
+				document.getElementById('linha_idContratoCorporativo').style.display = "none";
+				document.getElementById('linha_idProcessoVinculado').style.display = "none";
+				document.getElementById('linha_procedimentoVinc2').style.display = "none";
+				document.getElementById('linha_tipoContratoCorporativo').style.display = "none";
+        document.getElementById('linha_tipoPropostaPregaoMaiorOferta').style.display = "none";
+      }
+		}
+		document.getElementById('grupo_nivel3').style.display = "none";
+		document.getElementById('grupo_nivel4').style.display = "none";
+  }
+	else if (caller == "procedimento2")
+	{
+		if (document.getElementById('procedimento2').value != "" && document.getElementById('procedimento3').length > 1)
+		{
+			document.getElementById('grupo_nivel3').style.display = "";
+		} else
+		{
+			document.getElementById('grupo_nivel3').style.display = "none";
+
+			//Para ocultar os campos:
+			//- deve estar na aba de dados do processo
+			//- não deve existir uma tabela com nome 'erros', contendo alguma msg de erro.
+			// Se algum erro ocorrer, os campos abaixo nao podem ser ocultados
+			// pois o combo 'procedimento de contratacao' ainda nao foi completamente
+			// carregado (atraves de um metodo AJAX)
+			if (document.getElementById('abaCadastroProcessoCompra') != null
+				&& document.getElementById('metodo').value == "inserir"
+				&& document.getElementById('erros') == null)
+			{
+				//esconde campos ate que a aba fique no mesmo estado inicial
+				document.getElementById('linha_dataLicitacao').style.display = "none";
+				document.getElementById('linha_horaEntregaProposta').style.display = "none";
+				document.getElementById('linha_origemRegistro').style.display = "none";
+				//campos abertos ao escolher algum dos valores do 'procedimento3'
+				document.getElementById('linha_idContratoCorporativo').style.display = "none";
+				document.getElementById('linha_idProcessoVinculado').style.display = "none";
+				document.getElementById('linha_procedimentoVinc2').style.display = "none";
+				document.getElementById('linha_tipoContratoCorporativo').style.display = "none";
+        document.getElementById('linha_tipoPropostaPregaoMaiorOferta').style.display = "none";
+
+        if (document.getElementById('procedimento').value != "OUTRAS_CONTRATACOES")
+				{
+					document.getElementById('linha_observacoesVinculo').style.display = "none";
+				}
+			}
+		}
+		document.getElementById('grupo_nivel4').style.display = "none";
+	}
+	else if (caller == "procedimento3")
+	{
+		if (document.getElementById('procedimento3').value != "" && document.getElementById('procedimento4').length > 1)
+		{
+			document.getElementById('grupo_nivel4').style.display = "";
+		} else
+		{
+			document.getElementById('grupo_nivel4').style.display = "none";
+		}
+	}
+}
+
+// Esta função verifica as opções presentes no select especialização para
+// ver se encontra a opção que foi passada pelo usuário na pesquisa.
+// Caso encontre, seta o valor para manter pré-selecionado.
+function selecionaEspecializacaoEscolhida()
+{
+	var esp = null;
+	
+		
+		
+			
+		
+	
+
+	var opt_esp = document.getElementById('especializacao');
+	for (i = 0; i < opt_esp.length; i++)
+	{
+		if (opt_esp.options[i].value == esp)
+		{
+			document.getElementById('especializacao').selectedIndex = i;
+		}
+	}
+}
+
+// Ao realizar uma pesquisa, é interessante que os valores dos campos preenchidos
+// na pesquisa sejam mantidos ao recarregar a tela. Esta função trata da disposição
+// correta do campo procedimento1.
+//
+// Ao carregar a tela, o sistema chama primeiro o inicializador do select que contém
+// os grupos de procedimento que são raiz. Caso a tela já tivesse valores pré-preenchidos
+// pelo usuário antes de fazer a pesquisa, esta função, que é chamada do 'inicializador',
+// vai manter pré-preenchido o valor do select e ainda vai buscar as opções correspondentes
+// do select para o 2o nível e o select de especializações.
+//
+// As funções para montagem dos selects de nível imediatamente inferior são passadas como
+// parâmetro para preencherProcedimentosFilhos, para GARANTIR que sejam executadas APÓS
+// o término da consulta AJAX para montar a lista de opções dos níveis inferiores.
+//
+// Esta definição lógica da sequência de ações para manter a tela como o usuário selecionou
+// vale também para as funções montaPreSelecaoP2(),montaPreSelecaoP3() e montaPreSelecaoP4(),
+// cada um com seu subnível diferente. Como é o último nível, montaPreSelecaoP4() chama
+// apenas a especialização.
+function montaPreSelecaoP1()
+{
+	var p1 = null;
+	
+		
+		
+			
+		
+	
+
+	if (p1 != null)
+	{
+		var opt_p1 = document.getElementById('procedimento1');
+		for (i = 0; i < opt_p1.length; i++)
+		{
+			if (opt_p1.options[i].value == p1)
+			{
+				document.getElementById('procedimento1').selectedIndex = i;
+			}
+		}
+		preencherProcedimentosFilhos('procedimento2', 'procedimento1',
+		'montaPreSelecaoP2()', 'selecionaEspecializacaoEscolhida()');
+	}
+}
+
+// Ao realizar uma pesquisa, é interessante que os valores dos campos preenchidos
+// na pesquisa sejam mantidos ao recarregar a tela. Esta função trata da disposição
+// correta do campo procedimento2.
+function montaPreSelecaoP2()
+{
+	var p2 = null;
+	
+		
+		
+			
+		
+	
+
+	if (p2 != null)
+	{
+		var opt_p2 = document.getElementById('procedimento2');
+		for (i = 0; i < opt_p2.length; i++)
+		{
+			if (opt_p2.options[i].value == p2)
+			{
+				document.getElementById('procedimento2').selectedIndex = i;
+			}
+		}
+		preencherProcedimentosFilhos('procedimento3', 'procedimento2', 'montaPreSelecaoP3()', 'selecionaEspecializacaoEscolhida()');
+	}
+}
+
+// Ao realizar uma pesquisa, é interessante que os valores dos campos preenchidos
+// na pesquisa sejam mantidos ao recarregar a tela. Esta função trata da disposição
+// correta do campo procedimento3.
+function montaPreSelecaoP3()
+{
+	var p3 = null;
+	
+		
+		
+			
+		
+	
+
+	if (p3 != null)
+	{
+		var opt_p3 = document.getElementById('procedimento3');
+		for (i = 0; i < opt_p3.length; i++)
+		{
+			if (opt_p3.options[i].value == p3)
+			{
+				document.getElementById('procedimento3').selectedIndex = i;
+			}
+		}
+		preencherProcedimentosFilhos('procedimento4', 'procedimento3', 'montaPreSelecaoP4()', 'selecionaEspecializacaoEscolhida()');
+	}
+}
+
+// Ao realizar uma pesquisa, é interessante que os valores dos campos preenchidos
+// na pesquisa sejam mantidos ao recarregar a tela. Esta função trata da disposição
+// correta do campo procedimento4.
+function montaPreSelecaoP4()
+{
+	var p4 = null;
+	
+		
+		
+			
+		
+	
+
+	if (p4 != null)
+	{
+		var opt_p4 = document.getElementById('procedimento4');
+		for (i = 0; i < opt_p4.length; i++)
+		{
+			if (opt_p4.options[i].value == p4)
+			{
+				document.getElementById('procedimento4').selectedIndex = i;
+			}
+		}
+		preencherProcedimentosFilhos('', 'procedimento4', '', 'selecionaEspecializacaoEscolhida()');
+	}
+}
+
+function ocultarCamposSeNecessario()
+{
+	//Se o valor da combo 'especializacao' for 'vazio', entao diversos cambos
+	// devem ser ocultados, retornando ao estado inicial da tela
+	if (document.getElementById('especializacao').value == "" ||
+		(document.getElementById('especializacao').style.display == "none" &&
+		document.getElementById('procedimento1').value != ""))
+	{
+		//esconde campos ate que a aba fique no mesmo estado inicial
+		// inclui os campos abertos ao escolher o 'procedimento2'
+		document.getElementById('linha_anoProcessoOriginal').style.display = "none";
+		document.getElementById('linha_justificativaRecadastramento').style.display = "none";
+		document.getElementById('linha_observacoesVinculo').style.display = "none";
+		document.getElementById('linha_procedimentoOriginal').style.display = "none";
+		//campos abertos ao escolher algum dos valores do 'procedimento2'
+		document.getElementById('linha_dataLicitacao').style.display = "none";
+		document.getElementById('linha_horaEntregaProposta').style.display = "none";
+		document.getElementById('linha_origemRegistro').style.display = "none";
+		//campos abertos ao escolher algum dos valores do 'procedimento3'
+		document.getElementById('linha_idContratoCorporativo').style.display = "none";
+		document.getElementById('linha_idProcessoVinculado').style.display = "none";
+		document.getElementById('linha_procedimentoVinc2').style.display = "none";
+		document.getElementById('linha_tipoContratoCorporativo').style.display = "none";
+		document.getElementById('linha_justificativaVinculo').style.display = "none";
+    document.getElementById('linha_tipoPropostaPregaoMaiorOferta').style.display = "none";
+  }
+}
+
+</script>
+
+<input type="hidden" name="procedimentoModificado" id="procedimentoModificado" />
+<tr id="linha_procedimento">
+	<td class="rotulo">
+	
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+
+
+  
+
+
+
+<span class="campo" style="" id="procedimentoContratacao" > 
+	
+	Procedimento de contratação:
+	
+</span>
+
+
+
+
+</td>
+	<td colspan="1">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%">
+		<tr><td width="0">
+			<select name="procedimento1" onchange="campoAlterado();preencherProcedimentosFilhos('procedimento2', 'procedimento1');
+				visibilidadeObrigacaoMEEPP();visibilidadeCamposLeiAoSelecionarProcedimento();" id="procedimento1"><option value="" selected="selected"></option></select>
+		</td></tr>
+		<tr id="grupo_nivel2" style="display:none">
+			<td><select name="procedimento2" onchange="campoAlterado();preencherProcedimentosFilhos('procedimento3', 'procedimento2');visibilidadeObrigacaoMEEPP();" id="procedimento2"><option value="" selected="selected"></option></select></td>
+		</tr>
+		<tr id="grupo_nivel3" style="display:none">
+			<td><select name="procedimento3" onchange="campoAlterado();preencherProcedimentosFilhos('procedimento4', 'procedimento3');" id="procedimento3"><option value="" selected="selected"></option></select></td>
+		</tr>
+		<tr id="grupo_nivel4" style="display:none">
+			<td><select name="procedimento4" onchange="campoAlterado();preencherProcedimentosFilhos('', 'procedimento4');" id="procedimento4"><option value="" selected="selected"></option></select></td>
+		</tr>
+		
+			
+			
+				<tr id="especializacao_td" style="display:none">
+					<td><select name="especializacao" onchange="campoAlterado();" id="especializacao"><option value="" selected="selected"></option></select>
+					</td>
+				</tr>
+			
+		
+	</table>
+</tr>
+
+<script>
+  	preencherProcedimentosRaiz();
+</script>
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+	
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+	<tr id="intervaloData">
+    	<td class="rotulo" colspan="1">
+    		
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Data da criação:" > 
+	
+	Data da criação:
+	
+</span>
+
+
+
+
+
+    	</td>
+		<td colspan="1">		
+			<span>De</span>
+			
+				<input type="text" name="dataCriacaoDe" maxlength="10" size="10" value="" onkeydown="return IsNumericKey(event);" onkeyup="mask(this,'11/11/1111',1, this);testarBackspaceEDelete();" onkeypress="mask(this,'11/11/1111',1, this);campoAlterado();" onchange="campoAlterado();" onblur="dateValidation(this); validarIntervalo('dataCriacaoDe', 'dataCriacaoAte')" id="dataCriacaoDe">
+					
+			<span>a</span>
+			
+				<input type="text" name="dataCriacaoAte" maxlength="10" size="10" value="" onkeydown="return IsNumericKey(event);" onkeyup="mask(this,'11/11/1111',1, this);testarBackspaceEDelete();" onkeypress="mask(this,'11/11/1111',1, this);campoAlterado();" onchange="campoAlterado();" onblur="dateValidation(this); validarIntervalo('dataCriacaoDe', 'dataCriacaoAte')" id="dataCriacaoAte">
+			
+			
+				
+
+<span class="fieldaid">dd/mm/aaaa &nbsp; &nbsp; &nbsp; </span>
+				
+					
+		</td>
+	</tr>
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+	
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+	<tr id="intervaloData">
+    	<td class="rotulo" colspan="1">
+    		
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+<span class="campo" style="" id="Data da licitação:" > 
+	
+	Data da licitação:
+	
+</span>
+
+
+
+
+
+    	</td>
+		<td colspan="1">		
+			<span>De</span>
+			
+				<input type="text" name="dataLicitacaoDe" maxlength="10" size="10" value="" onkeydown="return IsNumericKey(event);" onkeyup="mask(this,'11/11/1111',1, this);testarBackspaceEDelete();" onkeypress="mask(this,'11/11/1111',1, this);campoAlterado();" onchange="campoAlterado();" onblur="dateValidation(this); validarIntervalo('dataLicitacaoDe', 'dataLicitacaoAte')" id="dataLicitacaoDe">
+					
+			<span>a</span>
+			
+				<input type="text" name="dataLicitacaoAte" maxlength="10" size="10" value="" onkeydown="return IsNumericKey(event);" onkeyup="mask(this,'11/11/1111',1, this);testarBackspaceEDelete();" onkeypress="mask(this,'11/11/1111',1, this);campoAlterado();" onchange="campoAlterado();" onblur="dateValidation(this); validarIntervalo('dataLicitacaoDe', 'dataLicitacaoAte')" id="dataLicitacaoAte">
+			
+			
+				
+
+<span class="fieldaid">dd/mm/aaaa &nbsp; &nbsp; &nbsp; </span>
+				
+					
+		</td>
+	</tr>
+
+
+				
+				
+			
+				
+								
+			<tr>
+				<td class="rotulo">
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<span class="campo" style="" id="Linha de fornecimento:" > 
+	
+	Linha de fornecimento:
+	
+</span>
+
+
+
+
+</td>
+				<td>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+	Com a(s) palavra(s): 
+	<input type="text" name="linhaFornecimento" maxlength="100" size="20" value="" onkeyup="testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" id="linhaFornecimento" title="Para facilitar a pesquisa, utilize ( * ) para substituir partes de palavras.">
+		
+	Op&ccedil;&atilde;o:
+	<select name="linhaFornecimentoOpcaoEOu" onchange="campoAlterado();" id="linhaFornecimentoOpcaoEOu"><option value="E" selected="selected">Com TODAS as palavras &nbsp;</option>
+		<option value="OU">Com QUALQUER uma das palavras</option></select>
+	
+	
+	
+		<hr noshade="noshade" />
+	
+		Sem a(s) palavra(s):
+		<input type="text" name="linhaFornecimentoOpcaoSem" maxlength="100" size="20" value="" onkeyup="testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" id="linhaFornecimentoOpcaoSem" title="Para facilitar a pesquisa, utilize ( * ) para substituir partes de palavras.">
+	
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Diponibiliza os parâmetros necessários para a tag tb-tabela conseguir processar a pesquisa avançada. -->
+	
+	
+
+	
+	
+	
+
+</td>
+			</tr>
+			<tr>
+				<td class="rotulo">
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<span class="campo" style="" id="Descrição do material/serviço:" > 
+	
+	Descrição do material/serviço:
+	
+</span>
+
+
+
+
+</td>
+				<td>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	Com a(s) palavra(s): 
+	<input type="text" name="descricaoMaterialOuServico" maxlength="120" size="20" value="" onkeyup="testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" id="descricaoMaterialOuServico" title="Para facilitar a pesquisa, utilize ( * ) para substituir partes de palavras.">
+		
+	Op&ccedil;&atilde;o:
+	<select name="descricaoMaterialOuServicoOpcaoEOu" onchange="campoAlterado();" id="descricaoMaterialOuServicoOpcaoEOu"><option value="E" selected="selected">Com TODAS as palavras &nbsp;</option>
+		<option value="OU">Com QUALQUER uma das palavras</option></select>
+	
+	
+	
+		<hr noshade="noshade" />
+	
+		Sem a(s) palavra(s):
+		<input type="text" name="descricaoMaterialOuServicoOpcaoSem" maxlength="120" size="20" value="" onkeyup="testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" id="descricaoMaterialOuServicoOpcaoSem" title="Para facilitar a pesquisa, utilize ( * ) para substituir partes de palavras.">
+	
+
+
+
+	<hr noshade="noshade" />
+
+
+
+	<input type="checkbox" name="descricaoMaterialOuServicoOpcaoSinonimo" value="itens_itensPedido_itensSolicitacao_itemMaterialServico_materialOuServico.sinonimos" id="descricaoMaterialOuServicoOpcaoSinonimo"><label for="descricaoMaterialOuServicoOpcaoSinonimo">Aceita sin&ocirc;nimo</label>	
+
+
+
+
+
+
+
+	<!-- Diponibiliza os parâmetros necessários para a tag tb-tabela conseguir processar a pesquisa avançada. -->
+	
+	
+
+	
+	
+	
+
+</td>
+			</tr>
+			<tr>
+				<td class="rotulo">
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+<span class="campo" style="" id="Especificação do item de material/serviço:" > 
+	
+	Especificação do item de material/serviço:
+	
+</span>
+
+
+
+
+</td>
+				<td>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+	Com a(s) palavra(s): 
+	<input type="text" name="especificacaoItemMaterialOuServico" maxlength="100" size="20" value="" onkeyup="testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" id="especificacaoItemMaterialOuServico" title="Para facilitar a pesquisa, utilize ( * ) para substituir partes de palavras.">
+		
+	Op&ccedil;&atilde;o:
+	<select name="especificacaoItemMaterialOuServicoOpcaoEOu" onchange="campoAlterado();" id="especificacaoItemMaterialOuServicoOpcaoEOu"><option value="E" selected="selected">Com TODAS as palavras &nbsp;</option>
+		<option value="OU">Com QUALQUER uma das palavras</option></select>
+	
+	
+	
+		<hr noshade="noshade" />
+	
+		Sem a(s) palavra(s):
+		<input type="text" name="especificacaoItemMaterialOuServicoOpcaoSem" maxlength="100" size="20" value="" onkeyup="testarBackspaceEDelete();" onkeypress="campoAlterado();" onchange="campoAlterado();" id="especificacaoItemMaterialOuServicoOpcaoSem" title="Para facilitar a pesquisa, utilize ( * ) para substituir partes de palavras.">
+	
+
+
+
+	<hr noshade="noshade" />
+
+
+
+	<input type="checkbox" name="especificacaoItemMaterialOuServicoOpcaoSinonimo" value="itens_itensPedido_itensSolicitacao_itemMaterialServico.sinonimos" id="especificacaoItemMaterialOuServicoOpcaoSinonimo"><label for="especificacaoItemMaterialOuServicoOpcaoSinonimo">Aceita sin&ocirc;nimo</label>	
+
+
+
+	<input type="checkbox" name="especificacaoItemMaterialOuServicoOpcaoSimilar" value="notChecked" id="especificacaoItemMaterialOuServicoOpcaoSimilar"><label for="especificacaoItemMaterialOuServicoOpcaoSimilar">Aceita similar</label>	
+
+
+
+
+
+	<!-- Diponibiliza os parâmetros necessários para a tag tb-tabela conseguir processar a pesquisa avançada. -->
+	
+	
+
+	
+	
+	
+
+
+				</td>
+			</tr>
+		   
+		  </table>
+  		</form>
+	  </div>
+		</td>
+	</tr>
+
+	
+
+	
+		<tr id="trBuscar">
+			<th>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  function pesquisar()
+  {
+    executarPesquisa = true;
+    
+  	if(executarPesquisa)
+  	{
+  	  // verifica os campos de datas confirmando se o formulário pode ser
+  	  // submetido
+      var datasValidas = podeSubmeterFormularioPesquisaValidacaoDatas();
+      var horasValidas = podeSubmeterFormularioPesquisaValidacaoHoras();
+      var podeSubmeter = (datasValidas && horasValidas);
+
+  	  if (podeSubmeter)
+  	  {
+		$(document.forms[0]).submeter();
+  	  }
+  	}
+  }  
+
+</script>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+	
+		
+			
+		
+	
+		
+	
+
+
+	<a href="#2" id="textoAcaoPesquisa" class="button" onclick="pesquisar();">Buscar</a>
+  	 
+		<a href="#2" id="textoAcaoLimpar" class="button" onclick="limpaTela();">Limpar</a>
+	 
+ </th>
+		</tr>
+	
+</table>
+<br/>
+<br/>
+</div>
+<script>
+
+function obterFocoElemento(elemento)
+{
+	var elem = document.getElementById(elemento);
+	elem.focus();
+}
+
+function alterarExibicaoPainelPesquisa()
+{
+
+	var painel = document.getElementById('painelPesquisa');
+	var buscar = document.getElementById('trBuscar');
+	var cabecalho = document.getElementById('trCabecalho'); //Pode não existir.
+	var rotulo = document.getElementById('linkPesquisa');
+
+	if (painel.style.display == 'none')
+	{
+		painel.style.display = '';
+		buscar.style.display = '';
+		if(cabecalho) cabecalho.style.display = '';
+		rotulo.innerHTML = 'Ocultar pesquisa';
+
+	}
+	else
+	{
+		if (painel.style.display == '')
+		{
+			painel.style.display = 'none';
+			buscar.style.display = 'none';
+			if(cabecalho) cabecalho.style.display = 'none';
+			rotulo.innerHTML = 'Exibir pesquisa';
+		}
+	}
+}
+
+/*
+function verificarPainelPesquisa()
+{
+	var painel = document.getElementById('trPainelPesquisa');
+	var buscar = document.getElementById('trBuscar');
+	var cabecalho = document.getElementById('trCabecalho');
+    if ('idTabConsultaProcessoCompra' != null)
+    {
+		var tabelaGestao = document.getElementById('idTabConsultaProcessoCompra');
+		if (tabelaGestao!=null)
+		{
+			if (tabelaGestao.rows.length > 0)
+			{
+				painel.style.display = 'none';
+				buscar.style.display = 'none';
+				cabecalho.style.display = 'none';
+			}
+		}
+	}
+	window.onloadOriginaPainelGestao;
+}
+
+if (window.onload)
+{
+  window.onloadOriginalPainelGestao = window.onload;
+}
+else
+{
+  window.onloadOriginalPainelGestao = new function(){};
+}
+window.onload = verificarPainelPesquisa;
+*/
+
+</script>
+
+	
+	
+
+	
+	<div class='resultado'id='quantidadeItems_tabConsultaProcessoCompra'></div>
+
+
+	
+	 
+	
+	
+
+
+
+
+<!-- 
+	 Esta tag tem como objetivo exibir ou ocultar o painel de pesquisa 
+	 em uma página.
+	 O painel será exibido quando a tabela com os itens não tiver dados
+	 e ocultado caso contrário.
+	 OBS: ESTE COMPONENTE DEVE SER INSERIDO NA PÁGINA APÓS O COMPONENTE TABELA
+-->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	// Controla a exibição da informação sobre o número de objetos recuperados.
+	var opcao = 'ocultar';
+	if(document.forms[0].estaPesquisando.value == 'true')
+	{
+		opcao = 'exibir';
+	}
+	exibirOcultarElemento('quantidadeItems_tabConsultaProcessoCompra', opcao);
+	
+	alterarVisibilidadeCamposForn();
+</script>
+          </div>
+        
+      
+    </div>
+
+    <div id="tilesRodape">
+      
+
+
+
+
+
+<div class="footer">&copy; 2008 - Estado de Minas Gerais - Todos os direitos
+  reservados -
+  
+  <a href="#" onclick="abreJanelaModal('/aspectos_legais_resp/aspectos_legais_resp.htm',430,445);">Aspectos legais e responsabilidades</a>
+
+  <a href="https://compras.mg.gov.br/politicas-de-privacidade/" target="_blank">Política de privacidade</a>
+
+</div>
+
+<!-- Lista as funções que o usuário logado tem acesso. -->
+
+
+    </div>
+  </div>
+
+
+  
+  
+  <script type="application/javascript">
+    portalContextPath = '';
+    
+    external__webpack_public_path__ = '/built/';
+
+    
+    {
+
+      let ROOT_URL = '';
+      let METEOR_ROOT_URL = ROOT_URL + '/n/';
+      __meteor_runtime_config__ = {
+        meteorEnv: {
+          // NODE_ENV: "production",
+        },
+        DDP_DEFAULT_CONNECTION_URL: ROOT_URL,
+        ROOT_URL: METEOR_ROOT_URL,
+      };
+    }
+  </script>
+<script src="/built/f45d9c1cbd9687045246.bundle-integracao.js" type="application/javascript" charset="utf-8"></script>
+
+
+  </body>
+  </br>
+</html>
+
+<script>
+  //Google Analytics
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-102371799-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+

@@ -1,0 +1,26 @@
+{
+  "id_interno": "114-2010-aprovacao-pb-tr",
+  "id_tclegis": "978148",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/978148",
+  "ementa": "Atribui competência para a aprovação de projetos básicos e termos de referências.",
+  "situacao": "situacao_nao_confirmada",
+  "classificacao": "relevante",
+  "data_hora_download": "2026-08-10T00:32:30.386572+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/114-2010-aprovacao-pb-tr/114-2010-aprovacao-pb-tr_COMPILADO.pdf",
+      "sha256": "2053878c1d03960cf9859603614f01cfed4c97a0fdb7272e5af999faa74659b5"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/114-2010-aprovacao-pb-tr/114-2010-aprovacao-pb-tr_COMPLETO.pdf",
+      "sha256": "77091ae02c0535e859d5be000f87cfe02f9300ae0ee1ef0da08e061fca559d30"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/situacao_nao_confirmada/114-2010-aprovacao-pb-tr/114-2010-aprovacao-pb-tr_ORIGINAL.pdf",
+      "sha256": "bc2a6e343caa625c2184bcc24136a8f7715ec6a58844da4a2d114fe82b1a3f25"
+    }
+  ]
+}

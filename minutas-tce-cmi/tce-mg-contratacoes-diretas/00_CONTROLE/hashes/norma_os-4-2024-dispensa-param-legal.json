@@ -1,0 +1,22 @@
+{
+  "id_interno": "os-4-2024-dispensa-param-legal",
+  "id_tclegis": "1142053",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1142053",
+  "data_hora_download": "2026-08-10T00:06:09.889641+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "metadata_tclegis": {
+    "titulo": "ORDEM DE SERVIÇO nº 000004, de\r\n                            05/03/2024 -\r\n                            Presidência",
+    "ementa": "Dispensa a análise jurídica em processo de contratação nas hipóteses em que menciona.",
+    "fonte": "Disponibilização D.O.C. 05/03/2024 - Págs. 7-8.",
+    "vides": [],
+    "indexacao": ""
+  },
+  "documentos": [
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/vigentes/os-4-2024-dispensa-param-legal/os-4-2024-dispensa-param-legal_ORIGINAL.pdf",
+      "sha256": "8ab846314b11f7c9a3f03dcdeb836835ce6a617096cefe243c0b3b51a4973444"
+    }
+  ]
+}

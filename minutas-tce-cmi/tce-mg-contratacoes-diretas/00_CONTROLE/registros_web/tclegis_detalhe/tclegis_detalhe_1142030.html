@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	
+    TCLEGIS - SISTEMA INTEGRADO DE PESQUISA : Detalhe da Norma
+
+</title><meta http-equiv="Content-Security-Policy" content="frame-src &#39;self&#39; https://www.tce.mg.gov.br https://www.google.com/   ; 
+                                                    script-src &#39;self&#39; https://www.tce.mg.gov.br https://www.google.com/ https://www.gstatic.com https://www.googletagmanager.com &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; 
+                                                    style-src &#39;self&#39; https://www.tce.mg.gov.br https://use.fontawesome.com &#39;unsafe-inline&#39;; 
+                                                    img-src &#39;self&#39; https://www.tce.mg.gov.br; " />
+   
+   
+    <link href="/Content/Site.css?1500" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/Paginacao.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/thickbox.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/Tree/dtree.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Scripts/chosen/chosen.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/ui-lightness/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script type="text/javascript" defer="" src="https://www.tce.mg.gov.br/Content/js/cookieconsent.js"></script>
+    <script type="text/javascript" defer="" src="https://www.tce.mg.gov.br/Content/js/cookieconsent-est.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.tce.mg.gov.br/Content/css/cookieconsent.css" />
+    <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-9JQ4W7V60L">
+    </script>
+    <script type="text/plain" data-cookiecategory="analytics">
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-9JQ4W7V60L');
+    </script>
+    
+    <script type="text/javascript" src="/Scripts/app-alert.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/chosen/chosen.jquery_v1.8.js"></script>
+    <script type="text/javascript" src="/Scripts/thickbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui.min.js"></script>
+    
+   
+
+    <script type="text/javascript" src="/Scripts/MicrosoftAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcValidation.js"></script>
+    <script type="text/javascript" src="/Scripts/scrollTo.js"></script>
+    <script type="text/javascript" src="/Scripts/shadowbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.lazyload.mini.js"></script>
+
+    <script src="/Scripts/chosen/chosen.jquery.js?1500" type="text/javascript"></script>
+    <script src="/Scripts/accordion.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Content/Tree/dtree.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer type="text/javascript"></script>
+    <script type="text/javascript" src="/Scripts/TratamentoErroAjax.js"></script>
+    <script type="text/javascript">
+
+    
+
+        function Paginacao(page) {
+            document.getElementById("page").value = page;
+            jQuery.scrollTo(650, 2000);
+            jQuery("#DIVCarregandPaginacao").show();
+            $("#FormPaginacao").submit();
+        };
+
+        
+        
+        jQuery(function () {
+            jQuery(".selectSearchable").chosen({
+                no_results_text: "Nada encontrado!",
+                search_contains: true
+            });
+        });
+       
+
+    </script>
+    <style type="text/css">
+        #back_to_top {
+            left: 950px;
+            position: absolute;
+        }
+
+            #back_to_top img {
+                border: 0 none;
+            }
+
+        .dTreeNode, node {
+            white-space: pre-line !important;
+        }
+
+        .dtree a.node, .dtree a.nodeSel {
+            white-space: pre-line !important;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class="page">
+        
+        <div>       
+        <a href="/Home/Index/TCE">
+            <img src="/Content/images/logos_tclegis.png" alt="TCLegis" title="TCLegis" />
+        </a>     
+        <a style="float:right;font-size:18px;margin-top: 70px;"> Coordenadoria de Biblioteca e Gestão da Informação (CBGI) </a>
+        </div>
+
+        <table border="0" width='100%'>
+            <tr>
+                <td>
+                    <div id="menu">
+                        <ul>
+                            <li><a id="MUN" href="/Home/Index/">Norma Municipal</a></li>
+                            <li><a id="TCE" href="/Home/Index/TCE">Norma do TCEMG</a></li>
+                            
+                            <li><a id="A2" href="/Tesauro/IndexPublic">VOCABULÁRIO CONTROLADO</a></li>
+                            
+                            <li><a href="/Login/LogOn">Login Órgão/Entidade</a></li>
+                            <li><a href="/Login/LogOnAdmin">Login TCEMG</a></li>
+                            
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="main" class="border">
+            
+    <style>
+        #titulo {
+            padding-bottom: 0px;
+        }
+    </style>
+    
+    
+
+    <div id="titulo" style="width: 100%;">
+        <img src="/Content/images/img_pesquisar.png" align="left" style='margin-top: 2px; margin-bottom: 10px; margin-right: 10px;' />
+        Detalhe da Norma
+    </div>
+
+    <div style="float: right; margin-top: 10px;">
+        <select id="downloadDropdown" onchange="redirectToDownload();" style="background-image: url('/Content/images/btn_baixar.png'); background-repeat: no-repeat; padding-right: 65px; padding-top: 12px; cursor: pointer;">
+            <option value="" style="display:none;"></option>
+            
+                <option value="/Home/DownloadPDFCompilado/1142030" style="cursor:pointer;">Compilada</option>
+            
+                <option value="/Home/DownloadPDFCompleto/1142030" style="cursor: pointer;">Completa</option>
+            
+                <option value="/Home/DownloadPDFOriginal/1142030" style="cursor: pointer;">Original</option>
+            
+        </select>
+    </div>
+
+    <script>
+        function redirectToDownload() {
+            var dropdown = document.getElementById("downloadDropdown");
+            var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+            if (selectedValue) {
+                window.open(selectedValue, '_blank');
+                dropdown.selectedIndex = 0;
+            }
+        }
+    </script>
+
+    <table width="100%">
+        
+        <tr>
+            <td style="font-weight: bold;">
+                REGIMENTO INTERNO nº S/N, de
+                            13/12/2023 -
+                            Pleno
+            </td>
+        </tr>
+    </table>
+    <br />
+    
+    <div class="acDivPrincipal show">
+        EMENTA:
+    </div>
+    <div class="acDivChild">
+        Aprova o Regimento Interno do Tribunal de Contas do Estado de Minas Gerais.
+    </div>
+    
+    <div class="acDivPrincipal show">
+        FONTE:
+                   
+    </div>
+    <div class="acDivChild">
+        Disponibilização D.O.C. 01/02/2024 - Pág. 1.
+    </div>
+    
+    <div class="acDivPrincipal show">
+        OBSERVAÇÃO:
+    </div>
+    <div class="acDivChild">
+        Entra em vigor em 120 dias contados da data de sua publicação. Processo SGAP nº 1119953.
+    </div>
+    
+    <div class="acDivPrincipal show" id="divAcEmentaPrincipal">
+        VIDE:
+    </div>
+    <div class="acDivChild" id="divAcEmenta">
+
+        <script>
+            OcultarVide('2');
+        </script>
+
+        <div style='margin-bottom:4px;' > <a href='../Detalhe/1142958' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> RESOLUÇÃO nº 000019, de 08/10/2025 - ALTERAÇÃO, do inciso I do art. 103; alteração do caput do art. 104, do art. 106, do caput e §§ 1º e 2º do art. 107, do caput do art. 108, do caput e parágrafo único do art. 109, do caput do art. 110</div><div style='margin-bottom:4px;' > <a href='../Detalhe/1142227' target='_blank' ><img align=top style='padding-right:2px; ' border='0' src='../../Content/images/visualizar.png' title='Clique para visualizar a Íntegra da Norma'></a> PORTARIA nº 000037, de 03/06/2024 - NORMA RELEVANTE</div>
+    </div>
+    
+    <div class="acDivPrincipal show" id="divAcIndexPrincipal">
+        INDEXAÇÃO:
+    </div>
+    <div class="acDivChild" id="divAcIndex">
+        Criação; Regimento Interno; TCEMG. Objetivo; Sede; Jurisdição; Abrangência; Competência. Composição; Organização; Funcionamento. Nomeação; Posse; Exercício; Deveres; Proibição; Vacância; Férias; Licença; Substituição; Cargo; Conselheiro. Definição; Composição; Presidência; Tribunal Pleno; TCEMG. Composição; Funcionamento; Competência; Câmara; TCEMG. Competência; Presidente; Câmara. Eleição; Posse; Competência; Presidente; Vice-Presidente; Corregedor. Organização; Ouvidoria; Ministério Público junto ao Tribunal de Contas; Escola de Contas e Capacitação Professor Pedro Aleixo. Dispositivos; Atuação; Conselheiro Substituto; Procurador Geral do Ministério Público junto ao Tribunal de Contas. Dispositivos; Planejamento; Atividade; Controle externo. Dispositivos; Prestação de contas; Contas anuais; Governador; Prefeito; Administrador; Responsável; Fundos públicos; Bens públicos; Valores públicos; Órgão público; Estado; Município; Administração direta; Administração indireta; Ministério Público Estadual; Defensoria Pública do Estado de Minas Gerais; Legislativo; Judiciário; MG. Dispositivos; Tomada de contas; Prestação de contas; Tomada de contas especial; Tomada de contas extraordinária; Contas anuais. Dispositivos; Apreciação; Ato administrativo; Sujeição; Registro; Contrato administrativo; Licitação; Realização; Exame; Edital de licitação; Suspensão; Licitação. Dispositivos; Fiscalização; Contrato; Convênio; Acordo; Ajuste; Instrumento; Similaridade; Edital; Concurso público; Ato administrativo; Receita; Despesa. Dispositivos; Fiscalização; Gestão fiscal; Atuação; Denúncia; Representação; Emissão; Parecer; Consulta. Dispositivos; Instrumento; Fiscalização; TCEMG; Acompanhamento; Auditoria; Inspeção; Monitoramento; Requisição; Informação; Documento; Levantamento; Execução; Procedimento; Fiscalização. Dispositivos; Instrumento de controle consensual. Dispositivos; Apoio; Órgão; Controle interno. Dispositivos; Atuação; TCEMG; Referência; Documento; Processo; Procedimento; Recebimento; Autuação; Destinação. Dispositivos; Armazenagem; Acesso; Processo eletrônico; Âmbito; TCEMG. Dispositivos; Distribuição; Redistribuição; Processo; Âmbito; TCEMG. Situação; Aplicação; Hipótese; Impedimento; Suspeição; Conselheiro; Conselheiro Substituto; Procurador Geral do Ministério Público junto ao Tribunal de Contas; Previsão; Código de Processo Civil. Dispositivos; Instrução; Tramitação; Rito ordinário; Apensamento; Formação; Processo apartado. Dispositivos; Responsável; Interessado; Parte; Processo; Atuação; Procurador. Dispositivos; Comunicação; Ato processual. Dispositivos; Prazo; Sobrestamento; Nulidade; Arquivamento; Processo. Dispositivos; Reconstituição; Restauração; Autos; Tratamento; Ato normativo. Dispositivos; Atuação; Situação; Incidência; Suspeição; Impedimento; Arguição de inconstitucionalidade; Processamento; Uniformização; Jurisprudência. Dispositivos; Atuação; Situação; Prescrição; Decadência; Interrupção; Suspensão; Prescrição; Extinção; Processo. Dispositivos; Direito de defesa; Parte; Acesso; Processo; Apresentação; Documento; Justificativa. Alegação; Sustentação oral; Obtenção; Certidão; Informação. Dispositivos; Funcionamento; TCEMG; Composição; Tribunal Pleno; Primeira Câmara; Segunda Câmara. Dispositivos; Classificação; Funcionamento; Sessão; Tribunal Pleno; Primeira Câmara; Segunda Câmara. Dispositivos; Deliberação; TCEMG; Decisão interlocutória; Decisão definitiva; Decisão terminativa; Medida cautelar. Dispositivos; Elaboração; Acórdão; Parecer; Nota técnica. Dispositivos; Uniformização; Jurisprudência; TCEMG; Edição; Súmula; Fixação; Prejulgado. Dispositivos; Aplicação; Sanções; TCEMG; Situação; Comprovação; Irregularidade; Descumprimento; Obrigação; Observância; Processo. Dispositivos; Aplicação; Multa; Infrator. Dispositivos; Cabimento; Interposição; Recurso ordinário; Agravo; Embargos de declaração; Pedido de reexame; Decisão; TCEMG. Dispositivos; Atuação; Situação; Trânsito em julgado; Pedido de rescisão; Execução; Decisão. Dispositivos; Edição; Divulgação; Ato normativo; Resolução; Resolução delegada; Instrução normativa; Decisão normativa; Portaria; Ordem de serviço; Ordem de serviço conjunta; Elaboração; TCEMG. Dispositivos; Composição; Funcionamento; Direção; Competência; Comissão de Revisão Regimental. Dispositivos; Aprovação; Alteração; Regimento Interno; TCEMG. Dispositivos; Situação; Aplicação; Servidor; TCEMG; Estatuto dos Funcionários Públicos; MG. Dispositivos; Situação; Aplicação; Lei Orgânica; TCU; Código de Processo Civil; Código de Processo Penal; Lei Estadual; Processo administrativo; Âmbito; Administração pública; Administração estadual. Dispositivos; Possibilidade; TCEMG; Realização; Acordo de cooperação; Intercâmbio; Informação; Órgão público; Sociedade civil; Objetivo; Aprimoramento; Sistema de controle; Sistema; Fiscalização; Treinamento de pessoal; Aperfeiçoamento funcional. Dispositivos; Realização; Sessão solene; Objetivo; Entrega; Colar do Mérito da Corte de Contas Ministro José Maria de Alkmim; Destinação; Reconhecimento; Mérito; Personalidade; Entidade; Situação; Prestação de serviço; Relevância; TCEMG; Sistema de Controle; Administração Pública. Dispositivos; Edição; Publicação; Revisão; Normas; Ato processual; Ato administrativo; TCEMG. Dispositivos; Prazo; Prescrição; Processo; Pretensão punitiva; TCEMG. Dispositivos; Atuação; Parte; Vista; Processo; Suporte físico. Dispositivos; Denominação; Cargo; Conselheiro Substituto; Referência; Titular; Cargo; Auditor; Previsão; Constituição Estadual; MG.
+    </div>
+
+    <script>
+        OcultarIndexacao('5536');
+    </script>
+
+    
+    <div class="acDivPrincipal show">
+        TEXTO COMPILADO:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFCompilado/1142030"></iframe>
+    </div>
+    
+    <div class="acDivPrincipal show">
+        TEXTO COMPLETO:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFCompleto/1142030"></iframe>
+    </div>
+    
+    <div class="acDivPrincipal show">
+        TEXTO ORIGINAL:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFOriginal/1142030"></iframe>
+    </div>
+    
+    <br />
+    <br />
+    
+        </div>
+        <div id="footer">
+            <center> 
+                <span style="font-size:15px">Em caso de dúvidas, por favor entre em contato conosco pelo email <a href="mailto:biblioteca@tce.mg.gov.br">biblioteca@tce.mg.gov.br</a></span>
+                    <div style="width: 690px;">
+                        <div style="color: #666; font-size: 16px;">
+                            <iframe src="https://www.tce.mg.gov.br/rodapePadrao/externo/index.html" scrolling="no" frameborder="0" width="100%"></iframe>
+                        </div>
+                    </div>
+                </center>
+        </div>
+    </div>
+</body>
+
+</html>

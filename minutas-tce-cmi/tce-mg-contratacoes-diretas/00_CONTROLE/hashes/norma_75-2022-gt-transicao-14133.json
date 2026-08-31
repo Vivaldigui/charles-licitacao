@@ -1,0 +1,26 @@
+{
+  "id_interno": "75-2022-gt-transicao-14133",
+  "id_tclegis": "1141305",
+  "url_detalhe": "https://tclegis.tce.mg.gov.br/Home/Detalhe/1141305",
+  "ementa": "Institui grupo de trabalho com o objetivo de promover a transição do atual regime de licitações e contratos administrativos do Tribunal para o novo regime instituído pela Lei nº 14.133, de 1º de abril de 2021.",
+  "situacao": "revogado",
+  "classificacao": "contexto",
+  "data_hora_download": "2026-08-10T00:34:26.485380+00:00",
+  "documentos": [
+    {
+      "variante": "COMPILADO",
+      "arquivo": "01_ATOS_NORMATIVOS/revogados/75-2022-gt-transicao-14133/75-2022-gt-transicao-14133_COMPILADO.pdf",
+      "sha256": "b57fd4608b7586adb5cb159945db9d4b45732695827518d10d2dfe3f02c696fd"
+    },
+    {
+      "variante": "COMPLETO",
+      "arquivo": "01_ATOS_NORMATIVOS/revogados/75-2022-gt-transicao-14133/75-2022-gt-transicao-14133_COMPLETO.pdf",
+      "sha256": "9c12b47dfc44570cd45423f95ae957799af546551187f46ccf1d152351aa76b0"
+    },
+    {
+      "variante": "ORIGINAL",
+      "arquivo": "01_ATOS_NORMATIVOS/revogados/75-2022-gt-transicao-14133/75-2022-gt-transicao-14133_ORIGINAL.pdf",
+      "sha256": "e57fa295c4b97170f5758280e41278e5959bbc0350bbd7a8bf0a49507469531f"
+    }
+  ]
+}

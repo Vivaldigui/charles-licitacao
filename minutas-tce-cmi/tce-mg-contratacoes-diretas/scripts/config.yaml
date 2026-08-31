@@ -1,0 +1,108 @@
+# Configuração central da coleta — tce-mg-contratacoes-diretas
+# Preparada em Fase 1 (reconhecimento técnico das fontes). Editar só com
+# evidência nova (ver 00_CONTROLE/diagnostico_fontes.md).
+
+coleta:
+  pausa_segundos: 0.4          # pausa educada entre requisições (>=0,4 s)
+  retries: 3                   # tentativas por requisição
+  timeout: 60                  # s por requisição
+  timeout_download: 90         # s para downloads de PDF
+  user_agent: "TCE-MG-contratacoes-diretas/0.2 (pesquisa publica; uso institucional)"
+
+diretorios:                    # relativos à raiz da base
+  controle: "00_CONTROLE"
+  hashes: "00_CONTROLE/hashes"
+  registros_web: "00_CONTROLE/registros_web"
+  atos_normativos: "01_ATOS_NORMATIVOS"
+  legislacao_federal: "02_LEGISLACAO_FEDERAL"
+  orientacoes_tce: "03_ORIENTACOES_TCE_MG"
+  jurisprudencia: "04_JURISPRUDENCIA_TCE_MG"
+  base_conhecimento: "05_BASE_CONHECIMENTO"
+  originais: "99_ORIGINAIS"
+  tmp: "tmp"
+
+fontes:
+  tclegis:
+    base: "https://tclegis.tce.mg.gov.br"
+    index: "/Home/Index/TCE"
+    retorno_busca: "/Home/RetornoBusca"
+    detalhe: "/Home/Detalhe/{id}"
+    downloads:
+      compilado: "/Home/DownloadPDFCompilado/{id}"   # texto consolidado (prioridade; HTTP 500 em vários atos)
+      completo: "/Home/DownloadPDFCompleto/{id}"
+      original: "/Home/DownloadPDFOriginal/{id}"     # sempre funciona
+    limites:
+      max_registros_por_busca: 1000
+    campos_busca:              # nomes reais do formulário (Fase 1)
+      - termos                # <textarea> — o "Assuntos" não existe no form
+      - tipoConsulta
+      - numNorma
+      - numAno
+      - dataInicio
+      - dataFim
+      - tipoNorma
+      - tipoOrigem
+      - indRevogada
+      - qtdPorPagina
+      - orderby
+      - page
+      - testEmenta
+      - testIndexacao
+      - testObservacao
+      - testIntegra
+      - testVide
+      - testFonte
+
+  transparencia_tce_mg:        # interface acessível; API direta ainda responde HTTP 401
+    status: "ACESSIVEL_EM_NAVEGADOR"
+    base: "https://transparencia.tce.mg.gov.br/public/licitacoes"
+    api: "https://arabiasaudita.tce.mg.gov.br:8443/TCEMG-proxy-web/publico/apimoci/p-portal-transparencia/api/CompraLicitacao/GetAllCompraLicitacao/{fonte}/{lei}"
+    fontes_api: [SIAD, Admin]
+    lei_api: "14.133"
+    exportacao_validada:
+      filtros: {fonte: "SIAD", lei: "Lei 14.133/21", procedimento: "Compra direta"}
+      total: 210
+      distribuicao_anual: {2023: 6, 2024: 58, 2025: 67, 2026: 79}
+      formato_preferencial: "XLSX (o CSV oficial não escapa corretamente vírgulas e quebras de linha)"
+    acao: "consultar pela interface pública, exportar XLSX e registrar a captura; não reutilizar cookies nem contornar o HTTP 401 da API"
+
+  compras_mg:                  # hCaptcha exige resolução humana antes da grade
+    status: "ACESSIVEL_EM_SESSAO_HUMANA"
+    orgao: 1020                # TRIBUNAL DE CONTAS DO ESTADO DE MINAS GERAIS
+    base: "https://www1.compras.mg.gov.br"
+    consulta: "/processocompra/processo/consultaProcessoCompra.html?orgaoEntidade={orgao}&metodo=pesquisar&estaPesquisando=true"
+    hcaptcha_sitekey: "e518a43a-5916-4627-b07b-c6e0c2713f24"
+    filtro_compra_direta_lei_14133:
+      procedimento1: 462
+      procedimento2: 513
+      procedimento3: 514
+      especializacao: 515
+      total_observado: 201
+    padroes_arquivos:
+      - "visualizacaoArquivosProcesso.html?id=<id_interno>"
+      - "visualizacaoArquivosProcessoOrdenados.html?id=<id_interno>"
+    acao: "humana — resolver o hCaptcha na sessão visível, pesquisar e registrar o percurso; a automação atua somente dentro da sessão liberada"
+
+  complementares:
+    atos_normativos_pagina: "https://www.tce.mg.gov.br/Noticia/Detalhe/30"
+    sicom: "https://www.tce.mg.gov.br/sicom"
+    pncp: "https://pncp.gov.br"
+
+# Agenda de assuntos para a busca serializada no TCLEGIS (Fase 2).
+# Cada termo vira uma busca documentada. Campos marcados recebem 'true'.
+busca_tclegis_agenda:
+  qtdPorPagina: 100
+  campos_checados:
+    - testEmenta
+    - testIndexacao
+    - testIntegra
+    - testObservacao
+    - testVide
+    - testFonte
+  termos:
+    - "estudo técnico preliminar"
+    - "termo de referência"
+    - "documento de formalização de demanda"
+    - "pesquisa de preços"
+    - "exigência de qualificação econômico-financeira"
+    - "modalidade de licitação"

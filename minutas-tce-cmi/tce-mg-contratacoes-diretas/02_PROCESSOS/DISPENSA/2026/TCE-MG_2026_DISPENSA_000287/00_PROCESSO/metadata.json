@@ -1,0 +1,77 @@
+{
+  "id_interno": "TCE-MG_2026_DISPENSA_000287",
+  "id_candidato_origem": "TCE-MG_2026_COMPRA_DIRETA_000287",
+  "orgao": "Tribunal de Contas do Estado de Minas Gerais",
+  "sigla": "TCE-MG",
+  "numero_processo": "1021007 000287/2026",
+  "numero_licitacao_portal_tce": "287",
+  "ano": 2026,
+  "modalidade_original": "Dispensa de Licitação - Por valor - Compra direta - adm direta, fundação ou autarquia - Até R$ 65.492,11",
+  "modalidade_normalizada": "DISPENSA",
+  "objeto": "24 (vinte quatro) refis de filtro para purificador de água premium, marca Colormaq.",
+  "valor_estimado": 1431.36,
+  "valor_contratado": 1284.0,
+  "fornecedor": "UNILAR COMERCIAL LTDA",
+  "cnpj": "41.323.953/0001-78",
+  "data_abertura": "2026-08-04",
+  "data_contratacao": "2026-08-04",
+  "situacao": "Concluído",
+  "fundamento_legal": [
+    "Artigo 75, inciso II, da Lei Federal nº 14.133/2021"
+  ],
+  "processo_sei": "26.0.000006685-0",
+  "fonte_portal_tce": "https://transparencia.tce.mg.gov.br/public/licitacoes",
+  "fonte_compras_mg": "https://www1.compras.mg.gov.br/processocompra/processo/consultaProcessoCompra.html?orgaoEntidade=1020&numero=287&ano=2026&metodo=pesquisar&estaPesquisando=true",
+  "outras_fontes_oficiais": [],
+  "quantidade_documentos_unicos": 4,
+  "quantidade_arquivos_originais": 6,
+  "documentos": [
+    {
+      "tipo": "Relatório de detalhes do processo de compra",
+      "arquivo_original": "99_ORIGINAIS/relatorioDetalhesProcessoCompra.pdf",
+      "arquivo_normalizado": "00_PROCESSO/RELATORIO_DETALHES_PROCESSO.pdf",
+      "texto_extraido": "00_PROCESSO/RELATORIO_DETALHES_PROCESSO.md",
+      "sha256": "a48f5a253ce745ee29a1f79e0e85c2055b9345d03801e67004f6f6f2cadc3d47"
+    },
+    {
+      "tipo": "Termo de Referência",
+      "arquivo_original": "99_ORIGINAIS/processoCompra_1021007_000287_2026.pdf",
+      "arquivo_normalizado": "02_PLANEJAMENTO/03_TERMO_DE_REFERENCIA.pdf",
+      "texto_extraido": "02_PLANEJAMENTO/03_TERMO_DE_REFERENCIA.md",
+      "sha256": "6c13c6060b3073356fbecfdb8fa150f9ae60b7bdc3fd798d656cd874964e3422"
+    },
+    {
+      "tipo": "Mapa Comparativo de Preços - Detalhado",
+      "arquivo_original": "99_ORIGINAIS/relatorioConsultaMapaMelhorPrecoDetalhado.pdf",
+      "arquivo_normalizado": "03_PESQUISA_PRECOS/04_MAPA_COMPARATIVO_PRECOS.pdf",
+      "texto_extraido": "03_PESQUISA_PRECOS/04_MAPA_COMPARATIVO_PRECOS.md",
+      "sha256": "158dc0ed8c3a02239a37b7c93fea7ec072f2ce5d27ee9cb2d1d26d71e6bb2af9"
+    },
+    {
+      "tipo": "Ato de Autorização de Contratação Direta",
+      "arquivo_original": "99_ORIGINAIS/toAutorizaContratacaoDireta.pdf",
+      "arquivo_normalizado": "06_AUTORIZACAO/08_AUTORIZACAO_CONTRATACAO_DIRETA.pdf",
+      "texto_extraido": "06_AUTORIZACAO/08_AUTORIZACAO_CONTRATACAO_DIRETA.md",
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    }
+  ],
+  "duplicatas": [
+    {
+      "arquivo": "99_ORIGINAIS/toAutorizaContratacaoDireta-1.pdf",
+      "duplicate_of": "99_ORIGINAIS/toAutorizaContratacaoDireta.pdf",
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    },
+    {
+      "arquivo": "99_ORIGINAIS/toAutorizaContratacaoDireta-2.pdf",
+      "duplicate_of": "99_ORIGINAIS/toAutorizaContratacaoDireta.pdf",
+      "sha256": "dcac372635b6d0ceab9286817aa35dbc70c1578fdfe660244feb3c76239e7502"
+    }
+  ],
+  "data_coleta": "2026-08-09",
+  "observacoes": [
+    "Arquivos obtidos em sessão visível do Portal de Compras MG após resolução humana do hCaptcha; nenhum controle de acesso foi contornado.",
+    "A data de contratação foi preenchida com a data de homologação/ratificação exibida no relatório SIAD.",
+    "O relatório identifica a marca do item vencedor como 'Colomarq'; o objeto oficial e o Termo de Referência usam 'Colormaq'. A divergência foi preservada nos documentos, sem correção inferencial.",
+    "Documento não localizado entre as fontes públicas pesquisadas: DFD, ETP, parecer jurídico, contrato/nota de empenho e publicação."
+  ]
+}

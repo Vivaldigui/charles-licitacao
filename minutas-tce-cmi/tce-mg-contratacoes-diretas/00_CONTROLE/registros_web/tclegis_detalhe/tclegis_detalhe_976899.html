@@ -1,0 +1,223 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	
+    TCLEGIS - SISTEMA INTEGRADO DE PESQUISA : Detalhe da Norma
+
+</title><meta http-equiv="Content-Security-Policy" content="frame-src &#39;self&#39; https://www.tce.mg.gov.br https://www.google.com/   ; 
+                                                    script-src &#39;self&#39; https://www.tce.mg.gov.br https://www.google.com/ https://www.gstatic.com https://www.googletagmanager.com &#39;unsafe-eval&#39; &#39;unsafe-inline&#39; ; 
+                                                    style-src &#39;self&#39; https://www.tce.mg.gov.br https://use.fontawesome.com &#39;unsafe-inline&#39;; 
+                                                    img-src &#39;self&#39; https://www.tce.mg.gov.br; " />
+   
+   
+    <link href="/Content/Site.css?1500" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/Paginacao.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/thickbox.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Content/Tree/dtree.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <link href="/Scripts/chosen/chosen.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/ui-lightness/jquery-ui-1.8.11.custom.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script type="text/javascript" defer="" src="https://www.tce.mg.gov.br/Content/js/cookieconsent.js"></script>
+    <script type="text/javascript" defer="" src="https://www.tce.mg.gov.br/Content/js/cookieconsent-est.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://www.tce.mg.gov.br/Content/css/cookieconsent.css" />
+    <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-9JQ4W7V60L">
+    </script>
+    <script type="text/plain" data-cookiecategory="analytics">
+        window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-9JQ4W7V60L');
+    </script>
+    
+    <script type="text/javascript" src="/Scripts/app-alert.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-migrate-3.4.0.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/chosen/chosen.jquery_v1.8.js"></script>
+    <script type="text/javascript" src="/Scripts/thickbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-ui.min.js"></script>
+    
+   
+
+    <script type="text/javascript" src="/Scripts/MicrosoftAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcAjax.js"></script>
+    <script type="text/javascript" src="/Scripts/MicrosoftMvcValidation.js"></script>
+    <script type="text/javascript" src="/Scripts/scrollTo.js"></script>
+    <script type="text/javascript" src="/Scripts/shadowbox.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.lazyload.mini.js"></script>
+
+    <script src="/Scripts/chosen/chosen.jquery.js?1500" type="text/javascript"></script>
+    <script src="/Scripts/accordion.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Content/Tree/dtree.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer type="text/javascript"></script>
+    <script type="text/javascript" src="/Scripts/TratamentoErroAjax.js"></script>
+    <script type="text/javascript">
+
+    
+
+        function Paginacao(page) {
+            document.getElementById("page").value = page;
+            jQuery.scrollTo(650, 2000);
+            jQuery("#DIVCarregandPaginacao").show();
+            $("#FormPaginacao").submit();
+        };
+
+        
+        
+        jQuery(function () {
+            jQuery(".selectSearchable").chosen({
+                no_results_text: "Nada encontrado!",
+                search_contains: true
+            });
+        });
+       
+
+    </script>
+    <style type="text/css">
+        #back_to_top {
+            left: 950px;
+            position: absolute;
+        }
+
+            #back_to_top img {
+                border: 0 none;
+            }
+
+        .dTreeNode, node {
+            white-space: pre-line !important;
+        }
+
+        .dtree a.node, .dtree a.nodeSel {
+            white-space: pre-line !important;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class="page">
+        
+        <div>       
+        <a href="/Home/Index/TCE">
+            <img src="/Content/images/logos_tclegis.png" alt="TCLegis" title="TCLegis" />
+        </a>     
+        <a style="float:right;font-size:18px;margin-top: 70px;"> Coordenadoria de Biblioteca e Gestão da Informação (CBGI) </a>
+        </div>
+
+        <table border="0" width='100%'>
+            <tr>
+                <td>
+                    <div id="menu">
+                        <ul>
+                            <li><a id="MUN" href="/Home/Index/">Norma Municipal</a></li>
+                            <li><a id="TCE" href="/Home/Index/TCE">Norma do TCEMG</a></li>
+                            
+                            <li><a id="A2" href="/Tesauro/IndexPublic">VOCABULÁRIO CONTROLADO</a></li>
+                            
+                            <li><a href="/Login/LogOn">Login Órgão/Entidade</a></li>
+                            <li><a href="/Login/LogOnAdmin">Login TCEMG</a></li>
+                            
+                        </ul>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div id="main" class="border">
+            
+    <style>
+        #titulo {
+            padding-bottom: 0px;
+        }
+    </style>
+    
+    
+
+    <div id="titulo" style="width: 100%;">
+        <img src="/Content/images/img_pesquisar.png" align="left" style='margin-top: 2px; margin-bottom: 10px; margin-right: 10px;' />
+        Detalhe da Norma
+    </div>
+
+    <div style="float: right; margin-top: 10px;">
+        <select id="downloadDropdown" onchange="redirectToDownload();" style="background-image: url('/Content/images/btn_baixar.png'); background-repeat: no-repeat; padding-right: 65px; padding-top: 12px; cursor: pointer;">
+            <option value="" style="display:none;"></option>
+            
+                <option value="/Home/DownloadPDFOriginal/976899" style="cursor: pointer;">Original</option>
+            
+        </select>
+    </div>
+
+    <script>
+        function redirectToDownload() {
+            var dropdown = document.getElementById("downloadDropdown");
+            var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+            if (selectedValue) {
+                window.open(selectedValue, '_blank');
+                dropdown.selectedIndex = 0;
+            }
+        }
+    </script>
+
+    <table width="100%">
+        
+        <tr>
+            <td style="font-weight: bold;">
+                PORTARIA nº 000005, de
+                            04/02/2004 -
+                            Presidência
+            </td>
+        </tr>
+    </table>
+    <br />
+    
+    <div class="acDivPrincipal show">
+        EMENTA:
+    </div>
+    <div class="acDivChild">
+        Aprova o Manual de Procedimentos de Inspeção na Administração Pública Municipal.
+    </div>
+    
+    <div class="acDivPrincipal show">
+        FONTE:
+                   
+    </div>
+    <div class="acDivChild">
+        Disponibilização MG/DEL 11/02/2004 - Pág. 25.
+    </div>
+    
+    <div class="acDivPrincipal show" id="divAcIndexPrincipal">
+        INDEXAÇÃO:
+    </div>
+    <div class="acDivChild" id="divAcIndex">
+        Aprovação; Manual; Procedimento; Inspeção; Administração Municipal.  Departamento; Administração; Município; Responsável; Observação; Manual.  Anexo; Manual; Procedimento; Inspeção.
+    </div>
+
+    <script>
+        OcultarIndexacao('181');
+    </script>
+
+    
+    <div class="acDivPrincipal show">
+        TEXTO ORIGINAL:
+    </div>
+    <div class="acDivChild">
+        <iframe width="100%" height="1000" scrolling="no" frameborder="0" src="/Home/ExibirPDFOriginal/976899"></iframe>
+    </div>
+    
+    <br />
+    <br />
+    
+        </div>
+        <div id="footer">
+            <center> 
+                <span style="font-size:15px">Em caso de dúvidas, por favor entre em contato conosco pelo email <a href="mailto:biblioteca@tce.mg.gov.br">biblioteca@tce.mg.gov.br</a></span>
+                    <div style="width: 690px;">
+                        <div style="color: #666; font-size: 16px;">
+                            <iframe src="https://www.tce.mg.gov.br/rodapePadrao/externo/index.html" scrolling="no" frameborder="0" width="100%"></iframe>
+                        </div>
+                    </div>
+                </center>
+        </div>
+    </div>
+</body>
+
+</html>
