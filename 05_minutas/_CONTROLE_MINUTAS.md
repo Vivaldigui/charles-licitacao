@@ -74,8 +74,8 @@ Em conflito entre fontes, prevalece nesta ordem:
 
 | # | Documento | Pasta | Status |
 |---|-----------|-------|--------|
-| 1 | DFD — Documento de Formalização de Demanda | `DFD/` | ✅ padronizada (v1.0) |
-| 1b | DFD para PCA - Documento de Formalizacao de Demanda para o Plano de Contratacoes Anual | `DFD/` | cadastrada (v1.0) |
+| 1 | DFD — Documento de Formalização de Demanda (contratação) | `DFD/` | ✅ padronizada (v1.2) |
+| 1b | DFD para PCA - Documento de Formalizacao de Demanda para o Plano de Contratacoes Anual | `DFD/` | ✅ padronizada (v1.1) |
 | 1c | PCA — Plano de Contratações Anual (consolidação das demandas) | `PCA/` | cadastrada (v1.0) — **pendente de validação institucional** |
 | 2 | ETP — Estudo Técnico Preliminar | `ETP/` | ✅ padronizada (v1.0) |
 | 3 | TR — Termo de Referência | `TR/` | ✅ padronizada (v1.0) |
@@ -116,8 +116,8 @@ anexos são as minutas-mãe desta biblioteca, juntadas **sem cópia** (o módulo
 
 | Documento | Minuta-mãe | Ficha de uso | Versão | Status |
 |---|---|---|---|---|
-| DFD | [DFD_MINUTA_MAE.docx](DFD/DFD_MINUTA_MAE.docx) | [DFD_FICHA_DE_USO.md](DFD/DFD_FICHA_DE_USO.md) | 1.1 | apta para uso |
-| DFD para PCA | [DFD_PARA_PCA_MINUTA_MAE.docx](DFD/DFD_PARA_PCA_MINUTA_MAE.docx) | [DFD_PARA_PCA_FICHA_DE_USO.md](DFD/DFD_PARA_PCA_FICHA_DE_USO.md) | 1.0 | apta para uso |
+| DFD | [DFD_MINUTA_MAE.docx](DFD/DFD_MINUTA_MAE.docx) | [DFD_FICHA_DE_USO.md](DFD/DFD_FICHA_DE_USO.md) | 1.2 | apta para uso |
+| DFD para PCA | [DFD_PARA_PCA_MINUTA_MAE.docx](DFD/DFD_PARA_PCA_MINUTA_MAE.docx) | [DFD_PARA_PCA_FICHA_DE_USO.md](DFD/DFD_PARA_PCA_FICHA_DE_USO.md) | 1.1 | apta para uso |
 | Plano de Contratações Anual (PCA) | [PCA_MINUTA_MAE.docx](PCA/PCA_MINUTA_MAE.docx) | [PCA_FICHA_DE_USO.md](PCA/PCA_FICHA_DE_USO.md) · [changelog](PCA/PCA_CHANGELOG.md) | 1.0 | pendente de validação institucional antes do primeiro uso |
 | ETP | [ETP_MINUTA_MAE.docx](ETP/ETP_MINUTA_MAE.docx) | [ETP_FICHA_DE_USO.md](ETP/ETP_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | TR | [TR_MINUTA_MAE.docx](TR/TR_MINUTA_MAE.docx) | [TR_FICHA_DE_USO.md](TR/TR_FICHA_DE_USO.md) | 1.0 | apta para uso |
