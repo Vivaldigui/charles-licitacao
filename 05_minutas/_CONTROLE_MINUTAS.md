@@ -86,7 +86,7 @@ Em conflito entre fontes, prevalece nesta ordem:
 | 6a | Justificativa de preço e escolha do contratado — cursos e capacitações | `JUSTIFICATIVA_CURSO_CAPACITACAO/` | ✅ específica e prioritária para cursos (v1.0) |
 | 6b | Certidão de Recursos Orçamentários (art. 72, IV) | `CERTIDAO_ORCAMENTARIA/` | ✅ padronizada (v1.0) |
 | 7 | Autorização de abertura | `AUTORIZACAO/` | ✅ padronizada (v1.0) |
-| 8 | Aviso de contratação direta | `AVISO/` | ✅ padronizada (v1.0) |
+| 8 | Aviso de contratação direta | `AVISO/` | ✅ padronizada (v2.1 — com Anexo I) |
 | 9 | Certidão de dispensa de aviso / procedimento simplificado | `CERTIDAO_DISPENSA_AVISO/` | pendente |
 | 10 | Termo de Adjudicação e Homologação | `HOMOLOGACAO/` | ✅ padronizada (v1.0) |
 | 10b | Termo de Ratificação (inexigibilidade / dispensa sem disputa) | `RATIFICACAO/` | ✅ padronizada (v1.0) |
@@ -98,23 +98,18 @@ Em conflito entre fontes, prevalece nesta ordem:
 
 ---
 
-## AVISO DE DISPENSA COMPLETO — composição, não duplicação
+## ANEXOS DO AVISO DE CONTRATAÇÃO DIRETA
 
-A pasta [`AVISO_COMPLETO/`](AVISO_COMPLETO/) **não tem minuta-mãe DOCX própria**, e isso é
-deliberado. O aviso completo é a **montagem** das minutas que já estão nesta biblioteca:
+Desde a v2.1 (2026-09-23), a relação de anexos consta do item 10.8 da minuta do aviso, e o
+**Anexo I já vem na própria minuta** (`AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx`). Os demais
+anexos são as minutas-mãe desta biblioteca, juntadas **sem cópia** (o módulo de montagem automática
+"Aviso Completo" foi descontinuado em 2026-09-23):
 
-| Anexo | Minuta-mãe usada |
+| Anexo | Origem |
 | --- | --- |
-| — Aviso | `AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx` |
-| I — Habilitação | **já incorporado** à minuta do aviso — recortado dela, nunca recriado |
-| II — Termo de Referência | não é minuta: é o TR já elaborado do processo |
-| III — Modelo de Proposta | `PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_MINUTA_MAE.docx` |
-| IV — Minuta de contrato (quando houver) | `CONTRATO/`, `CONTRATO_COMPRAS/` ou `CONTRATO_SERVICOS_CONTINUOS/` |
-| IV ou V — Declaração conjunta | `DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx` |
-
-Criar cópias dessas minutas em `AVISO_COMPLETO/` violaria a regra de não duplicar conteúdo:
-a revisão de uma cópia não chegaria à outra, e o aviso publicado passaria a divergir da minuta
-oficial. A pasta guarda apenas as **fichas de uso** que documentam a composição.
+| I — Documentação exigida para habilitação | incorporado à minuta do aviso |
+| II — Termo de Referência | TR já elaborado e aprovado do processo (não é minuta) |
+| III — Minuta de termo de contrato (quando houver) | `CONTRATO/`, `CONTRATO_COMPRAS/` ou `CONTRATO_SERVICOS_CONTINUOS/` |
 
 
 ## Índice de minutas cadastradas
@@ -132,7 +127,7 @@ oficial. A pasta guarda apenas as **fichas de uso** que documentam a composiçã
 | Justificativa de Contratação Direta | [JUSTIFICATIVA_CONTRATACAO_DIRETA_MINUTA_MAE.docx](JUSTIFICATIVA_CONTRATACAO_DIRETA/JUSTIFICATIVA_CONTRATACAO_DIRETA_MINUTA_MAE.docx) | [JUSTIFICATIVA_CONTRATACAO_DIRETA_FICHA_DE_USO.md](JUSTIFICATIVA_CONTRATACAO_DIRETA/JUSTIFICATIVA_CONTRATACAO_DIRETA_FICHA_DE_USO.md) | 1.1 | apta para uso |
 | Justificativa de Preço e Escolha do Contratado — Cursos | [JUSTIFICATIVA_ESCOLHA_CONTRATADO_CURSO_MINUTA_MAE.docx](JUSTIFICATIVA_CURSO_CAPACITACAO/JUSTIFICATIVA_ESCOLHA_CONTRATADO_CURSO_MINUTA_MAE.docx) | [JUSTIFICATIVA_ESCOLHA_CONTRATADO_CURSO_FICHA_DE_USO.md](JUSTIFICATIVA_CURSO_CAPACITACAO/JUSTIFICATIVA_ESCOLHA_CONTRATADO_CURSO_FICHA_DE_USO.md) | 1.0 | uso obrigatório e prioritário para cursos/capacitações |
 | Justificativa de Dispensa do ETP e da Matriz de Riscos | [JUSTIFICATIVA_DISPENSA_ETP_RISCOS_MINUTA_MAE.docx](JUSTIFICATIVA_DISPENSA_ETP_RISCOS/JUSTIFICATIVA_DISPENSA_ETP_RISCOS_MINUTA_MAE.docx) | [JUSTIFICATIVA_DISPENSA_ETP_RISCOS_FICHA_DE_USO.md](JUSTIFICATIVA_DISPENSA_ETP_RISCOS/JUSTIFICATIVA_DISPENSA_ETP_RISCOS_FICHA_DE_USO.md) | 1.1 | apta para uso |
-| Aviso de Contratação Direta | [AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx](AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx) | [AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md](AVISO/AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md) | 1.0 | apta para uso |
+| Aviso de Contratação Direta | [AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx](AVISO/AVISO_CONTRATACAO_DIRETA_MINUTA_MAE.docx) | [AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md](AVISO/AVISO_CONTRATACAO_DIRETA_FICHA_DE_USO.md) | 2.1 | apta para uso |
 | Modelo de Proposta Comercial | [PROPOSTA_COMERCIAL_MINUTA_MAE.docx](PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_MINUTA_MAE.docx) | [PROPOSTA_COMERCIAL_FICHA_DE_USO.md](PROPOSTA_COMERCIAL/PROPOSTA_COMERCIAL_FICHA_DE_USO.md) | 1.1 | apta para uso |
 | Declaração Unificada | [DECLARACAO_UNIFICADA_MINUTA_MAE.docx](DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx) | [DECLARACAO_UNIFICADA_FICHA_DE_USO.md](DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_FICHA_DE_USO.md) | 1.1 | apta para uso |
 | Ata de Julgamento (+ Anexo de classificação) | [ATA_JULGAMENTO_MINUTA_MAE.docx](ATA_JULGAMENTO/ATA_JULGAMENTO_MINUTA_MAE.docx) | [ATA_JULGAMENTO_FICHA_DE_USO.md](ATA_JULGAMENTO/ATA_JULGAMENTO_FICHA_DE_USO.md) · [roteiro de julgamento](../07_checklists/roteiro-julgamento-dispensa-com-aviso.md) | 1.0 | apta para uso |
@@ -146,4 +141,3 @@ oficial. A pasta guarda apenas as **fichas de uso** que documentam a composiçã
 | Termo de Recebimento e Atesto | [TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx](RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_MINUTA_MAE.docx) | [TERMO_RECEBIMENTO_ATESTO_FICHA_DE_USO.md](RECEBIMENTO/TERMO_RECEBIMENTO_ATESTO_FICHA_DE_USO.md) | 1.0 | apta para uso |
 | Certidão de dispensa de aviso | [PREENCHER: minuta-mãe DOCX a ser elaborada e aprovada](CERTIDAO_DISPENSA_AVISO/) | [CERTIDAO_DISPENSA_AVISO_FICHA_DE_USO.md](CERTIDAO_DISPENSA_AVISO/CERTIDAO_DISPENSA_AVISO_FICHA_DE_USO.md) | 0.1 | pendente |
 | Diligência | [PREENCHER: minuta-mãe DOCX a ser elaborada e aprovada](DILIGENCIA/) | [DILIGENCIA_FICHA_DE_USO.md](DILIGENCIA/DILIGENCIA_FICHA_DE_USO.md) | 0.1 | pendente |
-| Aviso de Dispensa Completo (composição) | *sem minuta própria — compõe as minutas acima* | [AVISO_COMPLETO_FICHA_DE_USO.md](AVISO_COMPLETO/AVISO_COMPLETO_FICHA_DE_USO.md) · [Anexo I](AVISO_COMPLETO/ANEXO_I_HABILITACAO_FICHA_DE_USO.md) · [Proposta](AVISO_COMPLETO/MODELO_PROPOSTA_FICHA_DE_USO.md) · [Declaração](AVISO_COMPLETO/DECLARACAO_CONJUNTA_FICHA_DE_USO.md) | 1.0 | apta para uso |

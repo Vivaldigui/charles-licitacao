@@ -3,6 +3,24 @@
 Registro da evolução da base Charles. Entradas retroativas foram montadas a partir do histórico
 Git local disponível em 2026-07-01, sem inventar detalhes não verificáveis.
 
+## 2026-09-23 — Aviso de contratação direta v2.1 e fim do módulo "Aviso Completo"
+
+- Minuta-mãe do aviso substituída pela Minuta-Mãe 2026 revisada (v2.0) e depois revisada (v2.1):
+  Anexo I de habilitação incorporado no molde dos modelos de aviso de dispensa, reserva de cargos
+  PcD no item 3.9, Diário Oficial do Município no 8.1, cotação com 3 fornecedores no 9.1 e
+  relação de anexos no 10.8. Ficha de uso reescrita como manual rápido. Ver
+  `05_minutas/AVISO/AVISO_CHANGELOG.md`.
+- Nova ficha de lei: `01_legislacao/lc-123-2006-estatuto-microempresa-epp.md` (texto compilado do
+  Planalto, sem trechos tachados).
+- Novo acervo de referência: `14_referencias_externas/modelos_aviso_contratacao_direta/` (modelo AGU
+  abr/2026 e modelo de dispensa eletrônica do Portal de Compras Públicas); originais em `_entrada/`.
+- **Removido o módulo "Aviso Completo"**, a pedido do usuário: `scripts/aviso_completo/`,
+  `99_testes/aviso_completo/`, `05_minutas/AVISO_COMPLETO/`,
+  `07_checklists/roteiro-gerar-aviso-dispensa-completo.md` e `regras-aviso-dispensa-completo.md`,
+  seção do `CLAUDE.md`, do `README.md` e dependência `docxcompose`. O tipo documental
+  `AVISO_COMPLETO` da gestão documental foi mantido (processos já registrados continuam válidos).
+  Os arquivos seguem recuperáveis pelo histórico do Git.
+
 ## 2026-08-10 — Contratações do TCE-MG coletadas como referência externa
 
 - Arquivos: `scripts/tce_mg_licitacoes.py` (novo), `scripts/tce_mg_fichas.py` (novo),

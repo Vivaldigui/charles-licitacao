@@ -36,6 +36,7 @@ redacional** à Câmara Municipal de Itanhandu.
 
 | Acervo | Órgão | Conteúdo | Pasta |
 |---|---|---|---|
+| Modelos de aviso de contratação direta | AGU (abr/2026) e Portal de Compras Públicas | Modelos de aviso; o segundo traz o Anexo I de habilitação que serviu de molde à minuta da Câmara | [`modelos_aviso_contratacao_direta/`](modelos_aviso_contratacao_direta/) |
 | Contratações TCE-MG | Tribunal de Contas do Estado de Minas Gerais | Dispensas e pregões sob a Lei 14.133/2021, com a documentação interna/externa publicada | [`tce_mg_contratacoes/`](tce_mg_contratacoes/) |
 
 ## Não confundir com `03_jurisprudencia/tce_mg/`

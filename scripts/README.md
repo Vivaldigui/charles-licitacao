@@ -216,9 +216,6 @@ Integração já ligada nos geradores existentes:
 python scripts/docx_cmi/formatar_docx.py --entrada bruto.docx --saida TR.docx \
   --perfil tr --registrar-em-processo PA_031_2026 --tipo-documento TR
 
-# aviso completo registra o documento único (componentes NÃO são duplicados)
-python scripts/aviso_completo/montar_aviso_completo.py --processo <pasta> \
-  --registrar-em-processo PA_031_2026
 ```
 
 Documentação: [`../10_gestao_documental/README.md`](../10_gestao_documental/README.md),

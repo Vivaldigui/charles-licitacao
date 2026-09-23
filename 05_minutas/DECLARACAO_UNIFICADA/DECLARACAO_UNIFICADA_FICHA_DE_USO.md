@@ -19,7 +19,7 @@ Arquivo: `05_minutas/DECLARACAO_UNIFICADA/DECLARACAO_UNIFICADA_MINUTA_MAE.docx`.
 Modelo **preenchido pelo fornecedor**. Ele recebe o arquivo já identificado com o
 processo e o aviso; o que lhe cabe informar aparece como **régua de preenchimento**.
 
-**Preenchido pela Câmara (montagem do aviso completo)**: `{{NUMERO_PROCESSO}}` e
+**Preenchido pela Câmara (ao disponibilizar o modelo ao fornecedor)**: `{{NUMERO_PROCESSO}}` e
 `{{NUMERO_AVISO}}` — os únicos marcadores que restam.
 
 **Campos do declarante**: razão social, CNPJ, endereço, representante legal, RG, CPF,

@@ -20,7 +20,7 @@ Modelo **preenchido pelo fornecedor**. Ele recebe o arquivo já identificado com
 processo, o aviso, o objeto e o quadro de itens; o que lhe cabe informar aparece como
 **campo**: célula em branco nas tabelas emolduradas e régua de preenchimento no texto.
 
-**Preenchido pela Câmara (montagem do aviso completo)** — únicos marcadores que restam:
+**Preenchido pela Câmara (ao disponibilizar o modelo ao fornecedor)** — únicos marcadores que restam:
 `{{NUMERO_PROCESSO}}`, `{{NUMERO_AVISO}}`, `{{OBJETO}}` e, no quadro de itens,
 `{{ITEM}}`, `{{DESCRICAO_ITEM}}`, `{{UNIDADE}}` e `{{QUANTIDADE}}`.
 

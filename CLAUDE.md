@@ -161,46 +161,6 @@ minutas de `05_minutas/`. Coleta e fichamento por `scripts/tce_mg_licitacoes.py`
 ficam em `_entrada/`, fora do versionamento). Não confundir com `03_jurisprudencia/tce_mg/`, que
 guarda o TCE-MG como corte de contas (consultas, estudos e atos normativos).
 
-### MODO AVISO DE DISPENSA COMPLETO (aviso + anexos em um único documento)
-Quando o usuário pedir — "gere o Aviso de Dispensa Completo deste processo", "junte o aviso,
-habilitação, TR, proposta e declaração conjunta", "inclua também a minuta de contrato no aviso",
-"nesta contratação será usada ordem de fornecimento; não inclua contrato", "audite os anexos antes
-de montar o aviso", "gere o documento único e também os anexos separados", "verifique se o modelo
-de proposta corresponde aos itens do TR" — o Charles reúne, valida, numera, formata e monta o
-Aviso de Contratação Direta com todos os seus anexos aplicáveis. Diretrizes:
-- **Aviso completo ≠ processo completo.** É a peça de divulgação (aviso + anexos que o fornecedor
-  precisa para propor), nunca os autos: sem DFD, ETP, pesquisa de preços, autorização ou parecer.
-- **Só minuta oficial.** Aviso, proposta, declaração e contrato vêm de `05_minutas/`. O **Anexo I já
-  está incorporado** à minuta do aviso e é recortado dela — nunca duplicado em minuta paralela. A
-  composição está em `05_minutas/AVISO_COMPLETO/` (fichas, sem DOCX próprio, para não duplicar).
-- **O TR não é gerado.** É o TR já elaborado e aprovado do processo, anexado como está. É proibido
-  usar minuta-mãe vazia, TR de outro processo, TR com campo pendente ou rascunho (salvo autorização
-  expressa). O conteúdo do TR não é alterado na montagem.
-- **Numeração sem lacuna.** Com contrato: I habilitação · II TR · III proposta · IV contrato ·
-  V declaração. Sem contrato: I · II · III · IV declaração. Rótulos, referências internas e nomes de
-  arquivo acompanham. **Nada mais é renumerado** — artigo, inciso, cláusula, processo, dispensa e
-  itens do TR ficam intactos.
-- **O Charles não decide se haverá contrato.** A decisão vem, nesta ordem: campo estruturado do
-  processo → determinação expressa do usuário → TR → autorização → ficha de uso → documento oficial.
-  Divergência ou silêncio **bloqueia** a montagem com "PENDÊNCIA: definir se a contratação será
-  formalizada por contrato ou instrumento equivalente". Minuta de contrato nunca é escolhida por
-  semelhança do nome do objeto; com instrumento equivalente, não se anexa contrato.
-- **Habilitação proporcional.** Qualificação técnica e econômico-financeira só quando previstas no
-  TR, justificadas, proporcionais e confirmadas pelo setor. Divergência entre TR e Anexo I é
-  reportada nos dois sentidos e **nunca resolvida silenciosamente**.
-- **Preço é do fornecedor.** Marca, valores e dados cadastrais do proponente ficam em branco.
-- **Timbre e conteúdo preservados.** O documento único usa o timbre oficial do aviso do começo ao
-  fim; toda linha dos componentes é conferida depois da união, e perda de conteúdo bloqueia.
-- **"APTO PARA PUBLICAÇÃO" não é status automático.** O melhor que a automação concede é
-  **APTO PARA CONFERÊNCIA**; a publicação depende de conferência humana.
-
-Siga `07_checklists/roteiro-gerar-aviso-dispensa-completo.md` e
-`07_checklists/regras-aviso-dispensa-completo.md`. Ferramentas em `scripts/aviso_completo/`
-(`montar_aviso_completo.py`, `validar_aviso_completo.py --somente-auditoria`); dependências em
-`requirements-docx.txt` (`python-docx` e `docxcompose`). Saída em
-`08_processos_em_andamento/[PROCESSO]/07_AVISO_COMPLETO/`. A conversão para PDF é opcional: sem
-LibreOffice ou Word, o pacote sai em DOCX e o relatório **declara** que não houve conversão.
-
 ### MODO PADRONIZAÇÃO E FORMATAÇÃO DOCUMENTAL (acabamento do documento)
 Quando o usuário pedir documento **bem formatado**, auditoria de formatação ou revisão do
 padrão visual — "gere o TR e aplique o padrão visual institucional", "formate este documento
@@ -367,7 +327,6 @@ charles/
 │   └── sumulas.md
 ├── 04_doutrina_artigos/
 ├── 05_minutas/                     # SÓ modelos aprovados da Câmara
-│   ├── AVISO_COMPLETO/             #   composição do aviso + anexos (fichas, sem DOCX próprio)
 │   └── _CONTROLE_MINUTAS.md
 ├── 06_precedentes_camara/          # contratações anteriores aceitas pelo controle
 ├── 07_checklists/                  # por modalidade e por fase
@@ -392,7 +351,6 @@ charles/
 ├── 99_testes/
 │   ├── PERGUNTAS_DE_VALIDACAO.md
 │   ├── padronizacao_documental/    # testes do módulo de formatação DOCX
-│   ├── aviso_completo/             # testes da montagem do aviso + anexos
 │   └── gestao_documental/          # testes da gestão documental dos processos
 ├── scripts/                        # ferramentas de apoio à pesquisa de preços (Python stdlib)
 │   ├── pncp_consulta.py            #   consulta ao PNCP
@@ -411,17 +369,6 @@ charles/
 │   ├── exemplos/                   #   entrada/manual/saída de exemplo
 │   ├── manutencao/                 # MANUTENÇÃO DO REPOSITÓRIO
 │   │   └── limpar_raiz.ps1         #   duplicatas do Drive, tmp/ e caches (dry-run por padrão)
-│   ├── aviso_completo/             # MONTAGEM DO AVISO DE DISPENSA COMPLETO
-│   │   ├── montar_aviso_completo.py   #   comando principal (fluxo de 21 passos)
-│   │   ├── localizar_componentes.py   #   manifesto, TR, instrumento contratual
-│   │   ├── extrair_dados_tr.py        #   itens, prazos e exigências do TR
-│   │   ├── gerar_modelo_proposta.py   #   proposta, declaração e minuta de contrato
-│   │   ├── numerar_anexos.py          #   ordem, rótulos e referências dos anexos
-│   │   ├── unir_docx.py               #   recorte do Anexo I, união e timbre único
-│   │   ├── validar_aviso_completo.py  #   validação cruzada (também roda sozinho)
-│   │   ├── gerar_pacote_publicacao.py #   anexos separados, PDF opcional e ZIP
-│   │   ├── relatorio_aviso_completo.py#   relatório .md + .json
-│   │   └── ocorrencias.py             #   bloqueante / alerta / pendência / informação
 │   ├── gestao_documental/          # GESTÃO DOCUMENTAL DOS PROCESSOS (stdlib)
 │   │   ├── iniciar_processo.py        #   cria a pasta organizada e o controle
 │   │   ├── registrar_documento.py     #   INTERFACE ÚNICA de gravação dos geradores
@@ -455,7 +402,7 @@ charles/
 │       └── util_ooxml.py           #   acesso encapsulado ao OOXML
 ├── painel/                         # painel local gerado (ignorado pelo Git)
 ├── tmp/                            # rascunhos de geração (ignorado pelo Git; descartável)
-├── requirements-docx.txt           # dependência do módulo DOCX (python-docx, docxcompose)
+├── requirements-docx.txt           # dependência do módulo DOCX (python-docx)
 ├── requirements-auditor.txt        # dependências do modo auditor
 └── .env.example                    # variáveis de ambiente (todas opcionais)
 ```
