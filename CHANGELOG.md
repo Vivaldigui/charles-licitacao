@@ -3,15 +3,6 @@
 Registro da evolução da base Charles. Entradas retroativas foram montadas a partir do histórico
 Git local disponível em 2026-07-01, sem inventar detalhes não verificáveis.
 
-## 2026-09-23 — DFD para o PCA v1.1 e DFD da contratação v1.2
-
-- `05_minutas/DFD/`: as duas minutas-mãe revisadas para funções distintas — o DFD para o PCA registra
-  a demanda (elaboração ou alteração do Plano) e o DFD da contratação abre o processo concreto,
-  remetendo ao primeiro. Planejamento estratégico separado do PCA; opção "dispensada de indicação no
-  PCA"; retirada a declaração automática de disponibilidade orçamentária; fluxo de análise pelo
-  coordenador do PCA e aprovação da Presidência só na alteração. Fichas reescritas. Ver
-  `05_minutas/DFD/DFD_CHANGELOG.md`.
-
 ## 2026-09-23 — Aviso de contratação direta v2.1 e fim do módulo "Aviso Completo"
 
 - Minuta-mãe do aviso substituída pela Minuta-Mãe 2026 revisada (v2.0) e depois revisada (v2.1):
