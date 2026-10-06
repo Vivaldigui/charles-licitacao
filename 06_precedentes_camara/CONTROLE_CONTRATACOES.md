@@ -31,14 +31,22 @@ contratação for concluída**, para aferir os limites da dispensa por valor (ar
 | 2026-01-22 | PA 001/2026 — Dispensa 001/2026 | Fornecimento de certificados digitais e-CPF e e-CNPJ modelo A1, padrao ICP-Brasil | 6319-4/00 — PORTAIS, PROVEDORES DE CONTEUDO E OUTROS SERVICOS DE INFORMACAO NA INTERNET | Dispensa — art. 75, II | 158,00 | Sim | 2026 |
 | 2026-01-22 | PA 002/2026 — Dispensa 002/2026 | Locacao de veiculos por diaria, tipo sedan, sem condutor | 7711-0/00 — LOCACAO DE AUTOMOVEIS SEM CONDUTOR | Dispensa — art. 75, II | 18.200,00 | Sim | 2026 |
 | 2026-03-02 | PA 005/2026 — Dispensa 003/2026 | Materiais de expediente (capas de processos) para servicos administrativos e de arquivo | 4761-0/03 — COMERCIO VAREJISTA DE ARTIGOS DE PAPELARIA | Dispensa — art. 75, II | 5.750,00 | Sim | 2026 |
-| 2026-03-02 | PA 006/2026 — Dispensa 004/2026 | Fornecimento parcelado de generos alimenticios, higiene, limpeza, descartaveis, agua mineral e GLP | 4712-1/00 — COMERCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTICIOS - MINIMERCADOS, MERCEARIAS E ARMAZENS | Dispensa — art. 75, II | 22.588,25 | Sim | 2026 |
+| 2026-03-02 | PA 006/2026 — Dispensa 004/2026 (itens 1-13 e 15-29) | Cesta de mercearia: generos alimenticios, bebidas, higiene, limpeza e descartaveis | 4712-1/00 — COMERCIO VAREJISTA DE MERCADORIAS EM GERAL, COM PREDOMINANCIA DE PRODUTOS ALIMENTICIOS - MINIMERCADOS, MERCEARIAS E ARMAZENS | Dispensa — art. 75, II | 6.442,75 | Sim | 2026 |
+| 2026-03-02 | PA 006/2026 — Dispensa 004/2026 (itens 30-35) | Lanches prontos: salgados, empadao, hot dog, paes de queijo, paes recheados e bolos | 5611-2/03 — LANCHONETES, CASAS DE CHA, DE SUCOS E SIMILARES | Dispensa — art. 75, II | 15.450,00 | Sim | 2026 |
+| 2026-03-02 | PA 006/2026 — Dispensa 004/2026 (item 36) | Recarga de agua mineral 20 litros | 4723-7/00 — COMERCIO VAREJISTA DE BEBIDAS | Dispensa — art. 75, II | 587,50 | Sim | 2026 |
+| 2026-03-02 | PA 006/2026 — Dispensa 004/2026 (item 37) | Recarga de GLP 13 kg | 4784-9/00 — COMERCIO VAREJISTA DE GAS LIQUEFEITO DE PETROLEO (GLP) | Dispensa — art. 75, II | 108,00 | Sim | 2026 |
 | 2026-03-23 | PA 010/2026 — Dispensa 005/2026 | Placas de homenagem em aco inox com estojo (Honra ao Merito da Mulher Elza Carneiro) | 3299-0/03 — FABRICACAO DE LETRAS, LETREIROS E PLACAS DE QUALQUER MATERIAL, EXCETO LUMINOSOS | Dispensa — art. 75, II | 2.520,00 | Sim | 2026 |
 | 2026-03-30 | PA 011/2026 — Dispensa 006/2026 | Refis de tinta originais Epson compativeis com impressoras L4260 | 4751-2/01 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA | Dispensa — art. 75, II | 3.440,00 | Sim | 2026 |
-| 2026-05-05 | PA 013/2026 — Dispensa 007/2026 | Equipamentos de TI, audiovisual, infraestrutura logica/eletrica e mobiliario tecnico | 4751-2/01 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA | Dispensa — art. 75, II | 15.732,52 | Sim | 2026 |
+| 2026-05-05 | PA 013/2026 — Dispensa 007/2026 (itens 11 e 21) | 10 tablets e 1 switch de rede 16 portas | 4751-2/01 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA | Dispensa — art. 75, II | 12.998,86 | Sim | 2026 |
+| 2026-05-05 | PA 013/2026 — Dispensa 007/2026 (item 14) | 2 caixas acusticas ativas tipo coluna | 4753-9/00 — COMERCIO VAREJISTA ESPECIALIZADO DE ELETRODOMESTICOS E EQUIPAMENTOS DE AUDIO E VIDEO | Dispensa — art. 75, II | 2.733,66 | Sim | 2026 |
 | 2026-04-17 | PA 015/2026 — Dispensa 008/2026 | Materiais de expediente (papelaria) para demandas da Camara | 4761-0/03 — COMERCIO VAREJISTA DE ARTIGOS DE PAPELARIA | Dispensa — art. 75, II | 8.603,80 | Sim | 2026 |
-| 2026-06-08 | PA 016/2026 — Dispensa 009/2026 | Equipamentos e acessorios de informatica, audio, video, sonorizacao, rede e producao audiovisual | 4751-2/01 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA | Dispensa — art. 75, II | 33.073,95 | Sim | 2026 |
+| 2026-06-08 | PA 016/2026 — Dispensa 009/2026 (itens 2-9, 12 e 16-21) | Monitor, teclado/mouse, cabo e conectores de rede, racks e acessorios, access points, PoE e roteador | 4751-2/01 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA | Dispensa — art. 75, II | 8.149,70 | Sim | 2026 |
+| 2026-06-08 | PA 016/2026 — Dispensa 009/2026 (itens 11, 13-15 e 25) | Smart TV 65, mesa de som digital e sistemas de microfone sem fio | 4753-9/00 — COMERCIO VAREJISTA ESPECIALIZADO DE ELETRODOMESTICOS E EQUIPAMENTOS DE AUDIO E VIDEO | Dispensa — art. 75, II | 14.749,25 | Sim | 2026 |
+| 2026-06-08 | PA 016/2026 — Dispensa 009/2026 (item 22) | Smartphone para producao audiovisual | 4752-1/00 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS DE TELEFONIA E COMUNICACAO | Dispensa — art. 75, II | 9.200,00 | Sim | 2026 |
+| 2026-06-08 | PA 016/2026 — Dispensa 009/2026 (itens 23-24) | Gaiola estabilizadora para smartphone e iluminador LED para filmagem | 4789-0/08 — COMERCIO VAREJISTA DE ARTIGOS FOTOGRAFICOS E PARA FILMAGEM | Dispensa — art. 75, II | 944,50 | Sim | 2026 |
+| 2026-06-08 | PA 016/2026 — Dispensa 009/2026 (item 1) | Suporte de parede para TV | 4757-1/00 — COMERCIO VAREJISTA ESPECIALIZADO DE PECAS E ACESSORIOS PARA APARELHOS ELETROELETRONICOS PARA USO DOMESTICO, EXCETO INFORMATICA E COMUNICACAO | Dispensa — art. 75, II | 30,50 | Sim | 2026 |
 | 2026-06-09 | PA 019/2026 — Dispensa 010/2026 | Suportes fixos de mesa personalizados para tablets do sistema de votacao eletronica | 4751-2/01 — COMERCIO VAREJISTA ESPECIALIZADO DE EQUIPAMENTOS E SUPRIMENTOS DE INFORMATICA | Dispensa — art. 75, II | 2.195,91 | Sim | 2026 |
-| 2026-06-10 | PA 020/2026 — Dispensa 011/2026 | Aquisicao e instalacao/substituicao de claraboia em aluminio e policarbonato alveolar | 4743-1/00 — COMERCIO VAREJISTA DE VIDROS | Dispensa — art. 75, II | 2.780,00 | Sim | 2026 |
+| 2026-06-10 | PA 020/2026 — Dispensa 011/2026 | Aquisicao e instalacao/substituicao de claraboia em aluminio e policarbonato alveolar | 2512-8/00 — FABRICACAO DE ESQUADRIAS DE METAL | Dispensa — art. 75, II | 2.780,00 | Sim | 2026 |
 | 2026-06-23 | PA 023/2026 — Dispensa 012/2026 | Recarga e manutencao de extintores de incendio (CO2 6kg e agua pressurizada 10L) | 3314-7/10 — MANUTENCAO E REPARACAO DE MAQUINAS E EQUIPAMENTOS PARA USO GERAL NAO ESPECIFICADOS ANTERIORMENTE | Dispensa — art. 75, II | 493,00 | Sim | 2026 |
 | 2026-07-17 | PA 024/2026 — Dispensa 013/2026 | Servico tecnico de pericia em audio, com laudo/parecer para a Comissao Processante | 7120-1/00 — TESTES E ANALISES TECNICAS | Dispensa — art. 75, II | 6.750,00 | Sim | 2026 |
 | 2026-02-09 | PA 003/2026 — Inexigibilidade 001/2026 | Auditoria contabil e financeira das demonstracoes da ASPPI (exercicios 2021-2025), para subsidiar a CEI | 6920-6/02 — ATIVIDADES DE CONSULTORIA E AUDITORIA CONTABIL E TRIBUTARIA | Inexigibilidade — art. 74, III, c | 25.000,00 | Não | 2026 |
@@ -69,15 +77,21 @@ contratação for concluída**, para aferir os limites da dispensa por valor (ar
 
 | Exercício | CNAE (subclasse) | Total acumulado (R$) | Inciso | Limite vigente | Saldo até o limite | Alerta |
 |---|---|---|---|---|---|---|
+| 2026 | 2512-8/00 | 2.780,00 | II | 65.492,11 | 62.712,11 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 3299-0/03 | 7.120,00 | II | 65.492,11 | 58.372,11 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 3314-7/10 | 493,00 | II | 65.492,11 | 64.999,11 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 4321-5/00 | 6.000,00 | II | 65.492,11 | 59.492,11 | Verde: abaixo de 60% do limite confirmado. |
-| 2026 | 4712-1/00 | 22.588,25 | II | 65.492,11 | 42.903,86 | Verde: abaixo de 60% do limite confirmado. |
-| 2026 | 4743-1/00 | 2.780,00 | II | 65.492,11 | 62.712,11 | Verde: abaixo de 60% do limite confirmado. |
-| 2026 | 4751-2/01 | 61.212,38 | II | 65.492,11 | 4.279,73 | Vermelho: acima de 85% do limite. Não enquadrar como dispensa por valor sem reavaliar o somatório do exercício e justificar nos autos. |
-| 2026 | 4753-9/00 | 630,31 | II | 65.492,11 | 64.861,80 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4712-1/00 | 6.442,75 | II | 65.492,11 | 59.049,36 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4723-7/00 | 587,50 | II | 65.492,11 | 64.904,61 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4751-2/01 | 33.554,47 | II | 65.492,11 | 31.937,64 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4752-1/00 | 9.200,00 | II | 65.492,11 | 56.292,11 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4753-9/00 | 18.113,22 | II | 65.492,11 | 47.378,89 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4757-1/00 | 30,50 | II | 65.492,11 | 65.461,61 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 4761-0/03 | 14.353,80 | II | 65.492,11 | 51.138,31 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 4773-3/00 | 984,17 | II | 65.492,11 | 64.507,94 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4784-9/00 | 108,00 | II | 65.492,11 | 65.384,11 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 4789-0/08 | 944,50 | II | 65.492,11 | 64.547,61 | Verde: abaixo de 60% do limite confirmado. |
+| 2026 | 5611-2/03 | 15.450,00 | II | 65.492,11 | 50.042,11 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 6110-8/03 | 1.196,40 | II | 65.492,11 | 64.295,71 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 6319-4/00 | 158,00 | II | 65.492,11 | 65.334,11 | Verde: abaixo de 60% do limite confirmado. |
 | 2026 | 7120-1/00 | 6.750,00 | II | 65.492,11 | 58.742,11 | Verde: abaixo de 60% do limite confirmado. |
@@ -117,75 +131,96 @@ a despesa é somada.
     fornecedor.
   - O tema cabe numa futura revisão da Portaria 06/2024.
 
+### Método: item a item (adotado em 2026-10-06)
+
+Processo com vários itens é classificado **item a item**: cada item (ou grupo de itens do mesmo
+mercado) entra na subclasse do objeto, e o processo pode ocupar várias linhas do registro, com
+os números dos itens. Os valores vêm do termo de adjudicação e homologação.
+
+- **Cesta + exceções.** Itens que o mesmo mercado fornece em conjunto ficam numa subclasse só.
+  Exemplo: alimentos, bebidas, limpeza e descartáveis de mercearia ficam juntos em 4712-1/00. Saem
+  da cesta apenas os itens de outro mercado, como lanches prontos, água em galão de 20 L e GLP.
+- **Sem subclasse geral, vale a específica.** Equipamentos não têm subclasse que reúna
+  informática, áudio e vídeo, telefonia e filmagem. Por isso cada item vai para a subclasse
+  especializada indicada pelo IBGE.
+- **Itens acessórios mínimos acompanham o principal.** Exemplo: toalha de papel e palheta de café
+  no PA 015, de papelaria.
+- **Por que foi adotado.** É a aplicação coerente do critério do objeto. A soma pelo item
+  predominante fazia, por exemplo, um smartphone, uma mesa de som e microfones contarem como
+  "informática". No PA 016 a adjudicação foi por item, a 13 fornecedores diferentes.
+- **Formalização pendente.** A decisão foi tomada pelo usuário do Charles em 2026-10-06. Deve ser
+  registrada por despacho do agente de contratação, com ciência da assessoria jurídica e do
+  controle interno. O método vale para todos os processos, em 2026 e daqui em diante, e não só
+  para os que se beneficiam dele.
+
 Estudo completo: `04_doutrina_artigos/estudo-ramo-atividade-objeto-ou-fornecedor-cnae.md`.
 Todas as subclasses deste controle foram conferidas na API oficial do IBGE (CNAE-Subclasses).
 
-## 2. ALERTA DE FRACIONAMENTO — subclasse 4751-2/01
+## 2. Subclasse 4751-2/01 (informática) — situação após o item a item
 
-**Situação: VERMELHO.**
+**Situação: VERDE.** Com a soma integral dos PAs 013 e 016, estava em 93,5% (vermelho).
 
 | | |
 |---|---|
 | Subclasse | **4751-2/01** — Comércio varejista especializado de equipamentos e suprimentos de informática |
-| Acumulado 2026 | **R$ 61.212,38** |
+| Acumulado 2026 | **R$ 33.554,47** |
 | Limite vigente (art. 75, II) | R$ 65.492,11 |
-| **Uso do limite** | **93,5%** |
-| **Saldo** | **R$ 4.279,73** |
+| **Uso do limite** | **51,2%** |
+| **Saldo** | **R$ 31.937,64** |
 
 Compõem o acumulado:
 
-| Processo | Data | Objeto | Valor (R$) |
+| Processo | Data | Itens | Valor (R$) |
 |---|---|---|---|
 | PA 011/2026 — Dispensa 006/2026 | 2026-03-30 | Refis de tinta Epson | 3.440,00 |
-| PA 013/2026 — Dispensa 007/2026 | 2026-05-05 | Equipamentos de TI, audiovisual e infraestrutura | 15.732,52 |
-| PA 016/2026 — Dispensa 009/2026 | 2026-06-08 | Equipamentos e acessórios de informática, áudio, vídeo e rede | 33.073,95 |
+| PA 013/2026 — Dispensa 007/2026 | 2026-05-05 | Itens 11 e 21: 10 tablets e 1 switch | 12.998,86 |
+| PA 016/2026 — Dispensa 009/2026 | 2026-06-08 | Itens 2-9, 12 e 16-21: monitor, teclado/mouse, cabo e conectores, racks e acessórios, access points, PoE, roteador | 8.149,70 |
 | PA 019/2026 — Dispensa 010/2026 | 2026-06-09 | Suportes de mesa para tablets | 2.195,91 |
 | Dispensa 017/2026 (PA a confirmar) | 2026-09-29 | Computador completo e monitor adicional | 6.770,00 |
 
-O PA 001/2026 (certificados digitais, R$ 158,00) saiu desta subclasse em 2026-10-06: o objeto
-é certificação digital, que o IBGE lista em **6319-4/00**. É a mesma subclasse dos certificados
-Softcam (PA 030/2026, inexigibilidade).
+Ficaram fora desta subclasse:
+- **PA 013:** as caixas acústicas (4753-9/00).
+- **PA 016:**
+  - TV, mesa de som e microfones (4753-9/00);
+  - smartphone (4752-1/00);
+  - gaiola e iluminador para filmagem (4789-0/08);
+  - suporte de TV (4757-1/00).
+- **PA 001:** certificados digitais (6319-4/00), reclassificados em 2026-10-06.
 
-**(a) Saldo.** Até o fim do exercício, só cabe nova dispensa por valor de informática até
-**R$ 4.279,73**. Acima disso, a contratação precisa de licitação ou de outra hipótese legal.
-Antes de abrir qualquer processo nesse ramo, rodar `python scripts/controle_cnae.py simular
---como-trava`.
+**(a) O PA 016 é republicação do PA 013, não divisão da despesa.** O DFD do PA 016 registra que
+o PA 013 teve parte significativa dos itens deserta ou fracassada. A homologação do PA 013 lista
+22 itens "Não Ofertados". As duas compras atendem à mesma demanda e somam R$ 48.806,47, abaixo do
+limite mesmo na leitura integral. Essa justificativa deve constar dos autos.
 
-**(b) Três aquisições de TI em cinco meses.** PA 013 (05/05), PA 016 (08/06) e a Dispensa
-017 (29/09) somam R$ 55.576,47 e têm objetos próximos. É o padrão que o art. 75, §1º, e a
-Consulta TCEMG 1104833 tratam como indício de fracionamento. Isso não prova irregularidade:
-pode haver demanda superveniente, itens não ofertados no processo anterior (o PA 016 tem itens
-"Não Ofertados") ou fontes de recurso distintas. A justificativa precisa estar documentada nos
-autos de cada processo, porque é o ponto que o controle interno deve questionar. O ETP do
-computador já registra o alerta de fracionamento.
+**(b) A demanda de TI continua recorrente.** Em 2026 houve três aquisições de TI (PA 013, PA 016
+e Dispensa 017). Recomenda-se consolidar a demanda anual de TI no PCA de 2027 e avaliar
+licitação (pregão ou registro de preços).
 
-**(c) Enquadramento por predominância.** PA 013 e PA 016 reúnem itens de informática, áudio,
-vídeo, rede e mobiliário e foram somados inteiros em 4751-2/01, pelo item predominante. A
-separação item a item reduziria o acumulado, mas exige justificativa por item e não foi feita.
-A soma integral é a leitura mais conservadora.
+**(c) PA 019/2026 (suportes para tablets).** Fica em 4751-2/01. O TR admite "fabricação ou
+fornecimento personalizado", e o mercado do objeto é o de acessório de equipamento de
+informática. A leitura alternativa, serralheria (2542-0/00), foi descartada.
 
-**(d) PA 019/2026 (suportes para tablets).** Se o setor adotar a leitura de fabricação sob
-medida, o acumulado cai para R$ 59.016,47 (90,1%). A faixa continua vermelha.
-
-**(e) Serviço não soma com os equipamentos.** A instalação da rede lógica e da sonorização
-(PA 035/2026 — Dispensa 018/2026, R$ 6.000,00) usa os equipamentos do PA 016, mas é serviço da
-subclasse **4321-5/00**, que no IBGE abrange cabeação lógica e sistemas de som em edifícios.
-Não entra no acumulado de 4751-2/01.
-
-**Encaminhamento:** consolidar a demanda anual de TI no PCA de 2027 e contratá-la por
-licitação (pregão ou registro de preços), em vez de dispensas sucessivas.
+**(d) A instalação não soma com os equipamentos.** A instalação da rede lógica e da sonorização
+(PA 035/2026, R$ 6.000,00) usa os equipamentos do PA 016, mas é serviço da subclasse
+**4321-5/00**.
 
 ## 3. Demais subclasses — todas em faixa verde
 
 | Subclasse | Acumulado (R$) | Uso |
 |---|---|---|
-| 4712-1/00 — gêneros alimentícios e correlatos | 22.588,25 | 34,5% |
 | 7711-0/00 — locação de automóveis sem condutor | 18.200,00 | 27,8% |
+| 4753-9/00 — eletrodomésticos e áudio e vídeo | 18.113,22 | 27,7% |
+| 5611-2/03 — lanches prontos (PA 006, itens 30-35) | 15.450,00 | 23,6% |
 | 4761-0/03 — papelaria | 14.353,80 | 21,9% |
+| 4752-1/00 — telefonia e comunicação | 9.200,00 | 14,0% |
 | 3299-0/03 — placas | 7.120,00 | 10,9% |
 | 7120-1/00 — testes e análises técnicas | 6.750,00 | 10,3% |
+| 4712-1/00 — cesta de mercearia (PA 006) | 6.442,75 | 9,8% |
 | 4321-5/00 — instalação elétrica e de rede | 6.000,00 | 9,2% |
-| 4743-1/00, 6110-8/03, 4773-3/00, 4753-9/00, 3314-7/10, 6319-4/00 | até 2.780,00 cada | < 5% |
+| 2512-8/00, 6110-8/03, 4773-3/00, 4789-0/08, 4723-7/00, 3314-7/10, 6319-4/00, 4784-9/00, 4757-1/00 | até 2.780,00 cada | < 5% |
+
+**5611-2/03 (lanches).** Lanches para reuniões e eventos voltam a ser comprados ao longo do ano.
+Uma nova dispensa de lanches soma com os R$ 15.450,00 do PA 006.
 
 **6110-8/03 (internet).** A Alares, contratada em 2024 pela Lei 8.666 e prorrogada, presta o
 link principal na mesma subclasse da RAIMAX. A prorrogação não é contratação nova e não entra
@@ -198,6 +233,9 @@ na soma; uma nova dispensa para o link principal somaria com a da RAIMAX.
 | Dispensa por valor — art. 75, II (**conta** para o limite) | 19 | **142.466,31** |
 | Inexigibilidade — art. 74 (**não conta** para o limite) | 17 | **150.030,00** |
 | **Total geral homologado/ratificado em 2026** | **36** | **292.496,31** |
+
+O registro tem 44 linhas para 36 processos, porque os PAs 006, 013 e 016 ocupam uma linha por
+subclasse (item 1, método item a item).
 
 No art. 74, o maior item é a consultoria jurídica do PA 018/2026 (R$ 70.000,00). O maior
 agrupamento são os cursos de capacitação (8599-6/04): **R$ 50.880,00 em 13 processos**. Cursos
@@ -214,19 +252,25 @@ API do IBGE. Pelo critério do item 1, a divergência entre o CNAE do fornecedor
 | Processo | CNAE do objeto | Observação | Status |
 |---|---|---|---|
 | PA 001/2026 | 6319-4/00 | Reclassificado em 2026-10-06 (antes 4751-2/01). IBGE: "certificação digital" | **Conferido no IBGE** |
+| PA 006/2026 | 4712-1/00, 5611-2/03, 4723-7/00, 4784-9/00 | Desmembrado em 2026-10-06 (cesta + exceções). IBGE: lanchonete / "casa de doces e salgados", "água mineral, depósito de", "GLP para uso doméstico" | **Conferido no IBGE** |
 | PA 010/2026 e PA 036/2026 | 3299-0/03 | Placas. O CNAE principal da Flash (7312-2/00) não altera o enquadramento | **Conferido no IBGE** |
-| PA 015/2026 | 4761-0/03 | Papelaria. O CNAE principal do fornecedor (4763-6/01, brinquedos) não altera o enquadramento | **Conferido no IBGE** |
+| PA 013/2026 | 4751-2/01, 4753-9/00 | Desmembrado em 2026-10-06. IBGE lista "caixas acústicas" em 4753-9/00 | **Conferido no IBGE** |
+| PA 015/2026 | 4761-0/03 | Papelaria; toalha de papel e palheta acompanham o principal | **Conferido no IBGE** |
+| PA 016/2026 | 4751-2/01, 4753-9/00, 4752-1/00, 4789-0/08, 4757-1/00 | Desmembrado em 2026-10-06. Microfones em 4753-9/00 (equipamentos de áudio); o IBGE não lista "microfone" expressamente, e a alternativa seria 4756-3/00 | **Conferido no IBGE**; microfones **[VALIDAÇÃO HUMANA]** |
+| PA 019/2026 | 4751-2/01 | Acessório de equipamento de informática (item 2(c)) | **Conferido no IBGE** |
+| PA 020/2026 | 2512-8/00 | Reclassificado em 2026-10-06 (antes 4743-1/00, que vinha do CNAE do fornecedor). Claraboia sob medida em alumínio e policarbonato, fabricada e instalada pelo fornecedor; o IBGE inclui na subclasse a instalação feita pelo fabricante. Alternativa: 4330-4/02 | **Conferido no IBGE** |
+| PA 035/2026 | 4321-5/00 | Cabeação lógica e som em edifícios. Inciso II mantido: o TR não exige ART, registro no CREA nem responsável técnico, e a base não tem norma que torne a atividade privativa de engenheiro (art. 6º, XXI) | **Conferido no IBGE** |
 | Cadeira de rodas (Disp. 015/2026) | 4773-3/00 | IBGE lista "cadeiras de rodas". O CNAE 4751-2/01 da MEGABYTE não altera o enquadramento | **Conferido no IBGE** |
 | Micro-ondas (Disp. 016/2026) | 4753-9/00 | IBGE lista "fornos microondas" | **Conferido no IBGE** |
 | Internet (Disp. 013/2026 conforme termo) | 6110-8/03 | Serviço exige autorização SCM da Anatel | **Conferido no IBGE** |
-| PA 035/2026 | 4321-5/00 | Cabeação lógica e som em edifícios. O TCEMG trata a subclasse como serviço especializado de engenharia, o que em tese levaria ao art. 75, **I**; foi homologada pelo inciso II, de limite menor | **[VALIDAÇÃO HUMANA]** quanto ao inciso |
-| PA 020/2026 | 4743-1/00 | Claraboia em alumínio e policarbonato **com instalação**. A subclasse do IBGE trata de vidros; avaliar se o objeto é serviço de engenharia (art. 75, I) | **[VALIDAÇÃO HUMANA]** |
-| PA 013, 016 e 019/2026 | 4751-2/01 | Ver itens 2(c) e 2(d) | **[VALIDAÇÃO HUMANA]** |
 | Demais registros | conforme tabela | Objeto compatível com a subclasse adotada | Mantidos |
 
 ## 6. Pendências e divergências
 
 **Abertas em 2026-10-06:**
+
+- **Formalizar o método item a item** (item 1) por despacho do agente de contratação, com
+  ciência da assessoria jurídica e do controle interno.
 
 1. **Numeração em conflito — confirmar no SICOM.**
    - Internet redundante: o termo usa **PA 024/2026 — Dispensa 013/2026**, o mesmo número da
@@ -285,4 +329,4 @@ em 2026-08-01 (`01_legislacao/limites-vigentes-dispensa-art-75.md`).
 - `03_jurisprudencia/tce_mg/consulta-tcemg-1104833-dispensa-valor-ramo-atividade.md` | Consulta 1104833, p. 9-10 | vigente | 2026-06-25
 - `04_doutrina_artigos/artigo-fracionamento-par-1-art-75-lei-14133.md` | IN SEGES/MGI 8/2023 | vigente | 2026-06-25
 - `07_checklists/roteiro-limite-dispensa-cnae.md` | roteiro integral | vigente | 2026-06-27
-- `06_precedentes_camara/contratacoes.csv` | registro das 36 contratações | vigente | 2026-10-06
+- `06_precedentes_camara/contratacoes.csv` | 36 contratações em 44 linhas (item a item) | vigente | 2026-10-06

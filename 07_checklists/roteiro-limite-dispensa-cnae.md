@@ -51,11 +51,29 @@ fornecedor **não** definem a subclasse da despesa.
     informática.
 - **Vedação.** Não escolher a subclasse pelo CNAE do vencedor para fugir de uma subclasse já perto
   do limite. Isso inverte o critério e caracteriza o risco que o §1º quer evitar.
-- **Objeto misto.** Enquadrar pelo item predominante (leitura conservadora) ou item a item, com
-  justificativa escrita para cada item.
-- **Objeto com instalação ou montagem.** Verificar se é serviço de engenharia (art. 75, I). As
-  subclasses de instalação da divisão 43 da CNAE são tratadas pelo TCE-MG como serviço
-  especializado de engenharia.
+- **Objeto misto: item a item** (método adotado em 2026-10-06). Cada item, ou grupo de itens do
+  mesmo mercado, entra na subclasse do seu objeto. O processo ocupa uma linha do controle por
+  subclasse, com os números dos itens e os valores do termo de homologação.
+  - **Cesta + exceções:** itens que o mesmo mercado fornece em conjunto ficam numa subclasse só.
+    Exemplo: alimentos, bebidas, limpeza e descartáveis de mercearia em 4712-1/00. Saem da cesta
+    só os itens de outro mercado, como lanches prontos (5611-2/03), água em galão (4723-7/00) e
+    GLP (4784-9/00).
+  - **Sem subclasse geral, vale a específica:** equipamentos vão para a subclasse especializada
+    de cada um, como informática (4751-2/01), áudio e vídeo (4753-9/00), telefonia (4752-1/00) e
+    filmagem (4789-0/08).
+  - **Item acessório mínimo acompanha o principal** (ex.: toalha de papel numa compra de
+    papelaria).
+  - O método vale para todos os processos, e não só para os que ficam perto do limite.
+  - Precedentes: PAs 006, 013 e 016/2026 no controle.
+- **Objeto com instalação ou montagem.** Verificar se é serviço de engenharia (art. 75, I).
+  - Pelo art. 6º, XXI, só é serviço de engenharia a atividade que a lei reserva a arquiteto,
+    engenheiro ou técnico especializado. Indícios no TR: exigência de ART, de registro no CREA ou
+    de responsável técnico.
+  - O TCE-MG cita subclasses de instalação da divisão 43 como "serviço especializado de
+    engenharia", mas para distinguir naturezas, não para definir o inciso.
+  - Na dúvida, o inciso II (limite menor) é a leitura segura.
+  - Fornecimento sob medida com instalação pelo fabricante segue a subclasse de fabricação que o
+    IBGE indica (ex.: claraboia de alumínio, 2512-8/00).
 - **Outros modelos, sem efeito para a Câmara.** A União usa a linha de fornecimento do Sicaf
   vinculada ao catálogo (IN SEGES/MGI 8/2023). O TCE-SP usa a classe do catálogo federal para as
   próprias contratações (Resolução 16/2025). A Câmara segue a Portaria 06/2024 (subclasse CNAE)

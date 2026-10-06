@@ -130,10 +130,14 @@ Lidas na consulta de 2026-10-06; fichadas aqui de forma resumida, sem reproduç�
    `07_checklists/roteiro-limite-dispensa-cnae.md`.
 2. **Na habilitação:** conferir se o CNAE do fornecedor é compatível com o objeto. Se não for, o
    problema é de habilitação e não muda a subclasse da despesa.
-3. **Objeto misto:** enquadrar pelo item predominante, ou item a item com justificativa. Somar o
-   objeto inteiro na subclasse predominante é a leitura conservadora.
-4. **Objeto com instalação:** avaliar se é serviço de engenharia (art. 75, I). A subclasse de
-   instalação (divisão 43 da CNAE) é tratada pelo TCE-MG como serviço especializado de engenharia.
+3. **Objeto misto:** a Câmara adotou em 2026-10-06 a classificação item a item, com a regra da
+   "cesta + exceções". Ver `07_checklists/roteiro-limite-dispensa-cnae.md`, item 2-A. A soma
+   pelo item predominante era a leitura conservadora, mas misturava mercados diferentes (ex.:
+   smartphone e mesa de som contados como informática).
+4. **Objeto com instalação:** avaliar se é serviço de engenharia (art. 75, I). O critério legal é
+   a atividade ser reservada por lei a arquiteto, engenheiro ou técnico (art. 6º, XXI). A menção
+   do TCE-MG à divisão 43 da CNAE como "serviço especializado de engenharia" serve para distinguir
+   naturezas e não define o inciso.
 5. **Aplicação no controle de 2026:** em 2026-10-06, o PA 001/2026 (certificados digitais) passou
    de 4751-2/01 para 6319-4/00. A cadeira de rodas comprada de loja de informática foi registrada
    em 4773-3/00. Ver `06_precedentes_camara/CONTROLE_CONTRATACOES.md`.

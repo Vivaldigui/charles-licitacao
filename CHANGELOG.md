@@ -3,6 +3,19 @@
 Registro da evolução da base Charles. Entradas retroativas foram montadas a partir do histórico
 Git local disponível em 2026-07-01, sem inventar detalhes não verificáveis.
 
+## 2026-10-06 — Controle CNAE: classificação item a item e claraboia
+
+- Método item a item adotado para processos com vários itens, com a regra "cesta + exceções"
+  (roteiro `07_checklists/roteiro-limite-dispensa-cnae.md`, item 2-A). PAs 006, 013 e 016/2026
+  desmembrados por subclasse, com valores dos termos de homologação; o registro passou de 36 para
+  44 linhas, sem alteração de totais.
+- Subclasse 4751-2/01 (informática): de R$ 61.212,38 (93,5%, vermelho) para R$ 33.554,47 (51,2%,
+  verde). Novas subclasses no controle: 4752-1/00, 4789-0/08, 4757-1/00, 5611-2/03, 4723-7/00,
+  4784-9/00.
+- PA 020/2026 (claraboia) reclassificado de 4743-1/00 para 2512-8/00. PA 035/2026 mantido em
+  4321-5/00, inciso II.
+- Formalização do método por despacho do agente de contratação registrada como pendência.
+
 ## 2026-10-06 — Controle CNAE: critério do objeto e contratações de jul.–set./2026
 
 - Pesquisa sobre "ramo de atividade" (art. 75, §1º, II): o enquadramento é pelo **objeto**, não
