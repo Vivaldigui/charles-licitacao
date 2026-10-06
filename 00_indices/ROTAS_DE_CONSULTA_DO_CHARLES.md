@@ -63,7 +63,8 @@ origem; ausência ou divergência gera registro e, quando cabível, diligência.
 
 1. [[CLAUDE]];
 2. [[02_normas_internas/regulamento-licitacoes-camara-itanhandu|norma interna]];
-3. [[07_checklists/roteiro-limite-dispensa-cnae]];
+3. [[07_checklists/roteiro-limite-dispensa-cnae]] — enquadra-se o objeto, não o fornecedor
+   ([[estudo-ramo-atividade-objeto-ou-fornecedor-cnae|estudo]]);
 4. [[06_precedentes_camara/CONTROLE_CONTRATACOES|controle oficial único]];
 5. [[01_legislacao/limites-vigentes-dispensa-art-75|limite vigente]];
 6. processo concreto e fonte oficial do CNAE.

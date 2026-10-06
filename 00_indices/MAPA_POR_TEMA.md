@@ -4,7 +4,7 @@ hierarquia: operacional
 tema: mapa por tema
 fonte: base Charles
 vigencia: vigente
-atualizado_em: 2026-08-01
+atualizado_em: 2026-10-06
 tags: [indice, temas]
 ---
 
@@ -12,6 +12,8 @@ tags: [indice, temas]
 
 ## dispensa de licitacao
 - [Consulta TCEMG Processo 1104833 - Dispensa de licitação por valor, mesma natureza e mesmo ramo de atividade](../03_jurisprudencia/tce_mg/consulta-tcemg-1104833-dispensa-valor-ramo-atividade.md) — tipo: jurisprudencia; fonte: Conselheiro Substituto Hamilton Coelho / Tribunal de Contas do Estado de Minas Gerais - TCEMG / Consulta 1104833
+- [Ramo de atividade na dispensa por valor: classifica-se o objeto ou o fornecedor?](../04_doutrina_artigos/estudo-ramo-atividade-objeto-ou-fornecedor-cnae.md) — tipo: doutrina; fonte: base Charles / pesquisa de 2026-10-06 — enquadramento pelo objeto, não pelo fornecedor
+- [Resolução TCE-SP nº 16/2025 — "ramo de atividade" pela classe do catálogo, e não pela subclasse CNAE](../03_jurisprudencia/tce_sp/resolucao-tcesp-16-2025-ramo-de-atividade-dispensa.md) — tipo: jurisprudencia; fonte: TCE-SP / Resolução nº 16/2025 — critério das contratações do próprio TCE-SP; referência comparativa
 - [Lei n. 14.133/2021 - Pareceres de Consulta nos 4 anos de vigência da Lei (Estudo Temático TCEMG)](../03_jurisprudencia/tce_mg/estudo-tematico-tcemg-lei-14133-pareceres-consulta.md) — tipo: jurisprudencia; fonte: Tribunal de Contas do Estado de Minas Gerais - TCEMG / Estudo Temático / Agosto de 2025
 - [Consulta TCE-RN nº 744045/2025 - Dispensa de licitação por valor, pronto pagamento e substituição do contrato](../03_jurisprudencia/tce_rn/consulta-tcern-744045-2025-dispensa-valor-pronto-pagamento.md) — tipo: jurisprudencia; fonte: Carlos Thompson Costa Fernandes / Tribunal de Contas do Estado do Rio Grande do Norte - TCE-RN / Consulta - Processo Eletrônico nº 744045/2025
 - [Corpus TCE-SP — contratação direta e dispensa de licitação](../03_jurisprudencia/tce_sp/contratacao_direta/README.md) — 98 registros dos boletins oficiais, navegáveis pelo [mapa temático](../03_jurisprudencia/tce_sp/contratacao_direta/consolidacoes/MAPA_TEMATICO_CONTRATACAO_DIRETA.md); jurisprudência persuasiva de outro Estado e síntese que não substitui o inteiro teor

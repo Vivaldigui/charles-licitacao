@@ -3,6 +3,19 @@
 Registro da evolução da base Charles. Entradas retroativas foram montadas a partir do histórico
 Git local disponível em 2026-07-01, sem inventar detalhes não verificáveis.
 
+## 2026-10-06 — Controle CNAE: critério do objeto e contratações de jul.–set./2026
+
+- Pesquisa sobre "ramo de atividade" (art. 75, §1º, II): o enquadramento é pelo **objeto**, não
+  pelo CNAE do fornecedor (Consulta TCEMG 1104833, p. 9). Fichas novas:
+  `04_doutrina_artigos/estudo-ramo-atividade-objeto-ou-fornecedor-cnae.md` e
+  `03_jurisprudencia/tce_sp/resolucao-tcesp-16-2025-ramo-de-atividade-dispensa.md`.
+- `07_checklists/roteiro-limite-dispensa-cnae.md`: novo item 2-A (objeto x fornecedor, objeto
+  misto, objeto com instalação, vedação de escolher subclasse pelo vencedor).
+- Controle de contratações: 11 contratações registradas (6 dispensas e 5 inexigibilidades,
+  homologadas/ratificadas entre 27/07 e 30/09/2026); PA 001/2026 reclassificado de 4751-2/01 para
+  6319-4/00; análise do exercício reescrita. A subclasse 4751-2/01 passou a 93,5% do limite
+  (vermelho). Numeração de quatro dispensas pendente de confirmação no SICOM.
+
 ## 2026-09-23 — Aviso de contratação direta v2.1 e fim do módulo "Aviso Completo"
 
 - Minuta-mãe do aviso substituída pela Minuta-Mãe 2026 revisada (v2.0) e depois revisada (v2.1):

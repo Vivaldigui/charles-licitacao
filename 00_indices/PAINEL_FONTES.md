@@ -22,6 +22,8 @@ abra o arquivo-fonte e confira dispositivo, vigência e `atualizado_em`.
 | [[02_normas_internas/regulamento-licitacoes-camara-itanhandu|Regulamento da Câmara]] | norma interna | vigente | 2026-06-25 | Conferir atos posteriores da Câmara. |
 | [[02_normas_internas/ato-diretor-juridico-01-2024-dispensa-analise-juridica|Ato Jurídico nº 01/2024]] | norma interna | vigente | 2026-06-27 | Conferir alteração ou revogação. |
 | [[03_jurisprudencia/tce_mg/consulta-tcemg-1104833-dispensa-valor-ramo-atividade|Consulta TCE-MG 1104833]] | jurisprudência persuasiva | vigente | 2026-06-25 | Conferir arquivo-fonte antes de citar. |
+| [[estudo-ramo-atividade-objeto-ou-fornecedor-cnae|Estudo: ramo de atividade, objeto x fornecedor]] | doutrina / estudo temático | vigente | 2026-10-06 | Conferir as fichas de origem antes de citar. |
+| [[resolucao-tcesp-16-2025-ramo-de-atividade-dispensa|Resolução TCE-SP 16/2025]] | ato de outro Tribunal (referência comparativa) | vigente | 2026-10-06 | Data de publicação no DOE-SP não conferida. |
 
 ## Fila manual de manutenção
 
